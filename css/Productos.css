@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+}
+
+.main {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+#Banner_Farmaco {
+    width: 100%;
+ height: 65vh;
+    background-image: url('../img/Productos.jpg');
+    /* height: 100%;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Enunciado {
+    color: #03233A;
+    font-family: "Poppins", serif;
+    font-size: 200%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/*#Catalogo{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.Categorias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.CategoriaMedicinas{
+    display: inline-flex;
+    margin-top: 10px;
+    padding: 1.5% 1.5%;
+    background-color: #09558F;
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica, Arial,  sans-serif;
+    font-size: 110%;
+    border-radius: 15px;
+}
+*/
+
+.Categorias ul {
+    list-style: none;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    display: table;
+}
+
+.Categorias ul li {
+    display: table-cell;
+    width: 14%;
+}
+
+.Categorias ul li a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Poppins', serif;
+    font-size: 90%;
+    text-size-adjust: auto;
+}
+
+.Categorias ul #Todos {
+    background: #3c9ecf;
+}
+
+.Categorias ul #Antibioticos {
+    background: #3385ad;
+}
+
+.Categorias ul #Antiinflamatorios {
+    background: #10658b;
+}
+
+.Categorias ul #Analgesicos {
+    background: #0e5c80;
+}
+
+.Categorias ul #Antiacidos {
+    background: #0b4661;
+}
+
+.Categorias ul #Antigripales {
+    background: #093144;
+}
+
+.Categorias ul #Antihistaminicos {
+    background: #022535;
+}
+
+.Categorias ul li #Todos:hover {
+    padding: 16.3px 0;
+    padding-bottom: 18px;
+    background: rgba(0, 0, 0, .9);
+    font-size: 110%;
+    transition: all 0.1s ease-out 0.1s;
+}
+
+.Categorias ul li #Antibioticos:hover {
+    padding: 16.4px 0;
+    padding-bottom: 18px;
+    background: rgba(0, 0, 0, .9);
+    font-size: 110%;
+    transition: all 0.1s ease-out 0.1s;
+}
+
+.Categorias ul li #Antiinflamatorios:hover {
+    padding: 16.3px 0;
+    padding-bottom: 18px;
+    background: rgba(0, 0, 0, .9);
+    font-size: 110%;
+    transition: all 0.1s ease-out 0.1s;
+}
+
+.Categorias ul li #Analgesicos:hover {
+    padding: 16.3px 0;
+    padding-bottom: 18px;
+    background: rgba(0, 0, 0, .9);
+    font-size: 110%;
+    transition: all 0.1s ease-out 0.1s;
+}
+
+.Categorias ul li #Antiacidos:hover {
+    padding: 16.3px 0;
+    padding-bottom: 18px;
+    background: rgba(0, 0, 0, .9);
+    font-size: 110%;
+    transition: all 0.1s ease-out 0.1s;
+}
+
+.Categorias ul li #Antigripales:hover {
+    padding: 16.3px 0;
+    padding-bottom: 18px;
+    background: rgba(0, 0, 0, .9);
+    font-size: 110%;
+    transition: all 0.1s ease-out 0.1s;
+}
+
+.Categorias ul li #Antihistaminicos:hover {
+    padding: 16.3px 0;
+    padding-bottom: 18px;
+    background: rgba(0, 0, 0, .9);
+    font-size: 110%;
+    transition: all 0.1s ease-out 0.1s;
+}
+
+.Categorias .ct_item-active {
+    border-bottom: 4px solid #E62117;
+}
+
+@media only screen and (max-width: 1039px) {
+    .Categorias ul li a {
+        padding: 15px 0px;
+        font-size: 60%;
+        text-size-adjust: auto;
+    }
+    .Categorias ul li #Todos:hover {
+        padding: 13px 0;
+        padding-bottom: 14px;
+        font-size: 70%;
+    }
+    .Categorias ul li #Antibioticos:hover {
+        padding: 13px 0;
+        padding-bottom: 14px;
+        font-size: 70%;
+    }
+    .Categorias ul li #Antiinflamatorios:hover {
+        padding: 13px 0;
+        padding-bottom: 14px;
+        font-size: 70%;
+    }
+    .Categorias ul li #Analgesicos:hover {
+        padding: 13px 0;
+        padding-bottom: 14px;
+        font-size: 70%;
+    }
+    .Categorias ul li #Antiacidos:hover {
+        padding: 13px 0;
+        padding-bottom: 14px;
+        font-size: 70%;
+    }
+    .Categorias ul li #Antigripales:hover {
+        padding: 13px 0;
+        padding-bottom: 14px;
+        font-size: 70%;
+    }
+    .Categorias ul li #Antihistaminicos:hover {
+        padding: 13px 0;
+        padding-bottom: 14px;
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 656px) {
+    .Categorias ul li a {
+        padding: 12px 0px;
+        font-size: 45%;
+        text-size-adjust: auto;
+    }
+    .Categorias ul li #Todos:hover {
+        padding: 10.3px 0;
+        padding-bottom: 10px;
+        font-size: 50%;
+    }
+    .Categorias ul li #Antibioticos:hover {
+        padding: 10.3px 0;
+        padding-bottom: 10px;
+        font-size: 50%;
+    }
+    .Categorias ul li #Antiinflamatorios:hover {
+        padding: 10.3px 0;
+        padding-bottom: 10px;
+        font-size: 50%;
+    }
+    .Categorias ul li #Analgesicos:hover {
+        padding: 10.3px 0;
+        padding-bottom: 10px;
+        font-size: 50%;
+    }
+    .Categorias ul li #Antiacidos:hover {
+        padding: 10.3px 0;
+        padding-bottom: 10px;
+        font-size: 50%;
+    }
+    .Categorias ul li #Antigripales:hover {
+        padding: 10.3px 0;
+        padding-bottom: 10px;
+        font-size: 50%;
+    }
+    .Categorias ul li #Antihistaminicos:hover {
+        padding: 10.3px 0;
+        padding-bottom: 10px;
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .Categorias ul li a {
+        padding: 10px 0px;
+        font-size: 35%;
+        text-size-adjust: auto;
+    }
+    .Categorias ul li #Todos:hover {
+        padding: 9px 0;
+        font-size: 40%;
+    }
+    .Categorias ul li #Antibioticos:hover {
+        padding: 9px 0;
+        font-size: 40%;
+    }
+    .Categorias ul li #Antiinflamatorios:hover {
+        padding: 9px 0;
+        font-size: 40%;
+    }
+    .Categorias ul li #Analgesicos:hover {
+        padding: 9px 0;
+        font-size: 40%;
+    }
+    .Categorias ul li #Antiacidos:hover {
+        padding: 9px 0;
+        font-size: 40%;
+    }
+    .Categorias ul li #Antigripales:hover {
+        padding: 9px 0;
+        font-size: 40%;
+    }
+    .Categorias ul li #Antihistaminicos:hover {
+        padding: 9px 0;
+        font-size: 40%;
+    }
+}
+
+#Productos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 70px auto 0px;
+    background-color: white;
+}
+
+.ListaProductos {
+    width: calc(33.333% - 4%);
+    margin: 2%;
+    height: width;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
+    transition: all .5s;
+}
+
+@media only screen and (max-width: 780px) {
+    .ListaProductos {
+        width: calc(50% - 4%);
+        margin: 2%;
+        height: width;
+    }
+}
+
+#Imagen {
+    overflow: hidden;
+}
+
+.ListaProductos img {
+    transition: all .5s ease;
+}
+
+.ListaProductos img:hover {
+    transform: scale(1.2);
+    z-index: 100;
+}
+
+.Info {
+    display: block;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 120%;
+    background-color: #09558F;
+    color: white;
+}
+
+.Name {
+    display: block;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2px;
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 120%;
+}
+
+.full-width {
+    width: 100%;
+}

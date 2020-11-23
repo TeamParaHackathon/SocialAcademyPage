@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-size-adjust: auto;
+}
+
+* p {
+  font-size: 1vw;
+}
+
+.logoImg {
+  float: -200%;
+}
+
+.Banner_Rectangulo {
+  width: 100%;
+  height: 720px;
+  background: linear-gradient(253.58deg, #5693be 1.55%, #5c9eeb 95.8%);
+  /* Blue 3 */
+  box-sizing: border-box;
+}
+
+#Mensaje {
+  font-size: 3.5vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 158.34%;
+  /* or 70px */
+  color: #ffffff;
+  text-size-adjust: auto;
+}
+
+.Banner_Rectangulo p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 32px;
+  color: #fff7df;
+  /* Blue 3 */
+}
+
+.imgMarcianito {
+  width: 50%;
+  height: 40%;
+  position: absolute;
+  left: 50%;
+  bottom: 45%;
+  z-index: 2;
+}
+
+.BlanckFirst {
+  width: 100%;
+  height: 900px;
+  background-color: #fefefe;
+}
+
+.icon-pack {
+  width: 15%;
+  height: 5%;
+}
+
+#icon01 {
+  left: 20%;
+}
+
+#icon02 {
+  position: relative;
+  left: 10%;
+  bottom: 10%;
+}
+
+#icon03 {
+  position: relative;
+  left: 50%;
+  width: 10%;
+}
+
+.icon_regalia > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Proyectos {
+  position: relative;
+  left: -15%;
+  right: 15%;
+}
+
+#Proyectos {
+  width: 55%;
+  height: 55%;
+}
+
+.Proyectos span {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1vw;
+  /* or 33px */
+  text-align: center;
+  color: #5c5c5c;
+}
+
+#ensena {
+  width: 35%;
+  height: 35%;
+}
+
+.Multiplataforma img {
+  width: 25%;
+  height: 25%;
+}
+
+.ensena span {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1vw;
+  /* or 33px */
+  text-align: center;
+  color: #5c5c5c;
+  left: 40%;
+  top: 117%;
+}
+
+.ensena {
+  position: relative;
+  left: -5%;
+}
+
+.Multiplataforma {
+  position: relative;
+}
+
+.Multiplataforma img {
+  width: 45%;
+}
+
+.Multiplataforma span {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1vw;
+  /* or 33px */
+  text-align: center;
+  color: #5c5c5c;
+  left: 40%;
+  top: 117%;
+}
+#img01 {
+  width: 60%;
+  height: 90%;
+  position: relative;
+  float: left;
+  border-radius: 45%;
+}
+#txtIlustraP {
+  text-size-adjust: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vw;
+  text-size-adjust: auto;
+  line-height: 200%;
+  color: #56ccf2;
+}
+
+.txtIlustraP p {
+  position: relative;
+  float: right;
+}
+
+.parrafo {
+  position: relative;
+  font-size: 1.5vw;
+}
+
+.BannerMulti {
+  height: 720px;
+  width: 100%;
+  background-color: #79d6f5f6;
+}
+
+.BannerMulti img {
+  width: 20%;
+}
+
+.BannerMulti h2 {
+  position: relative;
+  line-height: 5rem;
+  font-size: 2.5vw;
+  color: #fefefe;
+}
+
+.Carreras > h2 {
+  color: #56ccf2;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+#Img07 {
+  position: relative;
+  top: -9%;
+  border-radius: -45%;
+  width: 25%;
+}
+
+#BanImg1 {
+  position: relative;
+  left: 65%;
+  width: 15%;
+  height: 10;
+}
+
+#BanImg3 {
+  position: relative;
+  left: 38%;
+  top: 25%;
+  width: 15%;
+  height: 10;
+}
+
+#BanImg2 {
+  position: relative;
+  left: 38%;
+  top: 35%;
+  width: 15%;
+  height: 10;
+}
+
+#BanImg5 {
+  position: relative;
+  left: 20%;
+  width: 15%;
+  height: 10;
+}
+
+#BanImg4 {
+  position: relative;
+  top: 7%;
+  width: 15%;
+  height: 10;
+}
+
+#BanImg6 {
+  position: relative;
+  top: 50%;
+  width: 15%;
+  height: 10;
+}
+
+.Carreras {
+  height: 720px;
+  width: 100%;
+  background-color: #fefefe;
+}
+
+.LineBAnner {
+  height: 240px;
+  width: 100%;
+  background-image: url("../img/Captura de pantalla 2020-11-21 184410.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #56ccf2;
+}
+
+.crop {
+  position: relative;
+  left: 10%;
+  height: 99.5%;
+  width: auto;
+}
+
+.Referencias {
+  position: relative;
+  height: 560px;
+  width: 100%;
+  background-color: #fefefe;
+  background-image: url("../img/Captura de pantalla 2020-11-22 151710.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Precios {
+  height: 720px;
+  width: 100%;
+  background-color: #fefefe;
+}
+
+.Precios > div {
+  position: relative;
+  top: -6%;
+}
+
+.LastBanner {
+  height: 580px;
+  width: 100%;
+  background-color: #fefefe;
+  overflow: hidden;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #212121;
+}
+
+.Precios {
+  overflow: hidden;
+}
+
+.Precios img {
+  float: right;
+  width: 50%;
+  height: 50%;
+}
+
+.Precios h2 {
+  position: relative;
+  top: 25%;
+  left: 10%;
+  font-size: 4vw;
+  color: #56ccf2;
+}
+
+.Precios > .btn {
+  position: relative;
+  left: 25%;
+  top: 30%;
+}
+
+.LastBanner h2 {
+  position: relative;
+  font-weight: 900;
+  color: #56ccf2;
+  font-size: 3.5vw;
+  left: 59%;
+  top: 40%;
+}
+.LastBanner img {
+  position: relative;
+  left: 5%;
+  top: -30%;
+  clip-path: ellipse(50% 47% at center);
+}
+
+.IconPackFooter img {
+  float: right;
+  width: 10vw;
+  height: 5.5vw;
+}
+
+footer p {
+  color: #fefefe;
+}
+
+#layer {
+  width: 0.2%;
+  height: 0.3%;
+}
+
+@media only screen and (max-width: 1255px) {
+  .Referencias {
+    position: relative;
+    height: 260px;
+    width: 100%;
+    background-color: #fefefe;
+    background-image: url("../img/Captura de pantalla 2020-11-22 151710.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .LineBAnner {
+    height: 100px;
+    width: 100%;
+  }
+
+  .Banner_Rectangulo {
+    height: 400px;
+  }
+
+  .imgMarcianito {
+    position: absolute;
+    left: 50%;
+    bottom: 55%;
+  }
+
+  #Mensaje {
+    position: relative;
+    top: 30%;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 158.34%;
+    /* or 70px */
+    color: #ffffff;
+    text-size-adjust: auto;
+  }
+
+  .Banner_Rectangulo p {
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 32px;
+    color: #fff7df;
+    top: 35%;
+    /* Blue 3 */
+  }
+
+  .icon-pack {
+    display: none;
+  }
+
+  .BlanckFirst {
+    height: 400px;
+  }
+
+  .Proyectos {
+    position: relative;
+    left: 5%;
+    right: 5%;
+  }
+
+  #Proyectos {
+    width: 45%;
+    height: 55%;
+  }
+
+  #img01 {
+    width: 36%;
+    height: 18%;
+    position: absolute;
+    top: 85%;
+    float: left;
+    border-radius: 45%;
+    margin: auto;
+  }
+  .parrafo {
+    position: relative;
+    float: right;
+    font-size: 2vw;
+  }
+
+  #txtIlustraP {
+    top: 95%;
+    text-align: center;
+  }
+}
