@@ -190,65 +190,64 @@
   color: #fefefe;
 }
 
+.BannerImgs {
+  position: relative;
+  width: 60%;
+  height: 676.43px;
+  left: 40%;
+  top: 10%;
+}
+
+#BanImg03{
+position: relative;
+width: 10%;
+left: -35%;
+top: 30%;
+}
+
+#BanImg02{
+position: relative;
+width: 10%;
+left: 2%;
+bottom: 5%;
+width: 35%;
+}
+
+#BanImg04{
+position: relative;
+width: 10%;
+left: -62%;
+top: 35%;
+width: 15%;
+}
+
+#BanImg05{
+position: relative;
+width: 10%;
+left: -16%;
+top: 5%;
+width: 18%;
+}
+
+#BanImg06{
+position: relative;
+width: 10%;
+left: 36%;
+width: 25%;
+}
+
+
+
+
 .Carreras > h2 {
+  padding: 2%;
   color: #56ccf2;
   text-align: center;
   font-size: 2.5vw;
 }
 
-#Img07 {
-  position: relative;
-  top: -9%;
-  border-radius: -45%;
-  width: 25%;
-}
-
-#BanImg1 {
-  position: relative;
-  left: 65%;
-  width: 15%;
-  height: 10;
-}
-
-#BanImg3 {
-  position: relative;
-  left: 38%;
-  top: 25%;
-  width: 15%;
-  height: 10;
-}
-
-#BanImg2 {
-  position: relative;
-  left: 38%;
-  top: 35%;
-  width: 15%;
-  height: 10;
-}
-
-#BanImg5 {
-  position: relative;
-  left: 20%;
-  width: 15%;
-  height: 10;
-}
-
-#BanImg4 {
-  position: relative;
-  top: 7%;
-  width: 15%;
-  height: 10;
-}
-
-#BanImg6 {
-  position: relative;
-  top: 50%;
-  width: 15%;
-  height: 10;
-}
-
 .Carreras {
-  height: 1800px;
+  height: 900px;
   width: 100%;
   background-color: #fefefe;
 }
@@ -292,19 +291,6 @@
   top: -6%;
 }
 
-.LastBanner {
-  height: 580px;
-  width: 100%;
-  background-color: #fefefe;
-  overflow: hidden;
-}
-
-footer {
-  height: 200px;
-  width: 100%;
-  background-color: #212121;
-}
-
 .Precios {
   overflow: hidden;
 }
@@ -329,7 +315,29 @@ footer {
   top: 30%;
 }
 
-.LastBanner h2 {
+#card1 {
+  position: relative;
+  left: -30%;
+  width: 19.5%;
+  height: 50%;
+  padding-top: 2%;
+}
+
+#card2 {
+  position: relative;
+  left: 15%;
+  width: 24%;
+  height: 50%;
+}
+
+.LastBanner {
+  height: 600px;
+  width: 100%;
+  background-color: #fefefe;
+  overflow: hidden;
+}
+
+.LastBanner p {
   position: relative;
   font-weight: 900;
   color: #56ccf2;
@@ -337,44 +345,56 @@ footer {
   left: 59%;
   top: 40%;
 }
-.LastBanner img {
+
+#LastImg {
   position: relative;
-  left: 1%;
-  top: -35%;
-  width: 60%;
+  width: 50%;
   height: 90%;
-  clip-path: ellipse(80% 60% at 0.0);
+  top: -40%;
+  z-index: 30;
+}
+
+#LastImg02 {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  top: -140%;
 }
 
 .IconPackFooter img {
   float: right;
+}
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #212121;
 }
 
 footer p {
   color: #fefefe;
 }
 
-#FooterImg01{
+#FooterImg01 {
   margin-top: 1%;
   width: 10%;
   height: 10%;
 }
 
-#FooterImg02{
+#FooterImg02 {
   margin-top: 2%;
   margin-left: 1%;
   width: 7%;
   height: 10%;
 }
 
-#FooterImg03{
+#FooterImg03 {
   margin-top: 2%;
   margin-left: 1%;
   width: 10%;
   height: 10%;
 }
 
-#FooterImg04{
+#FooterImg04 {
   margin-top: 2%;
   width: 10%;
   height: 10%;
@@ -385,48 +405,52 @@ footer p {
   height: 0.3%;
 }
 
+/*----------------------------------------- First Media Query-----------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 1000px){
-
-  .icon-pack{
+@media only screen and (max-width: 1000px) {
+  .icon-pack {
     display: none;
   }
 
-  #Mensaje{
+  #Mensaje {
     position: relative;
     top: 15%;
   }
 
-  .Banner_Rectangulo p{
+  .Banner_Rectangulo p {
     position: relative;
     top: 20%;
     font-size: 1.9vh;
     text-size-adjust: auto;
   }
-  
-  .Banner_Rectangulo{
+
+  .Banner_Rectangulo {
     height: 500px;
   }
 
-  .BlanckFirst{
+  .BlanckFirst {
     height: 510px;
   }
 
-  .BannerMulti{
+  .BannerMulti {
     height: 500px;
   }
 
-  .BannerMulti h2{
+  .BannerMulti h2 {
     font-size: 4vh;
     line-height: 2;
   }
 
   .Referencias {
     height: 460px;
-    width: 100%;
+  }
+
+  .LastBanner {
+    height: 500px;
   }
 }
 
+/*----------------------------------------- Second Media Query-----------------------------------------------------------------------------------*/
 @media only screen and (max-width: 1255px) {
   .Referencias {
     position: relative;
@@ -440,6 +464,7 @@ footer p {
   }
 }
 
+/*----------------------------------------- Third Media Query-----------------------------------------------------------------------------------*/
 @media only screen and (max-width: 600px) {
   .LineBAnner {
     height: 100px;
@@ -504,7 +529,15 @@ footer p {
     position: absolute;
     top: 65%;
     float: left;
-    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    clip-path: polygon(
+      0% 20%,
+      60% 20%,
+      60% 0%,
+      100% 50%,
+      60% 100%,
+      60% 80%,
+      0% 80%
+    );
     margin: auto;
   }
   .parrafo {
@@ -519,18 +552,12 @@ footer p {
   }
 
   .BannerMulti {
-    height:200px;
+    height: 200px;
   }
 
   .BannerMulti h2 {
     text-align: center;
-    line-height: 1rem;
-  }
-
-  .BannerMulti img {
-    width: 35%;
-    height: 20%;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    line-height: 1.5rem;
   }
 
   .Carreras {
@@ -555,38 +582,17 @@ footer p {
     height: 400px;
   }
 
-  .LastBanner{
+  .LastBanner {
     height: 100px;
   }
 
-  .LastBanner img {
-    position: absolute;
-    left: 1%;
-     top: 405%;
-     height: 40%;
-     width: 69%;
-    clip-path: ellipse(80% 50% at 0.0);
-  }
-
-  .LastBanner h2 {
-    position: absolute;
-    font-weight: 900;
-    color: #56ccf2;
-    font-size: 3.5vw;
-    top: 420%;
-    margin: auto;
-  }
-
-  footer{
+  footer {
     height: 80px;
   }
 
-
-  
-.IconPackFooter img {
-  float: right;
-  width: 17vw;
-  height: 10vw;
-}
-
+  .IconPackFooter img {
+    float: right;
+    width: 17vw;
+    height: 10vw;
+  }
 }
