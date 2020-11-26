@@ -1,13 +1,4 @@
-body {
-  background-color: #f2f2f2;
-  font-family: "RobotoDraft", "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
 
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
 h5 {
   margin: 0px;
@@ -16,7 +7,7 @@ h5 {
 }
 
 p {
-  font-size: 0.8vw;
+  font-size: 0.7vw;
 }
 
 .center {
@@ -102,7 +93,7 @@ p {
 }
 
 #Curso4-property-image {
- height: 10vw;
+  height: 10vw;
   width: 15vw;
   padding: 1vw 2vw;
   position: Absolute;
@@ -184,4 +175,44 @@ p {
 .property-card:hover .property-image-title {
   opacity: 1;
 }
+
+@media only screen and (max-width: 900px) {
+  .Carreras {
+    height: 500px;
+  }
+
+  .center {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 535) {
+
+  .Carreras {
+    height: 300px;
+  }
+
+  .center {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .property-description {
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 600){
+  .Carreras{
+    height: 250px;
+  }
+}
+
 

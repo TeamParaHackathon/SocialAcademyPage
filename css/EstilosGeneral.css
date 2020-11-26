@@ -154,7 +154,7 @@
   border-radius: 45%;
 }
 #txtIlustraP {
-  margin-left: 2%;
+  padding-left: 2%;
   font-size: 1.5vw;
   text-size-adjust: auto;
   line-height: 200%;
@@ -162,7 +162,7 @@
 }
 
 .txtIlustraP p {
-  margin-left: 2%;
+  padding: 2%;
   position: relative;
   float: right;
 }
@@ -243,11 +243,11 @@ width: 25%;
   padding: 2%;
   color: #56ccf2;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 2vw;
 }
 
 .Carreras {
-  height: 900px;
+  height: 850px;
   width: 100%;
   background-color: #fefefe;
 }
@@ -435,9 +435,8 @@ footer p {
   .BannerMulti {
     height: 500px;
   }
-
   .BannerMulti h2 {
-    font-size: 4vh;
+    font-size: 2vh;
     line-height: 2;
   }
 
@@ -561,12 +560,16 @@ footer p {
   }
 
   .Carreras {
-    height: 1100px;
+    height: 500px;
+  }
+
+  .Precios{
+    height: 300px;
   }
 
   .Precios h2 {
     position: relative;
-    top: 5%;
+    top: -5%;
     left: 10%;
     font-size: 4vw;
     color: #56ccf2;
@@ -575,7 +578,7 @@ footer p {
   .Precios > .btn {
     position: relative;
     left: 25%;
-    top: 30%;
+    top: 50%;
   }
 
   .Precios {
@@ -583,7 +586,15 @@ footer p {
   }
 
   .LastBanner {
-    height: 100px;
+    height: 200px;
+  }
+
+  #LastImg{
+    top: -20%;
+  }
+
+  #LastImg02{
+    top: 2%;
   }
 
   footer {
@@ -594,5 +605,23 @@ footer p {
     float: right;
     width: 17vw;
     height: 10vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parrafo{
+    font-size: 1.2vw;
+  }
+
+  .BannerMulti{
+    height: 300px;
+  }
+
+  .Carreras{
+    height: 300px;
+  }
+
+  .Precios h2{
+    top: 40%;
   }
 }
