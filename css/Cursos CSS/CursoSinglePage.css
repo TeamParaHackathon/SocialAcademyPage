@@ -1,0 +1,85 @@
+.VideoCurso{
+    width: 100%;
+    height: 720px;
+    background-color: dimgrey;
+}
+
+.containerVideoInfo{
+    max-width: 1200px;
+    height: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.containerVideoInfo .Description{
+    width: 450px;
+    height: 450px;
+    padding: 0 2rem;
+    border-radius: 8px;
+    box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+}
+
+.containerVideoInfo .Description h3{
+    color: dodgerblue;
+}
+
+.containerVideoInfo .InfoInstructor{
+    width: 250px;
+    height: 450px;
+    padding: 0 1rem;
+    border-radius: 8px;
+    box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+}
+
+.containerVideoInfo .InfoInstructor h3{
+    color: dodgerblue;
+}
+
+.containerVideoInfo .InfoInstructor img{
+    width: 70px;
+    height: 70px;
+    
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.containerVideoInfo .ListVideo h3{
+    color: dodgerblue;
+}
+
+.containerVideoInfo .ListVideo{
+    width: 200px;
+    height: 450px;
+    border-radius: 8px;
+    box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+}
+
+.containerVideoInfo .ListVideo li{
+    margin: auto;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 5px 0 0 5px;
+    border-inline-color: #000000;
+}
+
+footer {
+    height: 265px;
+    width: 100%;
+    background-color: #212121;
+    background-image: url("../../img/Group 96.png");
+    background-size: contain;
+  }
+  

@@ -176,7 +176,7 @@
 .BannerMulti {
   height: 720px;
   width: 100%;
-  background-color: #79d6f5f6;
+  background-color: #5c9eeb;
 }
 
 .BannerMulti img {
@@ -365,9 +365,11 @@ width: 25%;
   float: right;
 }
 footer {
-  height: 200px;
+  height: 265px;
   width: 100%;
   background-color: #212121;
+  background-image: url("../img/Group 96.png");
+  background-size: contain;
 }
 
 footer p {
