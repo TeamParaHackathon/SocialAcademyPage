@@ -4,6 +4,13 @@
     background-color: dimgrey;
 }
 
+.VideoCurso iframe{
+    position: relative;
+    top: 1%;
+    left: 0%;
+
+}
+
 .containerVideoInfo{
     max-width: 1200px;
     height: 720px;
