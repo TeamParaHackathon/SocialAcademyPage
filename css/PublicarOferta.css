@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+}
+
+.Cabecera{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.EncabezadoPublica{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    color:  #56CCF2;
+}
+
+.InfoPublica{
+    padding-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    color:  #1e295c;
+}
+
+button{
+    width: 25%;
+    height: 25%;
+}
+
+#AcercaDeCabecera{
+    background-color: #1e295c;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: white;
+    line-height: 250%;
+    font-size: 80%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.Contacto{
+    padding-bottom: 8%;
+}
+
+.AcercaDe{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.ADinfo1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.ADinfo2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.ADimagen{
+  
+    width: 50%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.ADtexto{
+    width: 50%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.ADtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    color: #56CCF2;
+}
+
+.ADabout{
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: justify;
+    line-height: 160%;
+}
+
+/*BAJAR LA CABECERA CUANDO EL MENU DE NAVEGACION SE DESPLIEGUE MEDIANTE UN ICCONO*/
+
+@media (max-width: 920px){
+    .Cabecera{
+        padding-top: 10%;
+    }
+}
+ /*DESPLEGAR IMAGENES Y TEXTO A PANTALLA COMPLETA AL DISMINUIR EL TAMA;O DE LA PANTALLA*/
+@media (max-width: 760px){
+    .ADinfo1{
+        flex-direction: column;
+    }
+    .ADinfo2{
+        flex-direction: column-reverse;
+    }
+    .ADimagen{
+  
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    .ADtexto{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+
+/*sSE REDUCE EL TAMA;O DE LA FUENTE CUANDO ESTA NO ALCANZA EN PANTALLA*/
+
+@media (max-width: 470px){
+    .Cabecera{
+        padding-top: 25%;
+    }
+
+    .EncabezadoPublica{
+        font-size: 200%;
+    }
+    
+    .InfoPublica{
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 380px){
+    .Cabecera{
+        padding-top: 35%;
+    }
+
+    .EncabezadoPublica{
+        font-size: 180%;
+    }
+    
+    .InfoPublica{
+        font-size: 80%;
+    }
+
+    #AcercaDeCabecera{
+        font-size: 40%;
+    }
+    button{
+        width: 60%;
+    }
+
+    .ADabout{
+        font-size: 100%;
+    }
+    
+    .ADtitle{
+        font-size: 120%;
+    }
+}

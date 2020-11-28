@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+}
+
+#banner{
+    text-align: center;
+}
+
+.Cabecera{
+    display: flexbox;
+    justify-content: center;
+    padding-top: 2%;
+    padding-right: 11%;
+    padding-left: 11%;
+}
+
+.Bienvenida{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #56CCF2;
+    font-size: 250%;
+}
+
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-right: 11%;
+    padding-left: 11%;   
+    padding-bottom: 10%;
+}
+
+.Imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Encabezado{
+    text-align: center;
+    font-size: 250%;
+    color: #30758b;
+}
+
+.Info{
+    text-align: justify;
+    line-height: 160%;
+    padding-top: 4%;
+    padding-right: 6%;
+    padding-left: 6%;  
+}
+
+.Conocenos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.Equipo{
+    width: 50%;
+}
+
+.Encabezado2{
+    text-align: center;
+    color: #56CCF2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 280%;
+}
+
+.Info2{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 160%;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.Team{
+
+    width: 50%;
+}
+
+.Estadisticas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #135f79;
+}
+
+.Logros{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icono{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+}
+
+.Texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #135f79;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.Sinopsis{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Titulo{
+    text-align: center;
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.Descripcion{
+    text-align: center;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 100%;
+}
+
+@media (max-width: 800px){
+    .Bienvenida{
+        font-size: 180%;
+    }
+
+    .Encabezado{
+        font-size: 180%;
+    }
+
+    
+    .Encabezado2{
+        font-size: 180%;
+    }
+
+    .Titulo{
+
+        font-size: 150%;
+    }
+
+    .Descripcion{
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 580px){
+    .Bienvenida{
+        font-size: 100%;
+    }
+
+    .Encabezado{
+        font-size: 100%;
+    }
+
+    
+    .Encabezado2{
+        font-size: 100%;
+        width: 100%;
+    }
+
+    .Titulo{
+
+        font-size: 70%;
+    }
+
+    .Descripcion{
+        font-size: 50%;
+    }
+
+    .Info{
+        font-size: 100%;
+    }
+
+    .Info2{
+        font-size: 100%;
+        width: 100%;
+    }
+
+    .Equipo{
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .Conocenos{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .Team{
+        width: 100%;
+    }
+
+}

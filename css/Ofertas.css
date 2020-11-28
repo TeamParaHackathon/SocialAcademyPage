@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+}
+
+.OfertasHead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.HeadEncabezado{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.EncabezadoOfertas{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    color: #56CCF2;
+}
+
+.OHimagen{
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.Publicar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1e295c;
+}
+
+.BotonPublicar{
+    width: 50%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    color: white;
+}
+
+.BotonPublicarOferta{
+    width: 30%;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: #1e295c;
+}
+
+.FiltroOfertas{
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+
+.PremiumOferta{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.TextoPremium{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;   
+    color: rgb(63, 63, 63); 
+}
+.Btn{
+    width: 100%;
+}
+
+.BotonPremium{
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+}
+
+.TituloOfertas{
+    padding-top: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    color: #56CCF2;
+}
+
+#OfertasDestacadas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 70px auto 0px;
+    background-color: white;
+}
+
+.ListaOfertas {
+    width: calc(33.333% - 4%);
+    margin: 2%;
+    height: width;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
+    transition: all .5s;
+}
+
+#ImagenOfertas {
+    overflow: hidden;
+}
+
+.ListaOfertas img {
+    transition: all .5s ease;
+}
+
+.ListaOfertas img:hover {
+    transform: scale(1.1);
+    z-index: 100;
+}
+
+.Descripcion {
+    display: block;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+
+#ReferenciasOfertas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.EmpresasDestacada{
+    width: 50%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.TituloED{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    color: #56CCF2;
+}
+
+.Testimonios{
+    width: 50%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.TituloT{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    color: #56CCF2;
+}
+
+@media (max-width: 1100px){
+    .Descripcion {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 950px){
+    .Descripcion {
+        font-size: 90%;
+    }
+
+    .EncabezadoOfertas{
+        font-size: 200%;
+    }
+
+    .BotonPublicar{
+        font-size: 150%;
+    }
+
+    .BotonPublicarOferta{
+        font-size: 110%;
+    }
+
+    .TextoPremium{
+        font-size: 90%;   
+    }
+
+    .BotonPremium{
+        font-size: 90%;
+    }
+    
+    .TituloOfertas{
+        font-size: 200%;
+    }
+
+    .ListaOfertas {
+        width: calc(50% - 8%);
+        margin: 4%;
+    }
+}
+
+@media (max-width: 1100px){
+    .Descripcion {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 590px){
+    .Descripcion {
+        font-size: 80%;
+    }
+
+    .EncabezadoOfertas{
+        font-size: 140%;
+    }
+
+    .BotonPublicar{
+        font-size: 120%;
+    }
+
+    .BotonPublicarOferta{
+        font-size: 90%;
+    }
+
+    .TextoPremium{
+        font-size: 70%;   
+    }
+
+    .BotonPremium{
+        font-size: 70%;
+    }
+    
+    .TituloOfertas{
+        font-size: 160%;
+    }
+
+    .ListaOfertas {
+        width: calc(50% - 8%);
+        margin: 4%;
+    }
+}
+
+@media (max-width: 480px){
+    .OfertasHead{
+        padding-top: 40%;
+    }
+    .Descripcion {
+        font-size: 60%;
+    }
+
+    .EncabezadoOfertas{
+        font-size: 110%;
+    }
+
+    .BotonPublicar{
+        font-size: 90%;
+    }
+
+    .BotonPublicarOferta{
+        font-size: 50%;
+    }
+
+    .TextoPremium{
+        font-size: 50%;   
+    }
+
+    .BotonPremium{
+        font-size: 50%;
+    }
+    
+    .TituloOfertas{
+        font-size: 120%;
+    }
+
+    .ListaOfertas {
+        width: calc(50% - 4%);
+        margin: 2%;
+    }
+}
