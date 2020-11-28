@@ -6,7 +6,7 @@
 
 .VideoCurso iframe{
     position: relative;
-    top: 1%;
+    top: 5%;
     left: 0%;
 
 }
@@ -29,7 +29,7 @@
     box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 .containerVideoInfo .Description h3{
@@ -44,7 +44,7 @@
     box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 .containerVideoInfo .InfoInstructor h3{
