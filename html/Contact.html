@@ -136,9 +136,48 @@
 
 
     <div class="containerContact">
+        <span class="Big-Circle"></span>
+        <img src="../img/contact/shape.png" class="square">
         <div class="formContact">
+            <div class="contact-info">
+                <h3 class="titleContact">¿Tiene alguna duda?</h3>
+                <p class="textContact">
+                    <spasn>Soporte las 24 horas del dia</spasn>
+                    Dedicados a servirte y responder a tus dudas
+                </p>
 
-            <div class="contact-info"></div>
+                <div class="info_Contact">
+                    <div class="information">
+                        <img src="../img/contact/email.png" class="iconContact">
+                        <p>SocialAcademy@unan.edu.ni</p>
+                    </div>
+                    <div class="information">
+                        <img src="../img/contact/location.png" class="iconContact">
+                        <p>Nicaragua, Central America</p>
+                    </div>
+                    <div class="information">
+                        <img src="../img/contact/phone.png" class="iconContact">
+                        <p>+(505) 1234-89285-5</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Contactanos Con Nosotros: </p>
+                    <div class="social-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
 
             <div class="contact-form">
                 <span class="circle one"></span>
@@ -147,24 +186,28 @@
                 <form action="Contact.html">
                     <h3 class="titleContact">Contactanos</h3>
 
-                    <div class="input-containerContact">
+                    <div class="input-containerContact ">
                         <input type="text" name="name" class="inputContact">
                         <label for="">Nombre de Usuario</label>
+                        <span>Nombre de Usuario</span>
                     </div>
 
                     <div class="input-containerContact">
                         <input type="email" name="email" class="inputContact">
                         <label for="">Correo Electronico</label>
+                        <span>Correo Electronico</span>
                     </div>
 
                     <div class="input-containerContact">
-                        <input type="text" name="Ciudad" class="inputContact">
-                        <label for="">Ciudad/Municipio</label>
+                        <input type="text" name="direccion" class="inputContact">
+                        <label for="">Dirección</label>
+                        <span>Dirección</span>
                     </div>
 
                     <div class="input-containerContact textarea">
                         <textarea name="mensaje" class="inputContact"></textarea>
                         <label for="">Mensaje</label>
+                        <span>Mensaje</span>
                     </div>
                     <input type="submit" value="Enviar" class="btnContact">
                 </form>
@@ -174,5 +217,7 @@
     </div>
 
 </body>
+
+<script src="../Js/ContactApp.js"></script>
 
 </html>
