@@ -10,10 +10,17 @@ textarea {
 	font-family: "Poppins", sans-serif;
 }
 #ImagenBanner{
-    width: 50%;
-    left: 650px;
+	width: 100%;
+	height: 500px;
     position: absolute;
-    z-index: 90;
+	z-index: 90;
+	overflow: hidden;
+}
+
+#ImagenBanner img{
+	width: 50%;
+	position: relative;
+	left: 450px;
 }
 
 .containerContact {
@@ -244,8 +251,8 @@ textarea.inputContact {
 }
 
 .social-icon a {
-	width: 45px;
-	height: 45px;
+	width: 35px;
+	height:35px;
 	border-radius: 5px;
 	background: linear-gradient(45deg, #56ccf2, #0499f0);
 	color: #fff;
@@ -258,7 +265,6 @@ textarea.inputContact {
 .social-icon a:hover {
 	transform: scale(1.08);
 }
-
 .contact-info::before {
 	content: "";
 	position: absolute;
@@ -303,8 +309,9 @@ textarea.inputContact {
 }
 
 @media (max-width: 850px) {
+
 	.containerContact {
-		top: 90px;
+		top: 200px;
 	}
 
 	.formContact {
@@ -329,10 +336,18 @@ textarea.inputContact {
 		height: 500px;
 	}
 
+	#ImagenBanner{
+		z-index: 80;
+	}
 	.Big-Circle {
-		bottom: 75%;
+		z-index: 99;
+		bottom: 65%;
 		transform: scale(0.9) translate(-40%, 30%);
 		right: 50%;
+	}
+
+	footer{
+		bottom: -100%;
 	}
 
 	.text {
@@ -342,9 +357,30 @@ textarea.inputContact {
 	.social-media {
 		padding: 1.5rem 0 0 0;
 	}
+	.contact-info p{
+		font-size: 15px;
+	}
+
 }
 
 @media (max-width: 480px) {
+
+	.Big-Circle {
+		z-index: 75%;
+		bottom: 65%;
+		transform: scale(0.9) translate(-40%, 30%);
+		right: 50%;
+	}
+
+	.contact-info p{
+		font-size: 10px;
+	}
+
+	#ImagenBanner img{
+		z-index: 80;
+		position: absolute;
+		right: -200px;
+	}
 	.containerContact {
 		padding: 1.5rem;
 	}
