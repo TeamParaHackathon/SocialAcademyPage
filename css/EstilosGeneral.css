@@ -365,6 +365,7 @@ width: 25%;
   float: right;
 }
 footer {
+  position: absolute;
   height: 265px;
   width: 100%;
   background-color: #212121;
