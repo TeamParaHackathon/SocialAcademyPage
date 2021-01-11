@@ -6,6 +6,7 @@
 }
 
 #banner{
+    padding-top: 5%;
     text-align: center;
 }
 
@@ -58,6 +59,7 @@
 
 .Info{
     text-align: justify;
+    font-size: 160%;
     line-height: 160%;
     padding-top: 4%;
     padding-right: 6%;
@@ -72,6 +74,7 @@
     padding-top: 10%;
     padding-right: 8%;
     padding-left: 8%;
+    padding-bottom: 8%;
 }
 
 .Equipo{
@@ -95,7 +98,6 @@
 }
 
 .Team{
-
     width: 50%;
 }
 
@@ -154,18 +156,44 @@
     font-size: 100%;
 }
 
-@media (max-width: 800px){
-    .Bienvenida{
-        font-size: 180%;
-    }
 
-    .Encabezado{
-        font-size: 180%;
+@media (max-width: 980px){
+    .Conocenos{
+        display: flex;
+        flex-direction: column;
+    }
+    .Equipo{
+        width: 100%;
+    }
+    
+    
+    .Team{
+        width: 100%;
     }
 
     
-    .Encabezado2{
+    .Encabezado{
+        font-size: 230%;
+    }
+
+    .Info{
+        font-size: 150%;
+    }
+}
+
+
+
+@media (max-width: 800px){
+    .Bienvenida{
+        font-size: 160%;
+    }
+
+    .Encabezado, .Encabezado2{
         font-size: 180%;
+    }
+
+    .Info, .Info2{
+        font-size: 130%;
     }
 
     .Titulo{
@@ -190,7 +218,9 @@
     
     .Encabezado2{
         font-size: 100%;
-        width: 100%;
+    }
+    .Info, .Info2{
+        font-size: 90%;
     }
 
     .Titulo{
@@ -202,14 +232,6 @@
         font-size: 50%;
     }
 
-    .Info{
-        font-size: 100%;
-    }
-
-    .Info2{
-        font-size: 100%;
-        width: 100%;
-    }
 
     .Equipo{
         width: 100%;
@@ -224,5 +246,7 @@
     .Team{
         width: 100%;
     }
-
+    #banner{
+        padding-top: 20%;
+    }
 }

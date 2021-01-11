@@ -145,7 +145,7 @@
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 
@@ -190,11 +190,14 @@
     .Descripcion {
         font-size: 90%;
     }
+    .BotonPublicar{
+        font-size: 150%;
+    }
 }
 
 @media (max-width: 950px){
     .Descripcion {
-        font-size: 90%;
+        font-size: 100%;
     }
 
     .EncabezadoOfertas{
@@ -202,7 +205,7 @@
     }
 
     .BotonPublicar{
-        font-size: 150%;
+        font-size: 130%;
     }
 
     .BotonPublicarOferta{
@@ -227,15 +230,18 @@
     }
 }
 
-@media (max-width: 1100px){
-    .Descripcion {
-        font-size: 90%;
+@media (max-width: 740px){
+    .BotonPublicar{
+        font-size: 110%;
     }
-}
-
-@media (max-width: 590px){
     .Descripcion {
         font-size: 80%;
+    }
+
+}
+@media (max-width: 590px){
+    .Descripcion {
+        font-size: 60%;
     }
 
     .EncabezadoOfertas{
@@ -243,7 +249,7 @@
     }
 
     .BotonPublicar{
-        font-size: 120%;
+        font-size: 90%;
     }
 
     .BotonPublicarOferta{
@@ -273,7 +279,7 @@
         padding-top: 40%;
     }
     .Descripcion {
-        font-size: 60%;
+        font-size: 50%;
     }
 
     .EncabezadoOfertas{
@@ -281,7 +287,7 @@
     }
 
     .BotonPublicar{
-        font-size: 90%;
+        font-size: 75%;
     }
 
     .BotonPublicarOferta{
