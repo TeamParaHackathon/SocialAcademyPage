@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -361,49 +362,197 @@ width: 25%;
   top: -140%;
 }
 
-.IconPackFooter img {
-  float: right;
+       /* .IconPackFooter img {
+          float: right;
+        }
+        footer {
+          position: absolute;
+          height: 265px;
+          width: 100%;
+          background-color: #212121;
+          background-image: url("../img/Group 96.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+
+        footer p {
+          color: #fefefe;
+        }
+
+        #FooterImg01 {
+          margin-top: 1%;
+          width: 10%;
+          height: 10%;
+        }
+
+        #FooterImg02 {
+          margin-top: 2%;
+          margin-left: 1%;
+          width: 7%;
+          height: 10%;
+        }
+
+        #FooterImg03 {
+          margin-top: 2%;
+          margin-left: 1%;
+          width: 10%;
+          height: 10%;
+        }
+
+        #FooterImg04 {
+          margin-top: 2%;
+          width: 10%;
+          height: 10%;
+        }*/
+
+        
+/*INICIO FOOTER */
+        .InfoFooter{
+          background-color: #212121;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          padding-top: 1%;
+          padding-bottom: 1%;
+        }
+
+
+              .LogosFooter, .SocialFooter, .EnlacesFooter{
+                width: 33.33%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              }
+
+                  .LogosFooter img, .SocialFooter img{
+                    padding-top: 1%;
+                    padding-bottom: 1%;
+                  }
+
+                  .SocialInfo{
+                    font-family: "Poppins", serif;
+                    font-size: 80%;
+                    color: white;
+                    text-align: justify;
+                    padding-top: 1%;
+                    padding-bottom: 4%;
+                    padding-right: 20%;
+                    padding-left: 20%;
+                    line-height: 130%;
+                  }
+
+                  .RedesFooter{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 100%;
+                  }
+.IconosRedes .btn,.IconosRedes .btn .fa,.IconosRedes .btn:before{
+  transition:all .35s;
+  transition-timing-function:cubic-bezier(0.31,-.105,.43,1.59);
 }
-footer {
-  position: absolute;
-  height: 265px;
-  width: 100%;
-  background-color: #212121;
-  background-image: url("../img/Group 96.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+.IconosRedes .btn:before{top:90%;left:-110%;}
+.IconosRedes .btn .fa{
+  -webkit-transform:scale(0.8);
+  transform:scale(0.8);
 }
 
-footer p {
-  color: #fefefe;
+.IconosRedes .btn.facebook:before{background-color:#3b5998;}
+.IconosRedes .btn.facebook .fa{color:#3b5998;}
+.IconosRedes .btn.twitter:before{background-color:#3cf;}
+.IconosRedes .btn.twitter .fa{color:#3cf;}
+.IconosRedes .btn.youtube:before{background-color:red;}
+.IconosRedes .btn.youtube .fa{color:red}
+.IconosRedes .btn.instagram:before{background-color:#c13584;}
+.IconosRedes .btn.instagram .fa{color:#c13584;}
+
+.IconosRedes .btn:focus:before, .IconosRedes .btn:hover:before{
+    top:-10%;
+    left:-10%;
+}
+.IconosRedes .btn:focus .fa, .IconosRedes .btn:hover .fa{
+    color:#fff;
+    -webkit-transform:scale(1);
+    transform:scale(1);
 }
 
-#FooterImg01 {
-  margin-top: 1%;
-  width: 10%;
-  height: 10%;
+.IconosRedes .btn{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    width:50px;
+    height:50px;
+    margin:0 10px;
+    position:relative;
+    overflow:hidden;
+    border-radius:100%;
+    box-shadow:0 5px 15px -5px rgba(0,0,0,.1);
+    opacity:.99;
+  }
+
+.IconosRedes .btn:before{
+    content:'';
+    width:120%;
+    height:120%;
+    position:absolute;
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+.IconosRedes .btn .fa{
+    font-size:30px;
 }
 
-#FooterImg02 {
-  margin-top: 2%;
-  margin-left: 1%;
-  width: 7%;
-  height: 10%;
-}
+        .EnlacesFooter{
+          justify-content: center;
+          align-items: flex-start;
+          padding-left: 8%;
+        }
+        .EnlacesFooter a{
+          font-family: "Poppins", serif;
+          color: white;
+          font-size: 120%;
+          line-height: 160%;
+        }
+        .EnlacesFooter h2{
+          font-family: "Poppins", serif;
+          color: rgb(167, 167, 167);
+          font-size: 110%;
+          padding-left: 20%;
+        }
 
-#FooterImg03 {
-  margin-top: 2%;
-  margin-left: 1%;
-  width: 10%;
-  height: 10%;
-}
+        .Copyright{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          background-color: black;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 50%;
+        }
 
-#FooterImg04 {
-  margin-top: 2%;
-  width: 10%;
-  height: 10%;
-}
+            .AllRight{
+              width: 50%;
+              padding-left: 7%;
+              padding-top: 1%;
+              padding-bottom: 1%;
+            }
 
+            .Privacy{
+              width: 50%;
+              color: white;
+              font-size: 200%;
+              font-family: Arial, Helvetica, sans-serif;
+              text-align: right;
+              padding-right: 10%;
+            }
+
+/*FIN FOOTER */
 #layer {
   width: 0.2%;
   height: 0.3%;
