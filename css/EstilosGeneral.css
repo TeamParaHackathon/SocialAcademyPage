@@ -411,18 +411,34 @@ width: 25%;
           background-color: #212121;
           display: flex;
           flex-direction: row;
+          flex-wrap: wrap;
           justify-content: space-around;
           padding-top: 1%;
           padding-bottom: 1%;
         }
 
 
-              .LogosFooter, .SocialFooter, .EnlacesFooter{
-                width: 33.33%;
+              .LogosFooter, .SocialFooter {
+                width: 50%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
               }
+
+                  .EnlacesFooter{
+                    width: 100%;
+                    padding:0%;
+                    display: inline-flex;
+                    flex-wrap: nowrap;
+                    flex-direction: row;
+                    padding-bottom: 2%;
+                    justify-content: space-around;
+                    align-items: center;
+                  }
+
+                  .LogosFooter{
+                    justify-content: center;
+                  }
 
                   .LogosFooter img, .SocialFooter img{
                     padding-top: 1%;
@@ -435,7 +451,7 @@ width: 25%;
                     color: white;
                     text-align: justify;
                     padding-top: 1%;
-                    padding-bottom: 4%;
+                    padding-bottom: 2%;
                     padding-right: 20%;
                     padding-left: 20%;
                     line-height: 130%;
@@ -507,21 +523,16 @@ width: 25%;
     font-size:30px;
 }
 
-        .EnlacesFooter{
-          justify-content: center;
-          align-items: flex-start;
-          padding-left: 8%;
-        }
         .EnlacesFooter a{
           font-family: "Poppins", serif;
           color: white;
-          font-size: 120%;
+          font-size: 100%;
           line-height: 160%;
         }
         .EnlacesFooter h2{
           font-family: "Poppins", serif;
           color: rgb(167, 167, 167);
-          font-size: 110%;
+          font-size: 100%;
           padding-left: 20%;
         }
 
@@ -559,6 +570,12 @@ width: 25%;
 }
 
 /*----------------------------------------- First Media Query-----------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1150px){
+    .LogosFooter img{
+      width: 50%;
+    }
+}
 
 @media only screen and (max-width: 1000px) {
   .icon-pack {
@@ -599,6 +616,175 @@ width: 25%;
 
   .LastBanner {
     height: 500px;
+  }
+
+  /*FOOTER*/
+
+          .LogosFooter img{
+            width: 55%;
+          }
+
+          .EnlacesFooter a{
+            font-size: 90%;
+          }
+          .EnlacesFooter h2{
+            font-size: 90%;
+          }
+
+          .SocialFooter img{
+            width: 25%;
+          }
+
+              .SocialInfo{
+                font-size: 65%;
+              }
+
+              .IconosRedes .btn{
+                width:40px;
+                height:40px;
+                margin:0 5px;
+              }   
+
+             .IconosRedes .btn .fa{
+                font-size:25px;
+            }
+
+            .IconosRedes .btn:before{
+                width:150%;
+                height:150%;
+            }
+  /*FIN FOOTER*/
+}
+@media only screen and (max-width: 800px){
+  .LogosFooter img{
+    width: 70%;
+  }
+
+
+  .EnlacesFooter a{
+    font-size: 80%;
+  }
+  .EnlacesFooter h2{
+    font-size: 80%;
+  }
+
+  .SocialFooter img{
+    width: 35%;
+  }
+
+      .SocialInfo{
+        font-size: 65%;
+        padding-right: 10%;
+        padding-left: 10%;
+      }
+
+      .IconosRedes .btn{
+        width:35px;
+        height:35px;
+        margin:0 5px;
+      }   
+
+     .IconosRedes .btn .fa{
+        font-size:25px;
+     }
+
+     .Copyright{
+      font-size: 40%;
+    }
+
+    .Privacy{
+      font-size: 150%;
+    }
+} 
+
+/* Cambiar distribucion de footer*/
+@media only screen and (max-width: 700px){
+        .LogosFooter{
+          width: 50%;
+        }
+
+        .LogosFooter img{
+          width: 65%;
+        }
+
+        .EnlacesFooter{
+          padding-bottom: 2%;
+        }
+
+        .SocialFooter{
+          width: 50%;
+        }
+
+        .SocialInfo{
+          font-size: 60%;
+        }
+
+        .IconosRedes .btn{
+          width:35px;
+          height:35px;
+        }   
+
+      .IconosRedes .btn .fa{
+          font-size:25px;
+      }
+      .EnlacesFooter a{
+        font-size: 60%;
+      }
+      .EnlacesFooter h2{
+        font-size: 65%;
+      }
+
+      .Copyright{
+        font-size: 30%;
+      }
+}
+
+@media only screen and (max-width: 500px)
+{
+      .SocialFooter{
+        width: 100%;
+      }
+      .SocialFooter img{
+        width: 25%;
+      }
+      .SocialInfo{
+        line-height: 180%;
+      }
+      .LogosFooter{
+        width: 100%;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
+      .LogosFooter img{
+        width: 45%;
+      }
+      .EnlacesFooter a{
+        font-size: 50%;
+      }
+      .EnlacesFooter h2{
+        font-size: 55%;
+      }
+      .Copyright{
+        font-size: 20%;
+      }
+}
+
+@media only screen and (max-width: 400px){
+  .EnlacesFooter{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .EnlacesFooter a{
+    font-size: 50%;
+    width: 33.33%;
+    text-align: center;
+  }
+  .EnlacesFooter h2{
+    font-size: 55%;
   }
 }
 
