@@ -525,6 +525,7 @@ width: 25%;
 
         .EnlacesFooter a{
           font-family: "Poppins", serif;
+          position: relative;
           color: white;
           font-size: 100%;
           line-height: 160%;
@@ -534,6 +535,34 @@ width: 25%;
           color: rgb(167, 167, 167);
           font-size: 100%;
           padding-left: 20%;
+        }
+
+        .EnlacesFooter a:hover{
+          color: #F5F362;
+          font-size: 110%;
+          transition: 1s;
+          
+        }
+
+        .EnlacesFooter a:after{
+          content: '';
+          position: absolute;
+          left: 50%;
+          bottom: 0%;
+          transform: translateX(-50%) scaleX(0);
+          -webkit-transform: translateX(-50%) scaleX(0);
+          -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+          width: 100%;
+          height: 2px;
+          background-color: white;
+          -webkit-transition: transform 250ms;
+          transition: transform 250ms;
+        }
+
+        .EnlacesFooter a:hover:after{
+          transform: translateX(-50%) scaleX(1);
+          -webkit-transform: translateX(-50%) scaleX(1);
         }
 
         .Copyright{
@@ -627,6 +656,10 @@ width: 25%;
           .EnlacesFooter a{
             font-size: 90%;
           }
+
+          .EnlacesFooter a:hover{
+            font-size: 100%;
+          }
           .EnlacesFooter h2{
             font-size: 90%;
           }
@@ -664,6 +697,10 @@ width: 25%;
   .EnlacesFooter a{
     font-size: 80%;
   }
+
+  .EnlacesFooter a:hover{
+    font-size: 90%;
+  }
   .EnlacesFooter h2{
     font-size: 80%;
   }
@@ -697,7 +734,6 @@ width: 25%;
     }
 } 
 
-/* Cambiar distribucion de footer*/
 @media only screen and (max-width: 700px){
         .LogosFooter{
           width: 50%;
@@ -730,6 +766,10 @@ width: 25%;
       .EnlacesFooter a{
         font-size: 60%;
       }
+
+      .EnlacesFooter a:hover{
+        font-size: 70%;
+      }
       .EnlacesFooter h2{
         font-size: 65%;
       }
@@ -739,8 +779,7 @@ width: 25%;
       }
 }
 
-@media only screen and (max-width: 500px)
-{
+@media only screen and (max-width: 500px){
       .SocialFooter{
         width: 100%;
       }
@@ -761,6 +800,9 @@ width: 25%;
       }
       .EnlacesFooter a{
         font-size: 50%;
+      }
+      .EnlacesFooter a:hover{
+        font-size: 60%;
       }
       .EnlacesFooter h2{
         font-size: 55%;
@@ -785,6 +827,21 @@ width: 25%;
   }
   .EnlacesFooter h2{
     font-size: 55%;
+  }
+
+  .EnlacesFooter a:hover{
+    font-size: 65%;
+  }
+
+  .EnlacesFooter a:after{
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    -webkit-transform: translateX(-50%) scaleX(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    width: 75%;
+
+    height: 1px;
   }
 }
 
