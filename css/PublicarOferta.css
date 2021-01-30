@@ -6,7 +6,7 @@
 }
 
 .Cabecera{
-    padding-top: 5%;
+    padding-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,8 +29,8 @@
 }
 
 button{
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
 }
 
 #AcercaDeCabecera{
@@ -104,7 +104,22 @@ button{
 
 @media (max-width: 920px){
     .Cabecera{
-        padding-top: 10%;
+        padding-top: 15%;
+    }
+
+    button{
+        width: 40%;
+        font-size: 180%;
+    }
+    #AcercaDeCabecera{
+        font-size: 65%;
+    }
+    .ADtitle{
+        font-size: 190%;
+    }
+    
+    .ADabout{
+        font-size: 130%;
     }
 }
  /*DESPLEGAR IMAGENES Y TEXTO A PANTALLA COMPLETA AL DISMINUIR EL TAMA;O DE LA PANTALLA*/
@@ -127,8 +142,36 @@ button{
         padding-left: 10%;
         padding-right: 10%;
     }
-}
 
+    .EncabezadoPublica{
+        font-size: 250%;
+    }
+    
+    .InfoPublica{
+        font-size: 120%;
+    }
+    button{
+        width: 50%;
+        font-size: 160%;
+
+    }
+    #AcercaDeCabecera{
+        font-size: 55%;
+    }
+    .ADtitle{
+        padding-top: 3%;
+    }
+    
+}
+@media (max-width: 620px){
+    button{
+        width: 60%;
+        font-size: 140%;
+    }
+    #AcercaDeCabecera{
+        font-size: 45%;
+    }
+}
 
 /*sSE REDUCE EL TAMA;O DE LA FUENTE CUANDO ESTA NO ALCANZA EN PANTALLA*/
 
@@ -143,6 +186,13 @@ button{
     
     .InfoPublica{
         font-size: 100%;
+    }
+    button{
+        width: 65%;
+        font-size: 130%;
+    }
+    #AcercaDeCabecera{
+        font-size: 40%;
     }
 }
 
@@ -160,7 +210,7 @@ button{
     }
 
     #AcercaDeCabecera{
-        font-size: 40%;
+        font-size: 35%;
     }
     button{
         width: 60%;
@@ -171,6 +221,10 @@ button{
     }
     
     .ADtitle{
+        font-size: 120%;
+    }
+    button{
+        width: 75%;
         font-size: 120%;
     }
 }
