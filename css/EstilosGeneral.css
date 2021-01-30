@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Text:ital@1&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +17,7 @@
 
 .Banner_Rectangulo {
   width: 100%;
-  height: 720px;
+  height: 700px;
   background: linear-gradient(253.58deg, #5693be 1.55%, #5c9eeb 95.8%);
   /* Blue 3 */
   box-sizing: border-box;
@@ -76,85 +78,123 @@
   width: 10%;
 }
 
+.icon_regalia{
+  padding-top: 2%;
+}
 .icon_regalia > ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .Proyectos {
   position: relative;
-  left: -15%;
-  right: 15%;
+  width: 20%;
 }
 
-#Proyectos {
-  width: 55%;
-  height: 55%;
-}
 
 .Proyectos span {
   font-style: normal;
   font-weight: 900;
-  font-size: 1vw;
+  font-size: 1.2vw;
   /* or 33px */
   text-align: center;
   color: #5c5c5c;
 }
 
-#ensena {
-  width: 35%;
-  height: 35%;
-}
 
 .Multiplataforma img {
-  width: 25%;
-  height: 25%;
+  width: 45%;
+  height: 45%;
+}
+
+.ensena img{
+width: 45%;
+height: 45%;
+}
+
+.Proyectos img{
+  width: 45%;
 }
 
 .ensena span {
   font-style: normal;
   font-weight: 900;
-  font-size: 1vw;
+  font-size: 1.2vw;
   /* or 33px */
   text-align: center;
   color: #5c5c5c;
-  left: 40%;
-  top: 117%;
 }
 
 .ensena {
   position: relative;
-  left: -5%;
+  width: 20%;
 }
 
 .Multiplataforma {
   position: relative;
+  width: 20%;
 }
 
-.Multiplataforma img {
-  width: 45%;
-}
+
 
 .Multiplataforma span {
   font-style: normal;
   font-weight: 900;
-  font-size: 1vw;
+  font-size: 1.2vw;
   /* or 33px */
   text-align: center;
   color: #5c5c5c;
-  left: 40%;
-  top: 117%;
+}
+.HomeInteractua{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.IconosPEM p{
+  font-size: 0.9vw;
+}
+
+.TextoInteractua{
+  display: flexbox;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.IconosPEM{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.IconosPEM p{
+  text-align: center;
+}
+
+#ContenedorIMG01{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-right: 2%;
+  padding-left: 2%;
 }
 #img01 {
-  width: 50%;
-  height: 90%;
+  width: 90%;
   position: relative;
-  float: left;
   border-radius: 45%;
 }
 #txtIlustraP {
-  padding-left: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  width: 100%;
   font-size: 1.5vw;
   text-size-adjust: auto;
   line-height: 200%;
@@ -168,34 +208,47 @@
 }
 
 .parrafo {
-  margin-right: 2%;
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: justify;
   position: relative;
   font-size: 1.2vw;
 }
 
 .BannerMulti {
-  height: 720px;
   width: 100%;
   background-color: #5c9eeb;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .BannerMulti img {
   width: 20%;
 }
 
+.TextoMulti{
+  width: 50%;
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
 .BannerMulti h2 {
+  text-align: center;
   position: relative;
-  line-height: 5rem;
-  font-size: 2.5vw;
+  line-height: 4rem;
+  font-size: 3vw;
   color: #fefefe;
 }
 
 .BannerImgs {
-  position: relative;
-  width: 60%;
-  height: 676.43px;
-  left: 40%;
-  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 
 #BanImg03{
@@ -252,15 +305,7 @@ width: 25%;
   background-color: #fefefe;
 }
 
-.LineBAnner {
-  height: 240px;
-  width: 100%;
-  background-image: url("../img/Captura de pantalla 2020-11-21 184410.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #56ccf2;
-}
+
 
 .crop {
   position: relative;
@@ -269,16 +314,94 @@ width: 25%;
   width: auto;
 }
 
-.Referencias {
-  position: relative;
-  height: 560px;
-  width: 100%;
-  background-color: #fefefe;
-  background-image: url("../img/Captura de pantalla 2020-11-22 151710.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.ReferenciasUsuarios{
+  padding-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.TituloReferencias h1{
+  font-family: "Poppins", sans-serif;
+  color: #56ccf2;
+  text-align: center;
+  font-size: 3.9vw;
+}
+
+.TituloReferencias h2{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #5c5c5c;
+  font-size: 1.5vw;
+}
+
+.OpinionesUsuarios{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  font-family: "Poppins", sans-serif;
+}
+
+    .TextoOpinion{
+      text-align: justify;
+      color: #5c5c5c;
+    }
+
+    .TextoOpinion h1{
+      font-family: 'DM Serif Text', serif;
+      font-size: 7vw;
+      margin-bottom: -10%;
+    }
+
+    .TextoOpinion h3{
+      font-size: 1.3vw;
+    }
+
+.OpinionesIndividuales{
+  width: 27%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.22);
+}
+
+.FotoUsuario{
+  width: 33.33%;
+ 
+}
+
+.FotoUsuario img{
+  width: 90%;
+  border-radius: 100%;
+}
+
+  .PerfilUsuario{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+  .DescripcionUsuario{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .DescripcionUsuario h1{
+    font-size: 1.4vw;
+  }
+
+  .DescripcionUsuario h2{
+    font-size: 1.3vw;
+    color: #5c5c5c;
+  }
+
 
 .Precios {
   height: 720px;
@@ -331,79 +454,87 @@ width: 25%;
 }
 
 .LastBanner {
-  height: 600px;
   width: 100%;
   background-color: #fefefe;
-  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
-
-.LastBanner p {
+.TextoLastBanner{
+  width: 50%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.TextoLastBanner p {
   position: relative;
   font-weight: 900;
   color: #56ccf2;
   font-size: 3.5vw;
-  left: 59%;
-  top: 40%;
 }
+
+.ImagenesBanner{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 #LastImg {
+  width: 85%;
+}
+
+/*#LastImg02 {
   position: relative;
-  width: 50%;
-  height: 90%;
-  top: -40%;
-  z-index: 30;
-}
+}*/
 
-#LastImg02 {
-  position: relative;
-  width: 60%;
-  height: 100%;
-  top: -140%;
-}
+       /* .IconPackFooter img {
+          float: right;
+        }
+        footer {
+          position: absolute;
+          height: 265px;
+          width: 100%;
+          background-color: #212121;
+          background-image: url("../img/Group 96.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
 
-.IconPackFooter img {
-  float: right;
-}
-footer {
-  position: absolute;
-  height: 265px;
-  width: 100%;
-  background-color: #212121;
-  background-image: url("../img/Group 96.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+        footer p {
+          color: #fefefe;
+        }
 
-footer p {
-  color: #fefefe;
-}
+        #FooterImg01 {
+          margin-top: 1%;
+          width: 10%;
+          height: 10%;
+        }
 
-#FooterImg01 {
-  margin-top: 1%;
-  width: 10%;
-  height: 10%;
-}
+        #FooterImg02 {
+          margin-top: 2%;
+          margin-left: 1%;
+          width: 7%;
+          height: 10%;
+        }
 
-#FooterImg02 {
-  margin-top: 2%;
-  margin-left: 1%;
-  width: 7%;
-  height: 10%;
-}
+        #FooterImg03 {
+          margin-top: 2%;
+          margin-left: 1%;
+          width: 10%;
+          height: 10%;
+        }
 
-#FooterImg03 {
-  margin-top: 2%;
-  margin-left: 1%;
-  width: 10%;
-  height: 10%;
-}
+        #FooterImg04 {
+          margin-top: 2%;
+          width: 10%;
+          height: 10%;
+        }*/
 
-#FooterImg04 {
-  margin-top: 2%;
-  width: 10%;
-  height: 10%;
-}
-
+        
 #layer {
   width: 0.2%;
   height: 0.3%;
@@ -599,16 +730,6 @@ footer p {
 
   #LastImg02{
     top: 2%;
-  }
-
-  footer {
-    height: 80px;
-  }
-
-  .IconPackFooter img {
-    float: right;
-    width: 17vw;
-    height: 10vw;
   }
 }
 
