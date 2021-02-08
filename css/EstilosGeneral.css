@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +20,7 @@
 .Banner_Rectangulo {
   width: 100%;
   height: 700px;
-  background: linear-gradient(253.58deg, #5693be 1.55%, #5c9eeb 95.8%);
+  background: linear-gradient(253.58deg, #0F7CBF 1.55%, #0F7CBF 95.8%);
   /* Blue 3 */
   box-sizing: border-box;
 }
@@ -198,7 +200,7 @@ height: 45%;
   font-size: 1.5vw;
   text-size-adjust: auto;
   line-height: 200%;
-  color: #56ccf2;
+  color: #24345F;
 }
 
 .txtIlustraP p {
@@ -212,12 +214,13 @@ height: 45%;
   padding-left: 10%;
   text-align: justify;
   position: relative;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2vw;
 }
 
 .BannerMulti {
   width: 100%;
-  background-color: #5c9eeb;
+  background-color: #24345F;
   padding-bottom: 4%;
   padding-top: 4%;
   display: flex;
@@ -294,7 +297,7 @@ width: 25%;
 
 .Carreras > h2 {
   padding: 2%;
-  color: #56ccf2;
+  color: #24345F;
   text-align: center;
   font-size: 2vw;
 }
@@ -324,15 +327,15 @@ width: 25%;
 
 .TituloReferencias h1{
   font-family: "Poppins", sans-serif;
-  color: #56ccf2;
+  color: #24345F;
   text-align: center;
   font-size: 3.9vw;
 }
 
 .TituloReferencias h2{
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
-  color: #5c5c5c;
+  color: #0F7CBF;;
   font-size: 1.5vw;
 }
 
@@ -358,6 +361,7 @@ width: 25%;
 
     .TextoOpinion h3{
       font-size: 1.3vw;
+      font-family: 'Montserrat', sans-serif;;
     }
 
 .OpinionesIndividuales{
@@ -429,7 +433,7 @@ width: 25%;
   top: 25%;
   left: 10%;
   font-size: 4vw;
-  color: #56ccf2;
+  color: #24345F;
 }
 
 .Precios > .btn {
@@ -471,7 +475,7 @@ width: 25%;
 .TextoLastBanner p {
   position: relative;
   font-weight: 900;
-  color: #56ccf2;
+  color: #24345F;
   font-size: 3.5vw;
 }
 
