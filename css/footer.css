@@ -7,7 +7,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 1%;
-    padding-bottom: 1%;
   }
 
 
@@ -128,8 +127,8 @@ font-size:30px;
 }*/
 
 .SocialBar{
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     display: flex;
     justify-content: space-around;
     align-items: center;

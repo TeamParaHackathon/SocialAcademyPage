@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
 * {
     padding: 0;
     margin:  0;
@@ -24,7 +28,7 @@
 
 .EncabezadoOfertas{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', serif;
     font-size: 250%;
     color: #24345F;
 }
@@ -42,6 +46,7 @@
     align-items: center;
     width: 100%;
     background-color: #24345F;
+
 }
 
 .DescripcionOfertas{
@@ -169,7 +174,7 @@
 }
 
 .TextoPremium{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 120%;   
     color: rgb(63, 63, 63); 
 }
@@ -204,7 +209,7 @@
 .TituloOfertas{
     padding-top: 5%;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', serif;
     font-size: 250%;
     color: #24345F;
 }
@@ -285,7 +290,7 @@
 
 .TituloED{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 200%;
     color: #24345F;
 }
@@ -298,7 +303,7 @@
 
 .TituloT{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 200%;
     color: #24345F;
 }

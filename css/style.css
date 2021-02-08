@@ -23,7 +23,7 @@ a {
 header {
     position: fixed;
     top: 0px;
-    background-color: #56CCF2;
+    background-color: #24345F;
     width: 100%;
     z-index: 1000;
 }
@@ -107,7 +107,7 @@ section {
 .btn.solid,
 .btn.transparent:hover {
     background-color: #fff;
-    color: #56CCF2;
+    color: #24345F;
 }
 
 .btn.transparent,
@@ -164,7 +164,7 @@ section {
 .dropdown-link>a {
     display: flex;
     background-color: #f2f2f2;
-    color: #3498db;
+    color: #334986;
     padding: .5rem 1rem;
     font-size: .9rem;
     align-items: center;
@@ -173,7 +173,7 @@ section {
 }
 
 .dropdown-link:hover>a {
-    background-color: #3498db;
+    background-color: #334986;
     color: #f2f2f2;
 }
 
@@ -199,7 +199,7 @@ section {
 }
 
 .dropdown-link:first-child:hover~.arrow {
-    background-color: #3498db;
+    background-color: #334986;
 }
 
 .dropdown-link {
@@ -319,7 +319,7 @@ section {
         top: 3rem;
         left: 0;
         width: 100%;
-        background-color: #69bde7;
+        background-color: #334986;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
@@ -353,7 +353,7 @@ section {
     }
     .nav-link:hover>a {
         transform: scale(1);
-        background-color: #50a9d6;
+        background-color: #334986;
     }
     .dropdown,
     .dropdown.second {
@@ -365,7 +365,7 @@ section {
         pointer-events: auto;
         width: 100%;
         padding: 0;
-        background-color: #3183ac;
+        background-color: #334986;
         display: none;
     }
     .nav-link:hover>.dropdown,
@@ -393,22 +393,22 @@ section {
     }
     .arrow {
         z-index: 1;
-        background-color: #69bde7;
+        background-color: #334986;
         left: 10%;
         transform: scale(1.1) rotate(45deg);
         transition: .5s;
     }
     .nav-link:hover .arrow {
-        background-color: #50a9d6;
+        background-color: #334986;
     }
     .dropdown .dropdown .arrow {
         display: none;
     }
     .dropdown-link:hover>a {
-        background-color: #3a91bd;
+        background-color: #334986;
     }
     .dropdown-link:first-child:hover~.arrow {
-        background-color: #50a9d6;
+        background-color: #334986;
     }
     .nav-link>a>i {
         font-size: 1.1rem;

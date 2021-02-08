@@ -1,10 +1,12 @@
-*{
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');*{
     margin: 0;
     padding: 0;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', serif;
 }
 /*Estilos generales que contienen a todos los divs*/
 .contenedor{
@@ -31,7 +33,7 @@ body{
 .contenedor .banner{
     margin: 30px;
     height: 250px;
-    background-color: #56CCF2;
+    background-color: #0F7CBF;
     color: #FFF;
     grid-column-start: 1;
     grid-column-end: -1;
@@ -70,7 +72,7 @@ body{
 .contenedor .search input{
     width: 100%;
     height: 60px;
-    background: #56CCF2;
+    background: #9CBCD9;
     border-radius: 5px;
     color: white;
     padding-left: 20px;
@@ -110,7 +112,7 @@ body{
     border: none;
 }
 #searchList list-item:hover {
-    background-color: #2F80ED;
+    background-color: #24345F;
     color: #ffffff;
     transition:all 0.5s;
 }
@@ -145,7 +147,7 @@ body{
 /**********Targetas**********/
 /*Targetas de cada uno de los apartados de documentacion*/
 .tematicas{
-    background: #56CCF2;
+    background: #24345F;
     margin: 10px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0,0, 0.3);
@@ -174,7 +176,7 @@ body{
     width: 100px;
     position: absolute;
     color: #fff;
-    background: #2D9CDB;
+    background: #24345F;
     border-radius: 25px;
     display: flex;
     margin: 10px;
@@ -192,7 +194,7 @@ body{
 .carreras{
     width: 100%;
     height: 20%;
-    background: #56CCF2;
+    background: #24345F;
     border-radius: 5px;
     display: flex;
     justify-content: start;
