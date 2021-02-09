@@ -181,7 +181,7 @@
 }
 
 .BotonPremium {
-	color: #fff;
+	color: white;
 	text-decoration: none;
 	font-family: 'Poppins', Helvetica;
 	font-size: 1.3vw;
@@ -304,6 +304,141 @@
     font-size: 200%;
     color: #24345F;
 }
+
+/* INICIO CARDS OFERTAS*/
+.ContenedorOfertas{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.OfertasIndividuales{
+    height: 73%;
+    width: 21%;
+    margin: 0 15px;
+    margin-bottom: 0;
+    overflow: hidden;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, .3);
+    transition: 0.2s;
+}
+.OfertasIndividuales img{
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+    
+}
+
+
+.box-datos{
+    height: 275px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: .4s;
+}
+
+
+.box-datos h1{
+    font-size: 1em;
+   
+}
+.box-datos h2{
+    font-size: .8em;
+}
+.box-datos h1,h2{
+    font-family: 'Poppins', serif;
+    text-align: center;
+    color:  white;
+    
+}
+
+.Box-Titulo{
+    width: 100%;
+    background-color: #24345F;
+    padding-bottom: 5.5%;
+    padding-top: 5.5%;
+}
+
+.Box-Descripcion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  
+}
+.Items-Descripcion{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+.Box-Descripcion h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    font-size: 0.9em;
+    width: 80%;
+    color: #0F7CBF;
+    padding-left: 2%;
+    margin: 0;
+}
+
+.Box-Descripcion i{
+    color: #24345F;
+    font-size: 1.3em;
+    padding: 3%;
+    border: #24345F solid;
+    border-radius: 100%;
+    border-width: thin;
+}
+
+
+.OfertasIndividuales:hover{
+    box-shadow: 0 1px 15px rgba(0, 0, 0, .8);
+}
+.OfertasIndividuales:hover .box-datos{
+    transform: translateY(-215px);
+}
+
+.OfertasIndividuales:hover img {
+    background-color: rgba(0, 0, 0, .1);
+    opacity: 1;
+    filter:brightness(0.7);
+    transform: scale(1.4);
+}
+.btnAplicar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.btnAplicar button{
+    padding: 3%;   
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', serif;
+    background-color: #24345F;
+    color: white;
+    transition: 0.3s;
+}
+
+.btnAplicar button:hover{
+    width: 50%;letter-spacing: 0.1em;
+    background-color: #0F7CBF;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .5);
+}
+
+/* FINAL CARDS OFERTAS*/
 
 @media (max-width: 1100px){
     .Descripcion {
