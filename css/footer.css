@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 /*INICIO FOOTER */
 .InfoFooter{
     background-color: #212121;
@@ -6,7 +7,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 1%;
-    padding-bottom: 1%;
   }
 
 
@@ -65,7 +65,7 @@
               align-items: center;
               width: 100%;
             }
-.IconosRedes .btn,.IconosRedes .btn .fa,.IconosRedes .btn:before{
+/*.IconosRedes .btn,.IconosRedes .btn .fa,.IconosRedes .btn:before{
   transition:all .35s;
   transition-timing-function:cubic-bezier(0.31,-.105,.43,1.59);
 }
@@ -124,12 +124,63 @@ transform:rotate(45deg);
 }
 .IconosRedes .btn .fa{
 font-size:30px;
+}*/
+
+.SocialBar{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+#DIViconos{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size:30px;
+}
+
+#DIViconos a{
+    color:#909090;
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height:50px;
+    border:1px solid rgba(167,146,129,.4);
+    cursor:pointer;
+    transition:ease .5s;
+}
+#DIViconos a:hover{
+    color:#fff;
+    border:1px solid #fff;
+    transform:scale(1.1);
+}
+
+
+.IconosSocial{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.IconosSocial:hover>a{
+   opacity:.5;
+}
+.IconosSocial:hover>a:hover{
+    opacity:1;
 }
 
   .EnlacesFooter a{
     font-family: "Poppins", serif;
     position: relative;
-    color: white;
+    color: #cfcfcf;
     font-size: 100%;
     line-height: 160%;
   }
@@ -141,7 +192,7 @@ font-size:30px;
   }
 
   .EnlacesFooter a:hover{
-    color: #F5F362;
+    color: white;
     font-size: 110%;
     transition: 1s;
     
@@ -231,20 +282,16 @@ font-size:30px;
                 font-size: 65%;
             }
 
-            .IconosRedes .btn{
-                width:40px;
-                height:40px;
-                margin:0 5px;
-            }   
+            #DIViconos{
+              font-size:25px;
+          }
+          
+          #DIViconos a{
+              width:40px;
+              height:40px;
+          }
 
-            .IconosRedes .btn .fa{
-                font-size:25px;
-            }
-
-            .IconosRedes .btn:before{
-                width:150%;
-                height:150%;
-            }
+            
     /*FIN FOOTER*/
 }
 
@@ -274,15 +321,7 @@ font-size:30px;
           padding-left: 10%;
         }
   
-        .IconosRedes .btn{
-          width:35px;
-          height:35px;
-          margin:0 5px;
-        }   
-  
-       .IconosRedes .btn .fa{
-          font-size:25px;
-       }
+
   
        .Copyright{
         font-size: 40%;
@@ -315,14 +354,16 @@ font-size:30px;
       font-size: 60%;
     }
 
-    .IconosRedes .btn{
-      width:35px;
-      height:35px;
-    }   
-
-  .IconosRedes .btn .fa{
-      font-size:25px;
+    #DIViconos{
+      width: 70%;
+      font-size:20px;
   }
+  
+  #DIViconos a{
+      width:30px;
+      height:30px;
+  }
+    
   .EnlacesFooter a{
     font-size: 60%;
   }
@@ -370,6 +411,16 @@ font-size:30px;
     .Copyright{
       font-size: 20%;
     }
+
+    #DIViconos{
+      width: 60%;
+      font-size:30px;
+  }
+  
+  #DIViconos a{
+      width:50px;
+      height:50px;
+  }
 }
 
 @media only screen and (max-width: 400px){
@@ -402,5 +453,15 @@ font-size:30px;
       width: 75%;
       height: 1px;
     }
+
+    #DIViconos{
+      width: 70%;
+      font-size:20px;
+  }
+  
+  #DIViconos a{
+      width:40px;
+      height:40px;
+  }
   }
 /*FIN FOOTER RESPONSIVE*/

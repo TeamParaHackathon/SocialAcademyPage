@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 * {
     padding: 0;
     margin:  0;
@@ -14,18 +17,18 @@
 }
 
 .EncabezadoPublica{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', serif;
     font-size: 300%;
     text-align: center;
-    color:  #56CCF2;
+    color: #24345F;
 }
 
 .InfoPublica{
     padding-top: 2%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', serif;
     font-size: 150%;
     text-align: center;
-    color:  #1e295c;
+    color:  #0F7CBF;
 }
 
 button{
@@ -34,8 +37,8 @@ button{
 }
 
 #AcercaDeCabecera{
-    background-color: #1e295c;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #24345F;
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;
     color: white;
     line-height: 250%;
@@ -46,9 +49,7 @@ button{
     padding-right: 15%;
 }
 
-.Contacto{
-    padding-bottom: 8%;
-}
+
 
 .AcercaDe{
     padding-top: 8%;
@@ -86,18 +87,97 @@ button{
 }
 
 .ADtitle{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', serif;
     font-size: 200%;
     text-align: center;
-    color: #56CCF2;
+    color: #24345F;
 }
 
 .ADabout{
     padding-top: 5%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 150%;
     text-align: justify;
     line-height: 160%;
+}
+
+.ContenedorPasantia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+
+.BotonPasantia {
+width: 30%;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+align-items: center;
+font-family: 'Open Sans Condensed', sans-serif;
+justify-content: center;
+background-color: #24345F; 
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+
+
+.BotonPublicarPasantia {
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  width: 90%;
+  cursor: pointer;
+  font-family: 'Poppins', Helvetica;
+  color: #FFF;
+  font-size: 140%;
+  transition: all 0.3s;
+  position: relative;
+  text-decoration: none;
+}
+.BotonPublicarPasantia{
+  transition: all 0.3s;
+}
+.BotonPublicarPasantia::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(255,255,255,0.5);
+  border-bottom-color: rgba(255,255,255,0.5);
+  transform: scale(0.1, 1);
+}
+.BotonPublicarPasantia:hover span {
+  letter-spacing: 0.2em;
+}
+.BotonPublicarPasantia:hover::before {
+  opacity: 1;	
+  transform: scale(1, 1);	
+}
+.BotonPublicarPasantia::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255,255,255,0.1);
+}
+.BotonPublicarPasantia:hover::after {
+  opacity: 0;	
+  transform: scale(0.1, 1);
 }
 
 /*BAJAR LA CABECERA CUANDO EL MENU DE NAVEGACION SE DESPLIEGUE MEDIANTE UN ICCONO*/
