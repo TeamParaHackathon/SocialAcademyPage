@@ -180,7 +180,7 @@ font-size:30px;
   .EnlacesFooter a{
     font-family: "Poppins", serif;
     position: relative;
-    color: white;
+    color: #cfcfcf;
     font-size: 100%;
     line-height: 160%;
   }
@@ -192,7 +192,7 @@ font-size:30px;
   }
 
   .EnlacesFooter a:hover{
-    color: #F5F362;
+    color: white;
     font-size: 110%;
     transition: 1s;
     
