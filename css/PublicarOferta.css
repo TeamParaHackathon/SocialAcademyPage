@@ -311,6 +311,19 @@ padding-bottom: 1%;
 
 
 /*FORMULARIO PUBLICACION PROVISIONAL*/
+
+:root{
+    --colorTextos: #18161667;
+}
+
+::before,
+::after {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+}
+
 .form{
     width: 100%;
     margin: auto;
@@ -335,13 +348,13 @@ padding-bottom: 1%;
 .EncabezadoSoporte{
     text-align: justify;
     color: #56CCF2;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', serif;
     font-size: 300%;
 }
 
 .InfoSoporte{
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', serif;
     line-height: 140%;
     padding-top: 5%;
  
@@ -356,7 +369,7 @@ padding-bottom: 1%;
     padding-top: 4%;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
