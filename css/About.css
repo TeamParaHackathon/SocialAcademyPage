@@ -6,7 +6,7 @@
 }
 
 #banner{
-    padding-top: 5%;
+    padding-top: 15vw;
     text-align: center;
 }
 
@@ -248,6 +248,12 @@
         width: 100%;
     }
     #banner{
-        padding-top: 20%;
+        padding-top: 25vw;
+    }
+}
+
+@media (max-width: 450px){
+    #banner{
+        padding-top: 35vw;
     }
 }

@@ -311,7 +311,9 @@ textarea.inputContact {
 	opacity: 0.5;
 }
 
-
+.Padding__Contact{
+	height: 18vw;
+}
 
 @media (max-width: 850px) {
 
@@ -366,6 +368,9 @@ textarea.inputContact {
 		font-size: 15px;
 	}
 
+	.Padding__Contact{
+		height: 42vw;
+	}
 }
 
 @media (max-width: 480px) {
@@ -430,5 +435,8 @@ textarea.inputContact {
 
 	.btnContact {
 		padding: 0.45rem 1.2rem;
+	}
+	.Padding__Contact{
+		height: 75vw;
 	}
 }
