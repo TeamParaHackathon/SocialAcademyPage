@@ -55,7 +55,6 @@
 
 .BlanckFirst {
   width: 100%;
-  height: 800px;
   background-color: #fefefe;
 }
 
@@ -152,7 +151,8 @@ height: 45%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .IconosPEM p{
@@ -303,8 +303,9 @@ width: 25%;
 }
 
 .Carreras {
-  height: 850px;
   width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-color: #fefefe;
 }
 
@@ -408,33 +409,70 @@ width: 25%;
 
 
 .Precios {
-  height: 720px;
   width: 100%;
   background-color: #fefefe;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
-.Precios > div {
-  position: relative;
-  top: -6%;
-}
-
-.Precios {
-  overflow: hidden;
-}
-
-.Precios img {
-  float: right;
+.Precios__Texto{
   width: 50%;
-  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.Precios h2 {
-  position: relative;
-  top: 25%;
-  left: 10%;
-  font-size: 4vw;
-  color: #24345F;
+    .Precios h2 {
+      position: relative;
+      text-align: center;
+      align-items: center;
+      color: #24345F;
+      font-size: 4vw;
+      padding-top: 4%;
+      padding-bottom: 4%;
+    }
+
+.Precios__Cards{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
+
+#card1, #card2{
+  width: 40%;
+}
+
+
+.BotonPremium {
+	color: white;
+	text-decoration: none;
+	font-family: 'Poppins', Helvetica;
+	font-size: 1.4vw;
+	background: #24345F;
+	padding: 2%;
+	border-radius: 1vw;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	}
+
+	.BotonPremium:hover {
+		background: #434343;
+		letter-spacing: 0.1em;
+		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+		transition: all 0.4s ease 0s;
+		}
+
+
+
 
 .Precios > .btn {
   position: relative;
@@ -442,20 +480,6 @@ width: 25%;
   top: 30%;
 }
 
-#card1 {
-  position: relative;
-  left: -30%;
-  width: 19.5%;
-  height: 50%;
-  padding-top: 2%;
-}
-
-#card2 {
-  position: relative;
-  left: 15%;
-  width: 24%;
-  height: 50%;
-}
 
 .LastBanner {
   width: 100%;
@@ -464,8 +488,8 @@ width: 25%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .TextoLastBanner{
   width: 50%;
@@ -490,53 +514,6 @@ width: 25%;
 #LastImg {
   width: 85%;
 }
-
-/*#LastImg02 {
-  position: relative;
-}*/
-
-       /* .IconPackFooter img {
-          float: right;
-        }
-        footer {
-          position: absolute;
-          height: 265px;
-          width: 100%;
-          background-color: #212121;
-          background-image: url("../img/Group 96.png");
-          background-size: cover;
-          background-repeat: no-repeat;
-        }
-
-        footer p {
-          color: #fefefe;
-        }
-
-        #FooterImg01 {
-          margin-top: 1%;
-          width: 10%;
-          height: 10%;
-        }
-
-        #FooterImg02 {
-          margin-top: 2%;
-          margin-left: 1%;
-          width: 7%;
-          height: 10%;
-        }
-
-        #FooterImg03 {
-          margin-top: 2%;
-          margin-left: 1%;
-          width: 10%;
-          height: 10%;
-        }
-
-        #FooterImg04 {
-          margin-top: 2%;
-          width: 10%;
-          height: 10%;
-        }*/
 
         
 #layer {
@@ -567,15 +544,10 @@ width: 25%;
     height: 500px;
   }
 
-  .BlanckFirst {
-    height: 510px;
-  }
 
-  .BannerMulti {
-    height: 500px;
-  }
+
   .BannerMulti h2 {
-    font-size: 2vh;
+    font-size: 3vw;
     line-height: 2;
   }
 
@@ -583,9 +555,6 @@ width: 25%;
     height: 460px;
   }
 
-  .LastBanner {
-    height: 500px;
-  }
 }
 
 /*----------------------------------------- Second Media Query-----------------------------------------------------------------------------------*/
@@ -603,6 +572,50 @@ width: 25%;
 }
 
 /*----------------------------------------- Third Media Query-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 700px){
+  .Precios {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  .Precios__Texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+      .Precios h2 {
+        font-size: 5vw;
+        padding-top: 4%;
+        padding-bottom: 4%;
+      }
+  
+  .Precios__Cards{
+    width: 100%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  #card1, #card2{
+    width: 40%;
+  }
+  
+  .BotonPremium {
+    font-size: 2.5vw;
+    background: #24345F;
+    padding: 2%;
+    }
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
   .LineBAnner {
     height: 100px;
@@ -646,9 +659,7 @@ width: 25%;
     display: none;
   }
 
-  .BlanckFirst {
-    height: 300px;
-  }
+
 
   .Proyectos {
     position: relative;
@@ -662,21 +673,7 @@ width: 25%;
   }
 
   #img01 {
-    width: 40%;
-    height: 21%;
-    position: absolute;
-    top: 65%;
-    float: left;
-    clip-path: polygon(
-      0% 20%,
-      60% 20%,
-      60% 0%,
-      100% 50%,
-      60% 100%,
-      60% 80%,
-      0% 80%
-    );
-    margin: auto;
+    width: 90%;
   }
   .parrafo {
     position: relative;
@@ -689,29 +686,17 @@ width: 25%;
     text-align: center;
   }
 
-  .BannerMulti {
-    height: 200px;
-  }
 
   .BannerMulti h2 {
     text-align: center;
     line-height: 1.5rem;
   }
 
-  .Carreras {
-    height: 500px;
-  }
 
-  .Precios{
-    height: 300px;
-  }
+
 
   .Precios h2 {
-    position: relative;
-    top: -5%;
-    left: 10%;
     font-size: 4vw;
-    color: #56ccf2;
   }
 
   .Precios > .btn {
@@ -720,13 +705,6 @@ width: 25%;
     top: 50%;
   }
 
-  .Precios {
-    height: 400px;
-  }
-
-  .LastBanner {
-    height: 200px;
-  }
 
   #LastImg{
     top: -20%;
@@ -739,18 +717,12 @@ width: 25%;
 
 @media only screen and (max-width: 600px) {
   .parrafo{
-    font-size: 1.2vw;
+    font-size: 1.8vw;
+  }
+  
+  .LastBanner {
+    padding-top: 20%;
+    padding-bottom: 20%;
   }
 
-  .BannerMulti{
-    height: 300px;
-  }
-
-  .Carreras{
-    height: 300px;
-  }
-
-  .Precios h2{
-    top: 40%;
-  }
 }
