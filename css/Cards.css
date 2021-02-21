@@ -177,9 +177,7 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
-  .Carreras {
-    height: 500px;
-  }
+
 
   .center {
     height: 25vh;
@@ -192,9 +190,7 @@ p {
 
 @media only screen and (max-width: 535) {
 
-  .Carreras {
-    height: 300px;
-  }
+
 
   .center {
     height: 15vh;
@@ -209,10 +205,6 @@ p {
   }
 }
 
-@media only screen and (max-width: 600){
-  .Carreras{
-    height: 250px;
-  }
-}
+
 
 
