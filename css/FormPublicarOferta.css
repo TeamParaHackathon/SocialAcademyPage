@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'poppins', serif;
+}
+
+.wave_responsive{
+	display: none;
+}
+
+.Contenedor__PublicarOferta{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-family: 'Poppins', sans-serif;
+}
+.Formulario__PublicarOferta{
+	width: 90%;
+	height: 60vw;
+	border-radius: 4vw;
+	box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.3);
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+
+.Imagen_Fondo{
+	position: absolute;
+	z-index: -1;
+	height: 60vw;
+	border-radius: 4vw;
+}
+
+.Contenedor_Publicacion{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,  1fr);
+    grid-gap :7vw;
+    padding: 0 2vw;
+}
+
+.img{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.publicar-content{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+
+.img img{
+	width: 100%;
+}
+
+form{
+	width: 90%;
+}
+.btnInputPublicarOferta{
+	width: 50%;
+}
+
+.publicar-content img{
+	margin-top: 5%;
+    width: 40%;
+}
+
+.publicar-content h2{
+	margin: 1vw 0;
+	color:  #24345F;
+	font-family: 'Poppins', sans-serif;
+	font-size: 3vw;
+}
+
+.publicar-content .input-div{
+	position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 2vw 0;
+    padding: 0.2vw 0;
+    border-bottom: 0.1vw solid #d9d9d9;
+	
+}
+
+.publicar-content .input-div.one{
+	margin-top: 0;
+}
+
+.i{
+	color: #d9d9d9;
+	font-size: 1.7vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.i i{
+	transition: .3s;
+}
+
+.input-div > div{
+    position: relative;
+	height: 3.5vw;
+}
+
+.input-div > div > h5{
+	position: absolute;
+	left: 2vw;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #999;
+	font-size: 1.4vw;
+	transition: .3s;
+}
+
+.input-div:before, .input-div:after{
+	content: '';
+	position: absolute;
+	bottom: -0.2vw;
+	width: 0%;
+	height: 2px;
+	background-color:  #24345F;
+	transition: .4s;
+}
+
+.input-div:before{
+	right: 50%;
+}
+
+.input-div:after{
+	left: 50%;
+}
+
+.input-div.focus:before, .input-div.focus:after{
+	width: 50%;
+}
+
+.input-div.focus > div > h5{
+	top: -0.8vw;
+	color:  #24345F;
+	font-size:  1.1vw;
+}
+
+.input-div.focus > .i > i{
+	color:  #24345F;
+}
+
+
+
+.input-div > div > input{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0.5vw 0.7vw;
+	font-size: 1.5vw;
+	color: #555;
+	font-family: 'poppins', sans-serif;
+	resize: none;
+	
+}
+
+.input-div.pass{
+	margin-bottom: 0.2vw;
+}
+
+
+
+.btnInputPublicarOferta{
+	display: block;
+	width: 50%;
+	height: 4vw;
+	border-radius: 2.5vw;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right,  #24345F, #0F7CBF,  #24345F);
+	background-size: 200%;
+	font-size: 1.5vw;
+	color: #fff;
+	font-family: 'poppins', sans-serif;
+	margin: 1vw 0;
+	cursor: pointer;
+	transition: .5s;
+}
+.btnInputPublicarOferta:hover{
+	background-position: right;
+}
+
+.InputPublicarOferta{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.input-group{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+	display: grid;
+	margin: 2vw 0;
+    padding: 0.2vw 0;
+    grid-template-columns: 7% 93%;
+}
+
+.input-div.focus > .i > i{
+	color:  #24345F;
+}
+
+ textarea{
+    background: none;
+    color: #555;
+	font-family: 'poppins', serif;
+	
+    font-size: 1.5vw;
+    padding: 0.5vw 0.7vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border:none;
+    border-bottom: 2px solid #d9d9d9;
+    resize: none;
+}
+
+
+
+textarea:focus{
+    outline: none;
+    color: rgb(94,93,93);
+}
+
+
+textarea:focus~label, textarea:valid~label{
+    position: absolute;
+	top: -0.8vw;
+	color:  #24345F;
+	font-size:  1.1vw;
+	font-family: 'Poppins', serif;
+	
+}
+
+textarea:focus~i, textarea:valid~i{
+	position: absolute;
+	color: #555;
+}
+.input-group i{
+	color: #555;
+	font-size: 1.7vw;
+	transition: .3s;
+}
+
+label{
+    color: #555;
+	font-size: 1.4vw;
+	
+	font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 4vw;
+    top: 2%;
+    transition: 0.5s ease all;
+    pointer-events: none;
+	top: 20%;
+	transform: translateY(-50%);
+}
+textarea:focus~.Textbox::before{
+    width: 1450%;
+}
+
+
+textarea:focus > .i > i{
+	color:  #24345F;
+}
+
+.Textbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+	font-family: 'poppins', serif;
+	
+}
+
+.Textbox::before{
+    content: '';
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: #24345F;
+    transition: 0.3s ease all;
+    left: 0%;
+	font-family: 'poppins', serif;
+}
+
+
+@media screen and (max-width: 800px){
+	.Formulario__PublicarOferta{
+		height: 78vw;
+		
+	}
+	.Contenedor_Publicacion{
+		grid-template-columns: repeat(2,  1fr);
+		grid-template-columns: 45% 55%;
+		grid-gap :5vw;
+	}
+
+	.Imagen_Fondo{
+		height: 78vw;
+		border-radius: 4vw;
+		width: 45vw;
+	}
+	
+	.i{
+		font-size: 3.2vw;
+	}
+
+	.input-div > div{
+		height: 5.5vw;
+	}
+	
+	.input-div > div > h5{
+		top: 50%;
+		font-size: 2.5vw;
+	}
+	
+
+	.input-div.focus > div > h5{
+		font-size:  1.8vw;
+	}
+
+	.input-div > div > input{
+		left: 1vw;
+		font-size: 2.5vw;
+	}
+
+	a{
+		font-size: 2vw;
+	}
+	
+	
+	.btnInputPublicarOferta{
+		height: 5vw;
+		font-size: 2.5vw;
+	}
+
+	
+	 textarea{
+		padding: 0.5vw 0.7vw;
+		padding-left: 2vw;
+		font-size: 2.5vw;
+	}
+	
+	textarea:focus~label, textarea:valid~label{
+		font-size:  1.8vw;
+		font-family: 'Poppins', serif;
+	}
+	
+	.input-group i{
+		font-size: 3.2vw;
+	}
+	
+	label{
+		font-size: 2.5vw;
+		font-family: 'Poppins', serif;
+		left: 5vw;
+	}
+	
+}
+
+@media screen and (max-width: 650px){
+
+	.Formulario__PublicarOferta{
+		height: 150vw;
+		
+	}
+	.Contenedor_Publicacion{
+		grid-template-columns: 1fr;
+	}
+
+	.img{
+		display: none;
+	}
+
+	.Imagen_Fondo{
+		display: none;
+	}
+
+	.publicar-content{
+		justify-content: center;
+	}
+
+	.Imagen_Responsive{
+		width: 100%;
+	}
+	.wave_responsive{
+		width: 100%;
+		display: flex;
+		border-radius: 4vw;
+	}
+	.publicar-content img{
+		margin-top: 0;
+		width: 50%;
+	}
+
+	.publicar-content h2{
+		font-size: 5vw;
+	}
+
+	.publicar-content .input-div{
+		margin: 4vw 0;
+		padding: 0.2vw 0;
+	}
+
+	.i{
+		font-size: 5vw;
+	}
+
+	.input-div > div{
+		height: 8vw;
+	}
+	
+	.input-div > div > h5{
+		top: 50%;
+		font-size: 3.8vw;
+		left: 5vw;
+	}
+	
+
+	.input-div.focus > div > h5{
+		font-size:  2.5vw;
+	}
+
+	.input-div > div > input{
+		left: 3vw;
+		font-size: 3.8vw;
+	}
+	
+	
+	.btnInputPublicarOferta{
+		width: 40%;
+		height: 7vw;
+		border-radius: 5vw;
+		font-size: 3.8vw;
+	}
+
+	
+	 textarea{
+		padding: 0.5vw 0.7vw;
+		padding-left: 4vw;
+		font-size: 3.8vw;
+	}
+	
+	textarea:focus~label, textarea:valid~label{
+		font-size:  2.5vw;
+		font-family: 'Poppins', serif;
+	}
+	
+	.input-group i{
+		font-size: 5vw;
+	}
+	
+	label{
+		font-size: 3.8vw;
+		left: 10vw;
+		font-family: 'Poppins', serif;
+	}
+}
+
+
+@media screen and (max-width: 350px){
+
+	.Formulario__PublicarOferta{
+		height: 180vw;
+		
+	}
+
+	.publicar-content img{
+		width: 60%;
+	}
+
+	.publicar-content h2{
+		font-size: 7vw;
+		padding-bottom: 3vw;
+	}
+
+	.publicar-content .input-div{
+		margin: 4.5vw 0;
+	}
+
+	.i{
+		font-size: 7vw;
+	}
+
+		.input-div > div{
+			height: 10vw;
+		}
+	
+	.input-div > div > h5{
+		font-size: 5vw;
+		left: 7vw;
+	}
+	
+
+	.input-div.focus > div > h5{
+		font-size:  3vw;
+	}
+
+	.input-div > div > input{
+		left: 5vw;
+		font-size: 5vw;
+	}
+	
+	
+	.btnInputPublicarOferta{
+		width: 60%;
+		height: 10vw;
+		border-radius: 5vw;
+		font-size: 7vw;
+	}
+
+	
+	 textarea{
+		padding: 0.5vw 0.7vw;
+		padding-left: 6vw;
+		font-size: 5vw;
+	}
+	
+	textarea:focus~label, textarea:valid~label{
+		font-size:  3vw;
+	}
+	
+	.input-group i{
+		font-size: 7vw;
+	}
+	
+	label{
+		font-size: 5vw;
+		left: 12vw;
+	}
+}

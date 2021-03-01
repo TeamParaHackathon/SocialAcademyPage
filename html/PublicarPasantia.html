@@ -2,24 +2,28 @@
 <html lang="en">
 
 <head>
+
+    <title>Publicar Pasantia</title>
+
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  
 
     <link rel="stylesheet" href="../css/EstilosGeneral.css" />
     <link rel="stylesheet" href="../css/style.css" />
 
-    <script src="https://kit.fontawesome.com/08dc7475a0.js" crossorigin="anonymous"></script>
 
-
-    <link rel="stylesheet" href="../css/Contact.css" />
     <link rel="stylesheet" href="../css/PublicarOferta.css" />
     <link rel="stylesheet" href="../css/footer.css" />
 
+    <link rel="stylesheet" type="text/css" href="../css/FormPublicarOferta.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/08dc7475a0.js" crossorigin="anonymous"></script>
-    <title>Publicar Pasantia</title>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -149,53 +153,90 @@
         </div>
 
 
-        <form action="">
-            <div class = "Contacto">
+        <div class="Contenedor__PublicarOferta">
 
-                <div class="Groupbox">
-                    <input type="text" name="" id="" required>
-                    
-                    <span class="Textbox"></span>
-                    <label> <i class="fa fa-building" aria-hidden="true"></i>   Empresa</label>
-                </div>
-    
-                <div class="Groupbox">
-                    <input type="text" name="" id="" required>
-                    <span class="Textbox"></span>
-                    <label><i class="fa fa-map-marker" aria-hidden="true"></i>  Dirección</label>
-                </div>
-    
-                <div class="Groupbox">
-                    <input type="text" name="" id="" required>
-                    <span class="Textbox"></span>
-                    <label><i class="fa fa-university" aria-hidden="true"></i>  Carrera</label>
-                </div>
 
-                <div class="Groupbox">
-                    <input type="text" name="" id="" required>
-                    <span class="Textbox"></span>
-                    <label><i class="fa fa-briefcase" aria-hidden="true"></i>   Cargo</label>
+            <div class="Formulario__PublicarOferta">
+                <div class="OverflowHidden">
+                    <img class="Imagen_Fondo" src="../img/FormPublicarOferta/wave.png">
                 </div>
-
-                <div class="Groupbox">
-                    <textarea name="" id="" rows="3" required></textarea>
-                    <span class="Textbox"></span>
-                    <label><i class="fa fa-check-square-o" aria-hidden="true"></i>  Requerimientos</label>
-                </div>
+                <div class="Contenedor_Responsive">
+                    <div class="Imagen_Responsive">
+                        <img class="wave_responsive" src="../img/FormPublicarOferta/wave-responsive.png">
+                    </div>
     
+    
+    
+                    <div class="Contenedor_Publicacion">
+                        <div class="img">
+                            <img src="../img/FormPublicarOferta/Graduadas.png">
+                        </div>
+                        <div class="publicar-content">
+                            <form action="#">
+                                <img src="../img/FormPublicarOferta/celeste.png">
+                                <h2 class="title_Publica">Publica Ahora</h2>
+                                   
+                                    <div class="input-div one">
+                                            <div class="i">
+                                                <i class="far fa-building"></i>
+                                            </div>
+                                            <div class="div">
+                                                    <h5>Empresa</h5>
+                                                    <input type="text" class="input">
+                                            </div>
+                                    </div>
+                                    <div class="input-div one">
+                                        <div class="i">
+                                            <i class="fas fa-map-marked-alt"></i>
+                                        </div>
+                                        <div class="div">
+                                                <h5>Direccion</h5>
+                                                <input type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="input-div one">
+                                        <div class="i">
+                                                <i class="fa fa-university"></i>
+                                        </div>
+                                        <div class="div">
+                                                <h5>Carrera</h5>
+                                                <input type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="input-div one">
+                                        <div class="i">
+                                                <i class="fa fa-briefcase"></i>
+                                        </div>
+                                        <div class="div">
+                                                <h5>Cargo</h5>
+                                                <input type="text" class="input">
+                                        </div>
+                                    </div>
+        
+                                    <div class="input-group">
+                                            <div class="i">
+                                                <i class="far fa-check-circle"></i>
+                                            </div>
+                                            
+                                            <textarea name="" class="input" rows="3" required></textarea>
+                                            <span class="Textbox"></span>
+                                            
+                                            <label>  Requisitos</label>
+                                    </div>
+        
+                                    <div class="InputPublicarOferta">
+                                        <input type="submit" class="btnInputPublicarOferta" value="Publicar">
+                                    </div>
+                                 
+                            </form>
+                        </div>
+                    </div>
+                </div>
                 
-            </div>           
-            
-            
-            <div class="ContenedorPasantia">
-                <div class="BotonPasantia">
-                  <a class="BotonPublicarPasantia" href="#">
-                    <span>Publica tu oferta</span>
-                  </a>
-              
-                </div>
-              </div>
-        </form>
+            </div>
+    
+    
+        </div>
 
         
 
@@ -275,6 +316,9 @@
             </a>
         </div>
     </footer>
+
+
+    <script type="text/javascript" src="../Js/FormPublicarOferta.js"></script>
 </body>
 
 </html>
