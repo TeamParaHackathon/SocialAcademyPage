@@ -7,8 +7,8 @@
     <link href="https://file.myfontastic.com/tc26fJHv8scB3d4vHQRRsV/icons.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilosblog.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/EstilosGeneral.css">
     <link rel="stylesheet" href="../css/footer.css" />
 </head>
 
@@ -154,38 +154,26 @@
 
             </div>
         </div>
+        <div class="wave">
+            <div style="height: 100px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #24345F;"></path></svg></div>
+        </div>
         <div class="todaslascarreras">
-            <ul>
-                <li class="list active" data-filter="todo">Todo</li>
-                <li class="list" data-filter="data1">Preguntas</li>
-                <li class="list" data-filter="data2">Etiquetas</li>
-                <li class="list" data-filter="data3">Usuario</li>
-                <li class="list" data-filter="data4">Preguntas sin responder</li>
-            </ul>
+            <section class="filtro">
+                <ul>
+                    <li class="list active" data-filter="todo">*</li>
+                    <li class="list" data-filter="pregunta">Preguntas</li>
+                    <li class="list" data-filter="comentarios">Comentarios</li>
+                    <li class="list" data-filter="etiquetas">Etiquetas</li>
+                    <li class="list" data-filter="usuario">Usuario</li>
+                    <li class="list" data-filter="sinresponder">Preguntas sin responder</li>
+                </ul>
+            </section>
         </div>
         <main class="principal">
-
         </main>
-
-        <div class="capa-data"></div>
-        <div class="container-data">
-            <div class="photo-input">
-
-                <div class="perfil-photo">
-                    <img src="../img/image (4).jpg" id="photoSelect" alt="">
-                </div>
-                <input type="file" id="loadPhoto">
-                <input type="text" placeholder="Su nombre">
-
-            </div>
-
-            <textarea class="mensaje" name="" id="" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
-
-            <button class="btn-comment">Comentar</button>
-        </div>
     </div>
-
-    <div class="comentarios">
+    <div class="itemBox todo"></div>
+    <div class="itemBox pregunta">
         <div id="disqus_thread"></div>
         <script>
             /**
@@ -207,6 +195,10 @@
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
                 Disqus.</a></noscript>
     </div>
+    <div class="itemBox comentarios"></div>
+    <div class="itemBox etiquetas"></div>
+    <div class="itemBox usuario"></div>
+    <div class="itemBox sinresponder"></div>
 
         <footer>
             <div class="InfoFooter">
@@ -247,15 +239,13 @@
                 </a>
             </div>
         </footer>
-    <script src="../Js/jquery.js"></script>
+    <script src="../Js/jquery-3.5.1.js"></script>
     <script src="../Js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('.list').click(function () {
                 const value = $(this).attr('data-filter');
-                if (value == 'todo') {
+                if (value == '') {
                     $('.itemBox').show('1000');
                 }
                 else {

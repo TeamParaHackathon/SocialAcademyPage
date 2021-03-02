@@ -7,7 +7,7 @@
 }
 
 .content{
-    width: 95%;
+    width: 100%;
     max-width: 1500px;
     margin: 20px auto;
     display: flex;
@@ -18,7 +18,7 @@
     margin-top: 40px;
     width: 100%;
     height: 250px;
-    background-color: #0F7CBF;
+    background-color: #24345F;
     font-family: 'Poppins', serif;
     display: flex;
 }
@@ -49,251 +49,69 @@
 .item2 p{
     padding-left: 10px;
 }
-.todaslascarreras{
+
+
+/*Filtrado de documentacion*/
+.filtro{
+    padding: 20px;
     width: 100%;
-    background-color:#24345F;
+    margin: 10px auto;
+}
+.filtro ul{
     display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-family: 'Poppins', serif;
-}
-/********FILTRO DE CARRERAS****/
-.todaslascarreras a{
-    text-decoration: none;
-    color: rgb(94, 94, 94);
-}
-.todaslascarreras ul{
+    flex-direction: row;
+    justify-content: space-between;
+
     margin-bottom: 10px;
-    color: #ffff;
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
+    animation: moverizquierda 1s ease-in;
 }
-.todaslascarreras ul li{
+.filtro ul li{
     list-style: none;
-    margin-top:20px;
+    padding: 8px 20px;
+    letter-spacing: 1px;
     cursor: pointer;
-    display: flex;
-}
-.todaslascarreras ul li.active{
-    color: #9CBCD9;
+
 }
 
-.sidebar .todaslascarreras .h{
-    margin: 0%;
-}
-.sidebar .todaslascarreras .tipo{
-    color: white;
-}
-.content .principal{
-    margin-top: 20px;
-    padding-right: 20px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-items: center;
-    justify-content: center;
+.filtro ul li.active{
+    border-bottom: 2px solid #24345F;
 }
 
 
-main h1{
-    text-align: center;
-    font-size: 20px;
-}
-
-.line{
-    width: 900px;
-    height: 2px;
-    border-style: none;
-    background: #cecece;
-    margin-top: 20px;
-}
-
-.info-comments{
-    border-radius: 10px;
-}
-.container-comments, 
-.container-comments-request{
-    margin-top: 20px;
-}
-
-.container-comments-request{
-    margin-left: 100px;
-}
-
-.comments,
-.comments-request{
-    display: flex;
-}
-
-
-.photo-perfil{
-    width: 100px;
-    height: 82px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.photo-perfil-request{
-    width: 100px;
+.wave{
     height: 70px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.photo-perfil-request img{
     width: 100%;
-    height: 100%;
 }
 
-.photo-perfil img{
+.comentarios{
     width: 100%;
-    height: 100%;
+    height: 200px;
+    background: cornflowerblue;
 }
 
-
-.info-comments,
-.info-comments-request{
-    margin-left: 20px;
-    background: #e6e6e6;
-    transition: all 300ms;
-    margin-top: 10px;
-}
-
-
-.info-comments .header,
-.info-comments-request .header{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background: #019CDE;
-    color: white;
-
-}
-
-.info-comments p,
-.info-comments-request p{
-    padding: 20px;
-}
-
-.info-comments .footer,
-.info-comments-request .footer{
+.pregunta{
     width: 100%;
-    background: white;
-    padding: 10px;
-    color: #5f5f5f;
-    display: flex;
-    justify-content: space-between;
-}
-
-.info-comments .footer h5,
-.info-comments-request .footer h5{
-    font-size: 15px;
-    cursor: pointer;
-}
-
-.info-comments .icon-heart,
-.info-comments-request .icon-heart{
-    color: #aaaaaa;
-    transition: all 300ms;
-}
-
-.info-comments .icon-heart:hover,
-.info-comments-request .icon-heart:hover{
-    color: #d91111;
-    cursor: pointer;
+    height: 200px;
+    background: rgb(52, 65, 88);
 }
 
 
-
-/*Contenedor para los datos de comentarios*/
-
-
-.container-data{
-    width: 90%;
-    bottom: 0px;
-    position: fixed;
-    background: white;
-    padding: 20px;
-    padding-bottom: 80px;
-    z-index: 11;
-    border-top: 6px solid #019CDE;
-}
-
-.photo-input{
-    display: flex;
-}
-
-
-.perfil-photo{
-    width: 100px;
-    height: 96px;
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.perfil-photo img{
+.etiquetas{
     width: 100%;
-    height: 100%;
+    height: 200px;
+    background: rgb(36, 99, 207);
 }
 
-.photo-input input{
-    width: 400px;
-    height: 40px;
-    padding: 8px;
-    background: none;
-    border-style: none;
-    outline: 0px;
-    border-bottom: 2px solid #8d8d8d;
-    margin-top: 50px;
-    margin-left: 20px;
-    font-size: 16px;
-}
 
-.mensaje{
+.usuario{
     width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 300px;
-    min-height: 100px;
-    margin-top: 20px;
-    padding: 20px;
-    font-size: 16px;
-    background: #ebebeb;
+    height: 200px;
+    background: rgb(28, 161, 39);
 }
 
-.btn-comment{
-    position: absolute;
-    right: 20px;
-    padding: 10px 80px;
-    font-size: 16px;
-    color: white;
-    background: #019CDE;
-    border-style: none;
-    margin-top: 20px;
-    cursor: pointer;
-}
 
-.btn-comment:hover{
-    opacity: 0.9;
-}
-
-.capa-data{
+.sinresponder{
     width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: black;
-    opacity: 0.8;
-    z-index: 10;
+    height: 200px;
+    background: rgb(82, 36, 207);
 }
-
-
-
-
-
-
