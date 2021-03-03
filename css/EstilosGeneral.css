@@ -420,7 +420,7 @@ width: 25%;
 }
 
 .Precios__Texto{
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -435,10 +435,12 @@ width: 25%;
       font-size: 4vw;
       padding-top: 4%;
       padding-bottom: 4%;
+      padding-left: 2%;
+      padding-right: 2%;
     }
 
 .Precios__Cards{
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

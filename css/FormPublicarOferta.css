@@ -190,6 +190,7 @@ form{
 	background-image: linear-gradient(to right,  #24345F, #0F7CBF,  #24345F);
 	background-size: 200%;
 	font-size: 1.5vw;
+	font-weight: bold;
 	color: #fff;
 	font-family: 'poppins', sans-serif;
 	margin: 1vw 0;
@@ -251,7 +252,8 @@ textarea:focus~label, textarea:valid~label{
 	top: -0.8vw;
 	color:  #24345F;
 	font-size:  1.1vw;
-	font-family: 'Poppins', serif;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
 	
 }
 
@@ -260,18 +262,20 @@ textarea:focus~i, textarea:valid~i{
 	color: #555;
 }
 .input-group i{
-	color: #555;
+	color: #999;
 	font-size: 1.7vw;
 	transition: .3s;
 }
 
 label{
-    color: #555;
+    color: #999;
 	font-size: 1.4vw;
 	
 	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	
     position: absolute;
-    left: 4vw;
+    left: 4.6vw;
     top: 2%;
     transition: 0.5s ease all;
     pointer-events: none;
