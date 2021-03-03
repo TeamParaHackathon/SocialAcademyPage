@@ -59,7 +59,7 @@ p {
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image: url("../img/Sin tít9}ulo.png");
+  background-image: url("../img/Github.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -73,7 +73,7 @@ p {
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image: url("../img/Sin tíftulo.png");
+  background-image: url("../img/Renderizado_en_servidor_con_angular_universal.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
