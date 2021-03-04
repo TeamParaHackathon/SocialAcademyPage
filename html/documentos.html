@@ -1,385 +1,421 @@
 <!DOCTYPE html>
 <html lang=”en”>
-
 <head>
-    <meta charset=”UTF-8″ />
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>SocialAcademy</title>
-    <link REL=StyleSheet HREF="../css/styles.css" TYPE="text/css" MEDIA=screen>
-
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="../css/kimera.min.css">
-    <link rel="stylesheet" href="../css/EstilosGeneral.css" />
+    <meta charset=”UTF-8″ />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/icon" href="../img/Footer/LogotipoBlanco.png" />
+    <link rel="stylesheet" href="../css/estilosdocumentacion.css">
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/kimera.min.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">  
+    <script src="../Js/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="animate.css"/>
+    <link rel="stylesheet" href="../css/EstilosGeneral.css" />
+    
 
-    <script src="./Js/filtrado.js"></script>
 </head>
-
 <body>
-    <div class="contenedor">
-        <header>
-            <div class="container">
-                <input type="checkbox" name="" id="check" />
-                <div class="logoImg">
-                    <!--  <img src="../img/imgo (1).jpg" width="155px" height="55px">-->
-                </div>
-                <div class="logo-container">
-                    <h3 class="logo">Social <span>&nbsp; Academy</span></h3>
-                </div>
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check" />
+            <div class="logoImg">
+              
+            </div>
+            <div class="logo-container">
+                <h3 class="logo">Social <span>&nbsp; Academy</span></h3>
+            </div>
 
-                <div class="nav-btn">
-                    <div class="nav-links">
-                        <ul>
-                            <li class="nav-link" style="--i: 0.6s">
-                                <a href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-link" style="--i: 0.85s">
-                                <a href="#">Descubre<i class="fas fa-caret-down"></i></a>
-                                <div class="dropdown">
-                                    <ul>
-                                        <li class="dropdown-link">
-                                            <a href="Ofertas.html">Empresas</a>
-                                        </li>
-                                        <li class="dropdown-link">
-                                            <a href="documentos.html">Documentacion</a>
-                                        </li>
-                                        <li class="dropdown-link">
-                                            <a href="#">
-                                                My BlogPost <i class="fas fa-caret-down"></i></a>
-                                            <div class="dropdown second">
-                                                <ul>
-                                                    <li class="dropdown-link">
-                                                        <a href="blog.html">Foros</a>
-                                                    </li>
-                                                    <li class="dropdown-link">
-                                                        <a href="PublicarPasantia.html">Publicar Pasantia</a>
-                                                    </li>
-
-                                        </li>
-                                        <div class="arrow"></div>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="dropdown-link">
-                                <a href="Cursos_HTML/CursosGeneral.html">Cursos</a>
-                            </li>
-                            <div class="arrow"></div>
-                        </ul>
-                    </div>
-                    </li>
-                    <li class="nav-link" style="--i: 1.1s">
-                        <a href="About.html">Quienes Somos</i></a>
-                        <!--  <div class="dropdown">
+            <div class="nav-btn">
+                <div class="nav-links">
                     <ul>
-                      <li class="dropdown-link">
-                        <a href="#">Link 1</a>
-                      </li>
-                      <li class="dropdown-link">
-                        <a href="#">Link 2</a>
-                      </li>
-                      <li class="dropdown-link">
-                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
-                        <div class="dropdown second">
-                          <ul>
-                            <li class="dropdown-link">
-                              <a href="#">Link 1</a>
-                            </li>
-                            <li class="dropdown-link">
-                              <a href="#">Link 2</a>
-                            </li>
-                            <li class="dropdown-link">
-                              <a href="#">Link 3</a>
-                            </li>
-                            <li class="dropdown-link">
-                              <a href="#">More<i class="fas fa-caret-down"></i></a>
-                              <div class="dropdown second">
+                        <li class="nav-link" style="--i: 0.6s">
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-link" style="--i: 0.85s">
+                            <a href="#">Descubre<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
                                 <ul>
-                                  <li class="dropdown-link">
-                                    <a href="#">Link 1</a>
-                                  </li>
-                                  <li class="dropdown-link">
-                                    <a href="#">Link 2</a>
-                                  </li>
-                                  <li class="dropdown-link">
-                                    <a href="#">Link 3</a>
-                                  </li>
-                                  <div class="arrow"></div>
+                                    <li class="dropdown-link">
+                                        <a href="Ofertas.html">Empresas</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="documentos.html">Documentacion</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">
+                                            My BlogPost <i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="blog.html">Foros </a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="PublicarPasantia.html">Publicar Pasantia</a>
+                                                </li>
+
+                                    </li>
+                                    <div class="arrow"></div>
                                 </ul>
-                              </div>
-                            </li>
-                            <div class="arrow"></div>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-link">
-                        <a href="#">Link 4</a>
-                      </li>
-                      <div class="arrow"></div>
-                    </ul>
-                  </div> -->
-                    </li>
-                    <li class="nav-link" style="--i: 1.35s">
-                        <a href="Contact.html">Contactanos</a>
-                    </li>
+                            </div>
+                        </li>
+                        <li class="dropdown-link">
+                            <a href="../html/Cursos_HTML/CursosGeneral.html">Cursos</a>
+                        </li>
+                        <div class="arrow"></div>
                     </ul>
                 </div>
-
-                <div class="log-sign" style="--i: 1.8s">
-                    <a href="Login.html" class="btn transparent">Log in</a>
-                    <a href="Premium.html" class="btn solid">Premium</a>
-                </div>
+                </li>
+                <li class="nav-link" style="--i: 1.1s">
+                    <a href="About.html">Quienes Somos</i></a>
+                    
+                </li>
+                <li class="nav-link" style="--i: 1.35s">
+                    <a href="Contact.html">Contactanos</a>
+                </li>
+                </ul>
             </div>
 
-            <div class="hamburger-menu-container">
-                <div class="hamburger-menu">
-                    <div></div>
-                </div>
+            <div class="log-sign" style="--i: 1.8s">
+                <a href="../html/Login.html" class="btn transparent">Log in</a>
+                <a href="Premium.html" class="btn solid">Premium</a>
             </div>
-    </div>
+        </div>
+
+        <div class="hamburger-menu-container">
+            <div class="hamburger-menu">
+                <div></div>
+            </div>
+        </div>
+        </div>
     </header>
-    <div class="banner">
-        <div class="text">
-            <h1>Busca Documentación, videos o proyectos dentro la plataforma</h1>
-            <p>Access all tutorials and resources when you become a
-                premium member of Semaj Africa</p>
-        </div>
-        <div class="image">
-            <img src="../img/conocimiento.png" alt="#">
+    <div class="header">
+        <div class="container">
+            <div class="texto">
+                <div class="conttexto">
+                    <h1>Busca</h1> 
+                <ul>
+                    <h1>Documentacion</h1>
+                    <h1>Videos</h1>
+                    <h1>Proyectos </h1>
+                </ul>
+                </div>
+                    <h1 class="animate__animated animate__bounce">dentro la plataforma</h1>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, molestias?</h2>
+            </div>
+            <img class="imgconocimiento" src="../img/imgdoc/conocimiento.png" alt="conocimientos">
         </div>
     </div>
-    <div class="search">
+    <div class="wave">
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill:#24345F;"></path></svg></div>
+    </div>
+    <div class="contbuscador">
         <div class="buscador is-wrapper tablet-8 margin-1" id="bs1"></div>
     </div>
-    <div class="filtros">
-        <div class="etiquetas">
-            <p>Mostrando-Resultados</p>
+   
+    <!--	--------------->
+    <div class="content-all">
+            <input type="checkbox" id="check">
+        <div class="iconm">
+            <label for="check" class="icon-menu"><img class="iconme" src="../img/imgdoc/menu.png" alt=""></label>
         </div>
+        <nav class="menu">
+            <section class="filtro">
+                <ul>
+                    <li class="list active" data-filter="Todo">Todo</li>
+                    <li class="list" data-filter="programacion">Programacion</li>
+                    <li class="list" data-filter="ingenieria">Ingenieria</li>
+                    <li class="list" data-filter="economicas">Economia</li>
+                    <li class="list" data-filter="calud">Medicina</li>
+                    <li class="list" data-filter="administracion">Administracion</li>
+                    <li class="list" data-filter="diseño">Diseño</li>
+                </ul>
+            </section>
+        </nav>
     </div>
-    <main class="contenido">
-        <article class="tematicas itemBox data1">
-            <a href="../archivos.html">
-                <div class="img">
-                    <p class="ribbon">Gratis</p>
-                    <img src="../img/markethin.jpg" alt="#" class="imagenes">
+
+    <main>
+        <div class="container-box">
+            <div class="box box1 programacion itemBox">
+
+                <img src="../img/imgdoc/androidstudio.png" alt="">
+                <h2 class="animated infinite bounce">Programacion Movil</h2>
+                
+                <div class="container-p">
+                    <b class="animated infinite bounce" class="premium">Premium</b>
+                    <p>Lorem ipsum, Dignissimos minus non voluptatibus rem harum im?...</p>
+                    <a href="./pdf.html">Ver Doc</a>
                 </div>
-                <div class="carreras">
-                    <p>Programacion</p>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
                 </div>
-            </a>
-        </article>
-        <article class="tematicas itemBox data1">
-            <div class="img">
-                <p class="ribbon">Gratis</p>
-                <img src="../img/computer-1209641_1920.jpg" alt="#" class="imagenes">
+
             </div>
-            <div class="carreras">
-                <p>Programacion Web</p>
+
+            <div class="box box1 ingenieria itemBox">
+                <img src="../img/imgdoc/photoshop.png" alt="">
+                <h2>Photoshop</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-        </article>
-        <article class="tematicas itemBox data1">
-            <div class="img">
-                <p class="ribbon">Gratis</p>
-                <img src="../img/adobe.jpg" alt="#" class="imagenes">
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/angular.png" alt="">
+                <h2>Angular</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-            <div class="carreras">
-                <p>Diseños en XD</p>
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/powerbi.png" alt="">
+                <h2>PowerBI</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-        </article>
-        <article class="tematicas itemBox data2">
-            <div class="img">
-                <p class="ribbon">Premium</p>
-                <img src="../img/digital-marketing-1725340_1920.jpg" alt="#" class="imagenes">
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/dalvik.svg" alt="">
+                <h2>Programacion VideoGames</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-            <div class="carreras">
-                <p>Markething Digital</p>
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/sketchup.png" alt="">
+                <h2>Sketchup</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-        </article>
-        <article class="tematicas itemBox data3">
-            <div class="img">
-                <p class="ribbon">Gratis</p>
-                <img src="../img/samsung-793043_1920.jpg" alt="#" class="imagenes">
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/matematicas.png" alt="">
+                <h2>Matematica</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-            <div class="carreras">
-                <p>Contabilidad</p>
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/dashboard-icon-23660.png" alt="">
+                <h2>Inteligencia Negocio</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-        </article>
-        <article class="tematicas itemBox data3">
-            <div class="img">
-                <p class="ribbon">Premium</p>
-                <img src="../img/stock-1863880_1920.jpg" alt="#" class="imagenes">
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/moleculas.png" alt="">
+                <h2>Quimica</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-            <div class="carreras">
-                <p>Inteligencia De Negocio</p>
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/nodejs-45adbe594d.png" alt="">
+                <h2>Node JS</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-        </article>
-        <article class="tematicas itemBox data4">
-            <div class="img">
-                <p class="ribbon">Gratis</p>
-                <img src="../img/puzzle-2500328_1920.jpg" alt="#" class="imagenes">
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/1728969.png" alt="">
+                <h2>Derecho</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-            <div class="carreras">
-                <p>Administración De Bienes</p>
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/af5e0661fbe8ba2ec7ea5cfd90384c16.png" alt="">
+                <h2>Ingles</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-        </article>
-        <article class="tematicas itemBox data4">
-            <div class="img">
-                <p class="ribbon">Gratis</p>
-                <img src="../img/table-1284507_1920.jpg" alt="#" class="imagenes">
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/despues-de-los-efectos.png" alt="">
+                <h2>AfterEffets</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-            <div class="carreras">
-                <p>Musica y Sonido</p>
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/ACAD-logo.png" alt="">
+                <h2>AutoCad</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-        </article>
-        <article class="tematicas itemBox data4">
-            <div class="img">
-                <p class="ribbon">Gratis</p>
-                <img src="../img/success-2081168_1280.jpg" alt="#" class="imagenes">
+
+            <div class="box box1 itemBox">
+                <img src="../img/imgdoc/integral.png" alt="">
+                <h2>Integrales</h2>
+                
+                <div class="container-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minus non voluptatibus rem harum iste vero magnam voluptate, id laboriosam?...</p>
+                    <button class="button" name="" type="">DOC</button>
+                </div>
+
+                <div class="check">
+                    <i class="fas fa-check"></i>
+                </div>
             </div>
-            <div class="carreras">
-                <p>Success</p>
-            </div>
-        </article>
-        <article class="tematicas itemBox data1">
-            <div class="img">
-                <p class="ribbon">Gratis</p>
-                <img src="../img/server-1235959_1920.jpg" alt="#" class="imagenes">
-            </div>
-            <div class="carreras">
-                <p>Redes</p>
-            </div>
-        </article>
-        <article class="tematicas itemBox data5">
-            <div class="img">
-                <p class="ribbon">Gratis</p>
-                <img src="../img/luggage-2659025_1920.jpg" alt="#" class="imagenes">
-            </div>
-            <div class="carreras">
-                <p>Skepchup</p>
-            </div>
-        </article>
-        <article class="tematicas itemBox data5">
-            <div class="img">
-                <p class="ribbon">Premium</p>
-                <img src="../img/income-tax-491626_1920.jpg" alt="#" class="imagenes">
-            </div>
-            <div class="carreras">
-                <p>Administracion De Empresas</p>
-            </div>
-        </article>
-        <article class="tematicas itemBox data3">
-            <div class="img">
-                <p class="ribbon">Gratis</p>
-                <img src="../img/fotografia.jpg" alt="#" class="imagenes">
-            </div>
-            <div class="carreras">
-                <p>Fotografia</p>
-            </div>
-        </article>
-        <article class="tematicas itemBox data1">
-            <div class="img">
-                <p class="ribbon">Gratis</p>
-                <img src="../img/android-3383992_1280.png" alt="#" class="imagenes">
-            </div>
-            <div class="carreras">
-                <p>Programacion Movil(Android Studio)</p>
-            </div>
-        </article>
-        <article class="tematicas itemBox data1">
-            <div class="img">
-                <p class="ribbon">Gratis</p>
-                <img src="../img/web-3963945_1920.jpg" alt="#" class="imagenes">
-            </div>
-            <div class="carreras">
-                <p>Fotografia</p>
-            </div>
-        </article>
+        </div>
     </main>
-    <aside class="sidebar">
-        <div class="todaslascarreras">
-            <h4 class="h">Todas las Carreras</h4>
-            <ul>
-                <li class="list active" data-filter="todo">Todo</li>
-                <li class="list" data-filter="data1">Desarrollo Web (2908)</li>
-                <li class="list" data-filter="data2">Diseño (11293)</li>
-                <li class="list" data-filter="data3">Fotografia (2230)</li>
-                <li class="list" data-filter="data4">Arte 3d (9828)</li>
-                <li class="list" data-filter="data5">Motion Graphics (8223)</li>
-                <li class="list" data-filter="data6">Ingenieria de Software (1001)</li>
-                <li class="list" data-filter="data7">Desarrollo UI/ UX (734)</li>
-                <li class="list" data-filter="data8">Sonido & Musica (1223)</li>
-                <li class="list" data-filter="data9">Marketing Digital (382)</li>
-                <li class="list" data-filter="data10">Contabilidad (502)</li>
-            </ul>
+    <!-- <section class="bar">
+        <ul>
+            <li class="list active" data-filter="1">1</li>
+            <li class="list" data-filter="2">2</li>
+            <li class="list" data-filter="3">3</li>
+            <li class="list" data-filter="4">4</li>
+            <li class="list" data-filter="5">5</li>
+            <li class="list" data-filter="6">6</li>
+            <li class="list" data-filter="7">7</li>
+        </ul>
+    </section>
+-->
+
+<footer>
+    <div class="InfoFooter">
+        <div class="EnlacesFooter" >
+            <a href="../html/About.html" class="TextoLinks"><i class="far fa-address-card">  </i> &ensp; Acerca de</a>
+            <a href="../html/Contact.html" class="TextoLinks"><i class="far fa-question-circle"></i> &ensp; ¿Tienes preguntas? <h2>    &ensp; Contactanos</h2></a>
+            <a href="../html/Premium.html" class="TextoLinks"><i class="far fa-credit-card"></i> &ensp; Premium</a>
+            <a href="#" class="TextoLinks"><i class="fas fa-cookie"></i> &ensp; Cookie Policy</a>
+            <a href="#" class="TextoLinks"><i class="fas fa-mobile"></i> &ensp; App Movil</a>
         </div>
-    </aside>
-    </div>
-    <div class="paginacion">
-        <div class="number-pag">
-            <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        </div>
-        <div class="number-pag"><a href="">1</a></div>
-        <div class="number-pag">2</div>
-        <div class="number-pag">3</div>
-        <div class="number-pag">4</div>
-        <div class="number-pag">5</div>
-        <div class="number-pag">6</div>
-        <div class="number-pag">7</div>
-        <div class="number-pag">8</div>
-        <div class="number-pag">
-            <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        </div>
-    </div>
-    <footer>
-        <div class="InfoFooter">
-            <div class="EnlacesFooter" >
-                <a href="../html/About.html" class="TextoLinks"><i class="far fa-address-card">  </i> &ensp; Acerca de</a>
-                <a href="../html/Contact.html" class="TextoLinks"><i class="far fa-question-circle"></i> &ensp; ¿Tienes preguntas? <h2>    &ensp; Contactanos</h2></a>
-                <a href="../html/Premium.html" class="TextoLinks"><i class="far fa-credit-card"></i> &ensp; Premium</a>
-                <a href="#" class="TextoLinks"><i class="fas fa-cookie"></i> &ensp; Cookie Policy</a>
-                <a href="#" class="TextoLinks"><i class="fas fa-mobile"></i> &ensp; App Movil</a>
-            </div>
-            <div class="SocialFooter" >
-                <img src="../img/Footer/LogotipoBlanco.png" width="20%">
-                <h1 class="SocialInfo">
-                    Social Academy es una plataforma académica que ofrece un repositorio de información con documentación, cursos, ofertas de pasantías y recursos en vídeo compartidos por sus usuarios.
-                </h1>
-                <div class="SocialBar">
-                    <div id="DIViconos">
-                        <div class="IconosSocial">
-                                <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="https://www.youtube.com/channel/UCbU5HNKarAfPZxpc04AzSpg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                        </div>
+        <div class="SocialFooter" >
+            <img src="../img/Footer/LogotipoBlanco.png" width="20%">
+            <h1 class="SocialInfo">
+                Social Academy es una plataforma académica que ofrece un repositorio de información con documentación, cursos, ofertas de pasantías y recursos en vídeo compartidos por sus usuarios.
+            </h1>
+            <div class="SocialBar">
+                <div id="DIViconos">
+                    <div class="IconosSocial">
+                            <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/channel/UCbU5HNKarAfPZxpc04AzSpg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                     </div>
                 </div>
-                
             </div>
             
-            <div class="LogosFooter">
-                <img src="../img/Footer/LogoCI.png" width="45%">
-                <img src="../img/Footer/LogoCNU.png" width="45%">
-            </div>
         </div>
-        <div class="Copyright">
-            <h1 class="AllRight">All rights reserved | Social Academy © 2021</h1>
-            <a href="#" class="Privacy">
-                    Privacy Policy
-            </a>
+        
+        <div class="LogosFooter">
+            <img src="../img/Footer/LogoCI.png" width="45%">
+            <img src="../img/Footer/LogoCNU.png" width="45%">
         </div>
-    </footer>
+    </div>
+    <div class="Copyright">
+        <h1 class="AllRight">All rights reserved | Social Academy © 2021</h1>
+        <a href="#" class="Privacy">
+                Privacy Policy
+        </a>
+    </div>
+</footer>
+
+
+    <script src="js/script.js"></script>
     <script src="../Js/buscador.js"></script>
-    <script src="../Js/appp.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="../Js/jquery-3.5.1.js"></script>
+    <script src="../Js/apppp.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('.list').click(function () {
                 const value = $(this).attr('data-filter');
-                if (value == 'todo') {
+                if (value == 'Todo') {
                     $('.itemBox').show('1000');
                 }
                 else {
@@ -394,6 +430,6 @@
             })
         })
     </script>
+    
 </body>
-
 </html>
