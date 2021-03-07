@@ -336,7 +336,7 @@ width: 25%;
 .TituloReferencias h2{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  color: #0F7CBF;;
+  color: #0F7CBF;
   font-size: 1.5vw;
 }
 
@@ -362,7 +362,7 @@ width: 25%;
 
     .TextoOpinion h3{
       font-size: 1.3vw;
-      font-family: 'Montserrat', sans-serif;;
+      font-family: 'Montserrat', sans-serif;
     }
 
 .OpinionesIndividuales{
@@ -420,7 +420,7 @@ width: 25%;
 }
 
 .Precios__Texto{
-  width: 40%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -432,7 +432,7 @@ width: 25%;
       text-align: center;
       align-items: center;
       color: #24345F;
-      font-size: 4vw;
+      font-size: 3.5vw;
       padding-top: 4%;
       padding-bottom: 4%;
       padding-left: 2%;
@@ -440,14 +440,10 @@ width: 25%;
     }
 
 .Precios__Cards{
-  width: 60%;
+  width: 65%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-#card1, #card2{
-  width: 40%;
 }
 
 
@@ -575,6 +571,22 @@ width: 25%;
 
 /*----------------------------------------- Third Media Query-----------------------------------------------------------------------------------*/
 @media only screen and (max-width: 700px){
+  .icon_regalia span {
+    font-size: 1.5w;
+  }
+
+  .IconosPEM p{
+    font-size: 1.3vw;
+  }
+
+  #txtIlustraP {
+    font-size: 2vw;
+  }
+  
+  .parrafo {
+    font-size: 1.7vw;
+  }
+  
   .Precios {
     flex-direction: column;
     justify-content: center;
@@ -603,9 +615,21 @@ width: 25%;
     flex-direction: row;
     justify-content: space-around;
   }
+  .TextoOpinion h1{
+    font-size: 10vw;
+    margin-bottom: -10%;
+  }
+
+  .TextoOpinion h3{
+    font-size: 1.6vw;
+  }
+
+  .TituloReferencias h1{
+    font-size: 4..5vw;
+  }
   
-  #card1, #card2{
-    width: 40%;
+  .TituloReferencias h2{
+    font-size: 2vw;
   }
   
   .BotonPremium {
@@ -707,6 +731,7 @@ width: 25%;
     top: 50%;
   }
 
+  
 
   #LastImg{
     top: -20%;
@@ -726,5 +751,89 @@ width: 25%;
     padding-top: 20%;
     padding-bottom: 20%;
   }
+  .icon_regalia span {
+    font-size: 2vw;
+  }
 
+  .IconosPEM p{
+    font-size: 1.8vw;
+  }
+}
+
+
+@media only screen and (max-width: 500px){
+  .icon_regalia span {
+    font-size: 2w;
+  }
+
+  .IconosPEM p{
+    font-size: 1.7vw;
+  }
+
+  #txtIlustraP {
+    font-size: 2.5vw;
+  }
+  
+  .parrafo {
+    font-size: 2.4vw;
+  }
+  
+  .Carreras > h2 {
+    font-size: 4vw;
+  }
+
+  
+.OpinionesUsuarios{
+  flex-wrap: wrap;
+}
+  
+.OpinionesIndividuales{
+  width: 45%;
+  margin-bottom: 5%;
+}
+
+
+      .Precios h2 {
+        font-size: 5.5vw;
+      }
+  
+  .TextoOpinion h1{
+    font-size: 12vw;
+    margin-bottom: -15%;
+  }
+
+  .TextoOpinion h3{
+    font-size: 2.5vw;
+  }
+
+  .DescripcionUsuario h1{
+    font-size: 2.4vw;
+  }
+
+  .DescripcionUsuario h2{
+    font-size: 2vw;
+  }
+
+  .TituloReferencias h1{
+    font-size: 6vw;
+  }
+  
+  .TituloReferencias h2{
+    padding: 1% 2%;
+    font-size: 3vw;
+  }
+  
+  .BotonPremium {
+    font-size: 3vw;
+    }
+
+    .TextoLastBanner p {
+      font-size: 4.5vw;
+      text-align: center;
+    }
+
+    
+  .BannerMulti h2 {
+    font-size: 4vw;
+  }
 }

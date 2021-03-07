@@ -1,356 +1,462 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
-* {
-    padding: 0;
-    margin:  0;
-    box-sizing: border-box;
-    text-size-adjust: auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
-
-.Precios_Cards{
+.Cards_Premium{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	padding-top: 2%;
-	padding-bottom: 2%;
-
+	padding-bottom: 5%;
 }
 
-.Precios_Cards_Individuales{
-	width: 46%;
+.Cards_Premium_Individuales{
+	width: 42%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 0.8vw 0.8vw 0.8vw rgba(0,0,0,0.3);
+	transition: .5s;
+	border-radius: 2vw;
+}
+
+.Cards_Premium_Individuales .Cards_Semicirculos{
+		position: absolute;
+		z-index: 0;
+		width: 9vw;
+		margin-top: 0.4vw;
+		margin-left: 9vw;
+}
+
+.Premium_Individuales_Superior{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: #0F7CBF solid 0.4vw;
-	box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.3);
-	border-radius: 1.2vw;
-	transition: .5s;
 }
 
-.Precios_Cards_Encabezado{
-
-	padding-top: 2%;
-	padding-bottom: 2%;
-	transition: .5s;
+.Premium_Individuales_Linea{
+	width: 20%;
+	padding-top: 8%;
+	border-bottom: #024873 solid 0.3vw;
 }
 
-.Precios_Cards_Encabezado h2{
-	font-family: 'Poppins', sans-serif;
+.Premium_Individuales_Titulo{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	z-index: 1;
+}
+.Premium_Individuales_Titulo h1{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
 	font-size: 2vw;
-	font-weight: bold;
-	color: #0F7CBF;
-	padding: 0;
+	line-height: 2.5vw;
+	font-weight: 900;
+	color: #024873;
 }
 
-.Precios_Cards_Precio{
-	width: 100%;
+.Premium_Individuales_TextoPrecio{
 	display: flex;
-	align-items: center;
 	justify-content: center;
-	padding-top: 5%;
-}
-
-.Cards_Div_Precios{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-.Div_Precios_Numero h1{
-	font-family: sans-serif, verdana;
-	font-weight: bold;
-	font-size: 8vw;
-	color: #0F7CBF;
-	text-align: center;
-	transition: .5s;
-}
-.Cards_Div_Precios h2{
-	width: 90%;
-	font-family: 'Poppins', sans-serif;
-	margin: -12%;
-	font-size: 3vw;
-	color: #666;
-	text-align: left;
-	transition: .5s;
-}
-
-.Div_Precios_Numero{
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-end;
-	justify-content: center;
-}
-
-.Div_Precios_Numero h2{
-	font-family: 'Poppins', sans-serif;
-	font-size: 1.5vw;
-	color: #666;
-	margin: 0;
-	padding: 0;
-	padding-bottom: 10%;
-	transition: .5s;
-}
-
-.Precios_Cards_DescripcionPaquete{
-	width: 100%;
-	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: flex-start;
-	padding: 0.5vw;
-}
-
-.Precios_Cards_DescripcionPaquete i{
-	font-size: 1.8vw;
-	color: #0F7CBF;
-	transition: .5s;
-}
-
-.Precios_Cards_DescripcionPaquete h4{
-	padding-left: 1vw;
-	font-family: 'Poppins', sans-serif;
-	text-align: justify;
-	font-size: 1vw;
-	color: #666;
-	transition: .5s;
-}
-
-.Precios_Cards_Boton{
 	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-top: 2%;
-}
-
-.Precios_Cards_Boton a{
-	width: 50%;
-	padding: 3%;
-	text-align: center;
+	width: 13.5vw;
+	height: 13.5vw;
+	border-radius: 100%;
+	background-color: #024873;
+	background: linear-gradient(65deg, #F2F2F2 0%,#9CBCD9 20%, #0F7CBF 60%, #024873 100%);
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
-	color: white;
-	text-decoration: none;
-	background-color: #0F7CBF;
-	border-radius: 3vw;
-	font-size: 1vw;
-	transition: .5s;
+	color: #fff; 
+}
+
+.Individuales_TextoPrecio2 h2{
+	color: #fff;
 }
 
 
-
-.PremiumAzul{
-	width: 100%;
-	border-radius: 0.8vw;
-	transition: .5s;
+.Individuales_TextoPrecio1, .Individuales_TextoPrecio2, .Individuales_TextoPrecio3{
+	margin: 0.1vw;
 }
 
-.PremiumBlanco{
-	display: none;
-	transition: .5s;
-}
-/*FINAL CARDS PREMIUM*/
+	.Individuales_TextoPrecio1{
+		height: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+	}
 
-.Precios_Cards_Individuales:hover{
-	transform: scale(1.1);
-	border: #24345F solid 0.3vw;
-}
+		.Individuales_TextoPrecio1 h1{
+			font-size: 2.2vw;
+		}
 
-.Precios_Cards_Individuales:hover .Precios_Cards_Encabezado  h2{
-	color: #24345F;
-}
+	.Individuales_TextoPrecio2{
+		height: 40%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-.Precios_Cards_Individuales:hover .Div_Precios_Numero h1{
-	color: #24345F;
-}
+		.Individuales_TextoPrecio2 h2{
+			font-size: 5vw;
+		}
 
-.Precios_Cards_Individuales:hover .Cards_Div_Precios h2{
-	color: #333;
-}
+	.Individuales_TextoPrecio3{
+		height: 40%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
 
-.Precios_Cards_Individuales:hover .Div_Precios_Numero h2{
-	color: #333;
-}
+	.Individuales_TextoPrecio3 h3{
+		font-size: 1.3vw;
+	}
 
-.Precios_Cards_Individuales:hover .Precios_Cards_DescripcionPaquete i{
-	color: #24345F;
-}
+	.Premium_Individuales_Descripcion{
+		width: 100%;
+		padding: 0.5vw 1.8vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
 
-.Precios_Cards_Individuales:hover .Precios_Cards_DescripcionPaquete h4{
-	color: #333;
-}
+	.Premium_Individuales_Paquete{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		font-family: 'Poppins', sans-serif;
+		padding: 0.3vw;
+	}
 
-.Precios_Cards_Individuales:hover .Precios_Cards_Boton a{
-	color: white;
-	background-color: #24345F;
-}
+	.Premium_Individuales_Paquete i{
+		font-size: 1.2vw;
+		color: #024873;
+	}
 
-.Precios_Cards_Individuales:hover .PremiumAzul{
-	display: none;
+	.Premium_Individuales_Paquete h4{
+		font-size: 1vw;
+		color: #555;
+		text-align: justify;
+		padding-left: 1vw;
+	}
+
+	.Premium_Individuales_Inferior{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0;
+		margin: -0.6vw;
+	}
+
+	.Individuales_Inferior_Imagen{
+		width: 35%;
+	}
+
+		.Individuales_Inferior_Imagen img{
+			width: 100%;
+		}
+
+	.Premium_Individuales_Boton{
+		width: 55%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+		.Premium_Individuales_Boton a{
+			text-decoration: none;
+			font-family: 'Poppins', sans-serif;
+			text-transform: uppercase;
+			font-size: 1.2vw;
+			font-weight: bold;
+			padding: 0.7vw 2vw;
+			background-image: linear-gradient(to left, #024873, #0F7CBF, #024873);
+			background-size: 200%;
+			color: white;
+			border-radius: 2vw;
+			cursor: pointer;
+			transition: .5s;
+		}
+
+
+		.Premium_Individuales_Boton a:hover{
+			background-position: right;
+		}
+
+
+@media only screen and (max-width: 1000px){
+
+	.Cards_Premium_Individuales{
+		width: 43%;
+	}
 	
-}
-
-.Precios_Cards_Individuales:hover .PremiumBlanco{
-	display: flex;
-	width: 100%;
-	border-radius: 0.8vw;
-}
-
-
-.Precios_Cards_Boton a:hover{
-	box-shadow: 0px 5px 5px 5px rgba(0,0,0, .3);
-	letter-spacing: 0.3vw;
-}
-
-@media only screen and (max-width: 1100px){
-
-	.Precios_Cards_Individuales{
-		width: 44%;
-	}
-
-	.Precios_Cards_Encabezado h2{
-		font-size: 2.3vw;
+	.Cards_Premium_Individuales .Cards_Semicirculos{
+			width: 9vw;
+			margin-top: 0.1vw;
+			margin-left: 9.4vw;
+			transition: .5s;
 	}
 	
-	.Div_Precios_Numero h1{
-		font-size: 10vw;
-	}
-	.Cards_Div_Precios h2{
-		font-size: 3.2vw;
+	
+	.Premium_Individuales_Linea{
+		border-bottom: #024873 solid 0.4vw;
 	}
 	
-	.Div_Precios_Numero h2{
-		font-size: 1.8vw;
-	}
-	
-	.Precios_Cards_DescripcionPaquete i{
+	.Premium_Individuales_Titulo h1{
 		font-size: 2.5vw;
+		line-height: 2.8vw;
 	}
 	
-	.Precios_Cards_DescripcionPaquete h4{
-		font-size: 1.5vw;
+	.Premium_Individuales_TextoPrecio{
+		width: 15vw;
+		height: 15vw;
 	}
 	
+			.Individuales_TextoPrecio1 h1{
+				font-size: 2.5vw;
+			}
 	
-	.Precios_Cards_Boton a{
-		font-size: 1.4vw;
-	}
+			.Individuales_TextoPrecio2 h2{
+				font-size: 6vw;
+			}
 	
-	.Precios_Cards_Boton a:hover{
-		box-shadow: 0px 5px 5px 5px rgba(255, 255, 255, 0.1);
-		letter-spacing: 0.2vw;
-	}
+		.Individuales_TextoPrecio3 h3{
+			font-size: 1.8vw;
+		}
+	
+		.Premium_Individuales_Descripcion{
+			padding: 0.5vw 2.5vw;
+		}
+
+		.Premium_Individuales_Paquete i{
+			font-size: 1.5vw;
+		}
+	
+		.Premium_Individuales_Paquete h4{
+			font-size: 1.2vw;
+		}
+	
+		.Premium_Individuales_Inferior{
+			margin: -0.8vw;
+		}
+	
+		.Individuales_Inferior_Imagen{
+			width: 35%;
+		}
+	
+	
+			.Premium_Individuales_Boton a{
+				font-size: 1.5vw;
+			}
+	
 }
 
 @media only screen and (max-width: 850px){
-	.Precios_Cards_Encabezado h2{
-		font-size: 2.5vw;
+	.Cards_Premium_Individuales{
+		width: 44%;
 	}
 	
-	.Div_Precios_Numero h1{
-		font-size: 10vw;
+	.Cards_Premium_Individuales .Cards_Semicirculos{
+			width: 9vw;
+			margin-top: -0.5vw;
+			margin-left: 9.5vw;
+			transition: .5s;
 	}
-	.Cards_Div_Precios h2{
+	
+	
+	.Premium_Individuales_Linea{
+		border-bottom: #024873 solid 0.5vw;
+	}
+	
+	.Premium_Individuales_Titulo h1{
 		font-size: 3vw;
+		line-height: 3.2vw;
 	}
 	
-	.Div_Precios_Numero h2{
-		font-size: 1.8vw;
+	.Premium_Individuales_TextoPrecio{
+		width: 18vw;
+		height: 18vw;
 	}
 	
-	.Precios_Cards_DescripcionPaquete i{
-		font-size: 2.2vw;
-	}
+			.Individuales_TextoPrecio1 h1{
+				font-size: 2.8vw;
+			}
 	
-	.Precios_Cards_DescripcionPaquete h4{
-		font-size: 1.4vw;
-	}
+			.Individuales_TextoPrecio2 h2{
+				font-size: 6.5vw;
+			}
+	
+		.Individuales_TextoPrecio3 h3{
+			font-size: 2vw;
+		}
+	
+		.Premium_Individuales_Descripcion{
+			padding: 0.5vw 2.5vw;
+		}
+
+		.Premium_Individuales_Paquete i{
+			font-size: 1.9vw;
+		}
+	
+		.Premium_Individuales_Paquete h4{
+			font-size: 1.4vw;
+		}
+	
+		.Premium_Individuales_Inferior{
+			margin: -1vw;
+		}
+	
+		.Individuales_Inferior_Imagen{
+			width: 40%;
+		}
 	
 	
-	.Precios_Cards_Boton a{
-		width: 60%;
-		font-size: 1.7vw;
-	}
+			.Premium_Individuales_Boton a{
+				font-size: 1.7vw;
+			}
 	
-	.Precios_Cards_Boton a:hover{
-		box-shadow: 0px 5px 5px 5px rgba(255, 255, 255, 0.1);
-		letter-spacing: 0.2vw;
-	}
 } 
 
 @media only screen and (max-width: 700px){
-	.Precios_Cards_Encabezado h2{
-		font-size: 3vw;
+	.Cards_Premium_Individuales{
+		width: 45%;
+		box-shadow: 0px 1.2vw 1.2vw 1.2vw rgba(0,0,0,0.3);
 	}
 	
-	.Div_Precios_Numero h1{
-		font-size: 14vw;
-	}
-	.Cards_Div_Precios h2{
-		font-size: 4vw;
-	}
-	
-	.Div_Precios_Numero h2{
-		font-size: 3vw;
-	}
-	
-	.Precios_Cards_DescripcionPaquete i{
-		font-size: 4vw;
-	}
-	
-	.Precios_Cards_DescripcionPaquete h4{
-		font-size: 3vw;
+	.Cards_Premium_Individuales .Cards_Semicirculos{
+			width: 13vw;
+			margin-top: -0.3vw;
+			margin-left: 15.5vw;
+			transition: .5s;
 	}
 	
 	
-	.Precios_Cards_Boton a{
-		width: 60%;
-		font-size: 3vw;
+	.Premium_Individuales_Linea{
+		border-bottom: #024873 solid 0.6vw;
 	}
 	
-	.Precios_Cards_Boton a:hover{
-		letter-spacing: 0.3vw;
+	.Premium_Individuales_Titulo h1{
+		font-size: 3.7vw;
+		line-height: 4vw;
 	}
+	
+	.Premium_Individuales_TextoPrecio{
+		width: 25vw;
+		height: 25vw;
+	}
+	
+			.Individuales_TextoPrecio1 h1{
+				font-size: 3.5vw;
+			}
+	
+			.Individuales_TextoPrecio2 h2{
+				font-size: 8.5vw;
+			}
+	
+		.Individuales_TextoPrecio3 h3{
+			font-size: 3vw;
+		}
+	
+		.Premium_Individuales_Descripcion{
+			padding: 3vw 3vw;
+		}
+
+		.Premium_Individuales_Paquete i{
+			font-size: 2.4vw;
+		}
+	
+		.Premium_Individuales_Paquete h4{
+			font-size: 1.8vw;
+		}
+	
+		.Premium_Individuales_Inferior{
+			margin: -1.4vw;
+		}
+	
+		.Individuales_Inferior_Imagen{
+			width: 40%;
+		}
+	
+	
+			.Premium_Individuales_Boton a{
+				font-size: 2.5vw;
+			}
 }
 
 @media only screen and (max-width: 450px){
-	.Precios_Cards_Encabezado h2{
-		font-size: 3.5vw;
+	.Cards_Premium_Individuales{
+		width: 45%;
 	}
 	
-	.Div_Precios_Numero h1{
-		font-size: 14.8vw;
-	}
-	.Cards_Div_Precios h2{
-		font-size: 5vw;
-	}
-	
-	.Div_Precios_Numero h2{
-		font-size: 3.5vw;
-	}
-	
-	.Precios_Cards_DescripcionPaquete i{
-		font-size: 3vw;
-	}
-	
-	.Precios_Cards_DescripcionPaquete h4{
-		font-size: 2vw;
+	.Cards_Premium_Individuales .Cards_Semicirculos{
+			width: 13vw;
+			margin-top: -0.8vw;
+			margin-left: 15.5vw;
+			transition: .5s;
 	}
 	
 	
-	.Precios_Cards_Boton a{
-		width: 60%;
-		font-size: 2.5vw;
+	.Premium_Individuales_Linea{
+		border-bottom: #024873 solid 0.7vw;
 	}
 	
-	.Precios_Cards_Boton a:hover{
-		letter-spacing: 0.3vw;
+	.Premium_Individuales_Titulo h1{
+		font-size: 4.2vw;
+		line-height: 4.4vw;
 	}
+	
+	.Premium_Individuales_TextoPrecio{
+		width: 28vw;
+		height: 28vw;
+	}
+	
+			.Individuales_TextoPrecio1 h1{
+				font-size: 4.2vw;
+			}
+	
+			.Individuales_TextoPrecio2 h2{
+				font-size: 9.5vw;
+			}
+	
+		.Individuales_TextoPrecio3 h3{
+			font-size: 4vw;
+		}
+	
+		.Premium_Individuales_Descripcion{
+			padding: 3vw 3vw;
+		}
+
+		.Premium_Individuales_Paquete i{
+			font-size: 2.8vw;
+		}
+	
+		.Premium_Individuales_Paquete h4{
+			font-size: 2.1vw;
+		}
+	
+		.Premium_Individuales_Inferior{
+			margin: -1.7vw;
+		}
+	
+		.Individuales_Inferior_Imagen{
+			width: 40%;
+		}
+	
+	
+			.Premium_Individuales_Boton a{
+				font-size: 2.8vw;
+			}
 }
