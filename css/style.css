@@ -82,18 +82,33 @@ header {
     margin: 0 .2rem;
     transition: .3s;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
-.btn.solid,
+.btn.solid{
+    background-color: #fff;
+    color: #24345F;
+    transition: all .3s ease;
+}
+
 .btn.transparent:hover {
     background-color: #fff;
     color: #24345F;
+    transition: all .3s ease;
+
 }
 
-.btn.transparent,
+.btn.transparent{
+    background-color: transparent;
+    color: #fff;
+    transition: all .3s ease;
+
+}
 .btn.solid:hover {
     background-color: transparent;
     color: #fff;
+    transition: all .3s ease;
+
 }
 
 .nav-links>ul {

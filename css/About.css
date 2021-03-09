@@ -6,7 +6,7 @@
 }
 
 #banner{
-    padding-top: 15vw;
+    padding-top: 8vw;
     text-align: center;
 }
 
@@ -14,8 +14,8 @@
     display: flexbox;
     justify-content: center;
     padding-top: 2%;
-    padding-right: 11%;
-    padding-left: 11%;
+    padding-right: 8%;
+    padding-left: 8%;
 }
 
 .Bienvenida{
@@ -30,10 +30,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
-    padding-right: 11%;
-    padding-left: 11%;   
-    padding-bottom: 10%;
+    padding-top: 3%;
+    padding-right: 4%;
+    padding-left: 4%;   
+    padding-bottom: 5%;
 }
 
 .Imagen{
@@ -53,18 +53,18 @@
 
 .Encabezado{
     text-align: center;
-    font-size: 250%;
-    color:  #0F7CBF;
+    font-size: 230%;
+    color:  #28709c;
     font-family: 'Poppins', serif;
 }
 
 .Info{
     text-align: justify;
-    font-size: 160%;
-    line-height: 160%;
-    padding-top: 4%;
-    padding-right: 6%;
-    padding-left: 6%;  
+    font-size: 130%;
+    line-height: 150%;
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-left: 3%;  
 }
 
 .Conocenos{

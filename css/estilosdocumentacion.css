@@ -289,12 +289,14 @@ body{
     justify-content: center;
     background: #24345F;
     border-radius: 50% ;
+    position: absolute;
 }
 
 
 .icon-menu{
     width: 100%;
     padding: 10px;
+    cursor: pointer;
 }
 
 .iconm:hover{
