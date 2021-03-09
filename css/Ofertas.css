@@ -183,29 +183,6 @@
 	padding-bottom: 2%;
 }
 
-.BotonPremium {
-	color: white;
-	text-decoration: none;
-	font-family: 'Poppins', Helvetica;
-	font-size: 1.3vw;
-	background: #24345F;
-	padding: 1%;
-	border-radius: 1vw;
-	display: inline-block;
-	border: none;
-	transition: all 0.4s ease 0s;
-	}
-
-	.BotonPremium:hover {
-		background: #434343;
-		letter-spacing: 0.1em;
-		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-		box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-		transition: all 0.4s ease 0s;
-		}
-
-
 .TituloOfertas{
     padding-top: 5%;
     text-align: center;

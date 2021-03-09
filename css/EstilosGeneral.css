@@ -1,839 +1,805 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Text:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Text:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-size-adjust: auto;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-size-adjust: auto;
 }
 
 * p {
-  font-size: 1vw;
+	font-size: 1vw;
 }
 
 .logoImg {
-  float: -200%;
+	float: -200%;
 }
 
 .Banner_Rectangulo {
-  width: 100%;
-  height: 700px;
-  background: linear-gradient(253.58deg, #0F7CBF 1.55%, #0F7CBF 95.8%);
-  /* Blue 3 */
-  box-sizing: border-box;
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(253.58deg, #0f7cbf 1.55%, #0f7cbf 95.8%);
+	/* Blue 3 */
+	box-sizing: border-box;
 }
 
 #Mensaje {
-  font-size: 3.5vw;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 158.34%;
-  /* or 70px */
-  color: #ffffff;
-  text-size-adjust: auto;
+	font-size: 3.5vw;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 158.34%;
+	/* or 70px */
+	color: #ffffff;
+	text-size-adjust: auto;
 }
 
 .Banner_Rectangulo p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1vw;
-  line-height: 32px;
-  color: #fff7df;
-  /* Blue 3 */
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1vw;
+	line-height: 32px;
+	color: #fff7df;
+	/* Blue 3 */
 }
 
 .imgMarcianito {
-  width: 50%;
-  height: 40%;
-  position: absolute;
-  left: 50%;
-  bottom: 45%;
-  z-index: 2;
+	width: 50%;
+	height: 40%;
+	position: absolute;
+	left: 50%;
+	bottom: 45%;
+	z-index: 2;
 }
 
 .BlanckFirst {
-  width: 100%;
-  background-color: #fefefe;
+	width: 100%;
+	background-color: #fefefe;
 }
 
 .icon-pack {
-  width: 15%;
-  height: 5%;
+	width: 15%;
+	height: 5%;
 }
 
 #icon01 {
-  left: 20%;
+	left: 20%;
 }
 
 #icon02 {
-  position: relative;
-  left: 10%;
-  bottom: 10%;
+	position: relative;
+	left: 10%;
+	bottom: 10%;
 }
 
 #icon03 {
-  position: relative;
-  left: 50%;
-  width: 10%;
+	position: relative;
+	left: 50%;
+	width: 10%;
 }
 
-.icon_regalia{
-  padding-top: 2%;
+.icon_regalia {
+	padding-top: 2%;
 }
 .icon_regalia > ul {
-  display: flex;
-  justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
 }
 
 .Proyectos {
-  position: relative;
-  width: 20%;
+	position: relative;
+	width: 20%;
 }
-
 
 .Proyectos span {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 1.2vw;
-  /* or 33px */
-  text-align: center;
-  color: #5c5c5c;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1.2vw;
+	/* or 33px */
+	text-align: center;
+	color: #5c5c5c;
 }
-
 
 .Multiplataforma img {
-  width: 45%;
-  height: 45%;
+	width: 45%;
+	height: 45%;
 }
 
-.ensena img{
-width: 45%;
-height: 45%;
+.ensena img {
+	width: 45%;
+	height: 45%;
 }
 
-.Proyectos img{
-  width: 45%;
+.Proyectos img {
+	width: 45%;
 }
 
 .ensena span {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 1.2vw;
-  /* or 33px */
-  text-align: center;
-  color: #5c5c5c;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1.2vw;
+	/* or 33px */
+	text-align: center;
+	color: #5c5c5c;
 }
 
 .ensena {
-  position: relative;
-  width: 20%;
+	position: relative;
+	width: 20%;
 }
 
 .Multiplataforma {
-  position: relative;
-  width: 20%;
+	position: relative;
+	width: 20%;
 }
-
-
 
 .Multiplataforma span {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 1.2vw;
-  /* or 33px */
-  text-align: center;
-  color: #5c5c5c;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1.2vw;
+	/* or 33px */
+	text-align: center;
+	color: #5c5c5c;
 }
-.HomeInteractua{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-
-.IconosPEM p{
-  font-size: 0.9vw;
+.HomeInteractua {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
-.TextoInteractua{
-  display: flexbox;
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  
+.IconosPEM p {
+	font-size: 0.9vw;
 }
 
-.IconosPEM{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-right: 2%;
-  padding-left: 2%;
+.TextoInteractua {
+	display: flexbox;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
 }
 
-.IconosPEM p{
-  text-align: center;
+.IconosPEM {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-right: 2%;
+	padding-left: 2%;
 }
 
-#ContenedorIMG01{
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  padding-right: 2%;
-  padding-left: 2%;
+.IconosPEM p {
+	text-align: center;
+}
+
+#ContenedorIMG01 {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	padding-right: 2%;
+	padding-left: 2%;
 }
 #img01 {
-  width: 90%;
-  position: relative;
-  border-radius: 45%;
+	width: 90%;
+	position: relative;
+	border-radius: 45%;
 }
 #txtIlustraP {
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: center;
-  width: 100%;
-  font-size: 1.5vw;
-  text-size-adjust: auto;
-  line-height: 200%;
-  color: #24345F;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+	width: 100%;
+	font-size: 1.5vw;
+	text-size-adjust: auto;
+	line-height: 200%;
+	color: #24345f;
 }
 
 .txtIlustraP p {
-  padding: 2%;
-  position: relative;
-  float: right;
+	padding: 2%;
+	position: relative;
+	float: right;
 }
 
 .parrafo {
-  padding-right: 10%;
-  padding-left: 10%;
-  text-align: justify;
-  position: relative;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.2vw;
+	padding-right: 10%;
+	padding-left: 10%;
+	text-align: justify;
+	position: relative;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.2vw;
 }
 
 .BannerMulti {
-  width: 100%;
-  background-color: #24345F;
-  padding-bottom: 4%;
-  padding-top: 4%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+	width: 100%;
+	background-color: #24345f;
+	padding-bottom: 4%;
+	padding-top: 4%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
 }
 
 .BannerMulti img {
-  width: 20%;
+	width: 20%;
 }
 
-.TextoMulti{
-  width: 50%;
-  padding-right: 4%;
-  padding-left: 4%;
+.TextoMulti {
+	width: 50%;
+	padding-right: 4%;
+	padding-left: 4%;
 }
 
 .BannerMulti h2 {
-  text-align: center;
-  position: relative;
-  line-height: 4rem;
-  font-size: 3vw;
-  color: #fefefe;
+	text-align: center;
+	position: relative;
+	line-height: 4rem;
+	font-size: 3vw;
+	color: #fefefe;
 }
 
 .BannerImgs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
 }
 
-#BanImg03{
-position: relative;
-width: 10%;
-left: -35%;
-top: 30%;
+#BanImg03 {
+	position: relative;
+	width: 10%;
+	left: -35%;
+	top: 30%;
 }
 
-#BanImg02{
-position: relative;
-width: 10%;
-left: 2%;
-bottom: 5%;
-width: 35%;
+#BanImg02 {
+	position: relative;
+	width: 10%;
+	left: 2%;
+	bottom: 5%;
+	width: 35%;
 }
 
-#BanImg04{
-position: relative;
-width: 10%;
-left: -62%;
-top: 35%;
-width: 15%;
+#BanImg04 {
+	position: relative;
+	width: 10%;
+	left: -62%;
+	top: 35%;
+	width: 15%;
 }
 
-#BanImg05{
-position: relative;
-width: 10%;
-left: -16%;
-top: 5%;
-width: 18%;
+#BanImg05 {
+	position: relative;
+	width: 10%;
+	left: -16%;
+	top: 5%;
+	width: 18%;
 }
 
-#BanImg06{
-position: relative;
-width: 10%;
-left: 36%;
-width: 25%;
+#BanImg06 {
+	position: relative;
+	width: 10%;
+	left: 36%;
+	width: 25%;
 }
-
-
-
 
 .Carreras > h2 {
-  padding: 2%;
-  color: #24345F;
-  text-align: center;
-  font-size: 2vw;
+	padding: 2%;
+	color: #24345f;
+	text-align: center;
+	font-size: 2vw;
 }
 
 .Carreras {
-  width: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background-color: #fefefe;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #fefefe;
 }
-
-
 
 .crop {
-  position: relative;
-  left: 10%;
-  height: 99.5%;
-  width: auto;
+	position: relative;
+	left: 10%;
+	height: 99.5%;
+	width: auto;
 }
 
-.ReferenciasUsuarios{
-  padding-top: 4%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.ReferenciasUsuarios {
+	padding-top: 4%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
-.TituloReferencias h1{
-  font-family: "Poppins", sans-serif;
-  color: #24345F;
-  text-align: center;
-  font-size: 3.9vw;
+.TituloReferencias h1 {
+	font-family: "Poppins", sans-serif;
+	color: #24345f;
+	text-align: center;
+	font-size: 3.9vw;
 }
 
-.TituloReferencias h2{
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  color: #0F7CBF;
-  font-size: 1.5vw;
+.TituloReferencias h2 {
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	color: #0f7cbf;
+	font-size: 1.5vw;
 }
 
-.OpinionesUsuarios{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 10%;
-  padding-bottom: 5%;
-  font-family: "Poppins", sans-serif;
+.OpinionesUsuarios {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	font-family: "Poppins", sans-serif;
 }
 
-    .TextoOpinion{
-      text-align: justify;
-      color: #5c5c5c;
-    }
-
-    .TextoOpinion h1{
-      font-family: 'DM Serif Text', serif;
-      font-size: 7vw;
-      margin-bottom: -10%;
-    }
-
-    .TextoOpinion h3{
-      font-size: 1.3vw;
-      font-family: 'Montserrat', sans-serif;
-    }
-
-.OpinionesIndividuales{
-  width: 27%;
-  padding-right: 2%;
-  padding-left: 2%;
-  padding-bottom: 2%;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.22);
+.TextoOpinion {
+	text-align: justify;
+	color: #5c5c5c;
 }
 
-.FotoUsuario{
-  width: 33.33%;
- 
+.TextoOpinion h1 {
+	font-family: "DM Serif Text", serif;
+	font-size: 7vw;
+	margin-bottom: -10%;
 }
 
-.FotoUsuario img{
-  width: 90%;
-  border-radius: 100%;
+.TextoOpinion h3 {
+	font-size: 1.3vw;
+	font-family: "Montserrat", sans-serif;
 }
 
-  .PerfilUsuario{
-    padding-top: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+.OpinionesIndividuales {
+	width: 27%;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.22);
+}
 
+.FotoUsuario {
+	width: 33.33%;
+}
 
-  .DescripcionUsuario{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    font-family: "Poppins", sans-serif;
-  }
+.FotoUsuario img {
+	width: 90%;
+	border-radius: 100%;
+}
 
-  .DescripcionUsuario h1{
-    font-size: 1.4vw;
-  }
+.PerfilUsuario {
+	padding-top: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
-  .DescripcionUsuario h2{
-    font-size: 1.3vw;
-    color: #5c5c5c;
-  }
+.DescripcionUsuario {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins", sans-serif;
+}
 
+.DescripcionUsuario h1 {
+	font-size: 1.4vw;
+}
+
+.DescripcionUsuario h2 {
+	font-size: 1.3vw;
+	color: #5c5c5c;
+}
 
 .Precios {
-  width: 100%;
-  background-color: #fefefe;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
+	width: 100%;
+	background-color: #fefefe;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
-.Precios__Texto{
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.Precios__Texto {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-    .Precios h2 {
-      position: relative;
-      text-align: center;
-      align-items: center;
-      color: #24345F;
-      font-size: 3.5vw;
-      padding-top: 4%;
-      padding-bottom: 4%;
-      padding-left: 2%;
-      padding-right: 2%;
-    }
-
-.Precios__Cards{
-  width: 65%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.Precios h2 {
+	position: relative;
+	text-align: center;
+	align-items: center;
+	color: #24345f;
+	font-size: 3.5vw;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
+.Precios__Cards {
+	width: 65%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
 .BotonPremium {
-	color: white;
-	text-decoration: none;
-	font-family: 'Poppins', Helvetica;
-	font-size: 1.4vw;
-	background: #24345F;
-	padding: 2%;
-	border-radius: 1vw;
-	display: inline-block;
+	width: 190px;
+	background-color: #24345f;
 	border: none;
+	outline: none;
+	height: 50px;
+	border-radius: 49px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	transition: all 0.3s ease;
+	font-weight: 900;
+	font-size: 14px;
+	padding: 15px 45px;
+}
+.BotonPremium:hover {
+	background-color: transparent;
+	border: 3px solid #24345f;
+	color: #24345f;
 	transition: all 0.4s ease 0s;
-	}
-
-	.BotonPremium:hover {
-		background: #434343;
-		letter-spacing: 0.1em;
-		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-		box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-		transition: all 0.4s ease 0s;
-		}
-
-
-
+  padding: -3px 45px;
+}
 
 .Precios > .btn {
-  position: relative;
-  left: 25%;
-  top: 30%;
+	position: relative;
+	left: 25%;
+	top: 30%;
 }
-
 
 .LastBanner {
-  width: 100%;
-  background-color: #fefefe;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
+	width: 100%;
+	background-color: #fefefe;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
-.TextoLastBanner{
-  width: 50%;
-  padding-left: 2%;
-  padding-right: 2%;
+.TextoLastBanner {
+	width: 50%;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 .TextoLastBanner p {
-  position: relative;
-  font-weight: 900;
-  color: #24345F;
-  font-size: 3.5vw;
+	position: relative;
+	font-weight: 900;
+	color: #24345f;
+	font-size: 3.5vw;
 }
 
-.ImagenesBanner{
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.ImagenesBanner {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
 
 #LastImg {
-  width: 85%;
+	width: 85%;
 }
 
-        
 #layer {
-  width: 0.2%;
-  height: 0.3%;
+	width: 0.2%;
+	height: 0.3%;
 }
 
 /*----------------------------------------- First Media Query-----------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 1000px) {
-  .icon-pack {
-    display: none;
-  }
+	.icon-pack {
+		display: none;
+	}
 
-  #Mensaje {
-    position: relative;
-    top: 15%;
-  }
+	#Mensaje {
+		position: relative;
+		top: 15%;
+	}
 
-  .Banner_Rectangulo p {
-    position: relative;
-    top: 20%;
-    font-size: 1.9vh;
-    text-size-adjust: auto;
-  }
+	.Banner_Rectangulo p {
+		position: relative;
+		top: 20%;
+		font-size: 1.9vh;
+		text-size-adjust: auto;
+	}
 
-  .Banner_Rectangulo {
-    height: 500px;
-  }
+	.Banner_Rectangulo {
+		height: 500px;
+	}
 
+	.BannerMulti h2 {
+		font-size: 3vw;
+		line-height: 2;
+	}
 
-
-  .BannerMulti h2 {
-    font-size: 3vw;
-    line-height: 2;
-  }
-
-  .Referencias {
-    height: 460px;
-  }
-
+	.Referencias {
+		height: 460px;
+	}
 }
 
 /*----------------------------------------- Second Media Query-----------------------------------------------------------------------------------*/
 @media only screen and (max-width: 1255px) {
-  .Referencias {
-    position: relative;
-    height: 260px;
-    width: 100%;
-    background-color: #fefefe;
-    background-image: url("../img/Captura de pantalla 2020-11-22 151710.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+	.Referencias {
+		position: relative;
+		height: 260px;
+		width: 100%;
+		background-color: #fefefe;
+		background-image: url("../img/Captura de pantalla 2020-11-22 151710.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 }
 
 /*----------------------------------------- Third Media Query-----------------------------------------------------------------------------------*/
-@media only screen and (max-width: 700px){
-  .icon_regalia span {
-    font-size: 1.5w;
-  }
+@media only screen and (max-width: 700px) {
+	.icon_regalia span {
+		font-size: 1.5w;
+	}
 
-  .IconosPEM p{
-    font-size: 1.3vw;
-  }
+	.IconosPEM p {
+		font-size: 1.3vw;
+	}
 
-  #txtIlustraP {
-    font-size: 2vw;
-  }
-  
-  .parrafo {
-    font-size: 1.7vw;
-  }
-  
-  .Precios {
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-  
-  .Precios__Texto{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-      .Precios h2 {
-        font-size: 5vw;
-        padding-top: 4%;
-        padding-bottom: 4%;
-      }
-  
-  .Precios__Cards{
-    width: 100%;
-    padding-top: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .TextoOpinion h1{
-    font-size: 10vw;
-    margin-bottom: -10%;
-  }
+	#txtIlustraP {
+		font-size: 2vw;
+	}
 
-  .TextoOpinion h3{
-    font-size: 1.6vw;
-  }
+	.parrafo {
+		font-size: 1.7vw;
+	}
 
-  .TituloReferencias h1{
-    font-size: 4..5vw;
-  }
-  
-  .TituloReferencias h2{
-    font-size: 2vw;
-  }
-  
-  .BotonPremium {
-    font-size: 2.5vw;
-    background: #24345F;
-    padding: 2%;
-    }
-}
+	.Precios {
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
 
+	.Precios__Texto {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 
+	.Precios h2 {
+		font-size: 5vw;
+		padding-top: 4%;
+		padding-bottom: 4%;
+	}
 
+	.Precios__Cards {
+		width: 100%;
+		padding-top: 10%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.TextoOpinion h1 {
+		font-size: 10vw;
+		margin-bottom: -10%;
+	}
 
-@media only screen and (max-width: 600px) {
-  .LineBAnner {
-    height: 100px;
-    width: 100%;
-  }
+	.TextoOpinion h3 {
+		font-size: 1.6vw;
+	}
 
-  .Banner_Rectangulo {
-    height: 300px;
-  }
+	.TituloReferencias h1 {
+		font-size: 4.5vw;
+	}
 
-  .imgMarcianito {
-    position: absolute;
-    left: 50%;
-    bottom: 55%;
-  }
+	.TituloReferencias h2 {
+		font-size: 2vw;
+	}
 
-  #Mensaje {
-    position: relative;
-    top: 30%;
-    font-size: 3.5vw;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 158.34%;
-    /* or 70px */
-    color: #ffffff;
-    text-size-adjust: auto;
-  }
-
-  .Banner_Rectangulo p {
-    position: relative;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2vw;
-    line-height: 32px;
-    color: #fff7df;
-    top: 35%;
-    /* Blue 3 */
-  }
-
-  .icon-pack {
-    display: none;
-  }
-
-
-
-  .Proyectos {
-    position: relative;
-    left: 5%;
-    right: 5%;
-  }
-
-  #Proyectos {
-    width: 45%;
-    height: 55%;
-  }
-
-  #img01 {
-    width: 90%;
-  }
-  .parrafo {
-    position: relative;
-    float: right;
-    font-size: 2vw;
-  }
-
-  #txtIlustraP {
-    top: 95%;
-    text-align: center;
-  }
-
-
-  .BannerMulti h2 {
-    text-align: center;
-    line-height: 1.5rem;
-  }
-
-
-
-
-  .Precios h2 {
-    font-size: 4vw;
-  }
-
-  .Precios > .btn {
-    position: relative;
-    left: 25%;
-    top: 50%;
-  }
-
-  
-
-  #LastImg{
-    top: -20%;
-  }
-
-  #LastImg02{
-    top: 2%;
-  }
+	.BotonPremium {
+		font-size: 2.5vw;
+		background: #24345f;
+		padding: 2%;
+	}
 }
 
 @media only screen and (max-width: 600px) {
-  .parrafo{
-    font-size: 1.8vw;
-  }
-  
-  .LastBanner {
-    padding-top: 20%;
-    padding-bottom: 20%;
-  }
-  .icon_regalia span {
-    font-size: 2vw;
-  }
+	.LineBAnner {
+		height: 100px;
+		width: 100%;
+	}
 
-  .IconosPEM p{
-    font-size: 1.8vw;
-  }
+	.Banner_Rectangulo {
+		height: 300px;
+	}
+
+	.imgMarcianito {
+		position: absolute;
+		left: 50%;
+		bottom: 55%;
+	}
+
+	#Mensaje {
+		position: relative;
+		top: 30%;
+		font-size: 3.5vw;
+		font-style: normal;
+		font-weight: 900;
+		line-height: 158.34%;
+		/* or 70px */
+		color: #ffffff;
+		text-size-adjust: auto;
+	}
+
+	.Banner_Rectangulo p {
+		position: relative;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 2vw;
+		line-height: 32px;
+		color: #fff7df;
+		top: 35%;
+		/* Blue 3 */
+	}
+
+	.icon-pack {
+		display: none;
+	}
+
+	.Proyectos {
+		position: relative;
+		left: 5%;
+		right: 5%;
+	}
+
+	#Proyectos {
+		width: 45%;
+		height: 55%;
+	}
+
+	#img01 {
+		width: 90%;
+	}
+	.parrafo {
+		position: relative;
+		float: right;
+		font-size: 2vw;
+	}
+
+	#txtIlustraP {
+		top: 95%;
+		text-align: center;
+	}
+
+	.BannerMulti h2 {
+		text-align: center;
+		line-height: 1.5rem;
+	}
+
+	.Precios h2 {
+		font-size: 4vw;
+	}
+
+	.Precios > .btn {
+		position: relative;
+		left: 25%;
+		top: 50%;
+	}
+
+	#LastImg {
+		top: -20%;
+	}
+
+	#LastImg02 {
+		top: 2%;
+	}
 }
 
+@media only screen and (max-width: 600px) {
+	.parrafo {
+		font-size: 1.8vw;
+	}
 
-@media only screen and (max-width: 500px){
-  .icon_regalia span {
-    font-size: 2w;
-  }
+	.LastBanner {
+		padding-top: 20%;
+		padding-bottom: 20%;
+	}
+	.icon_regalia span {
+		font-size: 2vw;
+	}
 
-  .IconosPEM p{
-    font-size: 1.7vw;
-  }
-
-  #txtIlustraP {
-    font-size: 2.5vw;
-  }
-  
-  .parrafo {
-    font-size: 2.4vw;
-  }
-  
-  .Carreras > h2 {
-    font-size: 4vw;
-  }
-
-  
-.OpinionesUsuarios{
-  flex-wrap: wrap;
-}
-  
-.OpinionesIndividuales{
-  width: 45%;
-  margin-bottom: 5%;
+	.IconosPEM p {
+		font-size: 1.8vw;
+	}
 }
 
+@media only screen and (max-width: 500px) {
+	.icon_regalia span {
+		font-size: 2w;
+	}
 
-      .Precios h2 {
-        font-size: 5.5vw;
-      }
-  
-  .TextoOpinion h1{
-    font-size: 12vw;
-    margin-bottom: -15%;
-  }
+	.IconosPEM p {
+		font-size: 1.7vw;
+	}
 
-  .TextoOpinion h3{
-    font-size: 2.5vw;
-  }
+	#txtIlustraP {
+		font-size: 2.5vw;
+	}
 
-  .DescripcionUsuario h1{
-    font-size: 2.4vw;
-  }
+	.parrafo {
+		font-size: 2.4vw;
+	}
 
-  .DescripcionUsuario h2{
-    font-size: 2vw;
-  }
+	.Carreras > h2 {
+		font-size: 4vw;
+	}
 
-  .TituloReferencias h1{
-    font-size: 6vw;
-  }
-  
-  .TituloReferencias h2{
-    padding: 1% 2%;
-    font-size: 3vw;
-  }
-  
-  .BotonPremium {
-    font-size: 3vw;
-    }
+	.OpinionesUsuarios {
+		flex-wrap: wrap;
+	}
 
-    .TextoLastBanner p {
-      font-size: 4.5vw;
-      text-align: center;
-    }
+	.OpinionesIndividuales {
+		width: 45%;
+		margin-bottom: 5%;
+	}
 
-    
-  .BannerMulti h2 {
-    font-size: 4vw;
-  }
+	.Precios h2 {
+		font-size: 5.5vw;
+	}
+
+	.TextoOpinion h1 {
+		font-size: 12vw;
+		margin-bottom: -15%;
+	}
+
+	.TextoOpinion h3 {
+		font-size: 2.5vw;
+	}
+
+	.DescripcionUsuario h1 {
+		font-size: 2.4vw;
+	}
+
+	.DescripcionUsuario h2 {
+		font-size: 2vw;
+	}
+
+	.TituloReferencias h1 {
+		font-size: 6vw;
+	}
+
+	.TituloReferencias h2 {
+		padding: 1% 2%;
+		font-size: 3vw;
+	}
+
+	.BotonPremium {
+		font-size: 3vw;
+	}
+
+	.TextoLastBanner p {
+		font-size: 4.5vw;
+		text-align: center;
+	}
+
+	.BannerMulti h2 {
+		font-size: 4vw;
+	}
 }
