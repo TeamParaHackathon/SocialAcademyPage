@@ -77,6 +77,7 @@
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 	color: #fff; 
+	box-shadow: 1px 2px 3px  rgba(39, 46, 56, 0.3);
 }
 
 .Individuales_TextoPrecio2 h2{
@@ -189,11 +190,12 @@
 			border-radius: 2vw;
 			cursor: pointer;
 			transition: all .3s ease;
+			box-shadow: 1px 1px 2px 1px rgba(39, 46, 56, 0.3);
 		}
 
 
 		.Premium_Individuales_Boton a:hover{
-			border: 2px solid #024873;
+			border: 3px solid #024873;
 			background-color: transparent;	
 			background-image: none;		
 			color: #024873;
@@ -227,6 +229,7 @@
 	.Premium_Individuales_TextoPrecio{
 		width: 15vw;
 		height: 15vw;
+		
 	}
 	
 			.Individuales_TextoPrecio1 h1{

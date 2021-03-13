@@ -1,217 +1,328 @@
-<!DOCTYPE html>
-<html lang="es">
+ <!DOCTYPE html>
+ <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Sistema de comentarios</title>
-    <link href="https://file.myfontastic.com/tc26fJHv8scB3d4vHQRRsV/icons.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/icon" href="../img/Footer/LogotipoBlanco.png" />
-    <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="../css/estilosblog.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/footer.css" />
-</head>
+ <head>
+     <meta charset="UTF-8">
+     <title>Foros Academicos</title>
+     <link href="https://file.myfontastic.com/tc26fJHv8scB3d4vHQRRsV/icons.css" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+     <link rel="icon" type="image/icon" href="../img/Footer/LogotipoBlanco.png" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+     <script src='../Js/Forum.js'></script>
+     <link rel="stylesheet" href="../css/Contactanos.css">
+     <link rel="stylesheet" href="../css/footer.css" />
+     <link rel="stylesheet" href="../css/style.css">
+     <link rel="stylesheet" href="../css/EstilosGeneral.css">
+     <link rel="stylesheet" href="../css/Forum/forum-style.css">
+ </head>
 
-<body>
-    <div class="content">
-        <header>
-            <div class="container">
-                <input type="checkbox" name="" id="check" />
-                <div class="logoImg">
-                    <!--  <img src="../img/imgo (1).jpg" width="155px" height="55px">-->
-                </div>
-                <div class="logo-container">
-     <h3 class="logo">Social <span>&nbsp; Academy</span></h3>
-                &nbsp;
-                &nbsp;
-                <img src="../img/Footer/LogotipoBlanco.png" style="width: 50px;">                </div>
+ <body>
+     <header>
+         <div class="container">
+             <input type="checkbox" name="" id="check" />
+             <div class="logoImg">
+                 <!--  <img src="../img/imgo (1).jpg" width="155px" height="55px">-->
+             </div>
+             <div class="logo-container">
+                 <h3 class="logo">Social <span>&nbsp; Academy</span></h3>
+                 &nbsp;
+                 &nbsp;
+                 <img src="../img/Footer/LogotipoBlanco.png" style="width: 50px;">
+             </div>
 
-                <div class="nav-btn">
-                    <div class="nav-links">
-                        <ul>
-                            <li class="nav-link" style="--i: 0.6s">
-                                <a href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-link" style="--i: 0.85s">
-                                <a href="#">Descubre<i class="fas fa-caret-down"></i></a>
-                                <div class="dropdown">
-                                    <ul>
-                                        <li class="dropdown-link">
-                                            <a href="Ofertas.html">Empresas</a>
-                                        </li>
-                                        <li class="dropdown-link">
-                                            <a href="documentos.html">Recursos</a>
-                                        </li>
-                                        <li class="dropdown-link">
-                                            <a href="#">
-                                                My BlogPost <i class="fas fa-caret-down"></i>
-                                            </a>
-                                            <div class="dropdown second">
-                                                <ul>
-                                                    <li class="dropdown-link">
-                                                        <a href="blog.html">Foros </a>
-                                                    </li>
-                                                    <li class="dropdown-link">
-                                                        <a href="PublicarPasantia.html">Publicar Pasantia</a>
-                                                    </li>
+             <div class="nav-btn">
+                 <div class="nav-links">
+                     <ul>
+                         <li class="nav-link" style="--i: 0.6s">
+                             <a href="../index.html">Inicio</a>
+                         </li>
+                         <li class="nav-link" style="--i: 0.85s">
+                             <a href="#">Descubre<i class="fas fa-caret-down"></i></a>
+                             <div class="dropdown">
+                                 <ul>
+                                     <li class="dropdown-link">
+                                         <a href="Ofertas.html">Empresas</a>
+                                     </li>
+                                     <li class="dropdown-link">
+                                         <a href="documentos.html">Recursos</a>
+                                     </li>
+                                     <li class="dropdown-link">
+                                         <a href="#">
+                                             My BlogPost <i class="fas fa-caret-down"></i>
+                                         </a>
+                                         <div class="dropdown second">
+                                             <ul>
+                                                 <li class="dropdown-link">
+                                                     <a href="blog.html">Foros </a>
+                                                 </li>
+                                                 <li class="dropdown-link">
+                                                     <a href="PublicarPasantia.html">Publicar Pasantia</a>
+                                                 </li>
 
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="dropdown-link">
-                                            <a href="Cursos_HTML/CursosGeneral.html">Cursos</a>
-                                        </li>
-                                        <div class="arrow"></div>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-link" style="--i: 1.1s">
-                                <a href="About.html">Quienes Somos</i></a>
-                            
-                            </li>
-                            <li class="nav-link" style="--i: 1.35s">
-                                <a href="Contact.html">Contactanos</a>
-                            </li>
-                        </ul>
-                    </div>
+                                             </ul>
+                                         </div>
+                                     </li>
+                                     <li class="dropdown-link">
+                                         <a href="Cursos_HTML/CursosGeneral.html">Cursos</a>
+                                     </li>
+                                     <div class="arrow"></div>
+                                 </ul>
+                             </div>
+                         </li>
+                         <li class="nav-link" style="--i: 1.1s">
+                             <a href="About.html">Quienes Somos</i></a>
 
-                    <div class="log-sign" style="--i: 1.8s">
-                        <a href="Login.html" class="btn transparent">Log in</a>
-                        <a href="Premium.html" class="btn solid">Premium</a>
-                    </div>
-                </div>
+                         </li>
+                         <li class="nav-link" style="--i: 1.35s">
+                             <a href="Contact.html">Contactanos</a>
+                         </li>
+                     </ul>
+                 </div>
 
-                <div class="hamburger-menu-container">
-                    <div class="hamburger-menu">
-                        <div></div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="cabecera">
-            <div class="text">
-                <p>Social Academy es una plataforma en la que puedes encontrar informacion precisa de tu interés, en la
-                    que puedes interactuar con los usuarios de manera que se puedan responder tus dudas</p>
-            </div>
-            <div class="items">
-                <div class="item2">
-                    <p>Formula tu pregunta</p>
-                    <img src="../img/burbuja-de-chat.png" alt="">
-                </div>
-                <div class="item2">
-                    <p>La comunidad te responde</p>
-                    <img src="../img/globos-de-texto.png" alt="">
-                </div>
-                <div class="item2">
-                    <p>Respuestas Precisas</p>
-                    <img src="../img/flecha-hacia-arriba.png" alt="">
-                </div>
+                 <div class="log-sign" style="--i: 1.8s">
+                     <a href="Login.html" class="btn transparent">Log in</a>
+                     <a href="Premium.html" class="btn solid">Premium</a>
+                 </div>
+             </div>
 
-            </div>
+             <div class="hamburger-menu-container">
+                 <div class="hamburger-menu">
+                     <div></div>
+                 </div>
+             </div>
+         </div>
+     </header>
+
+     <div class="container-foro">
+         <div class="banner-foro">
+             <h1> <strong>Foros Academicos </strong>sitio en donde con ayuda de la comunidad podras
+                 resolver tus dudas relacionadas a:&nbsp; <span class="typing"></span>
+             </h1>
+             <img src="../img/forum/undraw_Work_chat_re_qes4.svg" alt="forum_banner">
+         </div>
+
+         <h2 class="title">&nbsp;Preguntas principales</h2>
+         <br>
+         <h2 class="title">&nbsp;<u>Progamación Web</u></h2>
+
+         <div class="hardcodeado">
+
+             <div class="posts10">
+
+                 <p>
+                     <img src="../img/image.jpg" width="50px">
+                     <strong>Autor:</strong> Juan López
+                     &nbsp; &nbsp; &nbsp;
+                     <strong>Fecha: </strong>17/04/2021
+                     &nbsp; &nbsp;
+                     <strong>Tag: </strong>Programación Web
+                     &nbsp; &nbsp;
+                     <strong>Lenguaje: </strong>JavaScript
+                 </p>
+                 <p>
+                     <strong>Descripción: </strong> Hola a todos. Tengo el siguiente porblema con esta función: en mi
+                     archivos main.js tengo esto:
+                 </p>
+                 <code>
+                     <pre> var respu = habilita_nat1(hiddenInput18.value);
+                </pre>
+                     <pre>   if(respu = "SI"){ </pre>
+                     <pre>     agregar_trat('18');</pre>
+                     <pre>  } 
+                    <br>    function habilita_nat1(pieza){</pre>
+                     <pre>        var vpieza = pieza;</pre>
+                     <pre>         $(document).ready(function(){
+                    <br>             $.ajax({</pre>
+                     <pre>             url:'./php/buscar_habnat.php',</pre>
+                     <pre>             method: 'GET',</pre>
+                     <pre>             data: {</pre>
+                     <pre>             pieza:vpieza</pre>
+                     <pre>             }</pre>
+                     <pre>         }).done(function(res){</pre>
+                     <pre>             return res;
+                   <br>        });
+                   <br>     });</pre>
+                     <pre>  }</pre>
+                 </code>
+                 <p>
+                     El problema es que puedo hacer que me devuelva la respuesta. Es decir, cuando ejecuto esto me sale
+                     que
+                     respu es UNDEFINED. Que estoy haciendo mal. Ya llevo varias horas y no encuentro error.
+                     <br>
+                     <br> Gracias por su ayuda
+                 </p>
+             </div>
+             <div class="postsp02">
+                 <p>
+                     <img src="../img/image (2).jpg" width="50px">
+                     <strong>Autor:</strong> Felix Mercado
+                     &nbsp; &nbsp; &nbsp;
+                     <strong>Fecha: </strong>17/04/2021
+                     &nbsp; &nbsp;
+                     <strong>Tag: </strong>Programación Web
+                     &nbsp; &nbsp;
+                     <strong>Lenguaje: </strong>JavaScript
+                 </p>
+                 <p>
+                     Hola Juan, entiendo que en este código faltan lineas, cierto?
+                     Hay que ver que es <code>hiddenInput18</code> y que hace al función <code>habilita_nat1()</code>
+                 </p>
+             </div>
+             <div class="posts">
+                 <p>
+                     <img src="../img/image.jpg" width="50px">
+                     <strong>Autor:</strong> Juan López
+                     &nbsp; &nbsp; &nbsp;
+                     <strong>Fecha: </strong>17/04/2021
+                     &nbsp; &nbsp;
+                     <strong>Tag: </strong>Programación Web
+                     &nbsp; &nbsp;
+                     <strong>Lenguaje: </strong>JavaScript
+                     <br>
+                     <br>
+                     Hola Felix, si si faltan lineas, lo que pasa es que es un codigo muy largo para copiarlo
+                     todo, pero te explico, en el <code>hiddenInput18</code> hay un valor, por ejemplo 18 y la función
+                     <code>habilita_nat1()</code> lo
+                     que hace es con ese valor que le paso como parametro hace una consulta a la base de datos para ver
+                     si
+                     ese valor habilita o no algo. Entonces lo que tengo que devolver es eso, SI si habilita y NO sino
+                     habilita. Todo eso lo hace en forma correcta, lo que no puedo hacer es que me devuelva ese valor
+                     para
+                     continuar con las demás líneas. </p>
+             </div>
+
+         </div>
+         <div class="postsp02">
+             <p>
+                 <img src="../img/image (3).jpg" width="50px">
+                 <strong>Autor:</strong> Angel García
+                 &nbsp; &nbsp; &nbsp;
+                 <strong>Fecha: </strong>18/04/2021
+                 &nbsp; &nbsp;
+                 <strong>Tag: </strong>Programación Web
+                 &nbsp; &nbsp;
+                 <strong>Lenguaje: </strong>JavaScript
+             </p>
+             <p>
+                 Entiendo entonces que el problema esta en esa función, no? (habilita_nat1) que no devuelve el valor
+                 correcto
+             </p>
+         </div>
+
+         <div class="postsp02">
+             <p>
+                 <img src="../img/image.jpg" width="50px">
+                 <strong>Autor:</strong> Juan López
+                 &nbsp; &nbsp; &nbsp;
+                 <strong>Fecha: </strong>17/04/2021
+                 &nbsp; &nbsp;
+                 <strong>Tag: </strong>Programación Web
+                 &nbsp; &nbsp;
+                 <strong>Lenguaje: </strong>JavaScript
+                 <br>
+                 <br>
+                 Excacto....Ese es el problema</p>
+         </div>
+
+         <div class="postsp02">
+            <p>
+                <img src="../img/image (3).jpg" width="50px">
+                <strong>Autor:</strong> Angel García
+                &nbsp; &nbsp; &nbsp;
+                <strong>Fecha: </strong>18/04/2021
+                &nbsp; &nbsp;
+                <strong>Tag: </strong>Programación Web
+                &nbsp; &nbsp;
+                <strong>Lenguaje: </strong>JavaScript
+            </p>
+            <p>
+                Puedes publicar la función para ver donde esta el problema?
+                Revisa que el valor que se envía es el esperado.
+            </p>
         </div>
-        <div class="wave">
-            <div style="height: 100px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #24345F;"></path></svg></div>
-        </div>
-        <div class="todaslascarreras">
-            <section class="filtro">
-                <ul>
-                    <li class="list active" data-filter="todo">*</li>
-                    <li class="list" data-filter="pregunta">Preguntas</li>
-                    <li class="list" data-filter="comentarios">Comentarios</li>
-                    <li class="list" data-filter="etiquetas">Etiquetas</li>
-                    <li class="list" data-filter="usuario">Usuario</li>
-                    <li class="list" data-filter="sinresponder">Preguntas sin responder</li>
-                </ul>
-            </section>
-        </div>
-        <main class="principal">
-        </main>
-    </div>
-    <div class="itemBox todo"></div>
-    <div class="itemBox pregunta">
-        <div id="disqus_thread"></div>
-        <script>
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-            /*
-            var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-            */
-            (function () { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://social-academy-1.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-       
-    </div>
 
+  
 
-        <footer>
-            <div class="InfoFooter">
-                <div class="EnlacesFooter" >
-                    <a href="../html/About.html" class="TextoLinks"><i class="far fa-address-card">  </i> &ensp; Acerca de</a>
-                    <a href="../html/Contact.html" class="TextoLinks"><i class="far fa-question-circle"></i> &ensp; ¿Tienes preguntas? <h2>    &ensp; Contactanos</h2></a>
-                    <a href="../html/Premium.html" class="TextoLinks"><i class="far fa-credit-card"></i> &ensp; Premium</a>
-                    <a href="#" class="TextoLinks"><i class="fas fa-cookie"></i> &ensp; Cookie Policy</a>
-                    <a href="#" class="TextoLinks"><i class="fas fa-mobile"></i> &ensp; App Movil</a>
-                </div>
-                <div class="SocialFooter" >
-                    <img src="../img/Footer/LogotipoBlanco.png" width="20%">
-                    <h1 class="SocialInfo">
-                        Social Academy es una plataforma académica que ofrece un repositorio de información con documentación, cursos, ofertas de pasantías y recursos en vídeo compartidos por sus usuarios.
-                    </h1>
-                    <div class="SocialBar">
-                        <div id="DIViconos">
-                            <div class="IconosSocial">
-                                    <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                    <a href="https://www.youtube.com/channel/UCbU5HNKarAfPZxpc04AzSpg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-                <div class="LogosFooter">
-                    <img src="../img/Footer/LogoCI.png" width="45%">
-                    <img src="../img/Footer/LogoCNU.png" width="45%">
-                </div>
-            </div>
-            <div class="Copyright">
-                <h1 class="AllRight">All rights reserved | Social Academy © 2021</h1>
-                <a href="#" class="Privacy">
-                        Privacy Policy
-                </a>
-            </div>
-        </footer>
-    <script src="../Js/jquery-3.5.1.js"></script>
-    <script src="../Js/script.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('.list').click(function () {
-                const value = $(this).attr('data-filter');
-                if (value == '') {
-                    $('.itemBox').show('1000');
-                }
-                else {
-                    $('.itemBox').not('.' + value).hide('1000');
-                    $('.itemBox').filter('.' + value).show('1000');
-                }
-            })
+     <div class="crear-comentario">
+         <div class="contact-form">
+             <form action="Contact.html">
+                 <div class="input-containerContact textarea">
+                     <textarea name="mensaje" class="inputContact"></textarea>
+                     <label for="">Comentario</label>
+                     <span>Comentario</span>
+                 </div>
+                 <input type="submit" value="Postear" class="btnContact">
+             </form>
+         </div>
+     </div>
+     </div>
 
-            ///Activar los items de la lista//
-            $('.list').click(function () {
-                $(this).addClass('active').siblings().removeClass('active');
-            })
-        })
-    </script>
-</body>
+     <footer>
+         <div class="InfoFooter">
+             <div class="EnlacesFooter">
+                 <a href="../html/About.html" class="TextoLinks"><i class="far fa-address-card"> </i> &ensp; Acerca
+                     de</a>
+                 <a href="../html/Contact.html" class="TextoLinks"><i class="far fa-question-circle"></i> &ensp; ¿Tienes
+                     preguntas? <h2> &ensp; Contactanos</h2></a>
+                 <a href="../html/Premium.html" class="TextoLinks"><i class="far fa-credit-card"></i> &ensp; Premium</a>
+                 <a href="#" class="TextoLinks"><i class="fas fa-cookie"></i> &ensp; Cookie Policy</a>
+                 <a href="#" class="TextoLinks"><i class="fas fa-mobile"></i> &ensp; App Movil</a>
+             </div>
+             <div class="SocialFooter">
+                 <img src="../img/Footer/LogotipoBlanco.png" width="20%">
+                 <h1 class="SocialInfo">
+                     Social Academy es una plataforma académica que ofrece un repositorio de información con
+                     documentación, cursos, ofertas de pasantías y recursos en vídeo compartidos por sus usuarios.
+                 </h1>
+                 <div class="SocialBar">
+                     <div id="DIViconos">
+                         <div class="IconosSocial">
+                             <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                             <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                             <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                             <a href="https://www.youtube.com/channel/UCbU5HNKarAfPZxpc04AzSpg"><i class="fa fa-youtube"
+                                     aria-hidden="true"></i></a>
+                         </div>
+                     </div>
+                 </div>
 
-</html>
+             </div>
+
+             <div class="LogosFooter">
+                 <img src="../img/Footer/LogoCI.png" width="45%">
+                 <img src="../img/Footer/LogoCNU.png" width="45%">
+             </div>
+         </div>
+         <div class="Copyright">
+             <h1 class="AllRight">All rights reserved | Social Academy © 2021</h1>
+             <a href="#" class="Privacy">
+                 Privacy Policy
+             </a>
+         </div>
+     </footer>
+     <script src="../Js/jquery-3.5.1.js"></script>
+     <script src="../Js/script.js"></script>
+     <script type="text/javascript">
+         $(document).ready(function () {
+             $('.list').click(function () {
+                 const value = $(this).attr('data-filter');
+                 if (value == '') {
+                     $('.itemBox').show('1000');
+                 } else {
+                     $('.itemBox').not('.' + value).hide('1000');
+                     $('.itemBox').filter('.' + value).show('1000');
+                 }
+             })
+
+             ///Activar los items de la lista//
+             $('.list').click(function () {
+                 $(this).addClass('active').siblings().removeClass('active');
+             })
+         })
+     </script>
+     <script src="../Js/ContactApp.js"></script>
+
+ </body>
+
+ </html>

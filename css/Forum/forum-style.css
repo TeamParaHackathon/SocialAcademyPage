@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Ubuntu:wght@700&display=swap");
+
+footer {
+	z-index: 10000000;
+	position: relative;
+}
+
+.container-foro {
+	top: 48px;
+	position: relative;
+}
+
+.banner-foro {
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	background-image: linear-gradient(-45deg, #24345f 0%, #0f7cbf 100%);
+	display: flex;
+	justify-content: space-between;
+}
+
+.banner-foro img {
+	float: right;
+	width: 40%;
+	margin: 15px;
+}
+
+.banner-foro h1 {
+	color: #eee;
+	padding: 15px;
+	line-height: 40px;
+	font-family: "Lato", sans-serif;
+}
+
+.banner-foro .typing {
+	font-family: "Ubuntu", sans-serif;
+	color: #ffb20f;
+}
+
+.harcodeado {
+	position: relative;
+	top: 48px;
+}
+
+.crear-comentario {
+	z-index: 100;
+	position: relative;
+}
+
+.title {
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	color: rgb(44, 44, 44);
+    font-size: 35px;
+    padding-left: 5px;
+}
+
+.title:first-of-type {
+	/* For increasing performance 
+                         ID/Class should've been used. 
+                         For a small demo 
+                         it's okaish for now */
+	animation: showup 7s infinite;
+}
+
+.title:last-of-type {
+	width: 0px;
+	animation: reveal 7s infinite;
+}
+
+.title:last-of-type span {
+	margin-left: -355px;
+	animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes slidein {
+	0% {
+		margin-left: -800px;
+	}
+	20% {
+		margin-left: -800px;
+	}
+	35% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: 0px;
+	}
+}
+
+@keyframes reveal {
+	0% {
+		opacity: 0;
+		width: 0px;
+	}
+	20% {
+		opacity: 1;
+		width: 0px;
+	}
+	30% {
+		width: 355px;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		width: 355px;
+	}
+}
+
+.crear-comentario{
+	position: relative;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+textarea.inputContact {
+	padding: 0.8rem 1.2rem;
+	min-height: 150px;
+	border-radius: 22px;
+	resize: none;
+	overflow-y: auto;
+    color: #24345f;
+    border-color: #24345F;
+}
+.input-containerContact label {
+	color: #24345f;
+	font-size: 1.2rem;
+	
+}
+
+.contact-form {
+	background-color: #fafafa;
+	position: relative;
+}
+
+.contact-form::before {
+	background-color:#fafafa;
+	
+}
+
+
+.input-containerContact span::before,
+.input-containerContact span::after {
+    font-size: 1.2rem;
+	background-color: #fafafa;
+}
+.btnContact {
+	background-color: #24345F;
+	border: 2px solid #24345F;
+	color: #fafafa;
+	
+}
+
+.btnContact:hover {
+	background-color: transparent;
+	color: #24345F;
+}
+
+.posts{
+	width: 70%;
+	height: 200px;
+	outline: none;
+	border: 2px solid #24345F;
+	background: none;
+	padding: 0.6rem 1.2rem;
+	color: #24345F;
+	font-weight: 500;
+	font-size: 0.95rem;
+	letter-spacing: 0.5px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin: 2rem;
+}
+
+.posts10{
+	width: 70%;
+	height: 560px;
+	outline: none;
+	border: 2px solid #24345F;
+	background: none;
+	padding: 0.6rem 1.2rem;
+	color: #24345F;
+	font-weight: 500;
+	font-size: 0.95rem;
+	letter-spacing: 0.5px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin: 2rem;
+}
+.posts p{
+	padding: 10px;
+}
+.posts img{
+	border-radius: 50%;
+}
+
+
+.posts code{
+	color: black;
+}
+.posts10 p{
+	padding: 10px;
+}
+.posts10 img{
+	border-radius: 50%;
+}
+
+.posts10 code{
+	color: black;
+}
+
+.posts10 code pre{
+	background-color: #ddd;
+}
+
+.postsp02{
+	width: 70%;
+	height: 150px;
+	outline: none;
+	border: 2px solid #24345F;
+	background: none;
+	padding: 0.6rem 1.2rem;
+	color: #24345F;
+	font-weight: 500;
+	font-size: 0.95rem;
+	letter-spacing: 0.5px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin: 2rem;
+}
+
+.postsp02 p{
+	padding: 10px;
+}
+.postsp02 img{
+	border-radius: 50%;
+}

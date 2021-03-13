@@ -450,6 +450,7 @@
 	font-weight: 900;
 	font-size: 14px;
 	padding: 15px 45px;
+	box-shadow: 1px 2px 3px  rgba(39, 46, 56, 0.3);
 }
 .BotonPremium:hover {
 	background-color: transparent;
