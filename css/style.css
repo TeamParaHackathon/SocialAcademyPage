@@ -26,6 +26,7 @@ header {
 	background-color: #24345f;
 	width: 100%;
 	z-index: 1000;
+	box-shadow: 5px 5px 5px 5px rgba(50, 57, 66, 0.3);
 }
 
 .container {
@@ -88,6 +89,7 @@ header {
 	background-color: #fff;
 	color: #24345f;
 	transition: all 0.3s ease;
+	box-shadow: 0px 5px 5px 5px rgba(39, 46, 56, 0.3);
 }
 
 .btn.transparent:hover {
@@ -100,6 +102,7 @@ header {
 	background-color: transparent;
 	color: #fff;
 	transition: all 0.3s ease;
+	box-shadow: 0px 5px 5px 5px rgba(39, 46, 56, 0.3);
 }
 .btn.solid:hover {
 	background-color: transparent;

@@ -1,0 +1,58 @@
+.action-button{
+    position: relative;
+    display: flex;
+    float: right;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+.icon-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-button button{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.icon-button i{
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(105, 105, 105);
+    transition: all .3s ease;
+}
+
+.icon-button #like:hover{
+    transform: scale(1.2);
+    transition: all .3s ease;
+    color: #0f7cbf;
+}
+
+.icon-button #dislike:hover{
+    transform: scale(1.2);
+    transition: all .3s ease;
+    color: #bf0f3b;
+}
+
+.label-button button{
+    outline: none;
+    border: none;
+    background: none;
+
+}
+.label-button button a{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Ubuntu';
+    color: rgb(105, 105, 105);
+    font-style: italic;
+    transition: all .3s ease;
+
+}
+
+.label-button button a:hover{
+    transition: all .3s ease;
+    color: #0f7cbf;
+    font-style: normal;
+}
