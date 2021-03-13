@@ -195,10 +195,13 @@ form{
 	font-family: 'poppins', sans-serif;
 	margin: 1vw 0;
 	cursor: pointer;
-	transition: .5s;
+	transition: all .3s ease;
 }
 .btnInputPublicarOferta:hover{
-	background-position: right;
+	background: transparent;
+	border: 3px solid #24345F;
+	color: #24345F;
+	transition: all .3s ease;
 }
 
 .InputPublicarOferta{

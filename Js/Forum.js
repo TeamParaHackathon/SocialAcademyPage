@@ -1,11 +1,11 @@
 $(document).ready(function () {
 	var typed = new Typed(".typing", {
 		strings: [
-			"Informatica General",
-			"Diseño grafico",
+			"Informática General",
+			"Diseño Gráfico",
 			"Desarrollo Web",
 			"Marketing",
-            "Desarrollo Movil",
+            "Desarrollo Móvil",
 			"Contabilidad",
 			"Progamación General",
 		],
