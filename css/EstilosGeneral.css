@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Text:ital@1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
 * {
@@ -13,45 +13,138 @@
 	font-size: 1vw;
 }
 
+
+
+/*BANNER SUPERIOR*/
+.Index-Superior{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 7%;
+}
+
+	.Banner-Index{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+
+		.Banner-Index-Informacion{
+			width: 47%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+				.Index-Informacion-Superior{
+					width: 100%;
+					padding-left: 15%;
+					padding-right: 2%;
+					display: flex;
+					flex-direction: column;
+					align-items: flex-start;
+					justify-content: center;
+					font-family: 'Poppins', sans-serif;
+				}
+
+
+						.Index-Informacion-Superior h1{
+							font-family: 'Montserrat', sans-serif;
+							text-align: left;
+							color: #24345f;
+							text-transform: uppercase;
+							font-size: 2.6vw;
+							line-height: 3.3vw;
+							font-weight: 900;
+						}
+
+						.Index-Informacion-Superior h2{
+							padding-top: 2%;
+							font-family: 'Montserrat', sans-serif;
+							color: #24345f;
+							font-size: 1.2vw;
+							text-align: justify;
+
+						}
+
+						.Index-Informacion-Superior img{
+							width: 20%;
+						}
+					
+
+			.Index-Informacion-Imagen{
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+			}
+
+				.Index-Informacion-Imagen img{
+					width: 100%;
+				}
+
+		.Banner-Index-Imagen{
+			width: 53%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+			.Banner-Index-Imagen img{
+				width: 100%;
+			}
+
+	.Banner-Descripcion{
+		width: 100%;
+		padding-top: 4%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-around;
+	}
+
+		.Banner-Descripcion-Individual{
+			width: 20%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+		}
+
+			.Banner-Descripcion-Individual h1{
+					width: 74%;
+					padding: 4%;
+					background-color: #24345f;
+					color: white;
+					font-family: 'Poppins', sans-serif;
+					font-size: 1.2vw;
+					border-radius: 2.5vw;
+					text-align: center;
+			}
+
+			.Banner-Descripcion-Individual h2{
+				width: 100%;
+				padding-top: 5%;
+				text-align: justify;
+				font-family: 'Poppins', sans-serif;
+				font-size: 1.2vw;
+		}
+
+/*FIN BANNER SUPERIOR*/
+
+
+
+
+
 .logoImg {
 	float: -200%;
 }
 
-.Banner_Rectangulo {
-	width: 100%;
-	height: 700px;
-	background: linear-gradient(253.58deg, #0f7cbf 1.55%, #0f7cbf 95.8%);
-	/* Blue 3 */
-	box-sizing: border-box;
-}
 
-#Mensaje {
-	font-size: 3.5vw;
-	font-style: normal;
-	font-weight: 900;
-	line-height: 158.34%;
-	/* or 70px */
-	color: #ffffff;
-	text-size-adjust: auto;
-}
-
-.Banner_Rectangulo p {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1vw;
-	line-height: 32px;
-	color: #fff7df;
-	/* Blue 3 */
-}
-
-.imgMarcianito {
-	width: 50%;
-	height: 40%;
-	position: absolute;
-	left: 50%;
-	bottom: 45%;
-	z-index: 2;
-}
 
 .BlanckFirst {
 	width: 100%;
@@ -79,69 +172,7 @@
 	width: 10%;
 }
 
-.icon_regalia {
-	padding-top: 2%;
-}
-.icon_regalia > ul {
-	display: flex;
-	justify-content: space-around;
-}
 
-.Proyectos {
-	position: relative;
-	width: 20%;
-}
-
-.Proyectos span {
-	font-style: normal;
-	font-weight: 900;
-	font-size: 1.2vw;
-	/* or 33px */
-	text-align: center;
-	color: #5c5c5c;
-}
-
-.Multiplataforma img {
-	width: 45%;
-	height: 45%;
-}
-
-.ensena img {
-	width: 45%;
-	height: 45%;
-}
-
-.Proyectos img {
-	width: 45%;
-}
-
-.ensena span {
-	font-style: normal;
-	font-weight: 900;
-	font-size: 1.2vw;
-	/* or 33px */
-	text-align: center;
-	color: #5c5c5c;
-}
-
-.ensena {
-	position: relative;
-	width: 20%;
-}
-
-.Multiplataforma {
-	position: relative;
-	width: 20%;
-}
-
-.Multiplataforma span {
-	font-style: normal;
-	font-weight: 900;
-	font-size: 1.2vw;
-	/* or 33px */
-	text-align: center;
-	color: #5c5c5c;
-}
 .HomeInteractua {
 	width: 100%;
 	display: flex;
