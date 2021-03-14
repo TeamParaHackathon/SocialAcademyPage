@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
     <link rel="icon" type="image/icon" href="img/Footer/LogotipoBlanco.png" />
     <link rel="stylesheet" href="css/EstilosGeneral.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="css/About.css"/>
     <link rel="stylesheet" href="css/CardsPremium.css"/>
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/Cards/cards.css" />
 
 
 
@@ -25,7 +27,6 @@
 
 <body>
     <header>
-
 
         <div class="container">
             <input type="checkbox" name="" id="check" />
@@ -199,162 +200,99 @@
     </div>
 
     <div class="Carreras">
-        <h2>Cursos Destacados</h2>
-        <ul>
-            <ul>
-                <li>
-                    <div id="Curso1">
-                        <div class="center">
-                            <div class="property-card">
-                                <a href="#">
-                                    <div id="Curso1-property-image">
-                                        <div class="property-image-title">
-                                            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="property-description">
-                                    <h5> GitHub </h5>
-                                    <p>GitHub es una forja para alojar proyectos utilizando el sistema de control de
-                                        versiones Git. Se
-                                        utiliza principalmente
-                                        para la creación de código fuente de programas de ordenador. El software que
-                                        opera GitHub fue
-                                        escrito
-                                        en Ruby on Rails.</p>
-                                </div>
-                                <a href="#">
-                                    <div class="property-social-icons">
-                                        <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+        <h2>¡Lo que puedes estudiar!</h2>
+        <div class="container-card">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" style="fill:rgb(255, 255, 255)"><path d="M11.953 8.819l-.547 2.19c.619.154 2.529.784 2.838-.456C14.566 9.262 12.571 8.974 11.953 8.819zM11.131 12.115l-.603 2.415c.743.185 3.037.921 3.376-.441C14.259 12.667 11.875 12.3 11.131 12.115z"></path><path d="M14.421,2.299C9.064,0.964,3.641,4.224,2.306,9.581c-1.336,5.355,1.924,10.78,7.277,12.116 c5.357,1.335,10.783-1.924,12.117-7.281C23.036,9.06,19.776,3.635,14.421,2.299z M16.412,10.574 c-0.145,0.974-0.686,1.445-1.402,1.611c0.985,0.512,1.485,1.298,1.009,2.661c-0.592,1.691-1.998,1.834-3.87,1.48l-0.454,1.82 l-1.096-0.273l0.447-1.794c-0.283-0.071-0.574-0.146-0.875-0.228l-0.449,1.804L8.627,17.38l0.454-1.823 c-0.257-0.066-0.517-0.136-0.782-0.202L6.87,15l0.546-1.256c0,0,0.808,0.215,0.797,0.199c0.311,0.077,0.448-0.125,0.502-0.261 l0.719-2.875c0.04,0.01,0.079,0.02,0.115,0.029c-0.044-0.018-0.083-0.029-0.114-0.037l0.512-2.053 C9.96,8.512,9.881,8.218,9.436,8.107c0.018-0.011-0.797-0.198-0.797-0.198L8.93,6.737l1.514,0.378l-0.001,0.005 c0.227,0.057,0.461,0.111,0.7,0.165l0.449-1.802l1.097,0.273l-0.44,1.766c0.294,0.067,0.591,0.135,0.879,0.207l0.438-1.755 l1.097,0.273l-0.449,1.802C15.598,8.528,16.61,9.244,16.412,10.574z"></path></svg>
+                        <h3>Finanzas</h3>
                     </div>
-                </li>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                            <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
+                        <h3>Programación</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                            <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill:rgb(255, 255, 255)"><path d="M21,7h-6c-0.553,0-1,0.447-1,1v3h-2V4c0-0.553-0.447-1-1-1H3C2.447,3,2,3.447,2,4v16c0,0.553,0.447,1,1,1h7h1h4h1h5 c0.553,0,1-0.447,1-1V8C22,7.447,21.553,7,21,7z M8,6h2v2H8V6z M6,16H4v-2h2V16z M6,12H4v-2h2V12z M6,8H4V6h2V8z M10,16H8v-2h2V16z M10,12H8v-2h2v1V12z M19,16h-2v-2h2V16z M19,12h-2v-2h2V12z"></path></svg>
+                        <h3>Administración</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                            <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <li>
-                    <div id="Curso2">
-                        <div class="center">
-                            <div class="property-card">
-                                <a href="#">
-                                    <div id="Curso2-property-image">
-                                        <div class="property-image-title">
-                                            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="property-description">
-                                    <h5> Angular.Js </h5>
-                                    <p>AngularJS, es un framework de JavaScript de código abierto, mantenido por Google,
-                                        que se utiliza
-                                        para
-                                        crear y mantener
-                                        aplicaciones web de una sola página.</p>
-                                </div>
-                                <a href="#">
-                                    <div class="property-social-icons">
-                                        <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+       
+        <div class="container-card">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
+                        <h3>Diseño</h3>
                     </div>
-                </li>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                            <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill:rgb(255, 255, 255)"><path d="M18,9c0-1.103-0.897-2-2-2h-1.434l-2.418-4.029C11.789,2.372,11.132,2,10.434,2H5v2h5.434l1.8,3H4C2.897,7,2,7.897,2,9v9 c0,1.103,0.897,2,2,2h12c1.103,0,2-0.897,2-2v-3l4,2v-7l-4,2V9z M16.002,18H4V9h12l0.001,4L16,13v1l0.001,0.001L16.002,18z"></path><path d="M6 14H12V16H6z"></path></svg>
+                        <h3>Multimedia</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                            <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
+                        <h3>Launch</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                            <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <li>
-                    <div id="Curso5">
-                        <div class="center">
-                            <div class="property-card">
-                                <a href="#">
-                                    <div id="Curso5-property-image">
-                                        <div class="property-image-title">
-                                            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="property-description">
-                                    <h5> DaVinci Resolve </h5>
-                                    <p>DaVinci Resolve es un software de edición de video no lineal desarrollado por
-                                        Blackmagic Design. Su
-                                        versión más reciente
-                                        es DaVinci Resolve 16 la cual funciona en ordenadores personales con sistema
-                                        operativo Windows, Mac
-                                        OS
-                                        X y Linux, aunque
-                                        no en Android.</p>
-                                </div>
-                                <a href="#">
-                                    <div class="property-social-icons">
-                                        <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <div id="Curso3">
-                        <div class="center">
-                            <div class="property-card">
-                                <a href="#">
-                                    <div id="Curso3-property-image">
-                                        <div class="property-image-title">
-                                            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="property-description">
-                                    <h5> Adobe Photoshop </h5>
-                                    <p>Adobe Photoshop es un editor de fotografías desarrollado por Adobe Systems
-                                        Incorporated. Usado
-                                        principalmente para el
-                                        retoque de fotografías y gráficos, su nombre en español significa "taller de
-                                        fotos". Es conocido
-                                        mundialmente.</p>
-                                </div>
-                                <a href="#">
-                                    <div class="property-social-icons">
-                                        <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div id="Curso4">
-                        <div class="center">
-                            <div class="property-card">
-                                <a href="#">
-                                    <div id="Curso4-property-image">
-                                        <div class="property-image-title">
-                                            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="property-description">
-                                    <h5> React Native </h5>
-                                    <p>React Native es un marco de aplicación móvil de código abierto creado por
-                                        Facebook, Inc. Se
-                                        utiliza para desarrollar aplicaciones para Android, Android TV, iOS, macOS,
-                                        tvOS, Web, Windows y UWP
-                                        al permitir a los
-                                        desarrolladores utilizar el marco de React junto con la plataforma nativa.</p>
-                                </div>
-                                <a href="#">
-                                    <div class="property-social-icons">
-                                        <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </ul>
+
     </div>
 
     <div class="Estadisticas">
