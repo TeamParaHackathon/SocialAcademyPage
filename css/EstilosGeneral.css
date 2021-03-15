@@ -499,7 +499,9 @@
 
 .LastBanner {
 	width: 100%;
-	background-color: #fefefe;
+	background-image: url('../img/Stylish Feel.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
