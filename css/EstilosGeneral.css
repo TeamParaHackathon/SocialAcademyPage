@@ -499,7 +499,7 @@
 
 .LastBanner {
 	width: 100%;
-	background-image: url('../img/Stylish Feel.png');
+	background-image: url('img/Stylish Feel.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
