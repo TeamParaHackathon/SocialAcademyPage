@@ -46,13 +46,13 @@ jQuery(document).on('click', 'div.botton #button',
         if(!i){
             event.preventDefault();
             jQuery('.contenidooculto').slideToggle();
-            document.getElementById('button').innerHTML = 'Ver menos..';
+            document.getElementById('button').innerHTML = '---------Ver menos----------';
             i = 1;
         }
         else{
             event.preventDefault();
             jQuery('.contenidooculto').slideToggle();
-            document.getElementById('button').innerHTML = 'Ver más..';
+            document.getElementById('button').innerHTML = '----------Ver más-----------';
             i = 0;
         }
     });
