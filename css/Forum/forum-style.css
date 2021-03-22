@@ -126,8 +126,8 @@ footer {
 	}
 }
 .posts {
-	width: 70%;
-	height: 200px;
+	width: 70vw;
+	height: 40%;
 	outline: none;
 	border: 2px solid #24345f;
 	background: none;
@@ -143,8 +143,9 @@ footer {
 }
 
 .posts10 {
-	width: 70%;
-	height: 540px;
+	position: relative;
+	width: 70vw;
+	height: 50%;
 	outline: none;
 	border: 2px solid #24345f;
 	background: none;
@@ -214,6 +215,12 @@ footer {
 	position: relative;
 	margin-bottom: 20px;
 	margin-top: 10px;
+	z-index: 1000;
+}
+
+.InfoFooter{
+	position: relative;
+	top: 25px;
 }
 
 textarea.inputContact {
@@ -299,7 +306,7 @@ textarea.inputContact {
 
 @media (max-width: 850px) {
 	.posts10 {
-		height: 570px;
+		height: 50%;
 	}
 
 	.posts10 p {
@@ -311,7 +318,7 @@ textarea.inputContact {
 	}
 
 	.posts {
-		height: 235px;
+		height: 40%;
 	}
 
 	.postsp02 p {
@@ -350,7 +357,7 @@ textarea.inputContact {
 
 @media (max-width: 650px) {
 	.posts10 {
-		height: 570px;
+		height: 50%;
 	}
 
 	.posts10 p {
@@ -362,7 +369,8 @@ textarea.inputContact {
 	}
 
 	.posts {
-		height: 235px;
+		height: 40%;
+
 	}
 
 	.postsp02 p {
@@ -383,19 +391,21 @@ textarea.inputContact {
 
 	.posts10 {
 		width: 75%;
-		height: 570px;
+		height: 50%;
 	}
 }
 
 @media (max-width: 480px) {
 	.posts10 {
 		width: 79%;
-		height: 620px;
+		height: 50%;
+
 	}
 
 	.posts {
 		width: 79%;
-		height: 300px;
+		height: 40%;
+
 	}
 	.postsp02 {
 		width: 79%;
@@ -407,12 +417,14 @@ textarea.inputContact {
 
 	.posts10 {
 		width: 85%;
-		height: 470px;
+		height: 50%;
+
 	}
 
 	.posts {
 		width: 79%;
-		height: 270px;
+		height: 40%;
+
 	}
 	.postsp02 {
 		width: 79%;
@@ -436,12 +448,14 @@ textarea.inputContact {
 
 @media (max-width: 375px) {
 	.posts10 {
-		height: 490px;
+		height: 50%;
+
 	}
 
 	.posts {
 		margin-right: 2px;
-		height: 300px;
+		height: 40%;
+
 	}
 
 	.postsp02 {
@@ -451,14 +465,16 @@ textarea.inputContact {
 }
 @media (max-width: 320px) {
 	.posts10 {
-		height: 520px;
+		height: 50%;
+
 	}
 	.posts10 code {
 		font-size: 8px;
 	}
 
 	.posts {
-		height: 350px;
+		height: 40%;
+
 	}
 	.postsp02 {
 		height: 190px;
