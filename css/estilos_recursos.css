@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Filtrado de recursos*/
+.filtrorecursos{
+    padding: 20px;
+    width: 100%;
+    margin: 10px auto;
+}
+.filtrorecursos ul{
+    display: flex;
+
+    margin-bottom: 10px;
+    animation: moverizquierda 1s ease-in;
+}
+.filtrorecursos ul li{
+    list-style: none;
+    padding: 8px 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.tabs li a{
+    color: #24345F;
+}
+.active{
+    border-bottom: 2px solid #24345F;
+}
+
+.secciones article{
+    transition: all 500ms ease;
+}
+
+/*Tablas de pdf*/
+.pdfresources{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: arriba 700ms ease-in;
+    
+}
+
+.cardpdf{
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid #e2e2e2;
+    border-radius: 14px;
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+    transition: all 500ms ease;
+    overflow: hidden;
+    background: #24345F;
+    color: #fff;
+}
+/*Efecto hover de cards*/
+.pdfres{
+    width: 100%;
+    height: 70%;
+    transition: all 500ms ease;
+}
+.pdfres:hover{
+    transform: scale(1.1);
+}
+.pdfres iframe{
+    width: 100%;
+    height: 90%;
+}
+
+.titulopdf{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content:center;
+    align-content: center;
+}
+.btn_pdf {
+    display: inline-block;
+    padding: .5rem 1.3rem;
+    font-size: .8rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    line-height: 1;
+    margin: 0 .2rem;
+    transition: .3s;
+    text-transform: uppercase;
+    width: 50%;
+    color: #fff;
+}
+
+.btn_pdf.solid,
+.btn_pdf.transparen:hover {
+    background-color: #fff;
+    color: #24345F;
+}
+
+
+/*PopUp pdf*/
+.container_todo{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 600ms;
+}
+
+
+.container_todo:target{
+    background: rgba(0,0,0,0.8);
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    position: absolute;
+}
+
+.container_todo:target .popup{
+    top: 50%;
+    left: 50%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    visibility: visible;
+    position: absolute;
+}
+.popup{
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    background: white;
+    visibility: hidden;
+    top: -80%;
+    left: -80%;
+    transform: rotate(90deg) translate(-150%, 230%);
+    transition: all 600ms;
+}
+.img_popup{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.img_popup iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.descarga{
+    width: 35%;
+}
+
+
+.container-text h1{
+    font-size: 30px;
+}
+
+.container-text p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+.btn-close-popup{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    padding: 20px;
+    background: #24345F;
+    color: white;
+    border-radius: 50%;
+    line-height: 10px;
+}
+
+@media screen and (max-width: 900px){
+    .popup{
+        flex-direction: column;
+        height: 100%;
+        max-height: 800px;
+    }
+    
+    .img_popup{
+        width: 100%;
+        height: 40%;
+    }
+    
+    .container-text{
+        width: 100%;
+        height: 60%;
+        padding: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .container-text{
+        padding: 20px;
+    }
+    
+    .container-text h1{
+        font-size: 20px;
+    }
+    
+    .container-text p{
+        font-size: 12px;
+    }
+}
+
+
+/*Recursos de videos*/
+.videoresources{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: arriba 1s ease-in;
+}
+
+.cardvideo{
+    width: 250px;
+    height: 280px;
+    margin: 10px;
+    border: 2px solid #e2e2e2;
+    border-radius: 14px;
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+    transition: all 500ms ease;
+    overflow: hidden;
+    background: #24345F;
+    color: #fff;
+}
+
+/*Efecto hover de cards*/
+.videores{
+    width: 100%;
+    height: 70%;
+    transition: all 500ms ease;
+}
+.videores:hover{
+    transform: scale(1.1);
+}
+.videores iframe{
+    width: 100%;
+    height: 95%;
+}
+
+.titulo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
