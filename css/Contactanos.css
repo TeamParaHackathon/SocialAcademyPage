@@ -141,13 +141,13 @@ border-color: transparent;
 	cursor: pointer;
 	transition: 0.3s;
 	margin: 0;
-	font-weight: 800;
+	font-weight: 700;
 }
 
 .btnContact:hover {
 	background-color: transparent;
-	border: 2px solid #fff;
-	color: #fff;
+	border: 3px solid #ff4079;
+	color: #fafafa;
 }
 
 .input-containerContact span {
@@ -239,7 +239,7 @@ border-color: transparent;
 	width: 35px;
 	height:35px;
 	border-radius: 5px;
-	background: linear-gradient(45deg, #24345F, #0F7CBF);
+	background: linear-gradient(45deg, #24345F, #043e63);
 	color: #fff;
 	text-align: center;
 	line-height: 35px;
@@ -255,7 +255,7 @@ border-color: transparent;
 	position: absolute;
 	width: 120px;
 	height: 110px;
-	border: 22px solid #fd3974;
+	border: 22px solid #24345F;
 	border-radius: 50%;
 	bottom: -77px;
 	right: 50px;
@@ -267,7 +267,7 @@ border-color: transparent;
 	width: 500px;
 	height: 500px;
 	border-radius: 50%;
-	background: linear-gradient(to bottom, #24345F, #3475c0);
+	background: linear-gradient(to left, #24345F, #184b97);
 	bottom: 50%;
 	right: 50%;
 	transform: translate(-40%, 38%);
