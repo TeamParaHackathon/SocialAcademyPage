@@ -15,24 +15,45 @@
     border: none;
     background: none;
 }
-
-.icon-button i{
+.dislike,
+.like{
     font-size: 25px;
     cursor: pointer;
     color: rgb(105, 105, 105);
     transition: all .3s ease;
 }
 
-.icon-button #like:hover{
+.like:hover{
     transform: scale(1.2);
     transition: all .3s ease;
     color: #0f7cbf;
-}
+} 
 
-.icon-button #dislike:hover{
+.activeLike{
+    color: #0f7cbf;
+    font-weight: 800;
+}
+.dislike:hover{
     transform: scale(1.2);
     transition: all .3s ease;
     color: #bf0f3b;
+}
+.activeDislike{
+    color: #bf0f3b;
+    font-weight: 800;
+}
+
+.point{
+    color: rgb(105, 105, 105);
+    font-weight: 800;
+    display: none;
+    font-size: 1.2rem;
+    transition: all .3s ease;
+}
+
+.pointActive{
+    transition: all .3s ease;
+    display: block;
 }
 
 .label-button button{
@@ -55,9 +76,4 @@
     transition: all .3s ease;
     color: #0f7cbf;
     font-style: normal;
-}
-.point{
-    color: rgb(105, 105, 105);
-    font-weight: 900;
-    display: none;
 }
