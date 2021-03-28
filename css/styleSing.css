@@ -135,14 +135,15 @@ form.sign-in-form {
 
 .btnSing {
   width: 150px;
-  background-color: #24345F;
-  border: none;
+  background-color: #DB255D;
+  border-color: transparent;
   outline: none;
   height: 49px;
   border-radius: 49px;
-  color: #fff;
+  color: #eee;
   text-transform: uppercase;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 800;
   margin: 10px 0;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -151,7 +152,7 @@ form.sign-in-form {
 
 .btnSing:hover {
   background-color: transparent;
-  border: 3px solid #24345F;
+  border: 3px solid #DB255D;
   color: #24345F;
   transition: all 0.3s ease;
   font-weight: 900;
@@ -212,28 +213,33 @@ form.sign-in-form {
 }
 
 .panel h3 {
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  color: #fd3974;
 }
 
 .panel p {
-  font-size: 0.95rem;
+  font-size: 1rem;
   padding: 0.7rem 0;
 }
 
 .btnSing.transparent {
   margin: 0;
-  background: none;
-  border: 2px solid #fff;
+  background: #DB255D;
+  border: 2.5px solid #DB255D;
   width: 130px;
   height: 41px;
   font-weight: 900;
   font-size: 0.8rem;
+  transition: all 0.3s ease;
 }
 .btnSing.transparent:hover{
-  border-color: #b7caff;
-  color: #b7caff;
+  transition: all 0.3s ease;
+  background: none;
+  color: #fafafa;
+  border: 3px solid #ff3e78;
+
 }
 
 .right-panel .image,

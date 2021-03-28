@@ -10,17 +10,16 @@ textarea {
 	font-family: "Poppins", sans-serif;
 	background-color: #fafafa;
 }
-#ImagenBanner{
-    position: absolute;
-	z-index: 90;
-	overflow: hidden;
-	background-color: #fafafa;
-}
 
 #ImagenBanner img{
 	width: 34%;
-	position: relative;
-	left: 70%;
+	position: absolute;
+	top: 100px;
+	display: flex;
+	justify-content: center;
+	right: 30%;
+	align-items: center;
+	z-index: 100;
 }
 
 .containerContact {
@@ -56,25 +55,6 @@ textarea {
 	position: relative;
 }
 
-.circle {
-	border-radius: 50%;
-	background: linear-gradient(135deg, transparent 20%, #24345F);
-	position: absolute;
-}
-
-.circle.one {
-	width: 130px;
-	height: 130px;
-	top: 130px;
-	right: -40px;
-}
-
-.circle.two {
-	width: 80px;
-	height: 80px;
-	top: 10px;
-	right: 30px;
-}
 
 .contact-form::before {
 	content: "";
@@ -151,20 +131,22 @@ textarea.inputContact {
 
 .btnContact {
 	padding: 0.6rem 1.3rem;
-	background-color: #fff;
-	border: 2px solid #fafafa;
-	font-size: 0.95rem;
-	color: #24345F;
+	background-color: #DB255D;
+border-color: transparent;
+	font-size: 1.1rem;
+	color: #fafafa;
 	line-height: 1;
 	border-radius: 25px;
 	outline: none;
 	cursor: pointer;
 	transition: 0.3s;
 	margin: 0;
+	font-weight: 800;
 }
 
 .btnContact:hover {
 	background-color: transparent;
+	border: 2px solid #fff;
 	color: #fff;
 }
 
@@ -273,7 +255,7 @@ textarea.inputContact {
 	position: absolute;
 	width: 120px;
 	height: 110px;
-	border: 22px solid #0F7CBF;
+	border: 22px solid #fd3974;
 	border-radius: 50%;
 	bottom: -77px;
 	right: 50px;
@@ -285,7 +267,7 @@ textarea.inputContact {
 	width: 500px;
 	height: 500px;
 	border-radius: 50%;
-	background: linear-gradient(to bottom, #0F7CBF, #24345F);
+	background: linear-gradient(to bottom, #24345F, #3475c0);
 	bottom: 50%;
 	right: 50%;
 	transform: translate(-40%, 38%);
@@ -388,8 +370,8 @@ textarea.inputContact {
 
 	#ImagenBanner img{
 		z-index: 80;
-		position: absolute;
-		right: -200px;
+		width: 50%;
+		top: 100px;
 	}
 	.containerContact {
 		padding: 1.5rem;

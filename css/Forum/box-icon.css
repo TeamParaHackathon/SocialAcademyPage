@@ -56,3 +56,8 @@
     color: #0f7cbf;
     font-style: normal;
 }
+.point{
+    color: rgb(105, 105, 105);
+    font-weight: 900;
+    display: none;
+}
