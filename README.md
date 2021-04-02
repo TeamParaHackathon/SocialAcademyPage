@@ -13,13 +13,4 @@ Convertirnos en una plataforma referente en Latinoamérica en el ámbito de la r
  ## ¿Qué hacemos? 📜
 Social Academy ofrece a los estudiantes una biblioteca virtual en la que puedan encontrar información, pertinente para ellos y adaptada a su contexto, compartida por otros usuarios. Brindando, además, cursos que los ayuden a desarrollarse académicamente. Facilitando la obtención de asesorías académicas entre usuarios por medio de foros académicos.
 
-<<<<<<< HEAD
-* Con Cursos
-* Solicitudes para pasantias en diversas empresas
-* Recursos y proyectos OpenSource
-
-
 https://social-academy.studio/
-=======
-
->>>>>>> 9d26b718a04c2b107547c6a54766ebe4e86a29b9
