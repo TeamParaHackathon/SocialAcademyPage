@@ -279,9 +279,9 @@
 	}
 	
 	.Cards_Premium_Individuales .Cards_Semicirculos{
-			width: 9vw;
-			margin-top: -0.5vw;
-			margin-left: 9.5vw;
+			width: 12vw;
+			margin-top: -0.1vw;
+			margin-left: 15.5vw;
 			transition: .5s;
 	}
 	
@@ -316,12 +316,16 @@
 			padding: 0.5vw 2.5vw;
 		}
 
+		.Premium_Individuales_Paquete{
+			padding: 3%;
+		}
+
 		.Premium_Individuales_Paquete i{
 			font-size: 1.9vw;
 		}
 	
 		.Premium_Individuales_Paquete h4{
-			font-size: 1.4vw;
+			font-size: 1.5vw;
 		}
 	
 		.Premium_Individuales_Inferior{
@@ -382,6 +386,8 @@
 		.Premium_Individuales_Descripcion{
 			padding: 3vw 3vw;
 		}
+
+		
 
 		.Premium_Individuales_Paquete i{
 			font-size: 2.4vw;
