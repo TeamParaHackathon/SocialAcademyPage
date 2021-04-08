@@ -14,7 +14,7 @@ body{
 .contenedor_absoluto{display: flex;}
 
 .categorias{
-    width: 50%;
+    width: 40rem;
     background: #24345F;
     display: flex;
     flex-direction: column;

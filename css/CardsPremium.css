@@ -73,7 +73,6 @@
 	height: 13.5vw;
 	border-radius: 100%;
 	background-color: #024873;
-	background: linear-gradient(65deg, #F2F2F2 0%,#9CBCD9 20%, #0F7CBF 60%, #024873 100%);
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 	color: #fff; 
@@ -178,16 +177,20 @@
 	}
 
 		.Premium_Individuales_Boton a{
+
+			border: 3px solid #DB255D;
+			background-color: transparent;	
+			background-image: none;		
+			color: #024873;
+			transition: all .3s ease;
+
 			text-decoration: none;
 			font-family: 'Poppins', sans-serif;
 			text-transform: uppercase;
 			font-size: 1.2vw;
 			font-weight: bold;
 			padding: 0.7vw 2vw;
-			background-image: linear-gradient(to left, #024873, #0F7CBF, #024873);
-			background-size: 200%;
-			color: white;
-			border-radius: 2vw;
+					border-radius: 2vw;
 			cursor: pointer;
 			transition: all .3s ease;
 			box-shadow: 1px 1px 2px 1px rgba(39, 46, 56, 0.3);
@@ -195,10 +198,9 @@
 
 
 		.Premium_Individuales_Boton a:hover{
-			border: 3px solid #024873;
-			background-color: transparent;	
-			background-image: none;		
-			color: #024873;
+			background-color: #024873;
+			border: 3px solid transparent;
+			color: #fafafa;
 			transition: all .3s ease;
 		}
 

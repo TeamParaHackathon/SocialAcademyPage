@@ -1,4 +1,4 @@
-/*JS del buscador */
+/*JS del buscador 
 /* 	codigo de la aplicacion */
 
 let buscador = new Search({
@@ -22,7 +22,7 @@ let buscador = new Search({
     ]
 });
 
-
+/* 
 
 ///readmore//
 
@@ -39,7 +39,7 @@ let button = document.querySelector('#button').addEventListener('click', functio
         document.getElementById('button').innerHTML = 'Read More';
         i = 0;
     }
-})*/
+})
 let i = 0;
 jQuery(document).on('click', 'div.botton #button',
     function (event){
@@ -56,6 +56,9 @@ jQuery(document).on('click', 'div.botton #button',
             i = 0;
         }
     });
+
+ */
+
 
 
 /* Navegacion con tabs*/
