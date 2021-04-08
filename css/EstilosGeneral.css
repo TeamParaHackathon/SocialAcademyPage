@@ -28,7 +28,7 @@
 
 .contenido_Slider{
 	padding-top: 10%;
-	width: 65%;
+	width: 70%;
 	padding-left: 3%;
 }
 
@@ -37,7 +37,8 @@
 	}
 
 	.contenido_Slider h1 {
-		padding-top: 1%;
+		padding-top: 2%;
+		padding-bottom: 2%;
 		font-family: 'Poppins', sans-serif;
 		color: white;
 		text-transform: uppercase;
@@ -51,11 +52,33 @@
 		font-family: 'Poppins', sans-serif;
 		color: white;
 		font-size: 1.3vw;
+		padding-bottom: 2%;
+	}
+
+	.BotonUnete{
+		font-size: 1.5vw;
+		margin: 1.5vw 0 0;
+		display:  inline-block;
+		text-decoration: none;
+		font-weight: 900;
+		color: white;
+		background-color: #DB255D;
+		padding: 0.5vw 3vw;
+		border: 0.3vw solid #DB255D;
+		border-radius: 2.5vw;
+		transition: all .3s ease-out;
+	}
+	
+	.BotonUnete:hover{
+		background: transparent;
+		color: #DB255D;
+		transition: all .3s ease-out;
+	
 	}
 
 	.Banner-Descripcion{
 		width: 100%;
-		padding-top: 6%;
+		padding-top: 3%;
 		display: flex;
 		flex-direction: row;
 		align-items: flex-start;
@@ -99,6 +122,8 @@
 				font-size: 1.2vw;
 				color: #24345f;
 		}
+
+	
 
 /*FIN BANNER WELCOME*/
 
@@ -688,71 +713,8 @@ FIN BENEFICIOS SOCIAL ACADEMY*/
 
 
 
-
-
-/*----------------------------------------- First Media Query-----------------------------------------------------------------------------------*/
-
-@media only screen and (max-width: 1000px) {
-	.icon-pack {
-		display: none;
-	}
-
-	#Mensaje {
-		position: relative;
-		top: 15%;
-	}
-
-	.Banner_Rectangulo p {
-		position: relative;
-		top: 20%;
-		font-size: 1.9vh;
-		text-size-adjust: auto;
-	}
-
-	.Banner_Rectangulo {
-		height: 500px;
-	}
-
-	.BannerMulti h2 {
-		font-size: 3vw;
-		line-height: 2;
-	}
-
-	.Referencias {
-		height: 460px;
-	}
-}
-
-/*----------------------------------------- Second Media Query-----------------------------------------------------------------------------------*/
-@media only screen and (max-width: 1255px) {
-	.Referencias {
-		position: relative;
-		height: 260px;
-		width: 100%;
-		background-color: #fefefe;
-		background-image: url("../img/Captura de pantalla 2020-11-22 151710.jpg");
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-}
-
 /*----------------------------------------- Third Media Query-----------------------------------------------------------------------------------*/
 @media only screen and (max-width: 700px) {
-	.icon_regalia span {
-		font-size: 1.5w;
-	}
-
-	.IconosPEM p {
-		font-size: 1.3vw;
-	}
-
-
-
-	.parrafo {
-		font-size: 1.7vw;
-	}
-
 	.Precios {
 		flex-direction: column;
 		justify-content: center;
@@ -799,135 +761,315 @@ FIN BENEFICIOS SOCIAL ACADEMY*/
 	}
 
 	.BotonPremium {
+		width: 30vw;
+		border-radius: 5vw;
 		font-size: 2.5vw;
-		background: #24345f;
+		background: #DB255D;
 		padding: 2%;
 	}
 }
+/*RESPONSIVE TELEFONOS*/
 
 @media only screen and (max-width: 600px) {
-	.LineBAnner {
-		height: 100px;
+
+/*BANNER WELCOME*/
+.banner_Welcome{
+	padding-top: 8%;
+}
+
+
+.contenido_Slider{
+	padding-top: 6%;
+	width: 97%;
+}
+
+	.contenido_Slider > img{
+		width: 12%;
+	}
+
+	.contenido_Slider h1 {
+		font-size: 4.6vw;
+		line-height: 5.5vw;
+		text-align: justify;
+	}
+
+	.contenido_Slider h2{
+		width: 75%;
+		font-size: 2vw;
+	}
+
+	.BotonUnete{
+		font-size: 2.7vw;
+		margin: 1.5vw 0 0;
+		padding: 0.7vw 3vw;
+		border-radius: 2.5vw;
+	}
+
+	.Banner-Descripcion{
+		padding-top: 2%;
+		flex-wrap: wrap;
+	}
+
+		.Banner-Descripcion-Individual{
+			width: 40%;
+			margin: 4%;
+			border-radius: 2.5vw;
+			box-shadow: -0.7vw 1vw 1vw 0.7vw  rgba(0, 0, 0, 0.4);
+			
+		}
+
+			.Banner-Descripcion-Individual img{
+				width: 45%;
+			}
+
+			.Banner-Descripcion-Individual h1{
+					padding: 4%;
+					font-size: 2.8vw;
+					
+			}
+
+			.Banner-Descripcion-Individual h2{
+				width: 90%;
+				font-size: 2vw;
+		}
+
+/*FIN BANNER WELCOME*/
+
+/*CARRERAS*/
+
+.Carreras > h2 {
+	padding-top: 2%;
+	font-size: 4.8vw;
+}
+
+.Carreras {
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+/*CSS Cards en el documento css/Cards/cards.css*/
+
+/*BENEFICIOS SOCIAL ACADEMY*/
+
+.beneficiosSocialAcademy{
+	margin-top: 5vw;
+}
+	.beneficiosSocialAcademy h1{
+		padding: 3% 10%;
+		font-size: 4.2vw;
+	}
+	
+	.descripcionBeneficiosSA{
 		width: 100%;
+		padding: 0 5%;
+		padding-top: 0;
+		padding-bottom: 4%;
+		flex-wrap: wrap;
 	}
 
-	.Banner_Rectangulo {
-		height: 300px;
+	.descripcionBeneficiosIndividuales{
+		width: 40%;
 	}
 
-	.imgMarcianito {
-		position: absolute;
-		left: 50%;
-		bottom: 55%;
-	}
-
-	#Mensaje {
-		position: relative;
-		top: 30%;
-		font-size: 3.5vw;
-		font-style: normal;
-		font-weight: 900;
-		line-height: 158.34%;
-		/* or 70px */
-		color: #ffffff;
-		text-size-adjust: auto;
-	}
-
-	.Banner_Rectangulo p {
-		position: relative;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 2vw;
-		line-height: 32px;
-		color: #fff7df;
-		top: 35%;
-		/* Blue 3 */
-	}
-
-	.icon-pack {
-		display: none;
-	}
-
-	.Proyectos {
-		position: relative;
-		left: 5%;
-		right: 5%;
-	}
-
-	#Proyectos {
+	.descripcionBeneficiosIndividuales img{
+		padding: 5%;
 		width: 45%;
-		height: 55%;
 	}
 
-	#img01 {
-		width: 90%;
+	.descripcionBeneficiosIndividuales h3{
+		font-size: 3vw;
 	}
-	.parrafo {
-		position: relative;
-		float: right;
-		font-size: 2vw;
-	}
+/*FIN BENEFICIOS SOCIAL ACADEMY*/
 
-
-	.BannerMulti h2 {
-		text-align: center;
-		line-height: 1.5rem;
-	}
-
-	.Precios h2 {
-		font-size: 4vw;
-	}
-
-	.Precios > .btn {
-		position: relative;
-		left: 25%;
-		top: 50%;
-	}
-
-	#LastImg {
-		top: -20%;
-	}
-
-	#LastImg02 {
-		top: 2%;
-	}
+/*NUESTROS ESTUDIANTES*/
+.TituloReferencias h1 {
+	font-size: 5.5vw;
 }
 
-@media only screen and (max-width: 600px) {
-	.parrafo {
-		font-size: 1.8vw;
-	}
 
-	.LastBanner {
-		padding-top: 20%;
-		padding-bottom: 20%;
-	}
-	.icon_regalia span {
-		font-size: 2vw;
-	}
-
-	.IconosPEM p {
-		font-size: 1.8vw;
-	}
+.OpinionesUsuarios {
+	flex-wrap: wrap;
 }
+
+.TextoOpinion h3 {
+	font-size: 2.2vw;
+	line-height: 3vw;
+}
+
+.OpinionesIndividuales {
+	width: 42%;
+	margin: 4%;
+	padding: 5%;
+	box-shadow: 0px 0px 1.5vw 0px rgba(0, 0, 0, 0.22);
+	border-radius: 2vw;
+}
+
+.FotoUsuario {
+	width: 33.33%;
+}
+
+.FotoUsuario img {
+	width: 90%;
+	border-radius: 100%;
+}
+
+
+.DescripcionUsuario h1 {
+	font-size: 2vw;
+	color: white;
+}
+
+.DescripcionUsuario h2 {
+	font-size: 2vw;
+	color: white;
+}
+
+
+.OpinionesIndividuales:hover{
+	transform: scale(1.1);
+}
+
+/*FIN NUESTROS ESTUDIANTES*/
+
+/*BANNER PASANTES*/
+.banner_Pasantes{
+	margin-top: 5%;
+}
+
+.banner_Pasantes img{
+	padding-top: 40%;
+	background-color: transparent;
+}
+
+
+.descripcion_Banner_Pasantes{
+	width: 100%;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5%;
+}
+
+.descripcion_Banner_Pasantes h1{
+	color: #24345f;
+	text-align: center;
+	font-size: 4.5vw;
+}
+
+.descripcion_Banner_Pasantes h2{
+	margin-top: 2%;
+	padding: 0% 12%;
+	color: #24345f;
+	text-align: center;
+	font-size: 2.8vw;
+}
+
+.contenedorBotonPasantes{
+	width: 60%;
+	margin-top: 6%;
+	margin-bottom: 18%;
+}
+
+.btnPasantes {
+	background-color: #DB255D;
+	border-radius: 3vw;
+	color: #fff;
+	font-size: 2.5vw;
+	padding: 3% 5%;
+	box-shadow: 0.1vw 0.2vw 0.3vw  rgba(39, 46, 56, 0.3);
+}
+.btnPasantes:hover {
+	border: 0.3vw solid #DB255D;
+	color: #DB255D;
+  	padding: -0.5% 6%;
+}
+
+
+
+/*FIN BANNER PASANTES*/
+
+
+/*DISTRIBUCION PRECIOS*/
+
+.Precios {
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 20%;
+	padding-bottom: 10%;
+}
+
+.Precios h2 {
+	font-size: 5vw;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.Precios__Cards {
+	width: 100%;
+	padding-top: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.BotonPremium {
+	width: 35vw;
+	border-radius: 7vw;
+	font-size: 3vw;
+	background: #DB255D;
+	padding: 2%;
+}
+
+.Precios h2 {
+	font-size: 5vw;
+	padding-bottom: 1%;
+}
+
+.Precios > .btn {
+	position: relative;
+}
+
+/*FIN DISTRIBUCION PRECIOS*/
+
+/*ALIADOS*/
+
+		.tituloAliados h1{
+				font-size: 5vw;
+				color: #24345f;
+		}
+
+	.contenedorAliados{
+		margin-top: 5%;
+		margin-bottom: 10%;
+		padding: 0% 6%;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+		.contenedorAliados .aliadosIndividuales{
+			width: 22%;
+			border-radius: 4vw;
+			
+		}
+
+		.aliadosIndividuales img{
+			width: 85%;
+			border-radius: 3vw;
+		}
+/*FIN ALIADOS*/
+	
+}
+
+
+
+/*FIN RESPONSIVE TELEFONOS*/
+
 
 @media only screen and (max-width: 500px) {
-	.icon_regalia span {
-		font-size: 2w;
-	}
-
-	.IconosPEM p {
-		font-size: 1.7vw;
-	}
-
-
-	.parrafo {
-		font-size: 2.4vw;
-	}
-
-	.Carreras > h2 {
-		font-size: 4vw;
-	}
 
 	.OpinionesUsuarios {
 		flex-wrap: wrap;
@@ -970,14 +1112,5 @@ FIN BENEFICIOS SOCIAL ACADEMY*/
 
 	.BotonPremium {
 		font-size: 3vw;
-	}
-
-	.TextoLastBanner p {
-		font-size: 4.5vw;
-		text-align: center;
-	}
-
-	.BannerMulti h2 {
-		font-size: 4vw;
 	}
 }
