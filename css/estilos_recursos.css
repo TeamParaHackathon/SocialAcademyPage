@@ -11,10 +11,14 @@ body{
 }
 
 /*Contenedores principales (Categorias-recursos)*/
-.contenedor_absoluto{display: flex;}
-
+.contenedor_absoluto{
+    display: flex;
+}
+.cont_principal{
+    width: 100%;
+}
 .categorias{
-    width: 50%;
+    width: 14%;
     background: #24345F;
     display: flex;
     flex-direction: column;
@@ -36,7 +40,7 @@ body{
     width: 100%;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .title p{
     color: #fafafa;
@@ -142,13 +146,22 @@ body{
     font-weight: 700;
     
 }
-.filtrorecursos ul li a{
+.filtrorecursos ul li{
     color: #db265cc0;
     font-family: 'Montserrat', sans-serif;
 }
 .active{
     border-bottom: 3px solid #24345F;
     color: #db265cc0;
+}
+
+
+[data-tab-content] {
+    display: none;
+  }
+  
+.active[data-tab-content] {
+   display: block;
 }
 
 .secciones{
@@ -225,7 +238,7 @@ body{
 .cont_img_title{
     width: 100%;
     height: 40%;
-        display: flex;
+    display: flex;
     flex-direction: row;
 }
 .imgpdf{
@@ -257,7 +270,7 @@ body{
     justify-items: center;
     align-content: center;
     align-items: center;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .title_pdf p{
@@ -278,8 +291,8 @@ body{
     height: 35%;
     display: flex;
     align-items: flex-start;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .p_pdf p{
     text-align: start;
@@ -471,7 +484,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    animation: arriba 1s ease-in;
+    justify-content: center;
+    animation: arriba 700ms ease-in;
 }
 
 .cardvideo{
@@ -488,6 +502,8 @@ body{
     color: #24345F;
     font-weight: 600;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    background-color: #fafafa;
 }
 .imgvideo{
     width: 40%;
@@ -519,6 +535,7 @@ body{
     justify-items: center;
     align-content: center;
     align-items: center;
+    padding-right: 15px;
 }
 
 .title_video p{
@@ -585,16 +602,17 @@ body{
 /*Cards de proyectos*/
 .proyectosresources{
     width: 100%;
-    animation: arriba 1s ease-in;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+    animation: arriba 700ms ease-in;
 }
 
 .cardprojects{
     width: 270px;
     height: 230px;
-    margin: 25px;
+    margin: 30px;
     border: 3px solid #eee;
     border-radius: 30px;
     text-align: center;
@@ -641,6 +659,7 @@ body{
     justify-items: center;
     align-content: center;
     align-items: center;
+    padding-right: 10px;
 }
 
 .title_projects p{
@@ -754,6 +773,7 @@ body{
     background: #24345F;
     border-radius: 50%;
     font-size: 25px;
+    padding: 20px;
 }
 
 
