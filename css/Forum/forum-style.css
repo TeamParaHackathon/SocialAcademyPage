@@ -52,7 +52,7 @@ footer {
 	display: inline-block;
 	overflow: hidden;
 	white-space: nowrap;
-	color: #24345f;
+	color: #333;
 	font-size: 28px;
 	padding-left: 15px;
 	margin-left: 20px;
@@ -64,20 +64,20 @@ footer {
 	font-weight: 700;
 }
 .posts {
-	width: 70vw;
+	width: 65vw;
 	height: 40%;
 	outline: none;
-	border: 2px solid #24345f;
+	border: 2px solid #555;
 	background: none;
 	padding: 0.6rem 1.2rem;
-	color: #24345f;
+	color: #333;
 	font-weight: 500;
 	font-size: 0.95rem;
 	letter-spacing: 0.5px;
 	border-radius: 25px;
 	transition: 0.5s;
 	margin: 2rem;
-	margin-left: 5rem;
+	margin-left: 4rem;
 }
 .posts p strong{
 	color: #DB255D;
@@ -91,19 +91,19 @@ footer {
 
 .posts10 {
 	position: relative;
-	width: 70vw;
+	width: 65vw;
 	height: 50%;
 	outline: none;
-	border: 2px solid #24345f;
+	border: 2px solid #555;
 	background: none;
 	padding: 0.6rem 1.2rem;
-	color: #24345f;
+	color: #333;
 	font-weight: 500;
 	font-size: 0.95rem;
 	letter-spacing: 0.5px;
 	border-radius: 25px;
 	transition: 0.5s;
-	margin: 2rem;
+	margin: 1rem;
 }
 .posts p {
 	padding: 10px;
@@ -131,20 +131,20 @@ footer {
 }
 
 .postsp02 {
-	width: 70%;
-	height: 150px;
+	width: 65vw;
+	height: 190px;
 	outline: none;
-	border: 2px solid #24345f;
+	border: 2px solid #555;
 	background: none;
 	padding: 0.6rem 1.2rem;
-	color: #24345f;
+	color: #333;
 	font-weight: 500;
 	font-size: 0.95rem;
 	letter-spacing: 0.5px;
 	border-radius: 25px;
 	transition: 0.5s;
 	margin: 2rem;
-	margin-left: 5rem;
+	margin-left: 4rem;
 }
 
 .postsp02 p {
@@ -186,6 +186,7 @@ textarea.inputContact {
 }
 
 .contact-form {
+	top: 20px;
 	background-color: #fafafa;
 	position: relative;
 }
@@ -201,7 +202,7 @@ textarea.inputContact {
 }
 .btnContact {
 	background-color: #24345f;
-	border: 2px solid #24345f;
+	border: 2px solid #555;
 	color: #fafafa;
 }
 
@@ -251,8 +252,13 @@ textarea.inputContact {
 	color: rgb(43, 42, 42);
 }
 
+pre{
+	color: #24345f;
+	font-weight: 600;
+}
 @media (max-width: 850px) {
 	.posts10 {
+		line-height: 20px;
 		height: 50%;
 	}
 
@@ -261,14 +267,19 @@ textarea.inputContact {
 	}
 
 	.posts p {
+		line-height: 20px;
 		font-size: 10px;
 	}
 
 	.posts {
+		line-height: 20px;
 		height: 40%;
 	}
-
+	.postsp02{
+		height: 50%;
+	}
 	.postsp02 p {
+		line-height: 20px;
 		font-size: 10px;
 	}
 	/* .crear-comentario {
@@ -304,23 +315,28 @@ textarea.inputContact {
 
 @media (max-width: 650px) {
 	.posts10 {
+		line-height: 15px;
 		height: 50%;
 	}
 
 	.posts10 p {
+		line-height: 15px;
 		font-size: 10px;
 	}
 
 	.posts p {
+		line-height: 15px;
 		font-size: 10px;
 	}
 
 	.posts {
-		height: 40%;
+		line-height: 15px;
+		height: 30%;
 
 	}
 
 	.postsp02 p {
+		line-height: 16px;
 		font-size: 10px;
 	}
 }
@@ -337,58 +353,75 @@ textarea.inputContact {
 	}
 
 	.posts10 {
+		line-height: 16px;
 		width: 75%;
-		height: 50%;
+		height: 40%;
 	}
 }
 
 @media (max-width: 480px) {
 	.posts10 {
+		line-height: 16px;
 		width: 79%;
 		height: 50%;
 
 	}
 
 	.posts {
+		line-height: 16px;
 		width: 79%;
 		height: 40%;
 
 	}
 	.postsp02 {
+		line-height: 16px;
 		width: 79%;
-		height: 180px;
+		height: 200px;
 	}
 }
 
 @media (max-width: 450px) {
 
 	.posts10 {
+		padding: 5px;
+		line-height: 16px;
 		width: 85%;
 		height: 50%;
-
+	}
+	.posts10 pre{
+		font-size: 8px;
 	}
 
 	.posts {
+		line-height: 16px;
 		width: 79%;
 		height: 40%;
 
 	}
 	.postsp02 {
 		width: 79%;
-		height: 170px;
+		height: 200px;
 	}
 	.posts10 p {
+		padding: 0pc;
+		line-height: 16px;
 		font-size: 9px;
 	}
 	.posts10 code {
+		padding: 0pc;
+		line-height: 16px;
 		font-size: 9px;
 	}
 
 	.posts p {
+		padding: 0pc;
+		line-height: 16px;
 		font-size: 9px;
 	}
 
 	.postsp02 p {
+		padding: 0pc;
+		line-height: 16px;
 		font-size: 9px;
 	}
 }
@@ -407,7 +440,7 @@ textarea.inputContact {
 
 	.postsp02 {
 		margin-right: 2px;
-		height: 180px;
+		height: 200px;
 	}
 }
 @media (max-width: 320px) {
@@ -424,6 +457,6 @@ textarea.inputContact {
 
 	}
 	.postsp02 {
-		height: 190px;
+		height: 200px;
 	}
 }
