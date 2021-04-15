@@ -256,6 +256,10 @@ pre{
 	color: #24345f;
 	font-weight: 600;
 }
+#Post_IMG{
+	width: 20rem;
+    border-radius: 0%;
+}
 @media (max-width: 850px) {
 	.posts10 {
 		line-height: 20px;
