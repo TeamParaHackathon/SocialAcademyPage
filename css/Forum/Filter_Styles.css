@@ -31,7 +31,7 @@ main{
 .categoria{
     cursor: pointer;
     text-align: center;
-    padding: 20px;
+    padding: 8px;
     border-radius: 25px;
     background: #f1f1f1;
     font-weight: 700;
@@ -48,7 +48,7 @@ main{
     fill: var(--second);
 }
 .categoria svg{
-    width: 70px;
+    width: 60px;
     margin-bottom: 10px;
 }
 

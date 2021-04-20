@@ -64,7 +64,7 @@ footer {
 	font-weight: 700;
 }
 .posts {
-	width: 65vw;
+	width: 90%;
 	height: 40%;
 	outline: none;
 	border: 2px solid #555;
@@ -79,6 +79,10 @@ footer {
 	margin: 2rem;
 	margin-left: 4rem;
 }
+
+pre{
+	line-height: normal;
+}
 .posts p strong{
 	color: #DB255D;
 }
@@ -91,7 +95,7 @@ footer {
 
 .posts10 {
 	position: relative;
-	width: 65vw;
+	width: 90%;
 	height: 50%;
 	outline: none;
 	border: 2px solid #555;
@@ -131,7 +135,7 @@ footer {
 }
 
 .postsp02 {
-	width: 65vw;
+	width: 90%;
 	height: 190px;
 	outline: none;
 	border: 2px solid #555;
