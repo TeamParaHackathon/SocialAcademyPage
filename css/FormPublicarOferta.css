@@ -227,6 +227,7 @@ form{
 	color:  #24345F;
 }
 
+
  textarea{
     background: none;
     color: #555;
@@ -313,6 +314,15 @@ textarea:focus > .i > i{
     transition: 0.3s ease all;
     left: 0%;
 	font-family: 'poppins', serif;
+}
+.input-group.focus > .i > i{
+	color:  #24345F;
+}
+
+
+
+.iconBlue{
+	color: #24345F;
 }
 
 
