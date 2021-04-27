@@ -9,7 +9,7 @@
 main{
     max-width: 1000px;
     width: 100%;
-    margin: 50px;
+    margin: 40px auto;
 }
 #titulo{
     color: #3a3a3a;
