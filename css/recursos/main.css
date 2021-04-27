@@ -4,7 +4,7 @@
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-
+    
 }
 
 .input-field {
@@ -19,6 +19,12 @@
     padding: 0 0.4rem;
     position: relative;
     margin-right: 25px;
+    transition: all 0.3s ease;
+
+}
+.input-field:focus-within{
+    transition: all 0.3s ease;
+    box-shadow:0 0 10px 0 rgba(133, 133, 133, 0.55);
 }
 
 .input-field i {
@@ -56,6 +62,7 @@
     transition: all 0.3s ease;
     font-weight: 900;
     margin-left: 25px;
+    box-shadow: 0 0 15px 0 #8d8b8b46;
 }
 
 .searchBar button:hover {
