@@ -200,8 +200,8 @@ body{
     animation: arriba 700ms ease-in;
 }
 .cardpdf{
-    width: 270px;
-    height: 230px;
+    width: 300px;
+    height: 270px;
     margin: 30px;
     border-radius: 30px;
     text-align: center;
@@ -472,8 +472,8 @@ body{
 }
 
 .cardvideo{
-    width: 270px;
-    height: 230px;
+    width: 300px;
+    height: 270px;
     margin: 30px;
     border-radius: 30px;
     text-align: center;
@@ -593,8 +593,8 @@ body{
 }
 
 .cardprojects{
-    width: 270px;
-    height: 230px;
+    width: 300px;
+    height: 270px;
     margin: 25px;
     border-radius: 30px;
     text-align: center;
