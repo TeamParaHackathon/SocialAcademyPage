@@ -13,12 +13,7 @@ body{
 /*Contenedores principales (Categorias-recursos)*/
 .contenedor_absoluto{display: flex;}
 
-.categorias{
-    width: 40rem;
-    background: #24345F;
-    display: flex;
-    flex-direction: column;
-}
+
 .filtro{
     width: 100%;
     padding: 10px;
@@ -208,7 +203,6 @@ body{
     width: 270px;
     height: 230px;
     margin: 30px;
-    border: 3px solid #eee;
     border-radius: 30px;
     text-align: center;
     margin-top: 25px;
@@ -217,7 +211,7 @@ body{
     overflow: hidden;
     color: #24345F;
     font-weight: 600;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: 0px 0px 25px 0px #8d8b8b5d;
     cursor: pointer;
     background-color: #fafafa;
 }
@@ -242,9 +236,8 @@ body{
     height: 100%;
     object-fit: cover;
     border-radius: 50vh;
-    background:#24345F;
-    color: #eee;
-    font-size: 40px;
+    color: #24345F;
+    font-size: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,7 +277,7 @@ body{
 .p_pdf p{
     text-align: start;
     font-size: 12px;
-    color: #24345F;
+    color: #333;
     display: -webkit-box;
     -webkit-box-orient:vertical;
     -webkit-line-clamp: 4;
@@ -307,6 +300,7 @@ body{
 .fecha_button p{
     width: 40%;
     font-size: 12px;
+    color: #333;
 }
 
 .fecha_button a{
@@ -314,13 +308,16 @@ body{
     height: 25px;
     font-size: 12px;
     transition: all .3s ease;
-    background: #24345F;
-    color: #fafafa;
+    
+        border:2px solid #24345F;
+        background: #fafafa;
+        color: #DB265D;
+  
 }
 .fecha_button a:hover{
-    border:2px solid #24345F;
-    background: #fafafa;
-    color: #DB265D;
+    transition: all .3s ease;
+    background: #24345F;
+    color: #fafafa;
 }
 
 .pdfres{
@@ -478,7 +475,6 @@ body{
     width: 270px;
     height: 230px;
     margin: 30px;
-    border: 3px solid #eee;
     border-radius: 30px;
     text-align: center;
     margin-top: 25px;
@@ -487,7 +483,7 @@ body{
     overflow: hidden;
     color: #24345F;
     font-weight: 600;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: 0px 0px 25px 0px #8d8b8b5d;
 }
 .imgvideo{
     width: 40%;
@@ -499,7 +495,8 @@ body{
     justify-items: center;
     align-items: center;
 }
-.imgvideo p{
+
+/* .imgvideo p{
     width: 80%;
     height: 100%;
     object-fit: cover;
@@ -511,7 +508,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 .title_video{
     width: 60%;
     display: flex;
@@ -563,21 +560,25 @@ body{
 .fecha_video p{
     width: 40%;
     font-size: 12px;
+    color: #333;
 }
 
 .fecha_video a{
     width: 45%;
     height: 25px;
     font-size: 12px;
-    background: #DB265D;
-    color: #fafafa;
+
+    border: 2px solid #DB265D;
+    background:#fafafa;
+    color: #24345F;
+
     transition: all .3s ease;
 }
 
 .fecha_video a:hover{
-    border: 2px solid #DB265D;
-    background:#fafafa;
-    color: #24345F;
+    
+    background: #DB265D;
+    color: #fafafa;
     transition: all .3s ease;
 
 }
@@ -595,7 +596,6 @@ body{
     width: 270px;
     height: 230px;
     margin: 25px;
-    border: 3px solid #eee;
     border-radius: 30px;
     text-align: center;
     margin-top: 25px;
@@ -604,13 +604,12 @@ body{
     overflow: hidden;
     color: #034872;
     font-weight: 600;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: 0px 0px 25px 0px #8d8b8b5d;
 }
 
 .imgprojects{
     width: 40%;
     padding: 5px;
-
     display: flex;
     justify-content: center;
     align-content: center;
@@ -623,11 +622,9 @@ body{
     height: 100%;
     object-fit: cover;
     border-radius: 50vh;
-    background:#034872;
     font-weight: 700;
-    font-size: 35px;
-    color: #fafafa;
-    
+    font-size: 45px;
+    color: #034872;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -669,22 +666,25 @@ body{
 }
 .fecha_project p{
     width: 40%;
-    font-size: 13px;
+    font-size: 12px;
+    color: #333;
 }
 .fecha_project a{
     width: 45%;
     height: 25px;
     font-size: 12.5px;
     transition: all .3s ease;
-    background:#034872;
-    color: #fafafa;
+    border: 2px solid #034872;
+    background: #fafafa;
+    color: #DB265D;
+
 }
 
 .fecha_project a:hover{
     transition: all .3s ease;
-    border: 2px solid #034872;
-    background: #fafafa;
-    color: #DB265D;
+    background:#034872;
+    color: #fafafa;
+    
 }
 
 .btn_project {
@@ -857,9 +857,7 @@ body{
     }
 }
 @media screen and (max-width:920px){/*Cuando el tamaño es de 900px*/
-    .categorias{
-        display: none;
-    }
+
     .content-menu{
         display: block;
         margin-top: 245px;

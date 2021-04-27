@@ -28,13 +28,14 @@ footer {
 
 .banner-foro h1 {
 	color: #eee;
-	padding: 15px;
-	line-height: 40px;
-	font-family: "Lato", sans-serif;
+	padding: 10px;
+	line-height: 35px;
+	font-size: 30px;
+	font-family: "Montserrat", sans-serif;
 }
 
 .banner-foro .typing {
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	color: #DB255D;
 }
 
@@ -56,7 +57,7 @@ footer {
 	font-size: 28px;
 	padding-left: 15px;
 	margin-left: 20px;
-	font-family: 'Ubuntu';
+	font-family: 'Montserrat';
 }
 .title span{
 	color: #DB255D;
