@@ -4,7 +4,7 @@
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-    
+    padding: 18px;
 }
 
 .input-field {
@@ -26,7 +26,9 @@
     transition: all 0.3s ease;
     box-shadow:0 0 10px 0 rgba(133, 133, 133, 0.55);
 }
-
+.categorias{
+    padding: 15px;
+}
 .input-field i {
     text-align: center;
     line-height: 55px;
