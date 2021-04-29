@@ -8,20 +8,20 @@ body,
 input,
 textarea {
 	font-family: "Poppins", sans-serif;
-	background-color: #fafafa;
+	background-color: #fff;
 }
 
-#ImagenBanner img{
-	width: 34%;
-	position: absolute;
-	top: 100px;
-	display: flex;
-	justify-content: center;
-	right: 30%;
-	align-items: center;
-	z-index: 100;
+.TitleContacto{
+	font-family: 'Montserrat';
+	font-size: 35px;
+	color: #DB255D;
+	left: 5%;
+	position: relative;
 }
-
+.textContact{
+	font-size: 110%;
+	font-weight: 500;
+}
 .containerContact {
 
 	/*Ocular el footer*/
@@ -29,9 +29,8 @@ textarea {
 	/*Oculta el footer*/
 	width: 100%;
     min-height: 100vh;
-    top:150px;
-	padding: 2rem;
-	background-color: #fafafa;
+	padding: 1.2rem;
+	background-color: #fff;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
@@ -63,7 +62,6 @@ textarea {
 	height: 40px;
 	background-color:#24345F;
 	transform: rotate(45deg);
-	top: 66px;
 	left: -20px;
 }
 
@@ -91,7 +89,7 @@ form {
 	width: 100%;
 	height: 60px;
 	outline: none;
-	border: 2px solid #fafafa;
+	border: 2px solid #fff;
 	background: none;
 	padding: 0.6rem 1.2rem;
 	color: #fff;
@@ -116,7 +114,7 @@ textarea.inputContact {
 	left: 15px;
 	transform: translateY(-50%);
 	padding: 0 0.4rem;
-	color: #fafafa;
+	color: #fff;
 	font-size: 0.9rem;
 	font-weight: 400;
 	pointer-events: none;
@@ -131,10 +129,10 @@ textarea.inputContact {
 
 .btnContact {
 	padding: 0.6rem 1.3rem;
-	background-color: #DB255D;
-border-color: transparent;
+	background-color: transparent;
+	border: 3px solid #ff4079;
+	color: #fff;
 	font-size: 1.1rem;
-	color: #fafafa;
 	line-height: 1;
 	border-radius: 25px;
 	outline: none;
@@ -145,9 +143,9 @@ border-color: transparent;
 }
 
 .btnContact:hover {
-	background-color: transparent;
-	border: 3px solid #ff4079;
-	color: #fafafa;
+	color: #fff;
+	background-color: #DB255D;
+	border-color: transparent;
 }
 
 .input-containerContact span {
@@ -202,6 +200,7 @@ border-color: transparent;
 
 .contact-info .titleContact {
 	color: #24345F;
+	font-family: 'Montserrat';
 }
 
 .text {
@@ -216,6 +215,11 @@ border-color: transparent;
 	align-items: center;
 	font-size: 0.98rem;
 }
+.information p{
+	color: black;
+	font-size: 110%;
+	font-weight: 500;
+}
 
 .iconContact {
 	width: 30px;
@@ -228,6 +232,8 @@ border-color: transparent;
 
 .social-media p {
 	color: #333;
+	font-size: 110%;
+	font-weight: 500;
 }
 
 .social-icon {
@@ -278,7 +284,7 @@ border-color: transparent;
 	position: absolute;
 	width: 360px;
 	height: 360px;
-	background-color: #fafafa;
+	background-color: #fff;
 	border-radius: 50%;
 	top: calc(50% - 180px);
 	left: calc(50% - 180px);
@@ -399,6 +405,7 @@ border-color: transparent;
 
 	.titleContact {
 		font-size: 1.15rem;
+		font-family: 'Montserrat';
 	}
 
 	.social-icon a {
