@@ -197,7 +197,7 @@ textarea.inputContact {
 }
 
 .contact-form::before {
-	background-color: #fafafa;
+	background-color: #fff;
 }
 
 .input-containerContact span::before,
