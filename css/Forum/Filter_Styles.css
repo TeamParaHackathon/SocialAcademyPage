@@ -1,5 +1,5 @@
 :root{
-    --primay: #24345f;
+    --primary: #24345f;
     --second: #DB255D;
     --gris: #9c9a9a;
     --gris2: #817f7f;
@@ -45,7 +45,7 @@ main{
 }
 .categoria:hover{
     box-shadow: var(--sombra);
-    color: var(--primay);
+    color: var(--primary);
 }
 
 .categoria:hover path{
@@ -62,7 +62,7 @@ main{
 }
 .categoria.activa{
     border: 2px solid var(--second);
-    color: var(--primay);
+    color: var(--primary);
     background-color: #fafafa;
 }
 .categoria.activa path{
@@ -112,7 +112,7 @@ main{
     font-weight: 700;
     display: flex;
     font-size: 20px;
-    color: var(--primay);
+    color: var(--primary);
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
@@ -146,6 +146,10 @@ main{
     box-shadow: none;
 }
 
+
+.contenedorFiltros{
+    padding: 0 10%;
+}
 /*------------Responsive------------*/
 @media screen and (max-width: 820px) {
     main{
