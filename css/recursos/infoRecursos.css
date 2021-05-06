@@ -1,5 +1,5 @@
 :root{
-    --primay: #24345f;
+    --primary: #24345f;
     --second: #DB255D;
     --gris: #9c9a9a;
     --gris2: #817f7f;
@@ -13,16 +13,16 @@
 .RecursosTitulo h1{
     font-weight: 600;
     font-size: 25px;
-    color: var(--primay);
+    color: var(--primary);
+    margin-left:2%;
 }
 .RecursosTitulo span{
     color: var(--second);
-    font-style: italic;
 }
 .RecursosSubtitulo{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    color: var(--primay);
+    color: var(--primary);
 }
 i{
     font-size: 50px;

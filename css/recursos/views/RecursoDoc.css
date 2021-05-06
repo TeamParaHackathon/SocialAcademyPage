@@ -1,0 +1,72 @@
+:root{
+    --primary: #24345f;
+    --second: #DB255D;
+    --gris: #9c9a9a;
+    --gris2: #817f7f;
+    --sombra: 0 0 13px 0 rgba(88, 88, 88, 0.65);
+}
+
+#BackArrow{
+    cursor: pointer;
+    color: var(--primary);
+    position: absolute;
+    font-size: 30px;
+    margin-right: 33px;
+    margin-top: 104px;
+transition: all .3s ease;
+}
+
+#BackArrow:hover{
+    color: var(--second);
+    transition: all .3s ease;
+
+}
+
+.lista li{
+    margin: 15px 0;
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 18px;
+}
+.lista li span{
+    color: var(--second);
+}
+.lista li i{
+    color: #333;
+    font-size: 22px;
+    margin-left: 8px;
+    margin-top: 8px;
+    line-height: 10px;
+    font-weight: 500;
+}
+.rating{
+    display: flex;
+    font-family: fontAwesome;
+}
+.rating input{
+    display: none;
+}
+
+.rating label{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+}
+.rating label::after{
+    top: 0;
+    content: '\f005';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 30px;
+    display: block;
+    position: absolute;
+    color: gold;
+}
+.rating label::before{
+    content: '\f005';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 30px;
+    display: block;
+    color: gray;
+}
