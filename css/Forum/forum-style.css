@@ -206,14 +206,15 @@ textarea.inputContact {
 	background-color: #fafafa;
 }
 .btnContact {
-	background-color: #24345f;
-	border: 2px solid #555;
-	color: #fafafa;
+	background-color: transparent;
+	border: 3px solid #DB255D;
+	color: #24345f;
 }
 
 .btnContact:hover {
-	background-color: transparent;
-	color: #24345f;
+	background-color: #DB255D;
+	color: #fafafa;
+	border: 3px solid transparent;
 }
 
 .items {

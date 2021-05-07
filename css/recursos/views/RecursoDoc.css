@@ -13,7 +13,7 @@
     font-size: 30px;
     margin-right: 33px;
     margin-top: 104px;
-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
 #BackArrow:hover{
@@ -69,4 +69,12 @@ transition: all .3s ease;
     font-size: 30px;
     display: block;
     color: gray;
+}
+@media screen and (max-width: 500px) {
+    #BackArrow{
+        margin-top: 95px;
+    }
+    .rating{
+        margin-top: 25px;
+    }
 }

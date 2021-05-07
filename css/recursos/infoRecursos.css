@@ -47,3 +47,26 @@ main{
     width: 70%;
     box-shadow: var(--sombra);
 }
+@media screen and (max-width: 600px) {
+    .contenedorInfoRecursos{
+        grid-template-columns: 1fr;
+    }
+
+    .RecursosTitulo h1{
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--primary);
+        margin-left:10%;
+    }
+    .RecursosTitulo span{
+        color: var(--second);
+    }
+    .RecursosSubtitulo{
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--primary);
+    }
+    i{
+        font-size: 50px;
+    }
+}
