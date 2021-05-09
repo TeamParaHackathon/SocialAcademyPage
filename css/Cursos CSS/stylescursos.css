@@ -128,7 +128,7 @@
 
 .btn_cursos{
     display: inline-block;
-    padding: 5px;
+    padding: 2px;
     font-size: .6rem;
     border: 2px solid #fff;
     border-radius: 2rem;
@@ -136,19 +136,19 @@
     margin: 0 .1rem;
     transition: .3s;
     text-transform: uppercase;
-    width: 100%;
+    width: 50%;
     background: #DB265D;
     color: #ffffff;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .evento_curso a{
-    width: 100%;
+    width: 50%;
     height: 25px;
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
 
-    border: 3px solid #DB265D;
+    border: 3px solid #24345F;
     background:#fafafa;
     color: #24345F;
 
@@ -156,7 +156,7 @@
 }
 
 .evento_curso a:hover{
-    background: #DB265D;
+    background: #24345f;
     color: #fafafa;
     transition: all .3s ease;
 
