@@ -52,7 +52,7 @@
     cursor: pointer;
     width: 50px;
 }
-.rating label::after{
+/* .rating label::after{
     top: 0;
     content: '\f005';
     font-family: 'Font Awesome 5 Free';
@@ -69,7 +69,51 @@
     font-size: 30px;
     display: block;
     color: gray;
+} */
+.content_estrellas{
+    display: flex;
+    left: 5%;
+    position: absolute;
+    justify-items: center;
+    justify-content: center;
 }
+
+#form {
+    width: 50%;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: var(--gris2);
+    font-size: 40px;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
 @media screen and (max-width: 500px) {
     #BackArrow{
         margin-top: 95px;
