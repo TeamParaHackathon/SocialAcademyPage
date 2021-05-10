@@ -152,14 +152,9 @@ main{
 }
 /*------------Responsive------------*/
 @media screen and (max-width: 820px) {
-    main{
-        max-width: 1000px;
-        width: 90%;
-        margin: 40px auto;
-    }
     .contenedor-pregunta{
-        left: 5%;
-        width: 100%;
+        right: 2%;
+        width: 95%;
     }
     .categorias{
         grid-template-columns: 1fr 1fr;
