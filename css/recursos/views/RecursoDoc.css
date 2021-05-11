@@ -1,57 +1,4 @@
-:root{
-    --primary: #24345f;
-    --second: #DB255D;
-    --gris: #9c9a9a;
-    --gris2: #817f7f;
-    --sombra: 0 0 13px 0 rgba(88, 88, 88, 0.65);
-}
 
-#BackArrow{
-    cursor: pointer;
-    color: var(--primary);
-    position: absolute;
-    font-size: 30px;
-    margin-right: 33px;
-    margin-top: 104px;
-    transition: all .3s ease;
-}
-
-#BackArrow:hover{
-    color: var(--second);
-    transition: all .3s ease;
-
-}
-
-.lista li{
-    margin: 15px 0;
-    color: var(--primary);
-    font-weight: 500;
-    font-size: 18px;
-}
-.lista li span{
-    color: var(--second);
-}
-.lista li i{
-    color: #333;
-    font-size: 22px;
-    margin-left: 8px;
-    margin-top: 8px;
-    line-height: 10px;
-    font-weight: 500;
-}
-.rating{
-    display: flex;
-    font-family: fontAwesome;
-}
-.rating input{
-    display: none;
-}
-
-.rating label{
-    display: block;
-    cursor: pointer;
-    width: 50px;
-}
 /* .rating label::after{
     top: 0;
     content: '\f005';
@@ -70,14 +17,173 @@
     display: block;
     color: gray;
 } */
+
+/*-----------------------------New Styles------------------------------------------------*/
+
+main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.containerCardResource{
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerCardResource::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: '';
+    left: 0;
+    top: 0;
+    clip-path: circle(65% at right 35%);
+    background: linear-gradient(135deg, #DB255D 10%, #F6416c 100%);
+}
+.containerCardResource .box.two .image{
+    width: 400px;
+    height: 504px;
+}
+.box.two .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.containerCardResource .box.one{
+    padding: 35px 5px 0 35px;
+    margin-right: 200px;
+}
+
+.box.one .details .topic{
+    font-size: 30px;
+    font-weight: 700;
+    color: #24345f;
+}
+
+.box.one .details p{
+    color: #737373;
+    font-size: 15px;
+    font-weight: 500;
+}
+.box.one .details
+
+.secondDescription{
+    color: #737373;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ratingText{
+    padding: 5px 0;
+}
+
+.ratingText i {
+    font-size: 25px
+}
+.ratingText span{
+    font-weight: 700;
+    color: #DB255D;
+}
+
+.box.one .details .secondDescription{
+    margin-top: 16px;
+}
+
+.details .btnDonwload{
+    margin-top: 55px;
+}
+
+.details .btnDonwload button{
+    background-color: transparent;
+    border: 3px solid #DB255D;
+    color: #24345f;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 25px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    transition: all .3s ease;
+}
+.details .btnDonwload button:hover{
+    background-color: #DB255D;
+    border-color: transparent;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.containerCardResource .box.two .image-box{
+    position: relative;
+    text-align: right;
+    right: 0;
+    bottom: 32px;
+}
+
+.box.two .infoImage{
+    margin-top: 33px;
+}
+
+.box.two .infoImage .brand{
+    font-size: 25px;
+    color: #fafafa;
+    font-weight: 800;
+}
+
+.box.two .infoImage .name{
+    font-size: 18px;
+    color: #fafafa;
+    font-weight: 700;
+}
+
+.box.two .infoImage .shipping{
+font-size: 18px;
+color: #fafafa;
+
+    font-weight: 700;
+}
+
+.box.two .infoImage .btnShare button{
+    background-color: transparent;
+    border: 3px solid #fafafa;
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 8px 16px;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: 'Poppins';
+    color:#fafafa;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.box.two .infoImage .btnShare button:hover{
+    background-color: #fafafa;
+    color: #DB255D;
+    transition: all .3s ease;
+
+}
+
+
+
+
 .content_estrellas{
     display: flex;
-    left: 5%;
-    position: absolute;
     justify-items: center;
     justify-content: center;
 }
 
+.clasificacion{
+    display: flex;
+    left: 5%;
+    justify-items: center;
+    justify-content: center;
+}
 #form {
     width: 50%;
     margin: 0 auto;
