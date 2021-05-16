@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.PerfilUsuario{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 10% 5%;
+    
+}
+
+.PerfilUsuario img{
+    width: 25%;
+    border-radius: 2.5vw;
+}
+
+.DatosPersonales{
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.DatosPersonales h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.5vw;
+}
+
+.DatosPersonales h2{
+    margin-top: 4%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vw;
+    color: #333;
+    font-weight: 400;
+}
+
+.ContactosPersonal{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 5%;
+    
+}
+
+.ContactosPersonal .ContenedorContacto{
+   display: flex;
+    flex-direction: row;
+    padding: 4% 0;
+}
+
+.ContenedorContacto i{
+    color: #24345F;
+    padding: 0 1vw 0 0;
+    font-size: 1.6vw;
+    
+}
+
+.ContenedorContacto h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3vw;
+    color: #333;
+    font-weight: 400;
+}
+
+.InformacionUsuario{
+    width: 100%;
+    padding: 0% 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 31%);
+    gap: 7%;
+}
+
+.InformacionUsuario h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+.RedesSociales{
+    padding-bottom: 5%;
+}
+
+.RedSocial{
+    display: grid;
+    grid-template-columns: 10% 80%;
+    padding: 2% 0;
+    align-items: center;
+}
+
+.RedSocial i {
+    font-size: 1.5vw;
+    color: #0F7CBF;
+
+}
+
+.RedSocial h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.ActividadesExtracurriculares{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.BotonAgregarHabilidad{
+    width: 100%;
+    padding: 2%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Descripcion p{
+    margin: 2% 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3vw;
+}
+
+.AgregarSkill{
+    height: 3.7vw;
+    font-size: 1.2vw;
+    width: 0;
+    transition: all .5s;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+}
+
+.Mas{
+    height: 5vw;
+    width: 5vw;
+    background: #24345F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
+    color: #fff;
+    cursor: pointer;
+    transform: translateX(-3vw);
+}
+
+.active{
+    width: 100%;
+}
+
+.AgregarSkill:hover{
+    box-shadow: 0 0 0.5vw rgb(0, 0, 0, 0.3),
+        0 0 0.6vw rgb(0, 0, 0, 0.3),
+        0 0 0.7vw rgb(0, 0, 0, 0.3);
+}
+
+.AgregarSkill .BotonAgregarHabilidad{
+    width: 30%; 
+    outline: none;
+    border: none;
+    background-color: #DB255D;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.AgregarSkill .InputAgregarHabilidad{
+    width: 70%;
+    padding-left: 1.7vw;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+}
