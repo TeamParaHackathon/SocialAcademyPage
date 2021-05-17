@@ -21,19 +21,14 @@
 /*-----------------------------New Styles------------------------------------------------*/
 
 main{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    max-width: 1000px;
     width: 100%;
-    overflow: hidden;
 }
 
 .containerCardResource{
-    max-width: 980px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 60px;
 }
 
 .containerCardResource::before{
@@ -47,18 +42,28 @@ main{
     background: linear-gradient(135deg, #DB255D 10%, #F6416c 100%);
 }
 .containerCardResource .box.two .image{
-    width: 400px;
-    height: 504px;
+   
+    width: 300px;
+    height: 404px;
 }
 .box.two .image img{
+    position: relative;
+    top: 100px;
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
 .containerCardResource .box.one{
-    padding: 35px 5px 0 35px;
-    margin-right: 200px;
+    top: 100px;
+    position: relative;
+    left: 50px;
+}
+
+
+.containerCardResource .box.two{
+    position: absolute; 
+    right: 0;
 }
 
 .box.one .details .topic{
@@ -75,9 +80,15 @@ main{
 .box.one .details
 
 .secondDescription{
+    position: relative;
+    top: 50px;
     color: #737373;
     font-size: 18px;
     font-weight: 500;
+}
+.content_estrellas{
+    position: absolute;
+
 }
 .ratingText{
     padding: 5px 0;
@@ -110,6 +121,7 @@ main{
     cursor: pointer;
     font-family: 'Poppins';
     transition: all .3s ease;
+    box-shadow:  0 0 13px 0 rgba(153, 153, 153, 0.65);
 }
 .details .btnDonwload button:hover{
     background-color: #DB255D;
@@ -122,11 +134,17 @@ main{
     position: relative;
     text-align: right;
     right: 0;
+    top: 5px;
     bottom: 32px;
 }
 
+.infoImage{
+    position: relative;
+    top: 100px;
+}
 .box.two .infoImage{
-    margin-top: 33px;
+    margin-right: 50px;
+    margin-top: 53px;
 }
 
 .box.two .infoImage .brand{
@@ -161,6 +179,8 @@ color: #fafafa;
     outline: none;
     cursor: pointer;
     transition: all .3s ease;
+    box-shadow:  0 0 13px 0 rgba(139, 90, 90, 0.65);
+
 }
 .box.two .infoImage .btnShare button:hover{
     background-color: #fafafa;
@@ -220,11 +240,43 @@ color: #fafafa;
   input[type="radio"]:checked ~ label {
     color: orange;
   }
-@media screen and (max-width: 500px) {
-    #BackArrow{
-        margin-top: 95px;
+
+
+  @media (max-width: 954px) {
+    .containerCardResource::before{
+        clip-path: circle(55% at right 35%);
     }
-    .rating{
-        margin-top: 25px;
+    .image{
+        top: 50%;
+        position: relative;
     }
+    .parrafo{
+        width: 80%;
+    }
+    .containerCardResource .box.two .image-box .image{
+        right: 15px;
+    }
+    .box.two .infoImage{
+        margin-right: 10px;
+        margin-top: 53px;
+    }
+    .box.two .infoImage .brand{
+        font-size: 20px;
+       
+    }
+    
+    .box.two .infoImage .name{
+        font-size: 15px;
+       
+    }
+}
+@media (max-width: 866px) {
+    main {
+        right: 2%;
+        width: 95%;
+    }
+    .containerCardResource {
+        grid-template-columns: 1fr 1fr;
+      }
+    
 }
