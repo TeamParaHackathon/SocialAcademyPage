@@ -172,24 +172,37 @@
                         <h2>D_Hernandez</h2>
                     </div>
                 </div>
-                <div class="ActividadesExtracurriculares">
-                    <div class="PublicacionesActividades">
-                        <h1>Actividades Extracurriculares</h1>
+                <div class="Habilidades">
+                    <h1>Habilidades</h1>
+                    <div id="ContenedorHabilidad" class="contenedorHabilidades">             
+
                     </div>
                     <div class="BotonAgregarHabilidad">
                         
-                        <form class="AgregarSkill">
-                            <input class="BotonAgregarHabilidad" type="submit" value="Agregar">
-                            <input class="InputAgregarHabilidad" type="text" placeholder="Ingresar nueva">
-                        </form>
-                        
-                        <div class="Mas">
+                        <div id="inputHabilidades" class="Mas">
                             <span><i class="fas fa-plus"></i></span>
                         </div>
+                        <form id="formularioHabilidades" class="AgregarSkill"> 
+                            <input id="txtHabilidades" class="InputAgregarHabilidad" type="text" placeholder="Ingresar nueva">
+                            <input id="btnHabilidades" class="BotonAgregar" type="submit" value="Agregar">
+                        </form>
                     </div>
                 </div>
                 <div class="Idiomas">
                     <h1>Idiomas</h1>
+                    <div id="ContenedorIdiomas" class="contenedorHabilidades">             
+
+                    </div>
+                    <div class="BotonAgregarHabilidad">
+                        
+                        <div id="inputIdioma" class="Mas">
+                            <span><i class="fas fa-plus"></i></span>
+                        </div>
+                        <form id="formularioIdioma" class="AgregarSkill"> 
+                            <input id="txtIdioma" class="InputAgregarHabilidad" type="text" placeholder="Ingresar nueva">
+                            <input id="btnIdioma" class="BotonAgregar" type="submit" value="Agregar">
+                        </form>
+                    </div>
                 </div>
             </div>
             <div class="AboutUsuario">
@@ -207,16 +220,115 @@
                 </div>
                 <div class="Adjuntos">
                     <h1>Archivos adjuntos</h1>
+                    <form class="contenedorAdjuntar">
+                        <input type="file" class="custom-file-input" accept=".pdf,.jpg,.png" multiple>
+                    </form>
                 </div>
             </div>
             <div class="SkillsUsuario">
-                <div class="Habilidades">
-                    <h1>Habilidades</h1>
+                <div class="ActividadesExtracurriculares">
+                    <div class="PublicacionesActividades">
+                        <h1>Actividades Extracurriculares</h1>
+                        <div id="ContenedorExtracurriculares" class="contenedorHabilidades">             
+
+                        </div>
+                    </div>
+                    <div class="BotonAgregarHabilidad">
+                        
+                        <div id="inputExtra" class="Mas">
+                            <span><i class="fas fa-plus"></i></span>
+                        </div>
+                        <form id="formularioExtra" class="AgregarSkill"> 
+                            <input id="txtExtra" class="InputAgregarHabilidad" type="text" placeholder="Ingresar nueva">
+                            <input id="btnExtra" class="BotonAgregar" type="submit" value="Agregar">
+                        </form>
+                    </div>
                 </div>
+                
+                
                 <div class="Experiencia">
                     <h1>Experiencia</h1>
+                    <div id="ContenedorExperiencia" class="contenedorHabilidades">             
+
+                    </div>
+                    <div class="BotonAgregarHabilidad">
+                        
+                        <div id="inputExperiencia" class="Mas">
+                            <span><i class="fas fa-plus"></i></span>
+                        </div>
+                        <form id="formularioExperiencia" class="AgregarSkill"> 
+                            <input id="txtExperiencia" class="InputAgregarHabilidad" type="text" placeholder="Ingresar nueva">
+                            <input id="btnExperiencia" class="BotonAgregar" type="submit" value="Agregar">
+                        </form>
+                    </div>
                 </div>
             </div>
+        </div>
+
+        <div class="contenedorLogros">
+            <h1>Logros Social Academy</h1>
+        <div class="logrosSociales">
+            <div class="contenedorGeneral">
+                <h3>Foros</h3>
+                <div class="subcontenedorGeneral">
+                    <div class="contenedorLogros1">
+                        <h4>Respuestas</h4>
+                        <h5>235</h5>
+                    </div>
+                    <div class="contenedorLogros2">
+                        <h4>Mejor Respuesta</h4>
+                        <h5>57</h5>
+                    </div>
+                    <div class="contenedorLogros3">
+                        <h4>Valoracion</h4>
+                        <div class="likes">
+                            <div class="like">
+                                <i class="far fa-thumbs-up" id="azul"></i>
+                            <h5>785</h5>
+                            </div>
+                            <div class="dislike">
+                                <i class="far fa-thumbs-down" id="rosa"></i>
+                                <h5>96</h5>
+                            </div>
+                        </div>
+                    </div>  
+                </div>     
+            </div>
+            <div class="contenedorGeneral">
+                <h3>Recursos</h3>
+                <div class="subcontenedorGeneral">
+                    <div class="contenedorLogros1">
+                        <h4>Recursos Compartidos</h4>
+                        <h5>35</h5>
+                    </div>
+                    <div class="contenedorLogros2">
+                        <h4>Visualizaciones</h4>
+                        <h5>2038</h5>
+                    </div>
+                    <div class="contenedorLogros3">
+                        <h4>Valoracion</h4>
+                        <h5>4.1</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedorGeneral">
+                <h3>Cursos</h3>
+                <div class="subcontenedorGeneral">
+                    <div class="contenedorLogros1">
+                        <h4>Cursos subidos</h4>
+                        <h5>12</h5>
+                    </div>
+                    <div class="contenedorLogros2">
+                        <h4>Total de estudiantes</h4>
+                        <h5>962</h5>
+                    </div>
+                    <div class="contenedorLogros3">
+                        <h4>Valoracion media</h4>
+                        <h5>4.3</h5>
+                    </div> 
+                </div> 
+            </div>
+        </div>
         </div>
     </main>
 

@@ -76,7 +76,7 @@
     padding: 0% 5%;
     display: grid;
     grid-template-columns: repeat(3, 31%);
-    gap: 7%;
+    gap: 5%;
 }
 
 .InformacionUsuario h1{
@@ -116,7 +116,7 @@
 
 .BotonAgregarHabilidad{
     width: 100%;
-    padding: 2%;
+    padding: 6% 2%;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -130,31 +130,32 @@
 }
 
 .AgregarSkill{
-    height: 3.7vw;
-    font-size: 1.2vw;
+    height: 3.5vw;
+    font-size: 1.1vw;
     width: 0;
     transition: all .5s;
     background-color: #f0f0f0;
     display: flex;
     flex-direction: row;
+    border-radius: 0 1vw 1vw 0;
 }
 
 .Mas{
-    height: 5vw;
-    width: 5vw;
+    height: 3.2vw;
+    width: 3.2vw;
     background: #24345F;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     color: #fff;
     cursor: pointer;
-    transform: translateX(-3vw);
+    transform: translateX(1.1vw);
 }
 
 .active{
-    width: 100%;
+    width: 90%;
 }
 
 .AgregarSkill:hover{
@@ -163,11 +164,12 @@
         0 0 0.7vw rgb(0, 0, 0, 0.3);
 }
 
-.AgregarSkill .BotonAgregarHabilidad{
+.AgregarSkill .BotonAgregar{
     width: 30%; 
     outline: none;
     border: none;
     background-color: #DB255D;
+    border-radius: 0 1vw 1vw 0;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2vw;
@@ -184,4 +186,176 @@
     background-color: transparent;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2vw;
+}
+
+.Adjuntar{
+    outline: none;
+    border: #DB255D solid 0.1vw;
+    background-color: #DB255D;
+    color: white;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contenedorAdjuntar{
+    padding: 5% 0;
+}
+
+ .custom-file-input{
+     width: 100%;
+ }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+    display: none;
+  }
+  .custom-file-input::before {
+    content: 'Adjuntar';
+    display: inline-block;
+    margin-right: 4%;
+    border-radius: 2vw;
+    padding: 0.5vw 2vw;
+    outline: none;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    border: #DB255D solid 0.2vw;
+    background-color: #DB255D;
+    color: white;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  .custom-file-input:hover::before {
+    border: #DB255D solid 0.25vw;
+    background-color: white;
+    color: #DB255D;
+  }
+  .custom-file-input:active {
+    outline: 0;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+  }
+
+
+  .contenedorHabilidades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.noteCard.individual{
+    border-radius: 0.7vw;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 4%;
+    background-color: #0F7CBF;
+    border-radius: 0.7vw;
+}
+
+.contenidoHabilidad{
+    margin-right: 0.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1vw;
+    color: white;
+}
+
+
+
+.btnEliminarHabilidad{
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2vw;
+    color: white;
+    cursor: pointer;
+}
+
+.contenedorLogros{
+    width: 100%;
+    padding: 5%;
+}
+
+.contenedorLogros h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+.logrosSociales{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.contenedorGeneral{
+    margin: 5% 0;
+    width: 28%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1.5vw;
+    box-shadow: 0 0.6vw 1.5vw 0.6vw rgb(0, 0, 0, 0.3);
+}
+
+.contenedorGeneral h3{
+    margin-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    color: #24345F;
+    font-weight: 600;
+}
+.subcontenedorGeneral{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedorLogros1, .contenedorLogros2, .contenedorLogros3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 3%;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 2% 0;
+}
+
+.subcontenedorGeneral h4{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+}
+
+.likes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.like, .dislike{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4%;
+}
+#azul{
+    padding-right: 5%;
+    font-size: 1.6vw;
+    color: #24345F;
+}
+
+#rosa{
+    padding: 5%;
+    font-size: 1.6vw;
+    color: #DB255D;
 }
