@@ -312,7 +312,7 @@
     margin-bottom: 5%;
     font-family: 'Poppins', sans-serif;
     font-size: 1.8vw;
-    color: #24345F;
+    color: #DB255D;
     font-weight: 600;
 }
 .subcontenedorGeneral{
@@ -333,21 +333,24 @@
 }
 
 .subcontenedorGeneral h4{
-    color: #333;
+    color: #24345F;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2vw;
 }
 
 .likes{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 .like, .dislike{
     display: flex;
     flex-direction: row;
     padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
+
 #azul{
     padding-right: 5%;
     font-size: 1.6vw;
@@ -358,4 +361,194 @@
     padding: 5%;
     font-size: 1.6vw;
     color: #DB255D;
+}
+
+.subcontenedorGeneral h5{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .PerfilUsuario{
+        padding-top: 20%;
+    }
+
+    .PerfilUsuario img{
+        width: 40%;
+    }
+
+    .DatosPersonales h1{
+        font-size: 4.5vw;
+    }
+    
+    .DatosPersonales h2{
+        font-size: 3.2vw;
+    }
+
+    .ContactosPersonal{
+        grid-template-columns: 100%;
+        gap: 0;    
+    }
+
+    .ContactosPersonal .ContenedorContacto{
+         padding: 2% 0;
+     }
+
+    .ContenedorContacto i{
+        font-size: 2.7vw;
+    }
+    
+    .ContenedorContacto h3{
+        font-size: 2.5vw;
+    }
+
+    .InformacionUsuario{
+        grid-template-columns: 100%;
+        gap: 0;
+    }
+
+    .InformacionUsuario h1{
+        font-size: 3.5vw;
+        width: 100%;
+    }
+
+    .RedesSociales{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .RedSocial{
+        width: 50%;
+        grid-template-columns: 15% 80%;
+        gap: 0;
+    }
+    
+    .RedSocial i {
+        font-size: 3.3vw; 
+    }
+    
+    .RedSocial h2{
+        font-size: 3vw;
+    }
+
+    .Descripcion p{
+        font-size: 2.7vw;
+    }
+
+    .AgregarSkill{
+        height: 9vw;
+        font-size: 15vw;
+        width: 0;
+        border-radius: 0 5vw 5vw 0;
+    }
+    
+    .Mas{
+        height: 8vw;
+        width: 8vw;
+        font-size: 3vw;
+        transform: translateX(2vw);
+    }
+    
+    .active{
+        width: 70%;
+    }
+
+    .AgregarSkill .BotonAgregar{
+        width: 30%; 
+        background-color: #DB255D;
+        border-radius: 0 4vw 4vw 0;
+        font-size: 2.5vw;
+    }
+    
+    
+    .AgregarSkill .InputAgregarHabilidad{
+        width: 70%;
+        padding-left: 3vw;
+        font-size: 2.5vw;
+    }
+
+    .custom-file-input::before {
+        margin-right: 4%;
+        border-radius: 5vw;
+        padding: 1vw 4vw;
+        border: #DB255D solid 0.4vw;
+        font-size: 3vw;
+      }
+      .custom-file-input:hover::before {
+        border: #DB255D solid 0.5vw;
+      }
+
+      .noteCard.individual{
+        padding: 2% 5%;
+        border-radius: 1.8vw;
+    }
+    
+    .contenidoHabilidad{
+        margin-right: 1.5vw;
+        font-size: 2.5vw;
+    }
+
+    .btnEliminarHabilidad{
+        font-size: 2.5vw;
+    }
+
+    .contenedorLogros h1{
+        font-size: 3.5vw;
+    }
+
+    .logrosSociales{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedorGeneral{
+        margin: 5% 0;
+        width: 80%;
+        padding: 5%;
+        border-radius: 2.5vw;
+        box-shadow: 0 0.7vw 1.8vw 0.7vw rgb(0, 0, 0, 0.3);
+    }
+
+    .contenedorGeneral h3{
+        margin-bottom: 5%;
+        font-size: 3.5vw;
+    }
+
+    .contenedorLogros1, .contenedorLogros2, .contenedorLogros3{
+        grid-template-columns: 60% 30%;
+        gap: 1%;
+    }
+    
+    .subcontenedorGeneral h4{
+        font-size: 2.5vw;
+    }
+    
+    .like, .dislike{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 4%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    #azul, #rosa{
+        padding-right: 5%;
+        font-size: 2.8vw;
+    }
+    
+    .subcontenedorGeneral h5{
+        font-size: 2.8vw;
+    }    
+}
+
+@media only screen and (max-width: 465px) {
+    .PerfilUsuario{
+        padding-top: 20vh;
+    }
 }
