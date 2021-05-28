@@ -1,3 +1,10 @@
+:root{
+    --primary: #24345f;
+    --second: #DB255D;
+    --gris: #9c9a9a;
+    --gris2: #817f7f;
+    --sombra: 0 0 13px 0 rgba(88, 88, 88, 0.315);
+}
 
 /* .rating label::after{
     top: 0;
@@ -19,212 +26,102 @@
 } */
 
 /*-----------------------------New Styles------------------------------------------------*/
-
-main{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
+ .image{
+     position: absolute;
+     left: 50px;
+     top: 12%;
+    width: 300px;
+    height: 404px;
 }
-
-.containerCardResource{
-    max-width: 980px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.containerCardResource::before{
+.containerSing:before {
+    content: "";
     position: absolute;
-    height: 100%;
-    width: 100%;
-    content: '';
-    left: 0;
-    top: 0;
-    clip-path: circle(65% at right 35%);
+    height: 2000px;
+    width: 2000px;
+    top: -10%;
+    right: 38%;
+    transform: translateY(-50%);
     background: linear-gradient(135deg, #DB255D 10%, #F6416c 100%);
+    transition: 1.8s ease-in-out;
+    border-radius: 50%;
+    z-index: 6;
 }
-.containerCardResource .box.two .image{
-    width: 400px;
-    height: 504px;
-}
-.box.two .image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.panels-containerSing .content{
+    position: relative;
+    top: 200px;
 }
 
-.containerCardResource .box.one{
-    padding: 35px 5px 0 35px;
-    margin-right: 200px;
+.content .panel_title{
+    color: #fafafa;
+    
+}
+.ResourcesDescription{
+    position: relative;
+    margin-left: 100px;
 }
 
-.box.one .details .topic{
-    font-size: 30px;
-    font-weight: 700;
-    color: #24345f;
+
+.itemDescription{
+    margin-right: 50px;
+    font-family: 'Montserrat';
+    color: var(--primary);
 }
 
-.box.one .details p{
-    color: #737373;
-    font-size: 15px;
-    font-weight: 500;
+.itemDescription .fa-user{
+    margin-right: 13px;
+    font-size: 25px;
+    color: var(--second);
 }
-.box.one .details
+.itemDescription .fa-calendar-alt{
+    margin-right: 25px;
+    font-size: 25px;
+    color: var(--second);
+}
+.itemDescription .fa-bring-front{
+    margin-left: 85px;
+    font-size: 25px;
+    padding: 15px;
+    color: var(--second);
+}
+.itemDescription span{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 15px;
+    font-family: 'Poppins';   
+    color: #222;
+}
+.btnSing.transparent {
+    background-color: #fff;
+    border-color: #fff;
+    color: var(--primary);
+}
+.btnSing.transparent:hover{
+    border-color: #fff;
+}
+.fa-share-alt{
+    position: relative;
+    top: 46px;
+    left: 105px;
+    font-size: 26px;
+    color: var(--primary);
+}
 
-.secondDescription{
-    color: #737373;
-    font-size: 18px;
-    font-weight: 500;
-}
-.ratingText{
-    padding: 5px 0;
-}
-
-.ratingText i {
-    font-size: 25px
-}
-.ratingText span{
-    font-weight: 700;
-    color: #DB255D;
-}
-
-.box.one .details .secondDescription{
-    margin-top: 16px;
-}
-
-.details .btnDonwload{
-    margin-top: 55px;
-}
-
-.details .btnDonwload button{
+.btnSing{
     background-color: transparent;
     border: 3px solid #DB255D;
-    color: #24345f;
-    font-size: 16px;
-    font-weight: 800;
-    border-radius: 25px;
-    padding: 8px 16px;
-    cursor: pointer;
-    font-family: 'Poppins';
-    transition: all .3s ease;
+    color: #24345F; 
+    box-shadow: var(--sombra);
 }
-.details .btnDonwload button:hover{
-    background-color: #DB255D;
-    border-color: transparent;
+.btnSing:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
     color: #fff;
-    transition: all .3s ease;
 }
 
-.containerCardResource .box.two .image-box{
+.imageVideo{
     position: relative;
-    text-align: right;
-    right: 0;
-    bottom: 32px;
-}
-
-.box.two .infoImage{
-    margin-top: 33px;
-}
-
-.box.two .infoImage .brand{
-    font-size: 25px;
-    color: #fafafa;
-    font-weight: 800;
-}
-
-.box.two .infoImage .name{
-    font-size: 18px;
-    color: #fafafa;
-    font-weight: 700;
-}
-
-.box.two .infoImage .shipping{
-font-size: 18px;
-color: #fafafa;
-
-    font-weight: 700;
-}
-
-.box.two .infoImage .btnShare button{
-    background-color: transparent;
-    border: 3px solid #fafafa;
-    border-radius: 25px;
-    margin-top: 25px;
-    padding: 8px 16px;
-    font-size: 17px;
-    font-weight: 800;
-    font-family: 'Poppins';
-    color:#fafafa;
+    width: 640px;
+    margin-left: 220px;
     outline: none;
-    cursor: pointer;
-    transition: all .3s ease;
-}
-.box.two .infoImage .btnShare button:hover{
-    background-color: #fafafa;
-    color: #DB255D;
-    transition: all .3s ease;
-
-}
-
-
-
-
-.content_estrellas{
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-}
-
-.clasificacion{
-    display: flex;
-    left: 5%;
-    justify-items: center;
-    justify-content: center;
-}
-#form {
-    width: 50%;
-    margin: 0 auto;
-    height: 50px;
-  }
-  
-  #form p {
-    text-align: center;
-  }
-  
-  #form label {
-    font-size: 20px;
-  }
-  
-  input[type="radio"] {
-    display: none;
-  }
-  
-  label {
-    color: var(--gris2);
-    font-size: 40px;
-  }
-  
-  .clasificacion {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-  }
-  
-  label:hover,
-  label:hover ~ label {
-    color: orange;
-  }
-  
-  input[type="radio"]:checked ~ label {
-    color: orange;
-  }
-@media screen and (max-width: 500px) {
-    #BackArrow{
-        margin-top: 95px;
-    }
-    .rating{
-        margin-top: 25px;
-    }
 }
