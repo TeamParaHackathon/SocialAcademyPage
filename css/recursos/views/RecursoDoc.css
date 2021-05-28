@@ -19,264 +19,32 @@
 } */
 
 /*-----------------------------New Styles------------------------------------------------*/
-
-main{
-    max-width: 1000px;
-    width: 100%;
-}
-
-.containerCardResource{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 60px;
-}
-
-.containerCardResource::before{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    content: '';
-    left: 0;
-    top: 0;
-    clip-path: circle(65% at right 35%);
-    background: linear-gradient(135deg, #DB255D 10%, #F6416c 100%);
-}
-.containerCardResource .box.two .image{
-   
+ .image{
+     position: absolute;
+     left: 50px;
+     top: 12%;
     width: 300px;
     height: 404px;
 }
-.box.two .image img{
-    position: relative;
-    top: 100px;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.containerCardResource .box.one{
-    top: 100px;
-    position: relative;
-    left: 50px;
-}
-
-
-.containerCardResource .box.two{
-    position: absolute; 
-    right: 0;
-}
-
-.box.one .details .topic{
-    font-size: 30px;
-    font-weight: 700;
-    color: #24345f;
-}
-
-.box.one .details p{
-    color: #737373;
-    font-size: 15px;
-    font-weight: 500;
-}
-.box.one .details
-
-.secondDescription{
-    position: relative;
-    top: 50px;
-    color: #737373;
-    font-size: 18px;
-    font-weight: 500;
-}
-.content_estrellas{
+.containerSing:before {
+    content: "";
     position: absolute;
-
+    height: 2000px;
+    width: 2000px;
+    top: -10%;
+    right: 38%;
+    transform: translateY(-50%);
+    background: linear-gradient(135deg, #DB255D 10%, #F6416c 100%);
+    transition: 1.8s ease-in-out;
+    border-radius: 50%;
+    z-index: 6;
 }
-.ratingText{
-    padding: 5px 0;
-}
-
-.ratingText i {
-    font-size: 25px
-}
-.ratingText span{
-    font-weight: 700;
-    color: #DB255D;
-}
-
-.box.one .details .secondDescription{
-    margin-top: 16px;
-}
-
-.details .btnDonwload{
-    margin-top: 55px;
-}
-
-.details .btnDonwload button{
-    background-color: transparent;
-    border: 3px solid #DB255D;
-    color: #24345f;
-    font-size: 16px;
-    font-weight: 800;
-    border-radius: 25px;
-    padding: 8px 16px;
-    cursor: pointer;
-    font-family: 'Poppins';
-    transition: all .3s ease;
-    box-shadow:  0 0 13px 0 rgba(153, 153, 153, 0.65);
-}
-.details .btnDonwload button:hover{
-    background-color: #DB255D;
-    border-color: transparent;
-    color: #fff;
-    transition: all .3s ease;
-}
-
-.containerCardResource .box.two .image-box{
+.panels-containerSing .content{
     position: relative;
-    text-align: right;
-    right: 0;
-    top: 5px;
-    bottom: 32px;
+    top: 200px;
 }
 
-.infoImage{
-    position: relative;
-    top: 100px;
-}
-.box.two .infoImage{
-    margin-right: 50px;
-    margin-top: 53px;
-}
-
-.box.two .infoImage .brand{
-    font-size: 25px;
+.content .panel_title{
     color: #fafafa;
-    font-weight: 800;
-}
-
-.box.two .infoImage .name{
-    font-size: 18px;
-    color: #fafafa;
-    font-weight: 700;
-}
-
-.box.two .infoImage .shipping{
-font-size: 18px;
-color: #fafafa;
-
-    font-weight: 700;
-}
-
-.box.two .infoImage .btnShare button{
-    background-color: transparent;
-    border: 3px solid #fafafa;
-    border-radius: 25px;
-    margin-top: 25px;
-    padding: 8px 16px;
-    font-size: 17px;
-    font-weight: 800;
-    font-family: 'Poppins';
-    color:#fafafa;
-    outline: none;
-    cursor: pointer;
-    transition: all .3s ease;
-    box-shadow:  0 0 13px 0 rgba(139, 90, 90, 0.65);
-
-}
-.box.two .infoImage .btnShare button:hover{
-    background-color: #fafafa;
-    color: #DB255D;
-    transition: all .3s ease;
-
-}
-
-
-
-
-.content_estrellas{
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-}
-
-.clasificacion{
-    display: flex;
-    left: 5%;
-    justify-items: center;
-    justify-content: center;
-}
-#form {
-    width: 50%;
-    margin: 0 auto;
-    height: 50px;
-  }
-  
-  #form p {
-    text-align: center;
-  }
-  
-  #form label {
-    font-size: 20px;
-  }
-  
-  input[type="radio"] {
-    display: none;
-  }
-  
-  label {
-    color: var(--gris2);
-    font-size: 40px;
-  }
-  
-  .clasificacion {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-  }
-  
-  label:hover,
-  label:hover ~ label {
-    color: orange;
-  }
-  
-  input[type="radio"]:checked ~ label {
-    color: orange;
-  }
-
-
-  @media (max-width: 954px) {
-    .containerCardResource::before{
-        clip-path: circle(55% at right 35%);
-    }
-    .image{
-        top: 50%;
-        position: relative;
-    }
-    .parrafo{
-        width: 80%;
-    }
-    .containerCardResource .box.two .image-box .image{
-        right: 15px;
-    }
-    .box.two .infoImage{
-        margin-right: 10px;
-        margin-top: 53px;
-    }
-    .box.two .infoImage .brand{
-        font-size: 20px;
-       
-    }
-    
-    .box.two .infoImage .name{
-        font-size: 15px;
-       
-    }
-}
-@media (max-width: 866px) {
-    main {
-        right: 2%;
-        width: 95%;
-    }
-    .containerCardResource {
-        grid-template-columns: 1fr 1fr;
-      }
     
 }
