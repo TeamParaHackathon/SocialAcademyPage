@@ -6,7 +6,7 @@
 }
 
 #banner{
-    padding-top: 5%;
+    padding-top: 8vw;
     text-align: center;
 }
 
@@ -14,15 +14,16 @@
     display: flexbox;
     justify-content: center;
     padding-top: 2%;
-    padding-right: 11%;
-    padding-left: 11%;
+    padding-right: 8%;
+    padding-left: 8%;
 }
 
 .Bienvenida{
-    font-family: 'Poppins', serif;
+    font-family: 'Montserrat', serif;
     text-align: center;
     color: #24345F;
     font-size: 220%;
+    font-weight: 500;
 }
 
 .About{
@@ -30,10 +31,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
-    padding-right: 11%;
-    padding-left: 11%;   
-    padding-bottom: 10%;
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-left: 4%;   
+    padding-bottom: 2%;
 }
 
 .Imagen{
@@ -48,23 +49,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .Encabezado{
     text-align: center;
-    font-size: 250%;
-    color:  #0F7CBF;
-    font-family: 'Poppins', serif;
+    font-size: 230%;
+    color:  #28709c;
+    font-family: 'Montserrat', serif;
 }
 
 .Info{
     text-align: justify;
-    font-size: 160%;
-    line-height: 160%;
-    padding-top: 4%;
-    padding-right: 6%;
-    padding-left: 6%;  
+    font-size: 130%;
+    line-height: 150%;
+    padding-top: 2%;
+    padding-right: 3%;
+    font-weight: 500;
+    padding-left: 3%;  
 }
 
 .Conocenos{
@@ -72,10 +74,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-right: 8%;
     padding-left: 8%;
-    padding-bottom: 8%;
+    padding-bottom: 4%;
 }
 
 .Equipo{
@@ -84,18 +86,21 @@
 
 .Encabezado2{
     text-align: center;
-    color:  #0F7CBF;
-    font-family: 'Poppins', serif;
-    font-size: 280%;
+    color:  #DB255D;
+    font-family: 'Montserrat', serif;
+    font-size: 180%;
 }
 
 .Info2{
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 160%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 150%;
+    font-weight: 500;
     padding-top: 5%;
     padding-left: 4%;
     padding-right: 4%;
+    font-size: 140%;
+    color: #24345F;
 }
 
 .Team{
@@ -145,16 +150,17 @@
 .Titulo{
     text-align: center;
     font-size: 250%;
-    font-family: 'Poppins', serif;
+    font-family: 'Montserrat', serif;
     color: #ffffff;
 }
 
 .Descripcion{
     text-align: center;
     padding-top: 1%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-size: 100%;
+    font-weight: normali;
 }
 
 
@@ -248,6 +254,12 @@
         width: 100%;
     }
     #banner{
-        padding-top: 20%;
+        padding-top: 25vw;
+    }
+}
+
+@media (max-width: 450px){
+    #banner{
+        padding-top: 35vw;
     }
 }

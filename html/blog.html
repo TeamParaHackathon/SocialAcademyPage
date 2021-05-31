@@ -3,273 +3,2029 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sistema de comentarios</title>
-    <link href="https://file.myfontastic.com/tc26fJHv8scB3d4vHQRRsV/icons.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Foros Academicos sitio en donde con ayuda de la comunidad, en donde podras resolver tus dudas relacionadas a:  Informática Genera|, Diseño Grafico
+    Finanzas, Administración">
+    <meta property="og:title" content="Foros Academicos">
+    <meta property="og:description" content="Foros Academicos sitio en donde con ayuda de la comunidad, en donde podras resolver tus dudas relacionadas a:  Informática Genera|, Diseño Grafico
+    Finanzas, Administración">
+    <meta name="app-mobile-web-app-capable" content="yes">
+     <meta name="title" content="Foros Academicos">
+    <title>Foros Academicos</title>
+     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/EstilosGeneral.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="icon" type="image/icon" href="../img/Footer/LogotipoBlanco - sin.png" />
+    <link rel="stylesheet" href="../css/Contactanos.css">
     <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/Forum/box-icon.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/Forum/Filter_Styles.css">
+    <link rel="stylesheet" href="../css/EstilosGeneral.css">
+    <link rel="stylesheet" href="../css/Forum/forum-style.css">
+    <link rel="stylesheet" href="../css/recursos/main.css">
 </head>
 
 <body>
-    <div class="content">
-        <header>
-            <div class="container">
-                <input type="checkbox" name="" id="check" />
-                <div class="logoImg">
-                    <!--  <img src="../img/imgo (1).jpg" width="155px" height="55px">-->
-                </div>
-                <div class="logo-container">
-                    <h3 class="logo">Social <span>&nbsp; Academy</span></h3>
-                </div>
 
-                <div class="nav-btn">
-                    <div class="nav-links">
-                        <ul>
-                            <li class="nav-link" style="--i: 0.6s">
-                                <a href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-link" style="--i: 0.85s">
-                                <a href="#">Descubre<i class="fas fa-caret-down"></i></a>
-                                <div class="dropdown">
-                                    <ul>
-                                        <li class="dropdown-link">
-                                            <a href="Ofertas.html">Empresas</a>
-                                        </li>
-                                        <li class="dropdown-link">
-                                            <a href="documentos.html">Documentacion</a>
-                                        </li>
-                                        <li class="dropdown-link">
-                                            <a href="#">
-                                                My BlogPost <i class="fas fa-caret-down"></i>
-                                            </a>
-                                            <div class="dropdown second">
-                                                <ul>
-                                                    <li class="dropdown-link">
-                                                        <a href="blog.html">Foros </a>
-                                                    </li>
-                                                    <li class="dropdown-link">
-                                                        <a href="PublicarPasantia.html">Publicar Pasantia</a>
-                                                    </li>
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check" />
+            <div class="logoImg">
+                <!--  <img src="../img/imgo (1).jpg" width="155px" height="55px">-->
+            </div>
+            <div class="logo-container">
+                <h3 class="logo">Social
+                    <span>&nbsp; Academy</span>
+                </h3>
 
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="dropdown-link">
-                                            <a href="Cursos_HTML/CursosGeneral.html">Cursos</a>
-                                        </li>
-                                        <div class="arrow"></div>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-link" style="--i: 1.1s">
-                                <a href="About.html">Quienes Somos</i></a>
-                                <!--  <div class="dropdown">
+            </div>
+
+            <div class="nav-btn">
+                <div class="nav-links">
                     <ul>
-                      <li class="dropdown-link">
-                        <a href="#">Link 1</a>
-                      </li>
-                      <li class="dropdown-link">
-                        <a href="#">Link 2</a>
-                      </li>
-                      <li class="dropdown-link">
-                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
-                        <div class="dropdown second">
-                          <ul>
-                            <li class="dropdown-link">
-                              <a href="#">Link 1</a>
-                            </li>
-                            <li class="dropdown-link">
-                              <a href="#">Link 2</a>
-                            </li>
-                            <li class="dropdown-link">
-                              <a href="#">Link 3</a>
-                            </li>
-                            <li class="dropdown-link">
-                              <a href="#">More<i class="fas fa-caret-down"></i></a>
-                              <div class="dropdown second">
-                                <ul>
-                                  <li class="dropdown-link">
-                                    <a href="#">Link 1</a>
-                                  </li>
-                                  <li class="dropdown-link">
-                                    <a href="#">Link 2</a>
-                                  </li>
-                                  <li class="dropdown-link">
-                                    <a href="#">Link 3</a>
-                                  </li>
-                                  <div class="arrow"></div>
-                                </ul>
-                              </div>
-                            </li>
-                            <div class="arrow"></div>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-link">
-                        <a href="#">Link 4</a>
-                      </li>
-                      <div class="arrow"></div>
-                    </ul>
-                  </div> -->
-                            </li>
-                            <li class="nav-link" style="--i: 1.35s">
-                                <a href="Contact.html">Contactanos</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="log-sign" style="--i: 1.8s">
-                        <a href="Login.html" class="btn transparent">Log in</a>
-                        <a href="Premium.html" class="btn solid">Premium</a>
-                    </div>
-                </div>
-
-                <div class="hamburger-menu-container">
-                    <div class="hamburger-menu">
-                        <div></div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="cabecera">
-            <div class="text">
-                <p>Social Academy es una plataforma en la que puedes encontrar informacion precisa de tu interés, en la
-                    que puedes interactuar con los usuarios de manera que se puedan responder tus dudas</p>
-            </div>
-            <div class="items">
-                <div class="item2">
-                    <p>Formula tu pregunta</p>
-                    <img src="../img/burbuja-de-chat.png" alt="">
-                </div>
-                <div class="item2">
-                    <p>La comunidad te responde</p>
-                    <img src="../img/globos-de-texto.png" alt="">
-                </div>
-                <div class="item2">
-                    <p>Respuestas Precisas</p>
-                    <img src="../img/flecha-hacia-arriba.png" alt="">
-                </div>
-
-            </div>
-        </div>
-        <div class="todaslascarreras">
-            <ul>
-                <li class="list active" data-filter="todo">Todo</li>
-                <li class="list" data-filter="data1">Preguntas</li>
-                <li class="list" data-filter="data2">Etiquetas</li>
-                <li class="list" data-filter="data3">Usuario</li>
-                <li class="list" data-filter="data4">Preguntas sin responder</li>
-            </ul>
-        </div>
-        <main class="principal">
-
-        </main>
-
-        <div class="capa-data"></div>
-        <div class="container-data">
-            <div class="photo-input">
-
-                <div class="perfil-photo">
-                    <img src="../img/image (4).jpg" id="photoSelect" alt="">
-                </div>
-                <input type="file" id="loadPhoto">
-                <input type="text" placeholder="Su nombre">
-
-            </div>
-
-            <textarea class="mensaje" name="" id="" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
-
-            <button class="btn-comment">Comentar</button>
-        </div>
-    </div>
-
-    <div class="comentarios">
-        <div id="disqus_thread"></div>
-        <script>
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-            /*
-            var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-            */
-            (function () { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://social-academy-1.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-                Disqus.</a></noscript>
-    </div>
-
-        <footer>
-            <div class="InfoFooter">
-                <div class="EnlacesFooter" >
-                    <a href="../html/About.html" class="TextoLinks"><i class="far fa-address-card">  </i> &ensp; Acerca de</a>
-                    <a href="../html/Contact.html" class="TextoLinks"><i class="far fa-question-circle"></i> &ensp; ¿Tienes preguntas? <h2>    &ensp; Contactanos</h2></a>
-                    <a href="../html/Premium.html" class="TextoLinks"><i class="far fa-credit-card"></i> &ensp; Premium</a>
-                    <a href="#" class="TextoLinks"><i class="fas fa-cookie"></i> &ensp; Cookie Policy</a>
-                    <a href="#" class="TextoLinks"><i class="fas fa-mobile"></i> &ensp; App Movil</a>
-                </div>
-                <div class="SocialFooter" >
-                    <img src="../img/Footer/LogotipoBlanco.png" width="20%">
-                    <h1 class="SocialInfo">
-                        Social Academy es una plataforma académica que ofrece un repositorio de información con documentación, cursos, ofertas de pasantías y recursos en vídeo compartidos por sus usuarios.
-                    </h1>
-                    <div class="SocialBar">
-                        <div id="DIViconos">
-                            <div class="IconosSocial">
-                                    <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                    <a href="https://www.youtube.com/channel/UCbU5HNKarAfPZxpc04AzSpg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <li class="nav-link" style="--i: 0.6s">
+                            <a href="../index.html" class="icon-header">
+                                <i class='bx bx-home'></i>
+                                <span>
+                                    Inicio
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-link" style="--i: 0.85s">
+                            <a href="#" class="icon-header">
+                              <i class='bx bx-book-bookmark'></i></i>
+                              <span>
+                                Aprende
+                              </span>
+                            </a>
+              
+                            <div class="dropdown">
+                              <ul>
+                                <li class="dropdown-link">
+                                  <a href="../html/Recursos.html">Recursos</a>
+                                </li>
+                                <li class="dropdown-link">
+                                  <a href="../html/Cursos_HTML/cursos.html">Cursos</a>
+                                </li>
+                                <div class="arrow"></div>
+                              </ul>
                             </div>
+                          </li>
+                        </a>
+
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="../html/recursos_recomendados.html">Recursos</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="../html/Cursos_HTML/cursos.html">Cursos</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
                         </div>
-                    </div>
-                    
+                        </li>
+                        <li class="nav-link" style="--i: 0.6s">
+                            <a href="#" class="icon-header" style="opacity: 1;">
+                                <i class='bx bxs-conversation'></i>
+                                <span>
+                                    Foros
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-link" style="--i: 0.85s">
+                            <a href="#" class="icon-header">
+                                <i class='bx bx-briefcase'></i>
+                                <span>Empresas</span>
+                            </a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../html/Ofertas.html">
+                                            Empresas</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../html/PublicarPasantia.html">Publicar Pasantia</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 0.85s">
+                            <a href="../html/About.html" class="icon-header">
+
+                               <img src="../../img/Footer/LogotipoBlanco - sin.png" style="width: 33px;" alt="Social-academy logo">
+                                <span>Quienes somos</span>
+
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+
+                <div class="log-sign" style="--i: 1.8s">
+                    <a href="../html/Login.html" class="btn transparent">Log in</a>
+                    <a href="../html/Premium.html" class="btn solid">Premium</a>
+                </div>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <br><br>
+    
+    <div class="banner-foro">
+            <br>
+            <br>
+        <h1>
+            <span>Foros Academicos
+            </span>sitio en donde con ayuda de la comunidad, en
+            donde podras resolver tus dudas relacionadas a:&nbsp;
+            <span class="typing"></span>
+        </h1>
+        <img src="../img/forum/undraw_Work_chat_re_qes4.svg" alt="forum_banner">
+    </div>
+
+    <main>
+        <br>
+        <div class="searchBar">
+            <div class="input-field">
+                <i class='bx bx-search-alt bx-tada bx-flip-vertical' ></i>
+                <input type="text" placeholder="Que desea buscar" />
+            </div>
+            <button>
+                Buscar
+            </button>
+        </div>
+        <br>
+
+        <div class="categorias" id="categorias">
+            <div class="categoria activa" data-categoria="programacion">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z" />
+                </svg>
+                <p class='filtroTitulo'>Programación</p>
+            </div>
+            <div class="categoria" data-categoria="diseno">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M8.997 13.985c.01 1.104-.88 2.008-1.986 2.015-1.105.009-2.005-.88-2.011-1.984-.01-1.105.879-2.005 1.982-2.016 1.106-.007 2.009.883 2.015 1.985zm-.978-3.986c-1.104.008-2.008-.88-2.015-1.987-.009-1.103.877-2.004 1.984-2.011 1.102-.01 2.008.877 2.012 1.982.012 1.107-.88 2.006-1.981 2.016zm7.981-4.014c.004 1.102-.881 2.008-1.985 2.015-1.106.01-2.008-.879-2.015-1.983-.011-1.106.878-2.006 1.985-2.015 1.101-.006 2.005.881 2.015 1.983zm-12 15.847c4.587.38 2.944-4.492 7.188-4.537l1.838 1.534c.458 5.537-6.315 6.772-9.026 3.003zm14.065-7.115c1.427-2.239 5.846-9.748 5.846-9.748.353-.623-.429-1.273-.975-.813 0 0-6.572 5.714-8.511 7.525-1.532 1.432-1.539 2.086-2.035 4.447l1.68 1.4c2.227-.915 2.868-1.04 3.995-2.811zm-12.622 4.806c-2.084-1.82-3.42-4.479-3.443-7.447-.044-5.51 4.406-10.03 9.92-10.075 3.838-.021 6.479 1.905 6.496 3.447l1.663-1.456c-1.01-2.223-4.182-4.045-8.176-3.992-6.623.055-11.955 5.466-11.903 12.092.023 2.912 1.083 5.57 2.823 7.635.958.492 2.123.329 2.62-.204zm12.797-1.906c1.059 1.97-1.351 3.37-3.545 3.992-.304.912-.803 1.721-1.374 2.311 5.255-.591 9.061-4.304 6.266-7.889-.459.685-.897 1.197-1.347 1.586z" />
+                </svg>
+                <p class='filtroTitulo'>Diseño</p>
+            </div>
+            <div class="categoria" data-categoria="administracion">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                    <path
+                        d="M6.109 21.289c1.703 1.083 3.724 1.711 5.891 1.711 2.166 0 4.187-.628 5.89-1.711l.618.792c-1.876 1.214-4.11 1.919-6.508 1.919-2.4 0-4.637-.706-6.513-1.922l.622-.789zm5.853-13.289c-3.037 0-5.5 2.462-5.5 5.5 0 3.037 2.463 5.5 5.5 5.5s5.5-2.463 5.5-5.5c0-3.038-2.463-5.5-5.5-5.5zm7.038 11h-1c0-1.104.896-2 2-2h2c.963 0 2 .76 2 2h-1c0-.619-.519-1-1-1h-2c-.552 0-1 .449-1 1zm-18 0h-1c0-1.104.896-2 2-2h2c.963 0 2 .76 2 2h-1c0-.619-.519-1-1-1h-2c-.552 0-1 .449-1 1zm11-10c2.639 0 4.5 1.861 4.5 4.5 0 2.639-1.861 4.5-4.5 4.5-2.639 0-4.5-1.861-4.5-4.5 0-2.639 1.861-4.5 4.5-4.5zm9 3c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25zm-18 0c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25zm9.25 4.5h-.5v-.499c-.518-.009-1.053-.133-1.5-.364l.227-.822c.478.186 1.114.383 1.613.27.574-.13.692-.721.057-1.005-.466-.217-1.889-.403-1.889-1.621 0-.682.519-1.292 1.492-1.425v-.534h.5v.509c.362.01.768.073 1.221.21l-.181.824c-.384-.135-.808-.257-1.221-.232-.745.043-.81.688-.291.958.856.402 1.972.7 1.972 1.772.001.859-.672 1.316-1.5 1.432v.527zm8.75-3.375c.621 0 1.125.504 1.125 1.125s-.504 1.125-1.125 1.125-1.125-.504-1.125-1.125.504-1.125 1.125-1.125zm-18 0c.621 0 1.125.504 1.125 1.125s-.504 1.125-1.125 1.125-1.125-.504-1.125-1.125.504-1.125 1.125-1.125zm-1.818-3.125h-1.016c.729-4.334 3.783-7.882 7.834-9.316v1.067c-3.496 1.367-6.123 4.471-6.818 8.249zm22.652 0h-1.016c-.695-3.778-3.322-6.882-6.818-8.249v-1.067c4.051 1.434 7.105 4.982 7.834 9.316zm-13.834-3h-1c0-1.104.896-2 2-2h2c.963 0 2 .76 2 2h-1c0-.619-.519-1-1-1h-2c-.552 0-1 .449-1 1zm2-7c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25zm0 1.125c.621 0 1.125.504 1.125 1.125s-.504 1.125-1.125 1.125-1.125-.504-1.125-1.125.504-1.125 1.125-1.125z" />
+                </svg>
+
+                <p class='filtroTitulo'>Administración</p>
+            </div>
+            <div class="categoria" data-categoria="marketing">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                    <path
+                        d="M2.001 9.977c.011-1.215.13-1.443 1.079-1.651 1.166-.256 1.847-.479 1.321-1.422-1.6-2.869-.089-4.404 1.601-4.404 1.723 0 3.207 1.593 1.603 4.404-.299.522-.215.825.111 1.033.207-.171.507-.302.942-.397 1.509-.331 2.391-.621 1.709-1.841-2.068-3.709-.552-5.694 1.63-5.699h.008c2.182.005 3.698 1.99 1.63 5.699-.681 1.22.2 1.51 1.71 1.841.435.095.734.226.941.397.327-.208.41-.511.112-1.033-1.604-2.811-.12-4.404 1.603-4.404 1.689 0 3.2 1.535 1.601 4.404-.527.943.154 1.166 1.32 1.422.949.208 1.069.436 1.079 1.651l-.002 1.023-7.999 8v5l-4-1.325v-3.675l-7.996-8-.003-1.023zm18.584 1.023h-17.167l7.582 7.586v3.367l2 .662v-4.029l7.585-7.586zm-8.362 5.914h-.444v-.443c-.459-.008-.934-.117-1.33-.322l.202-.729c.424.164.988.339 1.43.239.51-.115.614-.64.051-.891-.413-.193-1.676-.358-1.676-1.439 0-.604.461-1.145 1.323-1.264v-.473h.444v.451c.321.009.681.065 1.083.187l-.16.731c-.341-.12-.717-.229-1.084-.207-.66.039-.718.611-.257.85.759.357 1.748.622 1.748 1.573.001.762-.595 1.167-1.33 1.27v.467zm3.461-6.914c.005-1.353.055-1.347-.576-1.485-.065-.015-3.958-.501-2.404-3.284.867-1.554 1.093-2.873.622-3.617-.26-.41-.791-.617-1.325-.617-.533 0-1.065.207-1.324.617-.472.744-.246 2.063.621 3.617 1.555 2.783-2.339 3.269-2.403 3.284-.632.138-.582.132-.576 1.485h7.365zm-8.397-1.14c-.321-.172-.61-.415-.78-.774-.234-.492-.176-1.051.172-1.659.574-1.007.714-1.887.383-2.414-.434-.693-1.69-.676-2.111-.012-.331.521-.192 1.409.381 2.436.341.61.395 1.167.16 1.657-.415.863-1.539 1.061-2.13 1.197-.231.053-.296.068-.304.341l-.002.368h4.209c0-.442-.011-.819.022-1.14zm13.66 1.14l-.003-.368c-.007-.273-.072-.288-.304-.341-.591-.136-1.714-.334-2.13-1.197-.234-.49-.181-1.047.16-1.657.573-1.027.712-1.915.382-2.436-.422-.664-1.678-.681-2.112.012-.331.527-.191 1.407.383 2.414.348.608.406 1.167.172 1.659-.17.359-.458.602-.78.774.034.321.022.698.022 1.14h4.21z" />
+                </svg>
+                <p class='filtroTitulo'>Marketing</p>
+            </div>
+
+        </div>
+        
+        <h2 id="titulo">
+            &nbsp;Preguntas principales 
+        </h2><br>
+
+        <div class="preguntas">
+                <div class="contenedor-preguntas activo" data-categoria="programacion">
+
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">Javascript Petición GET<img src="../img/forum/iconmonstr-x-mark-5.svg" alt="open"></p> 
                 
-                <div class="LogosFooter">
-                    <img src="../img/Footer/LogoCI.png" width="45%">
-                    <img src="../img/Footer/LogoCNU.png" width="45%">
+                    <div class="repuesta">
+
+                        <div class="hardcodeado">
+
+                            <div class="posts10">
+
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    <strong>Descripción: </strong> Hola a todos. Tengo el siguiente porblema con esta
+                                    función: en mi
+                                    archivos main.js tengo esto:
+                                </p>
+                                <code>
+                                    <pre> var respu = habilita_nat1(hiddenInput18.value);
+                                  </pre>
+                                    <pre>   if(respu = "SI"){ </pre>
+                                    <pre>     agregar_trat('18');</pre>
+                                    <pre>  } 
+                                      <br>    function habilita_nat1(pieza){</pre>
+                                    <pre>        var vpieza = pieza;</pre>
+                                    <pre>         $(document).ready(function(){
+                                      <br>             $.ajax({</pre>
+                                    <pre>             url:'./php/buscar_habnat.php',</pre>
+                                    <pre>             method: 'GET',</pre>
+                                    <pre>             data: {</pre>
+                                    <pre>             pieza:vpieza</pre>
+                                    <pre>             }</pre>
+                                    <pre>         }).done(function(res){</pre>
+                                    <pre>             return res;
+                                     <br>        });
+                                     <br>     });</pre>
+                                    <pre>  }</pre>
+                                </code>
+                                <p>
+                                    El problema es que puedo hacer que me devuelva la respuesta. Es decir, cuando
+                                    ejecuto esto me sale
+                                    que
+                                    respu es UNDEFINED. Que estoy haciendo mal. Ya llevo varias horas y no encuentro
+                                    error.
+                                    <br>
+                                    <br> Gracias por su ayuda
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <span title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction2'></i>
+                                        </span>
+                                        &nbsp;
+                                        <strong class="point" id='pointer3'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <span title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative2'></i>
+                                        </span>
+                                        &nbsp;
+                                        <strong class="point" id='pointer4'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br>
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image (2).jpg" width="50px">
+                                    <strong>Autor:</strong> Felix Mercado
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Hola Juan, entiendo que en este código faltan lineas, cierto?
+                                    Hay que ver que es <code>hiddenInput18</code> y que hace al función
+                                    <code>habilita_nat1()</code>
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer2'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="posts">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Hola Felix, si si faltan lineas, lo que pasa es que es un codigo muy largo para
+                                    copiarlo
+                                    todo, pero te explico, en el <code>hiddenInput18</code> hay un valor, por ejemplo 18
+                                    y la función
+                                    <code>habilita_nat1()</code> lo
+                                    que hace es con ese valor que le paso como parametro hace una consulta a la base de
+                                    datos para ver
+                                    si
+                                    ese valor habilita o no algo. Entonces lo que tengo que devolver es eso, SI si
+                                    habilita y NO sino
+                                    habilita. Todo eso lo hace en forma correcta, lo que no puedo hacer es que me
+                                    devuelva ese valor
+                                    para
+                                    continuar con las demás líneas.
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer5'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer6'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image (3).jpg" width="50px">
+                                    <strong>Autor:</strong> Angel García
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Entiendo entonces que el problema esta en esa función, no? (habilita_nat1) que no
+                                    devuelve el valor
+                                    correcto
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer7'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer8'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Excacto....Ese es el problema
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer9'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer10'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">Problema con Strings, me agrega caracteres especiales
+                        <img src="../img/forum/iconmonstr-x-mark-5.svg" alt="close">
+                    </p>
+                    <div class="repuesta">
+
+                        <div class="hardcodeado">
+
+                            <div class="posts10">
+
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    <strong>Descripción: </strong> 0
+                                    Ahora sí que no sé muy bien como googlear mi problema, el cual es el siguiente.
+                                    Tengo una cadena de texto como esta:
+                                </p>
+                                <code>
+                                    <pre> "$3b$10$ggGtlKob8VOmKDjp4s9cg.YmR8T1OssrvOFoI95VUZGpWJG6ZQTty"
+                                  </pre>
+                                    
+                                </code>
+                                <p>
+                                    Y pues mi código ya no lo detecta bien, entonces, ¿Cómo me deshago de esos caracteres que alteran mi string?, ¿Alguna notación especial?
+
+                                   <br> Gracias de antemano.
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction2'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer3'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative2'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer4'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br>
+                            <div class="posts">
+                                <p>
+                                    <img src="../img/image (2).jpg" width="50px">
+                                    <strong>Autor:</strong> Felix Mercado
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Esto es un poco raro usando Java no sucede lo mismo que usando Kotlin.
+
+En tu caso usas Kotlin, y lo que debes realizar es escapar los caracteres $ usando previamente el carácter<code>\:</code> 
+                                    <code>private val userTerminal: String = "\$3b\$10\$ggGtlKob8VOmKDjp4s9cg.YmR8T1OssrvOFoI95VUZGpWJG6ZQTty"</code>
+                                    Si imprimes el valor de la cadena no tendrás problema ya que será la cadena que deseas:
+                                    <code>"$3b$10$ggGtlKob8VOmKDjp4s9cg.YmR8T1OssrvOFoI95VUZGpWJG6ZQTty"</code>
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer2'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="posts">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Excacto....Ese es el problema
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer9'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer10'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="Copyright">
-                <h1 class="AllRight">All rights reserved | Social Academy © 2021</h1>
-                <a href="#" class="Privacy">
-                        Privacy Policy
-                </a>
+            
+            <div class="contenedor-preguntas" data-categoria="marketing">
+
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">Como Hacer un Estudio de Mercado<img src="../img/forum/iconmonstr-x-mark-5.svg" alt="open"></p> 
+                
+                    <div class="repuesta">
+
+                        <div class="hardcodeado">
+
+                            <div class="posts10">
+                                <p>
+                                    <img src="../img/image (2).jpg" width="50px">
+                                    <strong>Autor:</strong> Felix Mercado
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Hola Juan, entiendo que en este código faltan lineas, cierto?
+                                    Hay que ver que es <code>hiddenInput18</code> y que hace al función
+                                    <code>habilita_nat1()</code>
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer2'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image (3).jpg" width="50px">
+                                    <strong>Autor:</strong> Angel García
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Entiendo entonces que el problema esta en esa función, no? (habilita_nat1) que no
+                                    devuelve el valor
+                                    correcto
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer7'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer8'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Excacto....Ese es el problema
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer9'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer10'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">Como crear un modelo Canvas
+                        <img src="../img/forum/iconmonstr-x-mark-5.svg" alt="close">
+                    </p>
+                    <div class="repuesta">
+
+                        <div class="hardcodeado">
+
+                            <div class="posts10">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Hola Felix, si si faltan lineas, lo que pasa es que es un codigo muy largo para
+                                    copiarlo
+                                    todo, pero te explico, en el <code>hiddenInput18</code> hay un valor, por ejemplo 18
+                                    y la función
+                                    <code>habilita_nat1()</code> lo
+                                    que hace es con ese valor que le paso como parametro hace una consulta a la base de
+                                    datos para ver
+                                    si
+                                    ese valor habilita o no algo. Entonces lo que tengo que devolver es eso, SI si
+                                    habilita y NO sino
+                                    habilita. Todo eso lo hace en forma correcta, lo que no puedo hacer es que me
+                                    devuelva ese valor
+                                    para
+                                    continuar con las demás líneas.
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer5'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer6'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image (3).jpg" width="50px">
+                                    <strong>Autor:</strong> Angel García
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Entiendo entonces que el problema esta en esa función, no? (habilita_nat1) que no
+                                    devuelve el valor
+                                    correcto
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer7'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer8'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Excacto....Ese es el problema
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer9'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer10'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+          
             </div>
-        </footer>
-    <script src="../Js/jquery.js"></script>
-    <script src="../Js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('.list').click(function () {
-                const value = $(this).attr('data-filter');
-                if (value == 'todo') {
-                    $('.itemBox').show('1000');
-                }
-                else {
-                    $('.itemBox').not('.' + value).hide('1000');
-                    $('.itemBox').filter('.' + value).show('1000');
-                }
-            })
 
-            ///Activar los items de la lista//
-            $('.list').click(function () {
-                $(this).addClass('active').siblings().removeClass('active');
-            })
-        })
-    </script>
+            <div class="contenedor-preguntas" data-categoria="diseno">
+
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">Como aplicar correctamente sombras<img src="../img/forum/iconmonstr-x-mark-5.svg" alt="open"></p> 
+                
+                    <div class="repuesta">
+
+                        <div class="hardcodeado">
+
+                            <div class="posts10">
+
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                   
+                                </p>
+                                <p>
+                                    <strong>Descripción: </strong> Hola a todos. Tengo la siguiente duda como puedo crear sombras correctamente
+                                </p>
+                                
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction2'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer3'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative2'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer4'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br>
+                           
+                            <div class="posts">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Hola Felix, si si faltan lineas, lo que pasa es que es un codigo muy largo para
+                                    copiarlo
+                                    todo, pero te explico, en el <code>hiddenInput18</code> hay un valor, por ejemplo 18
+                                    y la función
+                                    <code>habilita_nat1()</code> lo
+                                    
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer5'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer6'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image (3).jpg" width="50px">
+                                    <strong>Autor:</strong> Angel García
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Entiendo entonces que el problema esta en esa función, no? (habilita_nat1) que no
+                                    devuelve el valor
+                                    correcto
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer7'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer8'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Excacto....Ese es el problema
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer9'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer10'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">Como elegir una paleta de colores
+                        <img src="../img/forum/iconmonstr-x-mark-5.svg" alt="close">
+                    </p>
+                    <div class="repuesta">
+
+                        <div class="hardcodeado">
+
+                            <div class="posts10">
+
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    <strong>Descripción: </strong> Hola a todos. Tengo el siguiente porblema con esta
+                                    función: en mi
+                                    archivos main.js tengo esto:
+                                </p>
+                                <code>
+                                    <pre> var respu = habilita_nat1(hiddenInput18.value);
+                                  </pre>
+                                    <pre>   if(respu = "SI"){ </pre>
+                                    <pre>     agregar_trat('18');</pre>
+                                    <pre>  } 
+                                      <br>    function habilita_nat1(pieza){</pre>
+                                    <pre>        var vpieza = pieza;</pre>
+                                    <pre>         $(document).ready(function(){
+                                      <br>             $.ajax({</pre>
+                                    <pre>             url:'./php/buscar_habnat.php',</pre>
+                                    <pre>             method: 'GET',</pre>
+                                    <pre>             data: {</pre>
+                                    <pre>             pieza:vpieza</pre>
+                                    <pre>             }</pre>
+                                    <pre>         }).done(function(res){</pre>
+                                    <pre>             return res;
+                                     <br>        });
+                                     <br>     });</pre>
+                                    <pre>  }</pre>
+                                </code>
+                                <p>
+                                    El problema es que puedo hacer que me devuelva la respuesta. Es decir, cuando
+                                    ejecuto esto me sale
+                                    que
+                                    respu es UNDEFINED. Que estoy haciendo mal. Ya llevo varias horas y no encuentro
+                                    error.
+                                    <br>
+                                    <br> Gracias por su ayuda
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction2'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer3'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative2'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer4'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br>
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image (2).jpg" width="50px">
+                                    <strong>Autor:</strong> Felix Mercado
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Hola Juan, entiendo que en este código faltan lineas, cierto?
+                                    Hay que ver que es <code>hiddenInput18</code> y que hace al función
+                                    <code>habilita_nat1()</code>
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer2'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="posts">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Hola Felix, si si faltan lineas, lo que pasa es que es un codigo muy largo para
+                                    copiarlo
+                                    todo, pero te explico, en el <code>hiddenInput18</code> hay un valor, por ejemplo 18
+                                    y la función
+                                    <code>habilita_nat1()</code> lo
+                                    que hace es con ese valor que le paso como parametro hace una consulta a la base de
+                                    datos para ver
+                                    si
+                                    ese valor habilita o no algo. Entonces lo que tengo que devolver es eso, SI si
+                                    habilita y NO sino
+                                    habilita. Todo eso lo hace en forma correcta, lo que no puedo hacer es que me
+                                    devuelva ese valor
+                                    para
+                                    continuar con las demás líneas.
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer5'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer6'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image (3).jpg" width="50px">
+                                    <strong>Autor:</strong> Angel García
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Entiendo entonces que el problema esta en esa función, no? (habilita_nat1) que no
+                                    devuelve el valor
+                                    correcto
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer7'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer8'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Excacto....Ese es el problema
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer9'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer10'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+          
+            </div>
+
+            <div class="contenedor-preguntas" data-categoria="administracion">
+
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">Cuales son las mejores Herramientas para la gestion de trabajo<img src="../img/forum/iconmonstr-x-mark-5.svg" alt="open"></p> 
+                
+                    <div class="repuesta">
+
+                        <div class="hardcodeado">
+
+                            <div class="posts10">
+
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Diseño
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    <strong>Descripción: </strong> Hola a todos. Tengo el siguiente porblema con esta
+                                    función: en mi
+                                    archivos main.js tengo esto:
+                                </p>
+                                <p>
+                                    El problema es que puedo hacer que me devuelva la respuesta. Es decir, cuando
+                                    ejecuto esto me sale
+                                    que
+                                    respu es UNDEFINED. Que estoy haciendo mal. Ya llevo varias horas y no encuentro
+                                    error.
+                                    <br>
+                                    <br> Gracias por su ayuda
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction2'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer3'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative2'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer4'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br>
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image (2).jpg" width="50px">
+                                    <strong>Autor:</strong> Felix Mercado
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Hola Juan, entiendo que en este código faltan lineas, cierto?
+                                    Hay que ver que es <code>hiddenInput18</code> y que hace al función
+                                    <code>habilita_nat1()</code>
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer2'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="posts">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Hola Felix, si si faltan lineas, lo que pasa es que es un codigo muy largo para
+                                    copiarlo
+                                    todo, pero te explico, en el <code>hiddenInput18</code> hay un valor, por ejemplo 18
+                                    y la función
+                                    <code>habilita_nat1()</code> lo
+                                    que hace es con ese valor que le paso como parametro hace una consulta a la base de
+                                    datos para ver
+                                    si
+                                    ese valor habilita o no algo. Entonces lo que tengo que devolver es eso, SI si
+                                    habilita y NO sino
+                                    habilita. Todo eso lo hace en forma correcta, lo que no puedo hacer es que me
+                                    devuelva ese valor
+                                    para
+                                    continuar con las demás líneas.
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer5'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer6'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image (3).jpg" width="50px">
+                                    <strong>Autor:</strong> Angel García
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Entiendo entonces que el problema esta en esa función, no? (habilita_nat1) que no
+                                    devuelve el valor
+                                    correcto
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer7'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer8'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Excacto....Ese es el problema
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer9'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer10'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">Como Elegir un buen...
+                        <img src="../img/forum/iconmonstr-x-mark-5.svg" alt="close">
+                    </p>
+                    <div class="repuesta">
+
+                        <div class="hardcodeado">
+
+                            <div class="posts10">
+
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    <strong>Descripción: </strong> Hola a todos. Tengo el siguiente porblema con esta
+                                    función: en mi
+                                    archivos main.js tengo esto:
+                                </p>
+                                <p>
+                                    El problema es que puedo hacer que me devuelva la respuesta. Es decir, cuando
+                                    ejecuto esto me sale
+                                    que
+                                    respu es UNDEFINED. Que estoy haciendo mal. Ya llevo varias horas y no encuentro
+                                    error.
+                                    <br>
+                                    <br> Gracias por su ayuda
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction2'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer3'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative2'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer4'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br>
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image (2).jpg" width="50px">
+                                    <strong>Autor:</strong> Felix Mercado
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Hola Juan, entiendo que en este código faltan lineas, cierto?
+                                    Hay que ver que es <code>hiddenInput18</code> y que hace al función
+                                    <code>habilita_nat1()</code>
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer2'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="posts">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>17/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Hola Felix, si si faltan lineas, lo que pasa es que es un codigo muy largo para
+                                    copiarlo
+                                    todo, pero te explico, en el <code>hiddenInput18</code> hay un valor, por ejemplo 18
+                                    y la función
+                                    <code>habilita_nat1()</code> lo
+                                    que hace es con ese valor que le paso como parametro hace una consulta a la base de
+                                    datos para ver
+                                    si
+                                    ese valor habilita o no algo. Entonces lo que tengo que devolver es eso, SI si
+                                    habilita y NO sino
+                                    habilita. Todo eso lo hace en forma correcta, lo que no puedo hacer es que me
+                                    devuelva ese valor
+                                    para
+                                    continuar con las demás líneas.
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer5'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative3'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer6'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image (3).jpg" width="50px">
+                                    <strong>Autor:</strong> Angel García
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                </p>
+                                <p>
+                                    Entiendo entonces que el problema esta en esa función, no? (habilita_nat1) que no
+                                    devuelve el valor
+                                    correcto
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer7'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative4'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer8'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+
+                            <div class="postsp02">
+                                <p>
+                                    <img src="../img/image.jpg" width="50px">
+                                    <strong>Autor:</strong> Juan López
+                                    &nbsp; &nbsp; &nbsp;
+                                    <strong>Fecha: </strong>18/04/2021
+                                    &nbsp; &nbsp;
+                                    <strong>Tag: </strong>Programación Web
+                                    &nbsp; &nbsp;
+                                    <strong>Lenguaje: </strong>JavaScript
+                                    <br>
+                                    <br>
+                                    Excacto....Ese es el problema
+                                </p>
+                                <div class="action-button">
+
+                                    <div class="label-button">
+                                        <button title="Comentar">
+                                            <a href="">Responder</a>
+                                        </button>
+                                        &nbsp; &nbsp;
+                                    </div>
+
+
+                                    <div class="icon-button">
+                                        &nbsp; &nbsp;
+                                        <button title="Me gusta" class='likeButton'>
+                                            <i class='bx bx-like like' id='iconReaction5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer9'>1</strong>
+                                        &nbsp; &nbsp;
+                                        <button title="No me gusta" class='dislikeButton'>
+
+                                            <i class='bx bx-dislike dislike' id='iconReactionNegative5'></i>
+                                        </button>
+                                        &nbsp;
+                                        <strong class="point" id='pointer10'>1</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+          
+            </div>
+
+
+        </div>
+
+        <div class="crear-comentario">
+
+            <div class="contact-form">
+                <form action="blog.html">
+                    <div class="items">
+                        <button title="Negrita">
+
+                            <i class='bx bx-bold'></i>
+                        </button>
+                        <button title="Oblicua">
+
+                            <i class='bx bx-italic'></i>
+                        </button>
+                        <button title="Subrayado">
+
+                            <i class='bx bx-underline'></i>
+                        </button>
+
+                        <button title="Código">
+
+                            <i class='bx bx-code-alt'></i>
+                        </button>
+                        <button title="Lista Enumerada">
+
+                            <i class='bx bx-list-ol'></i>
+                        </button>
+                        <button title="Lista">
+
+                            <i class='bx bx-list-ul'></i>
+                        </button>
+                        <button title="Comillas">
+
+                            <i class='bx bxs-quote-alt-right'></i>
+                        </button>
+                    </div>
+                    <div class="input-containerContact textarea">
+
+                        <textarea name="mensaje" class="inputContact"></textarea>
+                        <label for="">Nueva Pregunta</label>
+                        <span>Nueva Pregunta</span>
+                    </div>
+                    <input type="submit" value="Crear" class="btnContact">
+                </form>
+            </div>
+        </div>
+    </main>
 </body>
+<script src="../Js/ContactApp.js"></script>
+<script src="../Js/Forum.js"></script>
+<script src="../Js/script.js"></script>
+<script src="../Js/Collapse.js"></script>
+<script src="../Js/Questions.js"></script>
+<footer>
+    <div class="InfoFooter">
+        <div class="EnlacesFooter">
+            <a href="../html/About.html" class="TextoLinks"><i class="far fa-address-card"> </i> &ensp; Acerca
+                de</a>
+            <a href="../html/Contact.html" class="TextoLinks"><i class="far fa-question-circle"></i> &ensp; ¿Tienes
+                preguntas? <h2> &ensp; Contactanos</h2></a>
+            <a href="../html/Premium.html" class="TextoLinks"><i class="far fa-credit-card"></i> &ensp; Premium</a>
+            <a href="#" class="TextoLinks"><i class="fas fa-cookie"></i> &ensp; Cookie Policy</a>
+            <a href="#" class="TextoLinks"><i class="fas fa-mobile"></i> &ensp; App Movil</a>
+        </div>
+        <div class="SocialFooter">
+            <img src="../img/Footer/LogotipoBlanco.png" width="20%">
+            <h1 class="SocialInfo">
+                Social Academy es una plataforma académica que ofrece un repositorio de información con
+                documentación, cursos, ofertas de pasantías y recursos en vídeo compartidos por sus usuarios.
+            </h1>
+            <div class="SocialBar">
+                <div id="DIViconos">
+                    <div class="IconosSocial">
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/channel/UCbU5HNKarAfPZxpc04AzSpg"><i class="fa fa-youtube"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+
+        <div class="LogosFooter">
+            <img src="../img/Footer/LogoCI.png" width="45%">
+            <img src="../img/Footer/LogoCNU.png" width="45%">
+        </div>
+    </div>
+    <div class="Copyright">
+        <h1 class="AllRight">All rights reserved | Social Academy © 2021</h1>
+        <a href="#" class="Privacy">
+            Privacy Policy
+        </a>
+    </div>
+</footer>
+
+<script src="../Js/jquery-3.5.1.js"></script>
+<script src="../Js/script.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.list').click(function () {
+            const value = $(this).attr('data-filter');
+            if (value == '') {
+                $('.itemBox').show('1000');
+            } else {
+                $('.itemBox').not('.' + value).hide('1000');
+                $('.itemBox').filter('.' + value).show('1000');
+            }
+        })
+
+        ///Activar los items de la lista//
+        $('.list').click(function () {
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+    })
+</script>
+<script src="../Js/ContactApp.js"></script>
+
+</body>
+<script src="../Js/Forum.js"></script>
+
+</html>
 </html>

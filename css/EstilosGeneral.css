@@ -1,756 +1,1270 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Text:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Text:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-size-adjust: auto;
-}
-
-* p {
-  font-size: 1vw;
-}
-
-.logoImg {
-  float: -200%;
-}
-
-.Banner_Rectangulo {
-  width: 100%;
-  height: 700px;
-  background: linear-gradient(253.58deg, #0F7CBF 1.55%, #0F7CBF 95.8%);
-  /* Blue 3 */
-  box-sizing: border-box;
-}
-
-#Mensaje {
-  font-size: 3.5vw;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 158.34%;
-  /* or 70px */
-  color: #ffffff;
-  text-size-adjust: auto;
-}
-
-.Banner_Rectangulo p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1vw;
-  line-height: 32px;
-  color: #fff7df;
-  /* Blue 3 */
-}
-
-.imgMarcianito {
-  width: 50%;
-  height: 40%;
-  position: absolute;
-  left: 50%;
-  bottom: 45%;
-  z-index: 2;
-}
-
-.BlanckFirst {
-  width: 100%;
-  height: 800px;
-  background-color: #fefefe;
-}
-
-.icon-pack {
-  width: 15%;
-  height: 5%;
-}
-
-#icon01 {
-  left: 20%;
-}
-
-#icon02 {
-  position: relative;
-  left: 10%;
-  bottom: 10%;
-}
-
-#icon03 {
-  position: relative;
-  left: 50%;
-  width: 10%;
-}
-
-.icon_regalia{
-  padding-top: 2%;
-}
-.icon_regalia > ul {
-  display: flex;
-  justify-content: space-around;
-}
-
-.Proyectos {
-  position: relative;
-  width: 20%;
-}
-
-
-.Proyectos span {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 1.2vw;
-  /* or 33px */
-  text-align: center;
-  color: #5c5c5c;
-}
-
-
-.Multiplataforma img {
-  width: 45%;
-  height: 45%;
-}
-
-.ensena img{
-width: 45%;
-height: 45%;
-}
-
-.Proyectos img{
-  width: 45%;
-}
-
-.ensena span {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 1.2vw;
-  /* or 33px */
-  text-align: center;
-  color: #5c5c5c;
-}
-
-.ensena {
-  position: relative;
-  width: 20%;
-}
-
-.Multiplataforma {
-  position: relative;
-  width: 20%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-size-adjust: auto;
 }
 
 
 
-.Multiplataforma span {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 1.2vw;
-  /* or 33px */
-  text-align: center;
-  color: #5c5c5c;
-}
-.HomeInteractua{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 5%;
+/*BANNER WELCOME*/
+.banner_Welcome{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
-.IconosPEM p{
-  font-size: 0.9vw;
+.banner_Welcome > img{
+	position: absolute;
+	width: 100%;
+	z-index: -1;
 }
 
-.TextoInteractua{
-  display: flexbox;
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  
+.contenido_Slider{
+	padding-top: 10%;
+	width: 70%;
+	padding-left: 13%;
 }
 
-.IconosPEM{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-right: 2%;
-  padding-left: 2%;
-}
+	.contenido_Slider > img{
+		width: 7%;
+	}
 
-.IconosPEM p{
-  text-align: center;
-}
+	.contenido_Slider h1 {
+		padding-top: 2%;
+		padding-bottom: 2%;
+		font-family: 'Poppins', sans-serif;
+		color: white;
+		font-size: 3.1vw;
+		line-height: 3.5vw;
+	}
 
-#ContenedorIMG01{
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  padding-right: 2%;
-  padding-left: 2%;
-}
-#img01 {
-  width: 90%;
-  position: relative;
-  border-radius: 45%;
-}
-#txtIlustraP {
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: center;
-  width: 100%;
-  font-size: 1.5vw;
-  text-size-adjust: auto;
-  line-height: 200%;
-  color: #24345F;
-}
+	.contenido_Slider h2{
+		width: 80%;
+		padding-top: 1%;
+		font-family: 'Poppins', sans-serif;
+		color: white;
+		font-size: 1.2vw;
+		padding-bottom: 2%;
+	}
 
-.txtIlustraP p {
-  padding: 2%;
-  position: relative;
-  float: right;
-}
+	.BotonUnete{
+		font-size: 1.2vw;
+		margin: 1.5vw 0 0;
+		display:  inline-block;
+		text-decoration: none;
+		font-weight: 900;
+		color: white;
+		background-color: #DB255D;
+		padding: 0.5vw 3vw;
+		border: 0.3vw solid #DB255D;
+		border-radius: 2.5vw;
+		transition: all .3s ease-out;
+	}
+	
+	.BotonUnete:hover{
+		background: transparent;
+		color: #DB255D;
+		transition: all .3s ease-out;
 
-.parrafo {
-  padding-right: 10%;
-  padding-left: 10%;
-  text-align: justify;
-  position: relative;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.2vw;
-}
+	}
 
-.BannerMulti {
-  width: 100%;
-  background-color: #24345F;
-  padding-bottom: 4%;
-  padding-top: 4%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
+	.Banner-Descripcion{
+		width: 100%;
+		padding-top: 6%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-around;
+	}
 
-.BannerMulti img {
-  width: 20%;
-}
+		.Banner-Descripcion-Individual{
+			width: 21%;
+			padding: 2.5%;
+			background-color: white;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			border-radius: 1.5vw;
+			box-shadow: 0vw 0.4vw 0.7vw 0.5vw  rgba(0, 0, 0, 0.4);
+			
+		}
 
-.TextoMulti{
-  width: 50%;
-  padding-right: 4%;
-  padding-left: 4%;
-}
+			.Banner-Descripcion-Individual img{
+				width: 50%;
+				padding: 5%;
+			}
 
-.BannerMulti h2 {
-  text-align: center;
-  position: relative;
-  line-height: 4rem;
-  font-size: 3vw;
-  color: #fefefe;
-}
+			.Banner-Descripcion-Individual h1{
+					width: 90%;
+					padding: 4%;
+					color: #24345f;
+					font-family: 'Poppins', sans-serif;
+					font-size: 1.1vw;
+					border-radius: 2.5vw;
+					text-align: center;
+					
+			}
 
-.BannerImgs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-}
+			.Banner-Descripcion-Individual h2{
+				width: 100%;
+				padding: 10% 3%;
+				text-align: center;
+				font-family: 'Poppins', sans-serif;
+				font-size: 1.1vw;
+				color: #24345f;
+		}
 
-#BanImg03{
-position: relative;
-width: 10%;
-left: -35%;
-top: 30%;
-}
+	
 
-#BanImg02{
-position: relative;
-width: 10%;
-left: 2%;
-bottom: 5%;
-width: 35%;
-}
-
-#BanImg04{
-position: relative;
-width: 10%;
-left: -62%;
-top: 35%;
-width: 15%;
-}
-
-#BanImg05{
-position: relative;
-width: 10%;
-left: -16%;
-top: 5%;
-width: 18%;
-}
-
-#BanImg06{
-position: relative;
-width: 10%;
-left: 36%;
-width: 25%;
-}
+/*FIN BANNER WELCOME*/
 
 
 
+/*BANNER SUPERIOR 1
+.Index-Superior{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 7%;
+}
+
+	.Banner-Index{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+
+		.Banner-Index-Informacion{
+			width: 47%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+				.Index-Informacion-Superior{
+					width: 100%;
+					padding-left: 15%;
+					padding-right: 2%;
+					display: flex;
+					flex-direction: column;
+					align-items: flex-start;
+					justify-content: center;
+					font-family: 'Poppins', sans-serif;
+				}
+
+
+						.Index-Informacion-Superior h1{
+							font-family: 'Montserrat', sans-serif;
+							text-align: left;
+							color: #24345f;
+							text-transform: uppercase;
+							font-size: 2.6vw;
+							line-height: 3.3vw;
+							font-weight: 900;
+						}
+
+						.Index-Informacion-Superior h2{
+							padding-top: 2%;
+							font-family: 'Montserrat', sans-serif;
+							color: #24345f;
+							font-size: 1.2vw;
+							text-align: justify;
+
+						}
+
+						.Index-Informacion-Superior img{
+							width: 20%;
+						}
+					
+
+			.Index-Informacion-Imagen{
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+			}
+
+				.Index-Informacion-Imagen img{
+					width: 100%;
+				}
+
+		.Banner-Index-Imagen{
+			width: 53%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+			.Banner-Index-Imagen img{
+				width: 100%;
+			}
+
+	.Banner-Descripcion{
+		width: 100%;
+		padding-top: 4%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-around;
+	}
+
+		.Banner-Descripcion-Individual{
+			width: 20%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+		}
+
+			.Banner-Descripcion-Individual h1{
+					width: 74%;
+					padding: 4%;
+					background-color: #24345f;
+					color: white;
+					font-family: 'Poppins', sans-serif;
+					font-size: 1.2vw;
+					border-radius: 2.5vw;
+					text-align: center;
+			}
+
+			.Banner-Descripcion-Individual h2{
+				width: 100%;
+				padding-top: 5%;
+				text-align: justify;
+				font-family: 'Poppins', sans-serif;
+				font-size: 1.2vw;
+		}
+
+FIN BANNER 1*/
+
+/*CARRERAS*/
 
 .Carreras > h2 {
-  padding: 2%;
-  color: #24345F;
-  text-align: center;
-  font-size: 2vw;
+	padding-top: 5%;
+	color: #DB255D;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.8vw;
 }
 
 .Carreras {
-  height: 850px;
-  width: 100%;
-  background-color: #fefefe;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+/*CSS Cards en el documento css/Cards/cards.css*/
+
+
+
+
+/*FIN CARRERAS*/
+
+
+/*BENEFICIOS SOCIAL ACADEMY*/
+
+.beneficiosSocialAcademy{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	background-color: #DB255D;
+}
+	.beneficiosSocialAcademy h1{
+		padding: 3%;
+		font-family: 'Poppins', sans-serif;
+		font-size: 3.2vw;
+		color: #700D31;
+	}
+	
+	.descripcionBeneficiosSA{
+		width: 100%;
+		padding: 0 5%;
+		padding-top: 0;
+		padding-bottom: 4%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.descripcionBeneficiosIndividuales{
+		width: 18%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.descripcionBeneficiosIndividuales img{
+		padding: 5%;
+		width: 45%;
+	}
+
+	.descripcionBeneficiosIndividuales h3{
+		padding-top: 5%;
+		color: #700D31;
+		font-family: 'Poppins', sans-serif;
+		font-size: 1.6vw;
+	}
+/*FIN BENEFICIOS SOCIAL ACADEMY*/
+
+/*BENEFICIOS SOCIAL ACADEMY
+.beneficios-SocialAcademy{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+	.imagen-Beneficios{
+		width: 45%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+		.imagen-Beneficios img{
+			width: 90%;
+		}
+
+	.descripcion-Beneficios{
+		width: 55%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding-right: 5%;
+	}
+
+		.beneficios-Titulo{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+		}
+
+		.beneficios-Titulo h1{
+			text-align: right;
+			font-family: 'Poppins', sans-serif;
+			text-transform: uppercase;
+			color: #DB255D;
+			font-size: 3vw;
+		}
+
+		.beneficios-Titulo h2{
+			margin-top: 1%;
+			padding-left: 5%;
+			text-align: right;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 1.2vw;
+		}
+
+
+	.beneficios-Estadisticas{
+		margin-top: 5%;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+		.estadisticas-Individuales{
+			width: 22%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+		}
+
+		.estadisticas-Individuales img{
+			width: 65%;
+		}
+
+		.estadisticas-Individuales h3{
+			margin-top: 10%;
+			width: 100%;
+			text-align: center;
+			font-family: 'Montserrat', sans-serif;
+			color: #24345f;
+			font-size: 1.2vw;
+		}
+
+FIN BENEFICIOS SOCIAL ACADEMY*/
+
+/*NUESTROS ESTUDIANTES*/
+.ReferenciasUsuarios {
+	padding-top: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.TituloReferencias h1 {
+	font-family: 'Poppins', sans-serif;
+	color: #24345f;
+	text-align: center;
+	font-size: 3.9vw;
+}
+
+
+.OpinionesUsuarios {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-family: "Poppins", sans-serif;
+}
+
+.TextoOpinion {
+
+	text-align: justify;
+	color: #5c5c5c;
+}
+
+
+.TextoOpinion h3 {
+	font-size: 1.3vw;
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	line-height: 2vw;
+}
+
+.OpinionesIndividuales {
+	width: 27%;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	padding-top: 5%;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.22);
+	border-radius: 2vw;
+	background-color: #24345f;
+	transition: 0.5s;
+}
+
+.FotoUsuario {
+	width: 33.33%;
+}
+
+.FotoUsuario img {
+	width: 90%;
+	border-radius: 100%;
+}
+
+.PerfilUsuario {
+	padding-top: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.DescripcionUsuario {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins", sans-serif;
+	padding-left: 5%;
+}
+
+.DescripcionUsuario h1 {
+	font-size: 1.4vw;
+	color: white;
+}
+
+.DescripcionUsuario h2 {
+	font-size: 1.3vw;
+	color: white;
+}
+
+
+.OpinionesIndividuales:hover{
+	transform: scale(1.1);
+}
+
+/*FIN NUESTROS ESTUDIANTES*/
+
+
+/*BANNER PASANTES*/
+.banner_Pasantes{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	margin-top: 5%;
+	
+
+}
+
+.banner_Pasantes img{
+	position: absolute;
+	padding-top: 5%;
+	width: 100%;
+	z-index: -1;
+	background-color: #24345f;
+}
+
+
+.descripcion_Banner_Pasantes{
+	width: 55%;
+	padding-top: 4%;
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-right: 5%;
+}
+
+.descripcion_Banner_Pasantes h1{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-align: right;
+	font-size: 3vw;
+}
+
+.descripcion_Banner_Pasantes h2{
+	margin-top: 5%;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: right;
+	font-size: 1.7vw;
+}
+
+.contenedorBotonPasantes{
+	width: 60%;
+	margin-top: 18%;
+	margin-bottom: 18%;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btnPasantes {
+	width: 70%;
+	margin: 0;
+	background-color: #9CBCD9;
+	border: none;
+	outline: none;
+	border-radius: 3vw;
+	color: #fff;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: all 0.3s ease;
+	font-weight: 700;
+	font-size: 1.8vw;
+	padding: 3% 5%;
+	box-shadow: 0.1vw 0.2vw 0.3vw  rgba(39, 46, 56, 0.3);
+}
+.btnPasantes:hover {
+	background-color: transparent;
+	border: 0.3vw solid #9CBCD9;
+	color: #9CBCD9;
+	transition: all 0.4s ease 0s;
+  	padding: -0.5% 4.5%;
 }
 
 
 
-.crop {
-  position: relative;
-  left: 10%;
-  height: 99.5%;
-  width: auto;
+/*FIN BANNER PASANTES*/
+
+.logoImg {
+	float: -200%;
 }
 
-.ReferenciasUsuarios{
-  padding-top: 4%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 
-.TituloReferencias h1{
-  font-family: "Poppins", sans-serif;
-  color: #24345F;
-  text-align: center;
-  font-size: 3.9vw;
-}
-
-.TituloReferencias h2{
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  color: #0F7CBF;;
-  font-size: 1.5vw;
-}
-
-.OpinionesUsuarios{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 10%;
-  padding-bottom: 5%;
-  font-family: "Poppins", sans-serif;
-}
-
-    .TextoOpinion{
-      text-align: justify;
-      color: #5c5c5c;
-    }
-
-    .TextoOpinion h1{
-      font-family: 'DM Serif Text', serif;
-      font-size: 7vw;
-      margin-bottom: -10%;
-    }
-
-    .TextoOpinion h3{
-      font-size: 1.3vw;
-      font-family: 'Montserrat', sans-serif;;
-    }
-
-.OpinionesIndividuales{
-  width: 27%;
-  padding-right: 2%;
-  padding-left: 2%;
-  padding-bottom: 2%;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.22);
-}
-
-.FotoUsuario{
-  width: 33.33%;
- 
-}
-
-.FotoUsuario img{
-  width: 90%;
-  border-radius: 100%;
-}
-
-  .PerfilUsuario{
-    padding-top: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-
-  .DescripcionUsuario{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    font-family: "Poppins", sans-serif;
-  }
-
-  .DescripcionUsuario h1{
-    font-size: 1.4vw;
-  }
-
-  .DescripcionUsuario h2{
-    font-size: 1.3vw;
-    color: #5c5c5c;
-  }
-
+/*DISTRIBUCION PRECIOS*/
 
 .Precios {
-  height: 720px;
-  width: 100%;
-  background-color: #fefefe;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
-.Precios > div {
-  position: relative;
-  top: -6%;
-}
-
-.Precios {
-  overflow: hidden;
-}
-
-.Precios img {
-  float: right;
-  width: 50%;
-  height: 50%;
+.Precios__Texto {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .Precios h2 {
-  position: relative;
-  top: 25%;
-  left: 10%;
-  font-size: 4vw;
-  color: #24345F;
+	position: relative;
+	text-align: center;
+	align-items: center;
+	text-transform: uppercase;
+	color: #24345f;
+	font-size: 3.2vw;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.Precios__Cards {
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.BotonPremium {
+	margin-top: 5%;
+	width: 25vw;
+	background-color: #DB255D;
+	border: none;
+	outline: none;
+	border-radius: 2vw;
+	color: #fff;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	transition: all 0.3s ease;
+	font-weight: 700;
+	font-size: 1.5vw;
+	padding: 2.5% 5%;
+	box-shadow: 0.1vw 0.2vw 0.3vw  rgba(39, 46, 56, 0.3);
+}
+.BotonPremium:hover {
+	background-color: transparent;
+	border: 0.3vw solid #DB255D;
+	color: #DB255D;
+	transition: all 0.4s ease 0s;
+  	padding: -0.3% 5%;
+}
+
+
+/*FIN DISTRIBUCION PRECIOS*/
+
+
+/*ALIADOS*/
+.indexAliados{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+	.tituloAliados{
+		width: 100%;
+		display: 	flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+		.tituloAliados h1{
+				font-family: 'Poppins', sans-serif;
+				text-transform: uppercase;
+				font-size: 3.5vw;
+				color: #24345f;
+		}
+
+	.contenedorAliados{
+		margin-top: 5%;
+		margin-bottom: 10%;
+		padding: 0% 8%;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+		.contenedorAliados .aliadosIndividuales{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 15%;
+			height: 100%;
+			border-radius: 3vw;
+			
+		}
+
+		.aliadosIndividuales img{
+			width: 70%;
+			border-radius: 3vw;
+		}
+/*FIN ALIADOS*/
+
+
+
+/*----------------------------------------- Third Media Query-----------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 800px) {
+	/*BANNER WELCOME*/
+
+.contenido_Slider{
+	padding-top: 8%;
+	width: 80%;
+}
+
+	.contenido_Slider > img{
+		width: 8%;
+	}
+
+	.contenido_Slider h1 {
+		font-size: 3.4vw;
+		line-height: 4vw;
+	}
+
+	.contenido_Slider h2{
+		width: 75%;
+		font-size: 1.6vw;
+	}
+
+	.BotonUnete{
+		font-size: 1.7vw;
+		margin: 1.5vw 0 0;
+		padding: 0.7vw 3vw;
+		border-radius: 2.5vw;
+	}
+
+	.Banner-Descripcion-Individual{
+		padding: 3%;
+	}
+
+			.Banner-Descripcion-Individual img{
+				width: 40%;
+			}
+
+			.Banner-Descripcion-Individual h1{
+					padding: 4%;
+					font-size: 1.9vw;
+					
+			}
+
+			.Banner-Descripcion-Individual h2{
+				width: 90%;
+				font-size: 1.3vw;
+				padding: 0;
+		}
+
+/*FIN BANNER WELCOME*/
+
+/*CARRERAS*/
+
+.Carreras > h2 {
+	padding-top: 2%;
+	font-size: 4.8vw;
+}
+
+.Carreras {
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+/*CSS Cards en el documento css/Cards/cards.css*/
+
+/*BENEFICIOS SOCIAL ACADEMY*/
+
+	.beneficiosSocialAcademy h1{
+		padding: 3% 10%;
+		font-size: 3.5vw;
+	}
+	
+	.descripcionBeneficiosSA{
+		width: 100%;
+		padding: 0 5%;
+		padding-top: 0;
+		padding-bottom: 4%;
+		flex-wrap: wrap;
+	}
+
+
+	.descripcionBeneficiosIndividuales img{
+		padding: 5%;
+		width: 55%;
+	}
+
+	.descripcionBeneficiosIndividuales h3{
+		font-size: 2.5vw;
+	}
+/*FIN BENEFICIOS SOCIAL ACADEMY*/
+
+/*BANNER PASANTES*/
+.banner_Pasantes img{
+	padding-top: 8%;
+}
+
+
+.descripcion_Banner_Pasantes{
+	width: 55%;
+	padding-top: 4%;
+	padding-right: 5%;
+}
+
+.descripcion_Banner_Pasantes h1{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-align: right;
+	font-size: 3.5vw;
+}
+
+.descripcion_Banner_Pasantes h2{
+	font-size: 2.2vw;
+}
+
+.contenedorBotonPasantes{
+	width: 60%;
+	margin-top: 18%;
+	margin-bottom: 18%;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btnPasantes {
+	width: 75%;
+	border-radius: 3vw;
+	font-size: 2.5vw;
+}
+.btnPasantes:hover {
+	border: 0.5vw solid #9CBCD9;
+}
+
+
+
+/*FIN BANNER PASANTES*/
+}
+
+
+@media only screen and (max-width: 850px) {
+
+	.Precios {
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+
+	.Precios__Texto {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.Precios h2 {
+		font-size: 5vw;
+		padding-top: 4%;
+		padding-bottom: 4%;
+	}
+
+	.Precios__Cards {
+		width: 100%;
+		padding-top: 10%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.TextoOpinion h1 {
+		font-size: 10vw;
+		margin-bottom: -10%;
+	}
+
+	.TextoOpinion h3 {
+		font-size: 1.6vw;
+	}
+
+	.TituloReferencias h1 {
+		font-size: 4.2vw;
+	}
+
+	.TituloReferencias h2 {
+		font-size: 1.8vw;
+	}
+
+	.BotonPremium {
+		width: 30vw;
+		border-radius: 5vw;
+		font-size: 2.5vw;
+		background: #DB255D;
+		padding: 2%;
+	}
+}
+/*RESPONSIVE TELEFONOS*/
+
+@media only screen and (max-width: 600px) {
+
+/*BANNER WELCOME*/
+.banner_Welcome{
+	padding-top: 8%;
+}
+
+
+.contenido_Slider{
+	padding-top: 6%;
+	width: 97%;
+}
+
+	.contenido_Slider > img{
+		width: 10%;
+	}
+
+	.contenido_Slider h1 {
+		font-size: 4.6vw;
+		line-height: 5.5vw;
+		text-align: justify;
+	}
+
+	.contenido_Slider h2{
+		width: 85%;
+		font-size: 2.3vw;
+	}
+
+	.BotonUnete{
+		font-size: 2.7vw;
+		margin: 1.5vw 0 0;
+		padding: 0.7vw 3vw;
+		border-radius: 2.5vw;
+	}
+
+	.Banner-Descripcion{
+		padding-top: 2%;
+		flex-wrap: wrap;
+	}
+
+		.Banner-Descripcion-Individual{
+			width: 40%;
+			margin: 4%;
+			border-radius: 2.5vw;
+			box-shadow: -0.7vw 1vw 1vw 0.7vw  rgba(0, 0, 0, 0.4);
+			
+		}
+
+			.Banner-Descripcion-Individual img{
+				width: 45%;
+			}
+
+			.Banner-Descripcion-Individual h1{
+					padding: 4%;
+					font-size: 2.6vw;
+					
+			}
+
+			.Banner-Descripcion-Individual h2{
+				width: 90%;
+				font-size: 2vw;
+		}
+
+/*FIN BANNER WELCOME*/
+
+/*CARRERAS*/
+
+.Carreras > h2 {
+	padding-top: 2%;
+	font-size: 4.8vw;
+}
+
+.Carreras {
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+/*CSS Cards en el documento css/Cards/cards.css*/
+
+/*BENEFICIOS SOCIAL ACADEMY*/
+
+.beneficiosSocialAcademy{
+	margin-top: 5vw;
+}
+	.beneficiosSocialAcademy h1{
+		padding: 3% 10%;
+		font-size: 4.2vw;
+	}
+	
+	.descripcionBeneficiosSA{
+		width: 100%;
+		padding: 0 5%;
+		padding-top: 0;
+		padding-bottom: 4%;
+		flex-wrap: wrap;
+	}
+
+	.descripcionBeneficiosIndividuales{
+		width: 40%;
+	}
+
+	.descripcionBeneficiosIndividuales img{
+		padding: 5%;
+		width: 45%;
+	}
+
+	.descripcionBeneficiosIndividuales h3{
+		font-size: 3vw;
+	}
+/*FIN BENEFICIOS SOCIAL ACADEMY*/
+
+/*NUESTROS ESTUDIANTES*/
+.TituloReferencias h1 {
+	font-size: 5.5vw;
+}
+
+
+.OpinionesUsuarios {
+	flex-wrap: wrap;
+}
+
+.TextoOpinion h3 {
+	font-size: 2.2vw;
+	line-height: 3vw;
+}
+
+.OpinionesIndividuales {
+	width: 42%;
+	margin: 4%;
+	padding: 5%;
+	box-shadow: 0px 0px 1.5vw 0px rgba(0, 0, 0, 0.22);
+	border-radius: 2vw;
+}
+
+.FotoUsuario {
+	width: 33.33%;
+}
+
+.FotoUsuario img {
+	width: 90%;
+	border-radius: 100%;
+}
+
+
+.DescripcionUsuario h1 {
+	font-size: 2vw;
+	color: white;
+}
+
+.DescripcionUsuario h2 {
+	font-size: 2vw;
+	color: white;
+}
+
+
+.OpinionesIndividuales:hover{
+	transform: scale(1.1);
+}
+
+/*FIN NUESTROS ESTUDIANTES*/
+
+/*BANNER PASANTES*/
+.banner_Pasantes{
+	margin-top: 5%;
+}
+
+.banner_Pasantes img{
+	padding-top: 45%;
+	background-color: transparent;
+}
+
+
+.descripcion_Banner_Pasantes{
+	width: 100%;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5%;
+}
+
+.descripcion_Banner_Pasantes h1{
+	color: #24345f;
+	text-align: center;
+	font-size: 5.6vw;
+}
+
+.descripcion_Banner_Pasantes h2{
+	margin-top: 2%;
+	padding: 0% 12%;
+	color: #24345f;
+	text-align: center;
+	font-size: 3.6vw;
+}
+
+.contenedorBotonPasantes{
+	width: 60%;
+	margin-top: 6%;
+	margin-bottom: 18%;
+}
+
+.btnPasantes {
+	background-color: #DB255D;
+	border-radius: 3vw;
+	color: #fff;
+	font-size: 2.5vw;
+	padding: 3% 5%;
+	box-shadow: 0.1vw 0.2vw 0.3vw  rgba(39, 46, 56, 0.3);
+}
+.btnPasantes:hover {
+	border: 0.3vw solid #DB255D;
+	color: #DB255D;
+  	padding: -0.5% 6%;
+}
+
+
+
+/*FIN BANNER PASANTES*/
+
+
+/*DISTRIBUCION PRECIOS*/
+
+.Precios {
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 20%;
+	padding-bottom: 10%;
+}
+
+.Precios h2 {
+	font-size: 5vw;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.Precios__Cards {
+	width: 100%;
+	padding-top: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.BotonPremium {
+	width: 35vw;
+	border-radius: 7vw;
+	font-size: 3vw;
+	background: #DB255D;
+	padding: 2%;
+}
+
+.Precios h2 {
+	font-size: 5vw;
+	padding-bottom: 1%;
 }
 
 .Precios > .btn {
-  position: relative;
-  left: 25%;
-  top: 30%;
+	position: relative;
 }
 
-#card1 {
-  position: relative;
-  left: -30%;
-  width: 19.5%;
-  height: 50%;
-  padding-top: 2%;
-}
+/*FIN DISTRIBUCION PRECIOS*/
 
-#card2 {
-  position: relative;
-  left: 15%;
-  width: 24%;
-  height: 50%;
-}
+/*ALIADOS*/
 
-.LastBanner {
-  width: 100%;
-  background-color: #fefefe;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 4%;
-  padding-bottom: 4%;
-}
-.TextoLastBanner{
-  width: 50%;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-.TextoLastBanner p {
-  position: relative;
-  font-weight: 900;
-  color: #24345F;
-  font-size: 3.5vw;
-}
+		.tituloAliados h1{
+				font-size: 5vw;
+				color: #24345f;
+		}
 
-.ImagenesBanner{
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	.contenedorAliados{
+		margin-top: 5%;
+		margin-bottom: 10%;
+		padding: 0% 6%;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+		.contenedorAliados .aliadosIndividuales{
+			width: 22%;
+			border-radius: 4vw;
+			
+		}
+
+		.aliadosIndividuales img{
+			width: 85%;
+			border-radius: 3vw;
+		}
+/*FIN ALIADOS*/
+	
 }
 
 
-#LastImg {
-  width: 85%;
+
+/*FIN RESPONSIVE TELEFONOS*/
+
+
+@media only screen and (max-width: 500px) {
+
+	.OpinionesUsuarios {
+		flex-wrap: wrap;
+	}
+
+	.OpinionesIndividuales {
+		width: 45%;
+		margin-bottom: 5%;
+	}
+
+	.Precios h2 {
+		font-size: 5.5vw;
+	}
+
+	.TextoOpinion h1 {
+		font-size: 12vw;
+		margin-bottom: -15%;
+	}
+
+	.TextoOpinion h3 {
+		font-size: 2.5vw;
+	}
+
+	.DescripcionUsuario h1 {
+		font-size: 2.4vw;
+	}
+
+	.DescripcionUsuario h2 {
+		font-size: 2vw;
+	}
+
+	.TituloReferencias h1 {
+		font-size: 6vw;
+	}
+
+	.TituloReferencias h2 {
+		padding: 1% 2%;
+		font-size: 3vw;
+	}
+
+	.BotonPremium {
+		font-size: 3vw;
+	}
 }
 
-/*#LastImg02 {
-  position: relative;
-}*/
 
-       /* .IconPackFooter img {
-          float: right;
-        }
-        footer {
-          position: absolute;
-          height: 265px;
-          width: 100%;
-          background-color: #212121;
-          background-image: url("../img/Group 96.png");
-          background-size: cover;
-          background-repeat: no-repeat;
-        }
-
-        footer p {
-          color: #fefefe;
-        }
-
-        #FooterImg01 {
-          margin-top: 1%;
-          width: 10%;
-          height: 10%;
-        }
-
-        #FooterImg02 {
-          margin-top: 2%;
-          margin-left: 1%;
-          width: 7%;
-          height: 10%;
-        }
-
-        #FooterImg03 {
-          margin-top: 2%;
-          margin-left: 1%;
-          width: 10%;
-          height: 10%;
-        }
-
-        #FooterImg04 {
-          margin-top: 2%;
-          width: 10%;
-          height: 10%;
-        }*/
-
-        
-#layer {
-  width: 0.2%;
-  height: 0.3%;
+@media only screen and (max-width: 465px) {
+	.banner_Welcome{
+		margin-top: 12vw;
+	}
 }
 
-/*----------------------------------------- First Media Query-----------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 1000px) {
-  .icon-pack {
-    display: none;
-  }
-
-  #Mensaje {
-    position: relative;
-    top: 15%;
-  }
-
-  .Banner_Rectangulo p {
-    position: relative;
-    top: 20%;
-    font-size: 1.9vh;
-    text-size-adjust: auto;
-  }
-
-  .Banner_Rectangulo {
-    height: 500px;
-  }
-
-  .BlanckFirst {
-    height: 510px;
-  }
-
-  .BannerMulti {
-    height: 500px;
-  }
-  .BannerMulti h2 {
-    font-size: 2vh;
-    line-height: 2;
-  }
-
-  .Referencias {
-    height: 460px;
-  }
-
-  .LastBanner {
-    height: 500px;
-  }
-}
-
-/*----------------------------------------- Second Media Query-----------------------------------------------------------------------------------*/
-@media only screen and (max-width: 1255px) {
-  .Referencias {
-    position: relative;
-    height: 260px;
-    width: 100%;
-    background-color: #fefefe;
-    background-image: url("../img/Captura de pantalla 2020-11-22 151710.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
-
-/*----------------------------------------- Third Media Query-----------------------------------------------------------------------------------*/
-@media only screen and (max-width: 600px) {
-  .LineBAnner {
-    height: 100px;
-    width: 100%;
-  }
-
-  .Banner_Rectangulo {
-    height: 300px;
-  }
-
-  .imgMarcianito {
-    position: absolute;
-    left: 50%;
-    bottom: 55%;
-  }
-
-  #Mensaje {
-    position: relative;
-    top: 30%;
-    font-size: 3.5vw;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 158.34%;
-    /* or 70px */
-    color: #ffffff;
-    text-size-adjust: auto;
-  }
-
-  .Banner_Rectangulo p {
-    position: relative;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2vw;
-    line-height: 32px;
-    color: #fff7df;
-    top: 35%;
-    /* Blue 3 */
-  }
-
-  .icon-pack {
-    display: none;
-  }
-
-  .BlanckFirst {
-    height: 300px;
-  }
-
-  .Proyectos {
-    position: relative;
-    left: 5%;
-    right: 5%;
-  }
-
-  #Proyectos {
-    width: 45%;
-    height: 55%;
-  }
-
-  #img01 {
-    width: 40%;
-    height: 21%;
-    position: absolute;
-    top: 65%;
-    float: left;
-    clip-path: polygon(
-      0% 20%,
-      60% 20%,
-      60% 0%,
-      100% 50%,
-      60% 100%,
-      60% 80%,
-      0% 80%
-    );
-    margin: auto;
-  }
-  .parrafo {
-    position: relative;
-    float: right;
-    font-size: 2vw;
-  }
-
-  #txtIlustraP {
-    top: 95%;
-    text-align: center;
-  }
-
-  .BannerMulti {
-    height: 200px;
-  }
-
-  .BannerMulti h2 {
-    text-align: center;
-    line-height: 1.5rem;
-  }
-
-  .Carreras {
-    height: 500px;
-  }
-
-  .Precios{
-    height: 300px;
-  }
-
-  .Precios h2 {
-    position: relative;
-    top: -5%;
-    left: 10%;
-    font-size: 4vw;
-    color: #56ccf2;
-  }
-
-  .Precios > .btn {
-    position: relative;
-    left: 25%;
-    top: 50%;
-  }
-
-  .Precios {
-    height: 400px;
-  }
-
-  .LastBanner {
-    height: 200px;
-  }
-
-  #LastImg{
-    top: -20%;
-  }
-
-  #LastImg02{
-    top: 2%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .parrafo{
-    font-size: 1.2vw;
-  }
-
-  .BannerMulti{
-    height: 300px;
-  }
-
-  .Carreras{
-    height: 300px;
-  }
-
-  .Precios h2{
-    top: 40%;
-  }
+@media only screen and (max-width: 400px) {
+	.banner_Welcome{
+		margin-top: 10vh;
+	}
 }

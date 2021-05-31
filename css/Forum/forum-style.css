@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Ubuntu:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+footer {
+	z-index: 100;
+	position: relative;
+}
+
+.container-foro {
+	top: 60px;
+	position: relative;
+}
+
+.banner-foro {
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	background-image: linear-gradient(-45deg, #24345f 0%, #24345f 100%);
+	display: flex;
+	justify-content: space-between;
+}
+
+.banner-foro img {
+	float: right;
+	width: 40%;
+	margin: 15px;
+}
+
+.banner-foro h1 {
+	color: #eee;
+	padding: 10px;
+	line-height: 35px;
+	font-size: 30px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.banner-foro .typing {
+	font-family: "Montserrat", sans-serif;
+	color: #DB255D;
+}
+
+.harcodeado {
+	position: relative;
+	top: 48px;
+}
+
+.crear-comentario {
+	z-index: 100;
+	position: relative;
+}
+
+.title {
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #333;
+	font-size: 28px;
+	padding-left: 15px;
+	margin-left: 20px;
+	font-family: 'Montserrat';
+}
+.title span{
+	color: #DB255D;
+	font-size: 35px;
+	font-weight: 700;
+}
+.posts {
+	width: 90%;
+	height: 40%;
+	outline: none;
+	border: 2px solid #555;
+	background: none;
+	padding: 0.6rem 1.2rem;
+	color: #333;
+	font-weight: 500;
+	font-size: 0.95rem;
+	letter-spacing: 0.5px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin: 2rem;
+	margin-left: 4rem;
+}
+
+pre{
+	line-height: normal;
+}
+.posts p strong{
+	color: #DB255D;
+}
+.posts10 p strong{
+	color: #DB255D;
+}
+.postsp02 p strong{
+	color: #DB255D;
+}
+
+.posts10 {
+	position: relative;
+	width: 90%;
+	height: 50%;
+	outline: none;
+	border: 2px solid #555;
+	background: none;
+	padding: 0.6rem 1.2rem;
+	color: #333;
+	font-weight: 500;
+	font-size: 0.95rem;
+	letter-spacing: 0.5px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin: 1rem;
+}
+.posts p {
+	padding: 10px;
+}
+.posts img {
+	border-radius: 50%;
+}
+
+.posts code {
+	color: black;
+}
+.posts10 p {
+	padding: 10px;
+}
+.posts10 img {
+	border-radius: 50%;
+}
+
+.posts10 code {
+	color: black;
+}
+
+.posts10 code pre {
+	background-color: #ddd;
+}
+
+.postsp02 {
+	width: 90%;
+	height: 190px;
+	outline: none;
+	border: 2px solid #555;
+	background: none;
+	padding: 0.6rem 1.2rem;
+	color: #333;
+	font-weight: 500;
+	font-size: 0.95rem;
+	letter-spacing: 0.5px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin: 2rem;
+	margin-left: 4rem;
+}
+
+.postsp02 p {
+	padding: 10px;
+}
+.postsp02 img {
+	border-radius: 50%;
+}
+
+.btnContact {
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.crear-comentario {
+	position: relative;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	z-index: 1000;
+}
+
+.InfoFooter{
+	position: relative;
+	top: 25px;
+}
+
+textarea.inputContact {
+	min-height: 150px;
+	border-radius: 0px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	resize: none;
+	overflow-y: auto;
+	color: #24345f;
+	border-color: #24345f;
+}
+.input-containerContact label {
+	color: #24345f;
+	font-size: 1.2rem;
+}
+
+.contact-form {
+	top: 20px;
+	background-color: #fafafa;
+	position: relative;
+}
+
+.contact-form::before {
+	background-color: #fff;
+}
+
+.input-containerContact span::before,
+.input-containerContact span::after {
+	font-size: 1.2rem;
+	background-color: #fafafa;
+}
+.btnContact {
+	background-color: transparent;
+	border: 3px solid #DB255D;
+	color: #24345f;
+}
+
+.btnContact:hover {
+	background-color: #DB255D;
+	color: #fafafa;
+	border: 3px solid transparent;
+}
+
+.items {
+	top: 20px;
+	width: 100%;
+	height: 50px;
+	outline: none;
+	position: relative;
+	border: 2px solid #24345f;
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	color: #24345f;
+	font-weight: 500;
+	font-size: 0.95rem;
+	letter-spacing: 0.5px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.items button {
+	outline: none;
+	border: none;
+	background: none;
+}
+
+.items button i {
+	padding: 5px;
+	font-size: 25px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	color: rgb(107, 107, 107);
+}
+
+.items button i:hover {
+	transition: all 0.3s ease;
+	transform: scale(1.2);
+	color: rgb(43, 42, 42);
+}
+
+pre{
+	color: #24345f;
+	font-weight: 600;
+}
+#Post_IMG{
+	width: 20rem;
+    border-radius: 0%;
+}
+@media (max-width: 850px) {
+	.posts10 {
+		line-height: 20px;
+		height: 50%;
+	}
+
+	.posts10 p {
+		font-size: 10px;
+	}
+
+	.posts p {
+		line-height: 20px;
+		font-size: 10px;
+	}
+
+	.posts {
+		line-height: 20px;
+		height: 40%;
+	}
+	.postsp02{
+		height: 50%;
+	}
+	.postsp02 p {
+		line-height: 20px;
+		font-size: 10px;
+	}
+	/* .crear-comentario {
+		position: relative;
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+	 */
+	textarea.inputContact {
+		min-height: 180px;
+		width: 100%;
+	}
+	form{
+		width: 100%;
+	}
+	
+	.contact-form {
+		background-color: transparent;
+		width: 100%;
+	}
+	
+}
+
+@media (max-width: 780px) {
+	.banner-foro h1 {
+		font-size: 1.5rem;
+		line-height: 30px;
+	}
+	.title {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 650px) {
+	.posts10 {
+		line-height: 15px;
+		height: 50%;
+	}
+
+	.posts10 p {
+		line-height: 15px;
+		font-size: 10px;
+	}
+
+	.posts p {
+		line-height: 15px;
+		font-size: 10px;
+	}
+
+	.posts {
+		line-height: 15px;
+		height: 30%;
+
+	}
+
+	.postsp02 p {
+		line-height: 16px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 550px) {
+	.banner-foro h1 {
+		top: 50px;
+		position: relative;
+		font-size: 1rem;
+		line-height: 25px;
+	}
+	.title {
+		font-size: 1rem;
+	}
+
+	.posts10 {
+		line-height: 16px;
+		width: 75%;
+		height: 40%;
+	}
+}
+
+@media (max-width: 480px) {
+	.posts10 {
+		line-height: 16px;
+		width: 79%;
+		height: 50%;
+
+	}
+
+	.posts {
+		line-height: 16px;
+		width: 79%;
+		height: 40%;
+
+	}
+	.postsp02 {
+		line-height: 16px;
+		width: 79%;
+		height: 200px;
+	}
+}
+
+@media (max-width: 450px) {
+
+	.posts10 {
+		padding: 5px;
+		line-height: 16px;
+		width: 85%;
+		height: 50%;
+	}
+	.posts10 pre{
+		font-size: 8px;
+	}
+
+	.posts {
+		line-height: 16px;
+		width: 79%;
+		height: 40%;
+
+	}
+	.postsp02 {
+		width: 79%;
+		height: 200px;
+	}
+	.posts10 p {
+		padding: 0pc;
+		line-height: 16px;
+		font-size: 9px;
+	}
+	.posts10 code {
+		padding: 0pc;
+		line-height: 16px;
+		font-size: 9px;
+	}
+
+	.posts p {
+		padding: 0pc;
+		line-height: 16px;
+		font-size: 9px;
+	}
+
+	.postsp02 p {
+		padding: 0pc;
+		line-height: 16px;
+		font-size: 9px;
+	}
+}
+
+@media (max-width: 375px) {
+	.posts10 {
+		height: 50%;
+
+	}
+
+	.posts {
+		margin-right: 2px;
+		height: 40%;
+
+	}
+
+	.postsp02 {
+		margin-right: 2px;
+		height: 200px;
+	}
+}
+@media (max-width: 320px) {
+	.posts10 {
+		height: 50%;
+
+	}
+	.posts10 code {
+		font-size: 8px;
+	}
+
+	.posts {
+		height: 40%;
+
+	}
+	.postsp02 {
+		height: 200px;
+	}
+}

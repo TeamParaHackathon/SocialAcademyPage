@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   margin: 0;
@@ -23,6 +23,7 @@ input {
   position: absolute;
   width: 100%;
   height: 100%;
+   
   top: 0;
   left: 0;
 }
@@ -134,21 +135,27 @@ form.sign-in-form {
 
 .btnSing {
   width: 150px;
-  background-color: #24345F;
-  border: none;
+  background-color: #DB255D;
+  border-color: transparent;
   outline: none;
   height: 49px;
   border-radius: 49px;
-  color: #fff;
+  color: #eee;
   text-transform: uppercase;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 800;
   margin: 10px 0;
   cursor: pointer;
-  transition: 0.5s;
+  transition: all 0.3s ease;
+  font-weight: 900;
 }
 
 .btnSing:hover {
-  background-color: #0F7CBF;
+  background-color: transparent;
+  border: 3px solid #DB255D;
+  color: #24345F;
+  transition: all 0.3s ease;
+  font-weight: 900;
 }
 .panels-containerSing {
   position: absolute;
@@ -168,7 +175,7 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #24345F 0%, #0F7CBF 100%);
+  background-image: linear-gradient(-45deg, #24345F 0%, #162d6e 100%);
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
@@ -178,6 +185,7 @@ form.sign-in-form {
   width: 100%;
   transition: transform 1.1s ease-in-out;
   transition-delay: 0.4s;
+  margin-left: 205px;
 }
 
 .panel {
@@ -206,24 +214,33 @@ form.sign-in-form {
 }
 
 .panel h3 {
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  color: #fd3974;
 }
 
 .panel p {
-  font-size: 0.95rem;
+  font-size: 1rem;
   padding: 0.7rem 0;
 }
 
 .btnSing.transparent {
   margin: 0;
-  background: none;
-  border: 2px solid #fff;
+  background: #DB255D;
+  border: 2.5px solid #DB255D;
   width: 130px;
   height: 41px;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+.btnSing.transparent:hover{
+  transition: all 0.3s ease;
+  background: none;
+  color: #fafafa;
+  border: 3px solid #ff3e78;
+
 }
 
 .right-panel .image,
@@ -333,6 +350,7 @@ form.sign-in-form {
     width: 110px;
     height: 35px;
     font-size: 0.7rem;
+    
   }
 
   .containerSing:before {

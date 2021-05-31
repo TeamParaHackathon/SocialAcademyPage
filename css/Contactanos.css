@@ -8,21 +8,20 @@ body,
 input,
 textarea {
 	font-family: "Poppins", sans-serif;
-}
-#ImagenBanner{
-	width: 100%;
-	height: 500px;
-    position: absolute;
-	z-index: 90;
-	overflow: hidden;
+	background-color: #fff;
 }
 
-#ImagenBanner img{
-	width: 50%;
+.TitleContacto{
+	font-family: 'Montserrat';
+	font-size: 35px;
+	color: #DB255D;
+	left: 5%;
 	position: relative;
-	left: 450px;
 }
-
+.textContact{
+	font-size: 110%;
+	font-weight: 500;
+}
 .containerContact {
 
 	/*Ocular el footer*/
@@ -30,9 +29,8 @@ textarea {
 	/*Oculta el footer*/
 	width: 100%;
     min-height: 100vh;
-    top:150px;
-	padding: 2rem;
-	background-color: #fafafa;
+	padding: 1.2rem;
+	background-color: #fff;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
@@ -56,34 +54,15 @@ textarea {
 	position: relative;
 }
 
-.circle {
-	border-radius: 50%;
-	background: linear-gradient(135deg, transparent 20%, #24345F);
-	position: absolute;
-}
-
-.circle.one {
-	width: 130px;
-	height: 130px;
-	top: 130px;
-	right: -40px;
-}
-
-.circle.two {
-	width: 80px;
-	height: 80px;
-	top: 10px;
-	right: 30px;
-}
 
 .contact-form::before {
 	content: "";
 	position: absolute;
 	width: 40px;
+	top: 40%;
 	height: 40px;
 	background-color:#24345F;
 	transform: rotate(45deg);
-	top: 66px;
 	left: -20px;
 }
 
@@ -111,7 +90,7 @@ form {
 	width: 100%;
 	height: 60px;
 	outline: none;
-	border: 2px solid #fafafa;
+	border: 2px solid #fff;
 	background: none;
 	padding: 0.6rem 1.2rem;
 	color: #fff;
@@ -136,7 +115,7 @@ textarea.inputContact {
 	left: 15px;
 	transform: translateY(-50%);
 	padding: 0 0.4rem;
-	color: #fafafa;
+	color: #fff;
 	font-size: 0.9rem;
 	font-weight: 400;
 	pointer-events: none;
@@ -151,21 +130,23 @@ textarea.inputContact {
 
 .btnContact {
 	padding: 0.6rem 1.3rem;
-	background-color: #fff;
-	border: 2px solid #fafafa;
-	font-size: 0.95rem;
-	color: #24345F;
+	background-color: transparent;
+	border: 3px solid #ff4079;
+	color: #fff;
+	font-size: 1.1rem;
 	line-height: 1;
 	border-radius: 25px;
 	outline: none;
 	cursor: pointer;
 	transition: 0.3s;
 	margin: 0;
+	font-weight: 700;
 }
 
 .btnContact:hover {
-	background-color: transparent;
 	color: #fff;
+	background-color: #DB255D;
+	border-color: transparent;
 }
 
 .input-containerContact span {
@@ -220,6 +201,7 @@ textarea.inputContact {
 
 .contact-info .titleContact {
 	color: #24345F;
+	font-family: 'Montserrat';
 }
 
 .text {
@@ -234,6 +216,11 @@ textarea.inputContact {
 	align-items: center;
 	font-size: 0.98rem;
 }
+.information p{
+	color: black;
+	font-size: 110%;
+	font-weight: 500;
+}
 
 .iconContact {
 	width: 30px;
@@ -246,6 +233,8 @@ textarea.inputContact {
 
 .social-media p {
 	color: #333;
+	font-size: 110%;
+	font-weight: 500;
 }
 
 .social-icon {
@@ -257,7 +246,7 @@ textarea.inputContact {
 	width: 35px;
 	height:35px;
 	border-radius: 5px;
-	background: linear-gradient(45deg, #24345F, #0F7CBF);
+	background: linear-gradient(45deg, #24345F, #043e63);
 	color: #fff;
 	text-align: center;
 	line-height: 35px;
@@ -273,7 +262,7 @@ textarea.inputContact {
 	position: absolute;
 	width: 120px;
 	height: 110px;
-	border: 22px solid #0F7CBF;
+	border: 22px solid #24345F;
 	border-radius: 50%;
 	bottom: -77px;
 	right: 50px;
@@ -285,7 +274,7 @@ textarea.inputContact {
 	width: 500px;
 	height: 500px;
 	border-radius: 50%;
-	background: linear-gradient(to bottom, #0F7CBF, #24345F);
+	background: linear-gradient(to left, #24345F, #184b97);
 	bottom: 50%;
 	right: 50%;
 	transform: translate(-40%, 38%);
@@ -296,7 +285,7 @@ textarea.inputContact {
 	position: absolute;
 	width: 360px;
 	height: 360px;
-	background-color: #fafafa;
+	background-color: #fff;
 	border-radius: 50%;
 	top: calc(50% - 180px);
 	left: calc(50% - 180px);
@@ -311,7 +300,9 @@ textarea.inputContact {
 	opacity: 0.5;
 }
 
-
+.Padding__Contact{
+	height: 18vw;
+}
 
 @media (max-width: 850px) {
 
@@ -366,6 +357,9 @@ textarea.inputContact {
 		font-size: 15px;
 	}
 
+	.Padding__Contact{
+		height: 42vw;
+	}
 }
 
 @media (max-width: 480px) {
@@ -383,8 +377,8 @@ textarea.inputContact {
 
 	#ImagenBanner img{
 		z-index: 80;
-		position: absolute;
-		right: -200px;
+		width: 50%;
+		top: 100px;
 	}
 	.containerContact {
 		padding: 1.5rem;
@@ -412,6 +406,7 @@ textarea.inputContact {
 
 	.titleContact {
 		font-size: 1.15rem;
+		font-family: 'Montserrat';
 	}
 
 	.social-icon a {
@@ -430,5 +425,8 @@ textarea.inputContact {
 
 	.btnContact {
 		padding: 0.45rem 1.2rem;
+	}
+	.Padding__Contact{
+		height: 75vw;
 	}
 }

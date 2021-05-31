@@ -1,22 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+}
+.PaddingVideoCurso{
+    padding-top: 9vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
 .VideoCurso{
-    width: 100%;
-    height: 720px;
-    background-color: dimgrey;
-}
-
-.VideoCurso iframe{
     position: relative;
-    top: 5%;
-    left: 0%;
-
+    width: 94%;
+    padding-bottom: 56.25%;
+    padding-top: 2%;
+    height: 0;
+    overflow: hidden;
 }
+
+.VideoCurso iframe,
+.VideoCurso object,
+.VideoCurso embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 .containerVideoInfo{
-    max-width: 1200px;
-    height: 720px;
+    width: 100%;
+    padding-bottom: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -25,53 +47,59 @@
 }
 
 .containerVideoInfo .Description{
-    width: 450px;
-    height: 450px;
+    width: 46%;
+    margin: 2%;
     padding: 0 2rem;
     border-radius: 8px;
     box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    margin: 20px;
     text-align: justify;
 }
 
 .containerVideoInfo .Description h3{
     font-family: 'Poppins', serif;
+    font-size: 2vw;
     color: #24345F;
 }
 
 .containerVideoInfo .Description p, .InfoInstructor P{
     font-family: 'Montserrat', sans-serif;
     color: black;
+    font-size: 1.2vw;
 }
 
 .containerVideoInfo .InfoInstructor{
-    width: 250px;
-    height: 450px;
+    width: 21%;
+    margin: 2%; 
     padding: 0 1rem;
+    padding-bottom: 5%;
     border-radius: 8px;
     box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
-    margin: 20px;
     text-align: justify;
 }
 
 .containerVideoInfo .InfoInstructor h3{
     font-family: 'Poppins', serif;
+    font-size: 2vw;
     color: #24345F;
 }
 
 .containerVideoInfo .InfoInstructor img{
-    width: 70px;
-    height: 70px;
-    
+    width: 8vw;
+    height: 8vw;
     border-radius: 50%;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 4%;
+    margin-top: 4%;
 }
 
 .containerVideoInfo .ListVideo h3{
     font-family: 'Poppins', serif;
+    font-size: 2vw;
     color: #24345F;
 }
 
@@ -80,28 +108,125 @@
 }
 
 .containerVideoInfo .ListVideo{
-    width: 200px;
-    height: 450px;
+    width: 21%;
     border-radius: 8px;
     box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    margin: 20px;
+    margin: 2%;
     text-align: center;
 }
 
 .containerVideoInfo .ListVideo li{
     margin: auto;
-    font-size: 19px;
+    font-size: 1.7vw;
+    color: #0F7CBF;
     font-weight: 400;
-    padding: 5px 0 0 5px;
+    padding: 2%;
     border-inline-color: #000000;
 }
 
-/*footer {
-    height: 265px;
-    width: 100%;
-    background-color: #212121;
-    background-image: url("../../img/Group 96.png");
-    background-size: contain;
-  }*/
+
   
+  .social-icon {
+    height: 3.5vw;
+    width: 3.5vw;
+    font-size: 1.4vw;
+  }
+
+
+@media only screen and (max-width: 900px){
+    .containerVideoInfo .Description p, .InfoInstructor P{
+        font-size: 1.7vw;
+    }
+
+    .containerVideoInfo .InfoInstructor img{
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .containerVideoInfo .ListVideo h3, .containerVideoInfo .Description h3, .containerVideoInfo .InfoInstructor h3{
+        font-size: 2.5vw;
+    }
+
+    .containerVideoInfo .ListVideo li{
+        font-size: 2.3vw;
+    }
+
+    .social-icon {
+        height: 4.5vw;
+        width: 4.5vw;
+        font-size: 2vw;
+      }
+}
+
+@media only screen and (max-width: 650px){
+    .containerVideoInfo .Description{
+        order: 3;
+        width: 90%;
+        padding-bottom: 5%;
+        border-radius: 8px;
+
+    }
+    
+    .containerVideoInfo .Description h3{
+        font-size: 3.6vw;
+    }
+    
+    .containerVideoInfo .Description p, .InfoInstructor P{
+        font-size: 2.4vw;
+    }
+    
+    .containerVideoInfo .InfoInstructor{
+        width: 45%;
+        margin: 1%; 
+    }
+    
+    .containerVideoInfo .InfoInstructor h3{
+        font-size: 3.6vw;
+    }
+    
+    .containerVideoInfo .InfoInstructor img{
+        width: 15vw;
+        height: 15vw;
+    }
+    
+    .containerVideoInfo .ListVideo h3{
+        font-size: 3.6vw;
+    }
+    
+    
+    .containerVideoInfo .ListVideo{
+        width: 45%;
+        margin: 1%;
+    }
+    
+    .containerVideoInfo .ListVideo li{
+        font-size: 3vw;
+    }
+    
+    
+      .social-icon {
+        height: 8vw;
+        width: 8vw;
+        font-size: 3vw;
+      }
+}
+
+@media only screen and (max-width: 1043px){
+    .PaddingVideoCurso{
+        padding-top: 16vh;       
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .PaddingVideoCurso{
+        padding-top: 9vh;       
+    }
+}
+
+
+@media only screen and (max-width: 465px){
+    .PaddingVideoCurso{
+        padding-top: 16vh;       
+    }
+}

@@ -1,0 +1,267 @@
+:root{
+    --primary: #24345f;
+    --second: #DB255D;
+    --gris: #9c9a9a;
+    --gris2: #817f7f;
+    --sombra: 0 0 13px 0 rgba(88, 88, 88, 0.315);
+}
+
+/* .rating label::after{
+    top: 0;
+    content: '\f005';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 30px;
+    display: block;
+    position: absolute;
+    color: gold;
+}
+.rating label::before{
+    content: '\f005';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 30px;
+    display: block;
+    color: gray;
+} */
+
+/*-----------------------------New Styles------------------------------------------------*/
+ .image{
+     position: absolute;
+     left: 50px;
+     top: 12%;
+    width: 300px;
+    height: 404px;
+}
+.containerSing:before {
+    content: "";
+    position: absolute;
+    height: 2000px;
+    width: 2000px;
+    top: -10%;
+    right: 38%;
+    transform: translateY(-50%);
+    background: linear-gradient(135deg, #DB255D 10%, #F6416c 100%);
+    transition: 1.8s ease-in-out;
+    border-radius: 50%;
+    z-index: 6;
+}
+.panels-containerSing .content{
+    position: relative;
+    top: 200px;
+}
+
+.content .panel_title,
+.content p{
+    color: #9CBCD9;
+}
+.ResourcesDescription{
+    position: relative;
+    margin-left: 100px;
+}
+
+
+.itemDescription{
+    margin-right: 50px;
+    font-family: 'Montserrat';
+    color: var(--primary);
+}
+
+.itemDescription .fa-user{
+    margin-right: 13px;
+    font-size: 25px;
+    color: var(--second);
+}
+.itemDescription .fa-calendar-alt{
+    margin-right: 25px;
+    font-size: 25px;
+    color: var(--second);
+}
+.itemDescription .fa-bring-front{
+    margin-left: 85px;
+    font-size: 25px;
+    padding: 15px;
+    color: var(--second);
+}
+.itemDescription span{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 15px;
+    font-family: 'Poppins';   
+    color: #222;
+}
+.btnSing.transparent {
+    background-color: #fff;
+    border-color: #fff;
+    color: var(--primary);
+}
+.btnSing.transparent:hover{
+    border-color: #9CBCD9;
+    color: var(--primary);
+}
+.fa-share-alt{
+    position: relative;
+    top: 46px;
+    left: 105px;
+    font-size: 26px;
+    color: var(--primary);
+}
+
+.btnSing{
+    background-color: transparent;
+    border: 3px solid #DB255D;
+    color: #24345F; 
+    box-shadow: var(--sombra);
+}
+.btnSing:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+}
+
+.imageVideo{
+    position: relative;
+    width: 640px;
+    margin-left: 220px;
+    outline: none;
+}
+
+@media screen and (max-width: 880px){
+    .image{
+        position: absolute;
+        left: -15%;
+        top: 10%;
+       width: 200px;
+       height: 304px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .ResourcesDescription{
+        margin-left: 50px;
+        font-size: 12px;
+    }
+    .itemDescription{
+        font-size: 12px;
+
+    }
+    .btnSing{
+        font-size: 12px;
+        width: 105px;
+        height: 37px;
+    }
+}
+@media screen and (max-width: 867px){
+    .signin-signup {
+        width: 100%;
+        top: 85%;
+        transform: translate(-65%, -110%);
+        transition: 1s 0.8s ease-in-out;
+    }
+
+    .signin-signup,
+  .containerSing.sign-up-mode .signin-signup {
+    left: 38%;
+  }
+    .image{
+          position: absolute;
+          left: 35%;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .ResourcesDescription{
+       width: 230px;
+        font-size: 12px;
+    }
+    .content .panel_title{
+        position: absolute;
+        top: 650%;
+        left: 155%;
+    }
+    .content p{
+        position: absolute;
+        top: 1000%;
+        left: 195%;
+    }
+   #sign-up-btn{
+       position: absolute;
+    top: 1550%;
+    left: 155%;
+   }
+}
+@media screen and (max-width: 670px){
+    .image{
+        position: absolute;
+        top: 20%;
+        margin-left: 0;
+        left: 25px;
+       width: 90px;
+       height: 144px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .ResourcesDescription{
+       width: 230px;
+        font-size: 12px;
+    }
+    .content .panel_title{
+        position: absolute;
+        top: -400%;
+        left: -152%;
+        font-size: 15px;
+        color: var(--primary);
+    }
+    .content p{
+        position: absolute;
+        top: 10%;
+         display: none;
+    }
+   #sign-up-btn{
+       position: absolute;
+       top: -400%;
+       left: 242%;
+       width: 105px;
+   }
+   .title{
+       position: relative;
+       top: 5%;
+    
+    font-size: 20px;
+    }
+.ResourcesDescription{
+    top: 5%;
+    left: 20px;
+}
+    .itemDescription{
+        position: relative;
+        top: 25%;
+        left: 12px;
+    }
+    .itemDescription span{
+        line-height: 0;
+    }
+    .btnSing.solid{
+        position: absolute;
+        top: 75%;
+        left: 95%;
+    }
+
+    .imageVideo{
+        position: relative;
+        top: 150px;
+        width: 290px;
+        height: auto;
+        margin-left: 20px;
+        outline: none;
+    }
+    
+}
+
+@media screen and (max-width: 569px){
+    .image{
+        display: block;
+    }
+}

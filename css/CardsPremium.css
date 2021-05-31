@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.Cards_Premium{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding-bottom: 5%;
+}
+
+.Cards_Premium_Individuales{
+	width: 42%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 8px 8px 8px rgba(147, 149, 255, 0.3);
+	transition: .5s;
+	border-radius: 2vw;
+}
+
+.Cards_Premium_Individuales .Cards_Semicirculos{
+		position: absolute;
+		z-index: 0;
+		width: 9vw;
+		margin-top: 0.4vw;
+		margin-left: 8vw;
+}
+
+.Premium_Individuales_Superior{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Premium_Individuales_Linea{
+	width: 20%;
+	padding-top: 8%;
+	border-bottom: #024873 solid 0.3vw;
+}
+
+.Premium_Individuales_Titulo{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	z-index: 1;
+}
+.Premium_Individuales_Titulo h1{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 2vw;
+	line-height: 2.5vw;
+	font-weight: 900;
+	color: #024873;
+}
+
+.Premium_Individuales_TextoPrecio{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	width: 13.5vw;
+	height: 13.5vw;
+	border-radius: 100%;
+	background-color: #024873;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #fff; 
+	box-shadow: 1px 2px 3px  rgba(39, 46, 56, 0.3);
+}
+
+.Individuales_TextoPrecio2 h2{
+	color: #fff;
+}
+
+
+.Individuales_TextoPrecio1, .Individuales_TextoPrecio2, .Individuales_TextoPrecio3{
+	margin: 0.1vw;
+}
+
+	.Individuales_TextoPrecio1{
+		height: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+		.Individuales_TextoPrecio1 h1{
+			font-size: 2.2vw;
+		}
+
+	.Individuales_TextoPrecio2{
+		height: 40%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+		.Individuales_TextoPrecio2 h2{
+			font-size: 5vw;
+		}
+
+	.Individuales_TextoPrecio3{
+		height: 40%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+
+	.Individuales_TextoPrecio3 h3{
+		font-size: 1.3vw;
+	}
+
+	.Premium_Individuales_Descripcion{
+		width: 100%;
+		padding: 0.5vw 1.8vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.Premium_Individuales_Paquete{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		font-family: 'Poppins', sans-serif;
+		padding: 0.3vw;
+	}
+
+	.Premium_Individuales_Paquete i{
+		font-size: 1.2vw;
+		color: #024873;
+	}
+
+	.Premium_Individuales_Paquete h4{
+		font-size: 1vw;
+		color: #555;
+		text-align: justify;
+		padding-left: 1vw;
+	}
+
+	.Premium_Individuales_Inferior{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0;
+		margin: -0.6vw;
+	}
+
+	.Individuales_Inferior_Imagen{
+		width: 35%;
+	}
+
+		.Individuales_Inferior_Imagen img{
+			width: 100%;
+		}
+
+	.Premium_Individuales_Boton{
+		width: 55%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+		.Premium_Individuales_Boton a{
+
+			border: 3px solid #DB255D;
+			background-color: transparent;	
+			background-image: none;		
+			color: #024873;
+			transition: all .3s ease;
+
+			text-decoration: none;
+			font-family: 'Poppins', sans-serif;
+			text-transform: uppercase;
+			font-size: 1.2vw;
+			font-weight: bold;
+			padding: 0.7vw 2vw;
+					border-radius: 2vw;
+			cursor: pointer;
+			transition: all .3s ease;
+			box-shadow: 1px 1px 2px 1px rgba(39, 46, 56, 0.3);
+		}
+
+
+		.Premium_Individuales_Boton a:hover{
+			background-color: #024873;
+			border: 3px solid transparent;
+			color: #fafafa;
+			transition: all .3s ease;
+		}
+
+
+@media only screen and (max-width: 1000px){
+
+	.Cards_Premium_Individuales{
+		width: 43%;
+	}
+	
+	.Cards_Premium_Individuales .Cards_Semicirculos{
+			width: 9vw;
+			margin-top: 0.1vw;
+			margin-left: 9.4vw;
+			transition: .5s;
+	}
+	
+	
+	.Premium_Individuales_Linea{
+		border-bottom: #024873 solid 0.4vw;
+	}
+	
+	.Premium_Individuales_Titulo h1{
+		font-size: 2.5vw;
+		line-height: 2.8vw;
+	}
+	
+	.Premium_Individuales_TextoPrecio{
+		width: 15vw;
+		height: 15vw;
+		
+	}
+	
+			.Individuales_TextoPrecio1 h1{
+				font-size: 2.5vw;
+			}
+	
+			.Individuales_TextoPrecio2 h2{
+				font-size: 6vw;
+			}
+	
+		.Individuales_TextoPrecio3 h3{
+			font-size: 1.8vw;
+		}
+	
+		.Premium_Individuales_Descripcion{
+			padding: 0.5vw 2.5vw;
+		}
+
+		.Premium_Individuales_Paquete i{
+			font-size: 1.5vw;
+		}
+	
+		.Premium_Individuales_Paquete h4{
+			font-size: 1.2vw;
+		}
+	
+		.Premium_Individuales_Inferior{
+			margin: -0.8vw;
+		}
+	
+		.Individuales_Inferior_Imagen{
+			width: 35%;
+		}
+	
+	
+			.Premium_Individuales_Boton a{
+				font-size: 1.5vw;
+			}
+	
+}
+
+@media only screen and (max-width: 850px){
+	.Cards_Premium_Individuales{
+		width: 44%;
+	}
+	
+	.Cards_Premium_Individuales .Cards_Semicirculos{
+			width: 12vw;
+			margin-top: -0.1vw;
+			margin-left: 15.5vw;
+			transition: .5s;
+	}
+	
+	
+	.Premium_Individuales_Linea{
+		border-bottom: #024873 solid 0.5vw;
+	}
+	
+	.Premium_Individuales_Titulo h1{
+		font-size: 3vw;
+		line-height: 3.2vw;
+	}
+	
+	.Premium_Individuales_TextoPrecio{
+		width: 18vw;
+		height: 18vw;
+	}
+	
+			.Individuales_TextoPrecio1 h1{
+				font-size: 2.8vw;
+			}
+	
+			.Individuales_TextoPrecio2 h2{
+				font-size: 6.5vw;
+			}
+	
+		.Individuales_TextoPrecio3 h3{
+			font-size: 2vw;
+		}
+	
+		.Premium_Individuales_Descripcion{
+			padding: 0.5vw 2.5vw;
+		}
+
+		.Premium_Individuales_Paquete{
+			padding: 3%;
+		}
+
+		.Premium_Individuales_Paquete i{
+			font-size: 1.9vw;
+		}
+	
+		.Premium_Individuales_Paquete h4{
+			font-size: 1.5vw;
+		}
+	
+		.Premium_Individuales_Inferior{
+			margin: -1vw;
+		}
+	
+		.Individuales_Inferior_Imagen{
+			width: 40%;
+		}
+	
+	
+			.Premium_Individuales_Boton a{
+				font-size: 1.7vw;
+			}
+	
+} 
+
+@media only screen and (max-width: 700px){
+	.Cards_Premium_Individuales{
+		width: 45%;
+		box-shadow: 0px 5px 5px 5px rgba(147, 149, 255, 0.3);
+	}
+	
+	.Cards_Premium_Individuales .Cards_Semicirculos{
+			width: 13vw;
+			margin-top: -0.3vw;
+			margin-left: 15.5vw;
+			transition: .5s;
+	}
+	
+	
+	.Premium_Individuales_Linea{
+		border-bottom: #024873 solid 0.6vw;
+	}
+	
+	.Premium_Individuales_Titulo h1{
+		font-size: 3.7vw;
+		line-height: 4vw;
+	}
+	
+	.Premium_Individuales_TextoPrecio{
+		width: 25vw;
+		height: 25vw;
+	}
+	
+			.Individuales_TextoPrecio1 h1{
+				font-size: 3.5vw;
+			}
+	
+			.Individuales_TextoPrecio2 h2{
+				font-size: 8.5vw;
+			}
+	
+		.Individuales_TextoPrecio3 h3{
+			font-size: 3vw;
+		}
+	
+		.Premium_Individuales_Descripcion{
+			padding: 3vw 3vw;
+		}
+
+		
+
+		.Premium_Individuales_Paquete i{
+			font-size: 2.4vw;
+		}
+	
+		.Premium_Individuales_Paquete h4{
+			font-size: 1.8vw;
+		}
+	
+		.Premium_Individuales_Inferior{
+			margin: -1.4vw;
+		}
+	
+		.Individuales_Inferior_Imagen{
+			width: 40%;
+		}
+	
+	
+			.Premium_Individuales_Boton a{
+				font-size: 2.5vw;
+			}
+}
+
+@media only screen and (max-width: 450px){
+	.Cards_Premium_Individuales{
+		width: 45%;
+	}
+	
+	.Cards_Premium_Individuales .Cards_Semicirculos{
+			width: 13vw;
+			margin-top: -0.8vw;
+			margin-left: 15.5vw;
+			transition: .5s;
+	}
+	
+	
+	.Premium_Individuales_Linea{
+		border-bottom: #024873 solid 0.7vw;
+	}
+	
+	.Premium_Individuales_Titulo h1{
+		font-size: 4.2vw;
+		line-height: 4.4vw;
+	}
+	
+	.Premium_Individuales_TextoPrecio{
+		width: 28vw;
+		height: 28vw;
+	}
+	
+			.Individuales_TextoPrecio1 h1{
+				font-size: 4.2vw;
+			}
+	
+			.Individuales_TextoPrecio2 h2{
+				font-size: 9.5vw;
+			}
+	
+		.Individuales_TextoPrecio3 h3{
+			font-size: 4vw;
+		}
+	
+		.Premium_Individuales_Descripcion{
+			padding: 3vw 3vw;
+		}
+
+		.Premium_Individuales_Paquete i{
+			font-size: 2.8vw;
+		}
+	
+		.Premium_Individuales_Paquete h4{
+			font-size: 2.1vw;
+		}
+	
+		.Premium_Individuales_Inferior{
+			margin: -1.7vw;
+		}
+	
+		.Individuales_Inferior_Imagen{
+			width: 40%;
+		}
+	
+	
+			.Premium_Individuales_Boton a{
+				font-size: 2.8vw;
+			}
+}

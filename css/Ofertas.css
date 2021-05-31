@@ -183,29 +183,6 @@
 	padding-bottom: 2%;
 }
 
-.BotonPremium {
-	color: white;
-	text-decoration: none;
-	font-family: 'Poppins', Helvetica;
-	font-size: 1.3vw;
-	background: #24345F;
-	padding: 1%;
-	border-radius: 1vw;
-	display: inline-block;
-	border: none;
-	transition: all 0.4s ease 0s;
-	}
-
-	.BotonPremium:hover {
-		background: #434343;
-		letter-spacing: 0.1em;
-		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-		box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-		transition: all 0.4s ease 0s;
-		}
-
-
 .TituloOfertas{
     padding-top: 5%;
     text-align: center;
@@ -214,39 +191,24 @@
     color: #24345F;
 }
 
-#OfertasDestacadas {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin: 70px auto 0px;
-    background-color: white;
+.BotonPremiumOferta{
+    font-size: 1.3vw;
+    margin: 0.5vw 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    background-color: #24345F;
+    padding: 1vw 3vw;
+    border: 0.3vw solid #24345F;
+    border-radius: 2.5vw;
+    transition: all .3s ease-out;
 }
 
-.ListaOfertas {
-    width: calc(33.333% - 4%);
-    margin: 2%;
-    height: width;
-    background-color: white;
-    text-align: center;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
-    overflow: hidden;
-    transition: all .5s;
-    border: #24345F solid;
-    border-width: medium;
-}
-
-.ListaOfertas:hover{
-    transform: translateY(-3.5%);
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.7);
-}
-
-#ImagenOfertas {
-    overflow: hidden;
+.BotonPremiumOferta:hover{
+    background: transparent;
+    color: #24345F;
+    transition: all .3s ease-out;
 }
 
 /*.ListaOfertas img {
@@ -308,7 +270,7 @@
     color: #24345F;
 }
 
-/* INICIO CARDS OFERTAS*/
+/* INICIO CARDS OFERTAS
 .ContenedorOfertas{
     width: 100%;
     padding-top: 10%;
@@ -454,7 +416,182 @@
     box-shadow: 0 1px 8px rgba(0, 0, 0, .5);
 }
 
-/* FINAL CARDS OFERTAS*/
+FINAL CARDS OFERTAS*/
+
+/*NUEVAS CARDS OFERTAS*/
+.cardOfertas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardForma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardSemicirculo{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, .3);
+}
+
+.cardCuadrado{
+    margin-top: -10vw;
+    width: 30vw;
+  
+    border-radius: 4vw;
+    background-color: white;
+    box-shadow: 0px 20px 15px 2px rgba(0, 0, 0, .3);
+}
+
+/*FIN NUEVAS CARDS OFERTAS*/
+
+.contenedorOfertas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cards-Ofertas{
+    width: 19%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 1%;
+    margin-bottom: 5%;
+}
+
+.cards-Individuales{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards-Ofertas > img{
+    position: absolute;
+    z-index: -1;
+    width: 19%;
+    filter:drop-shadow(0px 0.4vw 0.4vw rgba(0, 0, 0, 0.4));
+}
+
+.logoEmpresa{
+    margin-top: 0.5vw;
+    margin-right: 0.4vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoEmpresa img{
+    width: 35%;
+    padding: 3%;
+    border-radius: 100%;
+    background-color: #24345F;
+}
+
+.ofertaDescripcion{
+    margin-top: 0.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ofertaDescripcion h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+.ofertaDescripcion h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1vw;
+    font-weight: 600;
+    color: black;
+}
+
+.ofertaDescripcion p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vw;
+    font-weight: 500;
+    color: black;
+    padding: 5% 8%;
+}
+
+.contenedorDescripcion{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+    .contenedorDescripcion h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.9vw;
+        font-weight: 600;
+        color: black;
+    }
+
+    .descripcionIcono{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 25% 75%;
+        margin: 2%;
+    }
+
+    .contenedorIcono{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+    }
+
+    .contenedorIcono img{
+        width: 30%;
+    }
+
+    .contenedorBoton{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+
+    .contenedorBoton a{
+		font-size: 0.8vw;
+		margin: 0.5vw 0 0;
+		display:  inline-block;
+		text-decoration: none;
+		font-weight: 800;
+		color: white;
+		background-color: #24345F;
+		padding: 0.3vw 2.5vw;
+		border: 0.2vw solid #24345F;
+		border-radius: 2.5vw;
+		transition: all .3s ease-out;
+	}
+	
+	.contenedorBoton a:hover{
+		background: transparent;
+		color: #24345F;
+		transition: all .3s ease-out;
+	}
 
 @media (max-width: 1100px){
     .Descripcion {
@@ -583,129 +720,115 @@
 }
 
 /*CARDS RESPONSIVE*/
-@media (max-width: 950px){
-    .ContenedorOfertas{
-        padding-right: 2%;
-        padding-left: 2%;
-    }
-
-    .ContenedorOfertas .Contenedor-Individual{
-        height: 46vw;
-        width: 33.33%;
-        padding: 2%;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .OfertasIndividuales{
-        height: 73%;
-        width: 95%;
-        border-radius: 1.2vw;
+@media only screen and (max-width: 850px){
+    .cards-Ofertas{
+        width: 26%;
+        margin: 2%;
+        margin-bottom: 15%;
     }
     
-    .box-datos{
-        height: 26vw;
+    .cards-Ofertas > img{
+        width: 26%;
+        filter:drop-shadow(0px 0.4vw 0.4vw rgba(0, 0, 0, 0.4));
     }
     
-    
-    .box-datos h1{
-        font-size: 1.3vw;
-       
-    }
-    .box-datos h2{
-        font-size: 1.3vw;
-    }
-
-    .Box-Descripcion h3{
-        font-size: 1.3vw;
-        width: 80%;
+    .logoEmpresa{
+        margin-top: 2vw;
     }
     
-    .Box-Descripcion i{
-        font-size: 1.6vw;
+    .ofertaDescripcion{
+        margin-top: 0.8vw;
     }
     
-    
-    .OfertasIndividuales:hover .box-datos{
-        transform: translateY(-21vw);
-    }
-    
-    
-    .btnAplicar button{
-        height: 2.5vw; 
-        font-size: 1.2vw;
-    }
-    
-    .btnAplicar button:hover{  
-        letter-spacing: 0.2vw;
-
-    }
-}
-
-@media (max-width: 650px){
-    .ContenedorOfertas{
-        padding-right: 2%;
-        padding-left: 2%;
-    }
-
-    .ContenedorOfertas .Contenedor-Individual{
-        height: 62vw;
-        width: 50%;
-        padding: 5%;
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-    .OfertasIndividuales{
-        height: 73%;
-        width: 95%;
-        border-radius: 1.3vw;
-    }
-    
-    .box-datos{
-        height: 37vw;
-    }
-    
-    
-    .box-datos h1{
-        font-size: 1.7vw;
-       
-    }
-    .box-datos h2{
-        font-size: 1.7vw;
-    }
-
-    .Box-Descripcion h3{
-        font-size: 1.6vw;
-        width: 80%;
-    }
-    
-    .Box-Descripcion i{
+    .ofertaDescripcion h1{
         font-size: 2vw;
     }
     
-    
-    .OfertasIndividuales:hover .box-datos{
-        transform: translateY(-25vw);
-    }
-    
-    
-    .btnAplicar button{
-        height: 2.7vw; 
+    .ofertaDescripcion h2{
         font-size: 1.5vw;
     }
     
-    .btnAplicar button:hover{  
-        letter-spacing: 0.3vw;
-
+    .ofertaDescripcion p{
+        font-size: 1.3vw;
+        padding: 4% 8%;
     }
+    
+    
+        .contenedorDescripcion h1{
+            font-size: 1.3vw;
+        }
+    
+    
+        .contenedorIcono img{
+            width: 32%;
+        }
+    
+        .contenedorBoton{
+            margin-bottom: 10%;
+        }
+    
+        .contenedorBoton a{
+            font-size: 1.2vw;
+            margin: 0.5vw 0 0;
+            padding: 0.3vw 2.5vw;
+            border: 0.3vw solid #24345F;
+        }
 }
 
-@media (max-width: 410px){
-    .ContenedorOfertas .Contenedor-Individual{
-        height: 63vw;
-    }
 
-    .OfertasIndividuales:hover .box-datos{
-        transform: translateY(-27vw);
+@media only screen and (max-width: 550px){
+    .cards-Ofertas{
+        width: 38%;
+        margin: 3%;
+        margin-bottom: 2%;
     }
+    
+    .cards-Ofertas > img{
+        width: 38%;
+        filter:drop-shadow(0px 0.4vw 0.4vw rgba(0, 0, 0, 0.4));
+    }
+    
+    .logoEmpresa{
+        margin-top: 3.4vw;
+    }
+    
+    .ofertaDescripcion{
+        margin-top: 0.8vw;
+    }
+    
+    .ofertaDescripcion h1{
+        font-size: 3vw;
+    }
+    
+    .ofertaDescripcion h2{
+        font-size: 2.2vw;
+    }
+    
+    .ofertaDescripcion p{
+        font-size: 1.9vw;
+        padding: 4% 8%;
+        padding-bottom: 2%;
+    }
+    
+    
+        .contenedorDescripcion h1{
+            font-size: 1.8vw;
+        }
+    
+    
+        .contenedorIcono img{
+            width: 35%;
+        }
+    
+        .contenedorBoton{
+            margin-bottom: 10%;
+        }
+    
+        .contenedorBoton a{
+            font-size: 1.8vw;
+            margin: 0.5vw 0 0;
+            padding: 0.5vw 3.5vw;
+            border: 0.4vw solid #24345F;
+        }
 }
 /*FIN CARDS RESPONSIVES*/

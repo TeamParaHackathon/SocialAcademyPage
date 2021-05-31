@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Text:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+:root{
+    --primary: #24345f;
+    --second: #DB255D;
+    --gris: #9c9a9a;
+    --gris2: #817f7f;
+    --sombra: 0 0 13px 0 rgba(88, 88, 88, 0.65);
+}
+
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+}
+
+.main_cards_cursos{
+    width: 100%;
+    display: flex;
+
+    flex-wrap: nowrap;
+}
+
+.content_cards_cursos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards_cursos{
+    width: 300px;
+    height: 380px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 1.5vh;
+    margin: 2vw;
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    transition: all 500ms ease;
+}
+
+.cards_cursos:hover{
+    transform: scale(1.1);
+}
+
+.img_curso{
+    width: 100%;
+    height: 40%;
+}
+
+.img_curso img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.descripcion_curso{
+    width: 100%;
+    height: 35%;
+    padding: 1vw;
+}
+
+.descripcion_curso p{
+    text-align: start;
+    font-size: 14px;
+    color: var(--primary);
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.title_cards_cursos{
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp: 0;
+    color: var(--second);
+}
+
+.avatar_user_curso{
+    width: 100%;
+    height:10%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar_img_curso{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1vw;
+}
+
+.avatar_img_curso img{
+    width: 12%;
+    padding-right: 5px;
+}
+
+.avatar_img_curso {
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: var(--second);
+}
+
+
+.evento_curso{
+    width: 100%;
+    height: 15%;
+    padding: 1vw;
+
+    display: flex;
+}
+
+.content_btn_cursos{
+    width: 50%;
+}
+
+.btn_cursos{
+    display: inline-block;
+    padding: 2px;
+    font-size: .6rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    line-height: 1;
+    margin: 0 .1rem;
+    transition: .3s;
+    text-transform: uppercase;
+    width: 50%;
+    background: #DB265D;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.evento_curso a{
+    width: 50%;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+
+    border: 3px solid #24345F;
+    background:#fafafa;
+    color: #24345F;
+
+    transition: all .3s ease;
+}
+
+.evento_curso a:hover{
+    background: #24345f;
+    color: #fafafa;
+    transition: all .3s ease;
+
+}
+
+.content_estrellas{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#form {
+    width: 50%;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: orange;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
