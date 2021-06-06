@@ -121,89 +121,209 @@
         </div>
     </header>
     <main>
-        <div class="view_card_cursos">
-            <div class="descripcion_cursos">
-                <div class="title_curso_view">
-                    <h3>Diseño UX/UI</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, nihil possimus doloremque aliquid voluptas illo architecto amet pariatur repellendus delectus temporibus hic illum, perferendis quia voluptates aperiam fuga velit deleniti.</p>
-                </div>
-                <div class="modulos_curso">
-                    <h3>Incluye:</h3>
-                    <i class="fas fa-play">  30 horas de video</i>
-                    <i class="fas fa-download">  5 Proyectos descargables</i>
-                    <i class="fas fa-file-alt">  10 Ejercicios Practicos</i>
-                    <i class="fas fa-mobile">  Disponible en Moviles</i>
-                </div>
-                <div class="button_view_cursos">
-                    <a href="#" class="btn_iniciar_curso">Iniciar Curso</a>
-                </div>
+        <div class="view_curso" id="container_view_cursos">
+            <div class="descripcion_contenido">
+                <h1>Diseño UI/UX</h1>
+                <ul>
+                    <li>Nivel: Avanzado</li>
+                    <li>Fecha de emision: 15 de Mayo</li>
+                    <li>Duracion: +1 horas</li>
+                    <li>Certificacion: Si <a href="">(Ver contenido)</a></li> 
+                    <li>Tipo de curso: Gratuito</li>
+                </ul>
+                <a href="/html/Cursos_HTML/View_inicio_curso.html" class="btn_iniciar_curso">Iniciar Curso</a>
             </div>
-            <div class="img_curso_view">
-                <div class="content_img_curso">
-                    <img src="/img/img_cursos/curso-react.png" alt="">
-                    <div class="content_estrellas">
-                        <form>
-                            <p class="clasificacion">
-                              <input id="radio1" type="radio" name="estrellas" value="5"><!--
-                              --><label for="radio1">★</label><!--
-                              --><input id="radio2" type="radio" name="estrellas" value="4"><!--
-                              --><label for="radio2">★</label><!--
-                              --><input id="radio3" type="radio" name="estrellas" value="3"><!--
-                              --><label for="radio3">★</label><!--
-                              --><input id="radio4" type="radio" name="estrellas" value="2"><!--
-                              --><label for="radio4">★</label><!--
-                              --><input id="radio5" type="radio" name="estrellas" value="1"><!--
-                              --><label for="radio5">★</label>
-                            </p>
-                          </form>
-                    </div>
-                </div>
+            <div class="img_contenido_curso">
+                <img src="/img/img_cursos/550.jpg"></img>
             </div>
         </div>
     </main>
-    <footer>
-        <div class="InfoFooter">
-            <div class="EnlacesFooter">
-                <a href="/html/About.html" class="TextoLinks"><i class="far fa-address-card"> </i> &ensp; Acerca
-                    de</a>
-                <a href="/html/Contact.html" class="TextoLinks"><i class="far fa-question-circle"></i> &ensp; ¿Tienes
-                    preguntas? <h2> &ensp; Contactanos</h2></a>
-                <a href="../html/Premium.html" class="TextoLinks"><i class="far fa-credit-card"></i> &ensp; Premium</a>
-                <a href="#" class="TextoLinks"><i class="fas fa-cookie"></i> &ensp; Cookie Policy</a>
-                <a href="#" class="TextoLinks"><i class="fas fa-mobile"></i> &ensp; App Movil</a>
-            </div>
-            <div class="SocialFooter">
-                <img src="/img/Footer/LogotipoBlanco.png" width="20%">
-                <h1 class="SocialInfo">
-                    Social Academy es una plataforma académica que ofrece un repositorio de información con
-                    documentación, cursos, ofertas de pasantías y recursos en vídeo compartidos por sus usuarios.
-                </h1>
-                <div class="SocialBar">
-                    <div id="DIViconos">
-                        <div class="IconosSocial">
-                            <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://www.youtube.com/channel/UCbU5HNKarAfPZxpc04AzSpg"><i class="fa fa-youtube"
-                                    aria-hidden="true"></i></a>
-                        </div>
+    <div class="acerca_del_curso">
+        <div class="acerca_curso">
+            <div class="descripcion_del_curso">
+                <h4>Acerca de este curso</h4>
+                    <p>Aprende, conoce y aplica técnicas User Experience Design para crear productos y servicios innovadores. También aprende de diseño web y mobile con Figma.</p>
+                <div class="preguntas_curso">
+                    <div class="aprendizaje">
+                        <h4>¿Que aprenderas?</h4>
+                        <li>Convertirte en un Diseñador UX</li>
+                        <li>A planificar, hacer la estrategia y crear un producto analógico o digital</li>
+                        <li>Construir y testear tus diseños</li>
+                        <li>User flows y arquitectura de la información</li>
+                        <li>Prototipado en baja, media y alta fidelidad</li>
+                        <li>Patrones de diseño y de navegación</li>
+                        <li>Podrás añadir "Diseñador UX" a tu CV</li>
+                    </div>
+                    <div class="conocimientos_curso">
+                        <h4>¿Es una profesion con futuro?</h4>
+                        <p>La respuesta es sí.
+
+                            Si estás buscando iniciar una carrera como Diseñador UX ahora es un buen momento.
+                            <br><br>
+                            La demanda de diseñadores UX es, por lo tanto, más alta que nunca; ya son frecuentes en las empresas tecnológicas, y existe una creciente necesidad de ellas en otras industrias.</p>
+                    </div>
+                    <div class="direccion_curso">
+                        <h4>¿Necesito un titulo para ser Diseñador UX?</h4>
+                        <p>Los antecedentes comunes incluyen, entre otros, psicología, antropología, sociología, marketing, diseño, programación, comunicaciones y ciencias de la información. Pero aún siendo un principiante con cero experiencia en este campo vas a aprender en este curso desde cero a un nivel profesional.</p>
                     </div>
                 </div>
-    
             </div>
-    
-            <div class="LogosFooter">
-                <img src="/img/Footer/LogoCI.png" width="45%">
-                <img src="/img/Footer/LogoCNU.png" width="45%">
+            <div class="descripcion_del_curso">
+                <h4>¿Qué voy a aprender en este curso?</h4>
+                <p>A través de este curso, aprenderás todas las habilidades que necesitas para ayudar a las empresas a brindar la experiencia de usuario adecuada para sus productos. Todas las técnicas incluidas en en el curso son estándares de la industria probados y comprobados, que te equiparán con el mejor conocimiento para comenzar tu nuevo camino profesional. Aprenderás a crear varios entregables de UX desde el principio de un proyecto de UX hasta el final, que van desde mapas de viaje del cliente hasta prototipos en papel e incluso evaluaciones heurísticas.</p>
+                <div class="preguntas_curso">
+                    <div class="aprendizaje">
+                        <h4>¿Para quién es este curso?</h4>
+                        <p>Este curso es ideal y está dirigido para programadores, diseñadores, emprendedores, comunicadores, sociólogos, psicólogos, analistas y todas las personas con ganas de aprender sobre el proceso de creación de productos y servicios desde cero.</p>
+                    </div>
+                    
+                    <div class="direccion_curso">
+                        <h4>EXTRAS</h4>
+                        <p>¡El curso cuenta con contenido exclusivo!
+                            <br><br>
+                            El curso incluye también un curso introductor de Figma, el software de diseño que vamos a estar utilizando para hacer nuestro prototipo.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="Copyright">
-            <h1 class="AllRight">All rights reserved | Social Academy © 2021</h1>
-            <a href="#" class="Privacy">
-                Privacy Policy
-            </a>
+        <div class="content_perfil_cursos">
+            <div class="perfil_user">
+                <h4>Docente del Curso</h4>
+                <div class="img_docente">
+                    <img src="/img/img_cursos/man.png" alt="#">
+                    <p>  Marcos Soza</p>
+                </div>
+                <a href="/html/Perfiles_Usuarios/Usuario.html">Ver perfil</a>
+                <p></p>
+            </div>
+            <div class="mas_cursos">
+                <h4>Sigue aprendiendo</h4>
+                <div class="card_mas_cursos">
+                    <div class="img_mas_cursos">
+                        <img src="/img/img_cursos/curso-react.png" alt="">
+                    </div>
+                    <div class="title_docente">
+                        <p>Mongo DB</p>
+                        <div class="autor_del_curso">
+                            <img src="/img/img_cursos/man.png" alt="">
+                            <p>Marlon Aguilar</p>
+                        </div>
+                        <i class="fas fa-star">4.5</i>
+                    </div>
+                </div>
+                <div class="card_mas_cursos">
+                    <div class="img_mas_cursos">
+                        <img src="/img/img_cursos/curso-react.png" alt="">
+                    </div>
+                    <div class="title_docente">
+                        <p>React JS, Hooks</p>
+                        <div class="autor_del_curso">
+                            <img src="/img/img_cursos/man.png" alt="">
+                            <p>Marlon Aguilar</p>
+                        </div>
+                        <i class="fas fa-star">4.5</i>
+                    </div>
+                </div>
+                <div class="card_mas_cursos">
+                    <div class="img_mas_cursos">
+                        <img src="/img/img_cursos/curso-react.png" alt="">
+                    </div>
+                    <div class="title_docente">
+                        <p>Firebase con Reacts JS</p>
+                        <div class="autor_del_curso">
+                            <img src="/img/img_cursos/man.png" alt="">
+                            <p>Marlon Aguilar</p>
+                        </div>
+                        <i class="fas fa-star">4.5</i>
+                    </div>
+                </div>
+                <div class="card_mas_cursos">
+                    <div class="img_mas_cursos">
+                        <img src="/img/img_cursos/curso-react.png" alt="">
+                    </div>
+                    <div class="title_docente">
+                        <p>Javascript Avanzado</p>
+                        <div class="autor_del_curso">
+                            <img src="/img/img_cursos/man.png" alt="">
+                            <p>Marlon Aguilar</p>
+                        </div>
+                        <i class="fas fa-star">4.5</i>
+                    </div>
+                </div>
+                <div class="card_mas_cursos">
+                    <div class="img_mas_cursos">
+                        <img src="/img/img_cursos/curso-react.png" alt="">
+                    </div>
+                    <div class="title_docente">
+                        <p>Flutter desde Cero</p>
+                        <div class="autor_del_curso">
+                            <img src="/img/img_cursos/man.png" alt="">
+                            <p>Marlon Aguilar</p>
+                        </div>
+                        <i class="fas fa-star">4.5</i>
+                    </div>
+                </div>
+                <div class="card_mas_cursos">
+                    <div class="img_mas_cursos">
+                        <img src="/img/img_cursos/curso-react.png" alt="">
+                    </div>
+                    <div class="title_docente">
+                        <p>React Native</p>
+                        <div class="autor_del_curso">
+                            <img src="/img/img_cursos/man.png" alt="">
+                            <p>Marlon Aguilar</p>
+                        </div>
+                        <i class="fas fa-star">4.5</i>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col" id="image_footer">
+                    <img src="/img/Footer/LogotipoBlanco - sin.png" alt="" class="image_footer">
+                </div>
+                <div class="footer-col">
+                    <h4>Acerca de</h4>
+                    <ul>
+                        <li><a href="#">Social Academy es una plataforma académica que ofrece un repositorio de información con documentación, cursos, ofertas de pasantías y recursos</a></li>
+                    </ul>
+                 <div class="social-links">
+                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                     <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                     <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                     <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                 </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/html/Recursos.html">Recursos</a></li>
+                        <li><a href="/html/Cursos_HTML/cursos.html">Cursos</a></li>
+                        <li><a href="/html/blog.html">Foros</a></li>
+                     <li><a href="/html/Ofertas.html">Empresas</a></li>
+                     <li><a href="/html/About.html">Quienes somos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                 <ul>
+                     <li><a href="#">Premium</a></li>
+                     <li><a href="#">Cookie Policy</a></li>
+                     <li><a href="#">App Movil</a></li>
+                     <li><a href="#">Soporte Técnico</a></li>
+                     <li><a href="#">Politica de Privacidad</a></li>
+                 </ul>
+                </div>
+            </div>
+        </div>
+     <div class="Copyright">
+         <h4 class="AllRight">All rights reserved | Social Academy © 2021</h4>
+     </div>
+   </footer>
     
 </body>
 </html>
