@@ -20,178 +20,255 @@
 
 main{
     width: 100%;
-
     display: flex;
     justify-content: center;
     transition: all 500ms ease;
+    flex-wrap: wrap;
 }
 
-.view_card_cursos{
-    width: 80%;
-    height: 580px;
-    margin-top: 7vw;
-    margin-bottom: 5vw;
+.view_curso{
+    width: 100%;
+    margin-top: 80px;   
+    background: rgb(241, 241, 241);
+    padding: 20px;
 
     display: flex;
-}
-
-.descripcion_cursos{
-    width: 40%;
-    height: 100%;
-}
-
-.title_curso_view{
-    height: 40%;
-    padding: 1vw;
-}
-
-.modulos_curso{
-    height: 40%;
-    padding: 1vw;
-    display: flex;
-    flex-direction: column;
-}
-
-.modulos_curso h3{
-    color: var(--primary);
-    font-size: 22px;
-}
-.modulos_curso i{
-    font-family: 'Poppins';
-    color: var(--second);
-    font-size: 20px;
-    margin-top: 15px;
-}
-
-.button_view_cursos{
-    height: 20%;
-    padding-left: 1vw;
-    display: flex;
-    align-content: center;
-    align-items: center;
     justify-content: center;
-    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.descripcion_contenido{
+    width: 50%;
+    height: 100%;
+    padding: 50px 50px 50px 60px;
+}
+
+.descripcion_contenido h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary);
+}
+
+.descripcion_contenido ul li{
+    margin-bottom: 15px;
+    font-family: 'Poppins';
 }
 
 .btn_iniciar_curso{
     display: inline-block;
-    padding: 15px;
+    padding: 2px;
     font-size: .6rem;
     border: 2px solid #fff;
     border-radius: 2rem;
-    line-height: 1;
+    line-height: 3 ;
     margin: 0 .1rem;
     transition: .3s;
     text-transform: uppercase;
-    width: 100%;
+    width: 40%;
     background: #DB265D;
     color: #ffffff;
-    font-weight: 800;
-}
-
-.button_view_cursos a{
-    width: 50%;
-    height: 45px;
-    font-size: 12px;
+    font-weight: 700;
     text-align: center;
-
-    border: 3px solid #DB265D;
-    background:#fafafa;
-    color: #24345F;
-
-    transition: all .3s ease;
 }
 
-.button_view_cursos a:hover{
-    background: #DB265D;
-    color: #fafafa;
-    transition: all .3s ease;
-
+.btn_iniciar_curso:hover{
+    color: white;
+    background: var(--primary);
 }
 
-.title_curso_view h3{
-    text-align: start;
-    font-size: 22px;
-    color: var(--second);
-    display: -webkit-box;
-    -webkit-box-orient:vertical;
-    -webkit-line-clamp: 1;
-    overflow: hidden;
-    font-family: 'Poppins';
-    font-weight: 600;
-}
-
-.title_curso_view p{
-        text-align: start;
-        font-size: 18px;
-        color: var(--primary);
-        display: -webkit-box;
-        -webkit-box-orient:vertical;
-        -webkit-line-clamp: 5;
-        overflow: hidden;
-        font-family: 'Poppins';
-        font-weight: 600;
-}
-
-.img_curso_view{
-    width: 60%;
+.img_contenido_curso{
+    width: 50%;
     height: 100%;
+    border-radius: 10px; 
+}
+
+.img_contenido_curso img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.acerca_del_curso{
+    width: 100%;
+    padding: 50px;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.acerca_curso{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descripcion_del_curso{
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(219, 219, 219);
+    border-left: 4px solid var(--second);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descripcion_del_curso h4{
+    color: var(--second);
+}
+
+.preguntas_curso{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(192, 192, 192);
+}
+
+.aprendizaje{
+    width: 33%;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.conocimientos_curso{
+    width: 33%;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.direccion_curso{
+    width: 33%;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+.content_perfil_cursos{
+    width: 30%;
+}
+
+.perfil_user{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    border-left: 4px solid var(--primary);
+    color: var(--primary);
+}
+
+.img_docente{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    align-content: center;
     align-items: center;
 }
 
-.content_img_curso{
-    width: 90%;
-    height: 80%;
-    border-radius: 1vw;
-    overflow: hidden;
+.img_docente img{
+    width: 40px;
 }
 
-.content_img_curso img{
-    object-fit: cover;
-    border-radius: 1vw;
+.mas_cursos{
+    width: 100%;
+    height: 500px;
+    border-left: 4px solid var(--gris);
+    overflow: auto;
+    font-family: 'Poppins';
+    padding: 10px;
+    border: 1px solid rgb(212, 212, 212);
+    border-left: 5px solid var(--second);
 }
 
-.content_estrellas{
+.mas_cursos::-webkit-scrollbar {
+    width: 7px;
+}
+
+.mas_cursos::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 5px;
+}
+
+.card_mas_cursos{
     width: 100%;
     display: flex;
-    justify-items: center;
-    justify-content: center;
 }
 
-#form {
-    width: 50%;
-    margin: 0 auto;
-    height: 50px;
-  }
-  
-  #form p {
-    text-align: center;
-  }
-  
-  #form label {
-    font-size: 20px;
-  }
-  
-  input[type="radio"] {
-    display: none;
-  }
-  
-  label {
-    color: var(--gris2);
-    font-size: 40px;
-  }
-  
-  .clasificacion {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-  }
-  
-  label:hover,
-  label:hover ~ label {
+.img_mas_cursos{
+    width: 40%;
+    padding: 5px;
+}
+
+.img_mas_cursos img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.title_docente{
+    width: 60%;
+    padding: 5px;
+}
+
+.title_docente i{
     color: orange;
-  }
-  
-  input[type="radio"]:checked ~ label {
-    color: orange;
-  }
+}
+
+.autor_del_curso{
+    width: 100%;
+    display: flex;
+}
+
+.autor_del_curso img{
+    width: 25px;
+}
+
+
+@media (max-width: 1000px){
+    .acerca_del_curso{
+        display: block;
+        width: 100%;
+    }
+    .descripcion_del_curso{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .preguntas_curso{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aprendizaje{
+        width: 100%;
+    }
+    .conocimientos_curso{
+        width: 100%;
+    }
+    .direccion_curso{
+        width: 100%;
+    }
+    .acerca_curso{
+        width: 100%;
+    }
+    .view_curso{
+        margin-top: 50px;
+    }
+
+    .descripcion_contenido{
+        width: 100%;
+        height:350px;
+    }
+
+    .img_contenido_curso{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .content_perfil_cursos{
+        width: 100%;
+    }
+    .perfil_user{
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+}
